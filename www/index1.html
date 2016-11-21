@@ -1,0 +1,218 @@
+﻿<html xmlns="http://www.w3.org/1999/xhtml" >
+  <head>
+    <meta http-equiv="Content-Type" content="text/html; charset=utf-8" />
+
+    <link rel="shortcut icon" type="image/x-icon" href="favicon.ico" />
+    <title>RPG Inqisition</title>    
+    <meta content="http://cstate.marikun.ru/img/rpg_client.jpg" property="og:image">
+      <meta content="https://cstate.marikun.ru:444/img/rpg_client.jpg" property="og:image:secure_url">
+        <meta content="image/jpg" property="og:image:type">
+          <meta content="1200" property="og:image:width">
+            <meta content="630" property="og:image:height">
+              <meta name="viewport" content="width=device-width, initial-scale=1"/>
+              <meta http-equiv="X-UA-Compatible" content="IE=Edge">
+
+                <link href="css/boot/bootstrap.min.css" rel="stylesheet"/>
+                <link href="css/boot/bootstrap-theme.css" rel="stylesheet"/>
+
+                <link href="css/slick.css" rel="stylesheet"/>    
+                <link href="css/cstate/cstate.css" rel="stylesheet"/>   
+                <link href="fonts/fortunagothic/fortunagothic.css" rel="stylesheet"/>   
+                <link href="css/cstate/cstate.theme-dark.css" rel="stylesheet"/>
+
+
+              </head>
+              <body>
+              <audio id="msic" src="msc/bcg.mp3"preload="auto" style="display:none;" autoplay></audio>
+                <div style="display:block;" class="root">
+                  <div id="loading" style="position: absolute;left: 0;top: 0;bottom: 0;z-index: 1000;right: 0;background: rgba(0, 0, 0, 1);">
+
+                    <h1 class="text-center" style="font-family: 'Fortuna Gothic FlorishC';margin-top: 40vh;color:white;">Inquisitio Haereticae Pravitatis Sanctum Officium</h1>
+                    <h3 id="load_label" class="text-center" style="color:white;">Loading</h3>
+                    <div class="progress">
+                      <div class="progress-bar" role="progressbar" aria-valuenow="0" aria-valuemin="0" aria-valuemax="100" style="width: 0%;background-color:rgb(100,100,100);    background-image: none;">
+                        <span class="sr-only">60% Complete</span>
+                      </div>
+                    </div>
+
+
+                  </div>
+                  <div class="head-container" >
+                    <div class="row">
+                      <!--
+  <div class="col-xs-6"><p class="head gold">10000</p></div>
+  <div class="col-xs-6"><p class="head state_name"></p></div>
+  -->
+                      <div class="col-xs-9" style="display:flex;">
+
+                        <div class="res_head" rv-each-hres="accinfo.account.data.resources" rv-style="accinfo.account.data.res_count | width_row">
+                          <img class="rimg" rv-src="hres.dId | imgurl 'resource'" rv-dd="hres.Id">
+                            {hres.Amount }
+                          </div>
+
+
+
+                        </div>
+                        <div class="col-xs-3"><button id="sndswitch" type="button" class="btn btn-default">
+  <span class="glyphicon glyphicon-music" aria-hidden="true"></span>
+</button></div>
+                      </div>
+
+                    </div>
+                    <div class="main-container_img"></div>
+                    <div class="main-container swipe">
+                      <div class="swipe-wrap">
+                        <div class="swipe-tab-content">
+                          <div class="pbody">
+                            <div id="head">
+
+
+
+                            </div>
+                            <div id="body">
+                              <div class="col-xs-12 nopadding"><div class="panel panel-cstate">
+                                  <div class="panel-heading">{ch1}</div>
+                                  <div class="panel-body" id="steparea">
+                                    <div class="row"><div class="col-xs-4"><img class="cimg" rv-src="ev.dId | imgurl 'event'"></div>
+                                        <div class="col-xs-12">
+                                          <h4>{data.currentds.name}</h4>
+                                          <p rv-html="data.currentstep.text"></p></div></div>
+                                      <div class="col-xs-12">
+
+                                        <div style="width:100%;" rv-hide="answ.avl" rv-stepid= "data.currentstep.id" class="cbtn cbtn-default" rv-answ="answ.id" rv-each-answ="data.currentstep.actions" rv-html="answ.text"></div>
+                                        
+                                        <div style="width:100%;" stepid="-1" class="cbtn cbtn-nav" >{data.generic.name}</div>
+                                      </div>
+                                      <div class="col-xs-12">
+                                      <p rv-hide="data.currentstep.hidenshow">Скрыто {data.currentstep.hidenansv} действий</p>
+                                      </div>
+
+                                    </div>
+                                  </div>
+                                </div>
+                              </div>
+                            </div>
+
+
+
+
+                          </div>
+
+                          <div class="swipe-tab-content">
+                            <div class="pbody" id="stats-reforms" >
+                              <div class="nopadding">
+                                <div class="panel panel-cstate">
+                                  <div class="panel-heading">Указы</div>
+                                  <div id="estats" class="panel-body">
+                                  </div>
+                                </div>
+
+                              </div>
+                            </div>
+
+                          </div>
+                        </div>
+                      </div>
+                      <div class="sub-header">
+
+                        <div class="swipe-tabs" id="bott_slick" style="display:flex;z-index:100; transform: translate(0px, 0px) translateZ(0px);">
+                          <div class="swipe-tab slick-initialized active-tab">Главная</div>
+                          <div class="swipe-tab slick-initialized">Статистика</div>
+
+                        </div>
+                      </div>
+                      <div class="hidden-content">
+
+                        <div class="modal" id="mainModal" tabindex="-1" role="dialog" aria-labelledby="mainModalLabel">
+                          <div class="modal-dialog modal-center" role="document">
+                            <div class="modal-content modal-cstate">
+                              <div class="modal-header">
+
+                                <button type="button" class="close" data-dismiss="modal" aria-label="Close"><span aria-hidden="true">×</span></button>
+                                <h4 class="modal-title" id="mainModalLabel">{elem.crnt.name}</h4>
+                              </div>
+                              <div class="modal-body"><div class="media"><div class="media-left" style="width: 40%;"><div class="btn-cstate-normal-pannel"><img class="media-object" rv-src="elem.crnt.id | imgurl elem.crnt.type"></div>  </div>  <div class="media-body">    <h4 class="media-heading">Описание</h4>{elem.crnt.desc}<h4 class="media-heading">Эффект</h4>{elem.crnt.effect}<h4 class="media-heading">Требования</h4>{elem.crnt.request}</div></div></div>
+                                <div class="modal-footer">        
+                                  <button id="procbtn" type="button" class="btn btn-cstate-normal">OK</button>
+                                  <button type="button" class="btn btn-default" data-dismiss="modal">Close</button>
+
+                                </div>
+                              </div>
+                            </div>
+                          </div>
+
+
+                          <div class="modal" id="regModal" tabindex="-1" role="dialog" aria-labelledby="mainModalLabel" >
+                            <div class="modal-dialog modal-center" role="document">
+                              <div class="modal-content modal-cstate">
+                                <div class="modal-header">                                    
+                                  <h4 class="modal-title" >Добро пожаловать в CState!!</h4>
+                                </div>
+                                <div class="modal-body">
+                                  <form>
+                                    <div class="form-group">
+                                      <label class="control-label">Почти все готово, осталось только указать свой ник и название страны</label>
+                                      <label for="recipient-name" class="control-label">Ник:</label>
+                                      <input type="text" class="form-control" id="rname">
+                                      </div>
+                                      <div class="form-group">
+                                        <label for="message-text" class="control-label">Страна:</label>
+                                        <input type="text" class="form-control" id="rsname">
+                                        </div>
+                                      </form>
+                                      <div class="modal-footer">        
+                                        <button type="button" id="regbutton" class="btn btn-cstate-normal">Регистрация</button>
+
+
+                                      </div>
+                                    </div>
+                                  </div>
+                                </div>
+                              </div>
+
+
+                              <div class="modal" id="updModal" tabindex="-1" role="dialog" aria-labelledby="mainModalLabel" >
+                                <div class="modal-dialog modal-center" role="document">
+                                  <div class="modal-content modal-cstate">
+                                    <div class="modal-header">                                    
+                                      <h4 class="modal-title" >Произошли изменения</h4>
+                                    </div>
+                                    <div class="modal-body">
+                                      <p> Новых событий: {e._updData.new_event} </p>
+                                      <table class="table"><tbody><tr rv-each-d="e._updData.res_delta"><td><div class="res">
+                                                <img class="rimg" rv-src="d.Id | imgurl 'resource'" rv-dd="d.Id">
+                                      {d.Id | itemname 'resources'}</div></td><td>{d.delta}</td></tr></tbody></table>
+
+
+
+
+                                      </div>
+                                    </div>
+                                  </div>
+                                </div>
+                              </div>
+
+
+
+                            </div>
+                            <script src="js/jquery.js"></script>
+                            <script src="js/jquery.animate-colors.js"></script>
+                            <script src="js/bootstrap.min.js"></script>
+                            <script src="libs/Swipe-master/Swipe-master/swipe.js"></script>
+                            <script src="js/jquery.ajaxQueue.js"></script>
+                            <script src="js/fingerprint.js"></script>
+                            <script src="js/jquery.waitforimages.js"></script>
+                            <script src="js/cytoscape.min.js" type="text/javascript"></script>
+                            <script src="js/bootstrap-notify.js" type="text/javascript"></script>
+                            <!--DataBind-->
+                            <script src="libs/rivet/rivets.bundled.min.js"></script>
+                            <!--Swipe-->
+                            <script src="js/slick.js"></script>
+                            <!-- Scrolls Modules -->
+                            <script src="js/jquery.mods/jquery.scrollstop.js"></script>
+                            <script src="js/jquery.mods/jquery.lazyload.js"></script>
+                            <!-- CState modules-->
+                            <script src="js/jquery.irpg.js"></script>
+                            <script src="js/index_alt.js"></script>
+                          </body>
+                        </html>
