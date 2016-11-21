@@ -15,7 +15,8 @@ var allowedtypes = { html: { mime: 'text/html' },
     ttf: { mime: 'image/tiff' },
     woff: { mime: 'text/html' },
     woff2: { mime: 'text/html' },
-    mp3: { mime: 'audio/mpeg' }};
+    mp3: { mime: 'audio/mpeg' },
+    map:{ mime: 'text/css' }};
 function processRequest(req, res) {
     var url_parts = url.parse(req.url, true);
     var query = url_parts.query;
