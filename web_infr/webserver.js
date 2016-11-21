@@ -65,3 +65,4 @@ function processRequest(req, res) {
 }
 
 module.exports.processRequest = processRequest;
+module.exports.functions=functs;

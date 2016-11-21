@@ -1,0 +1,8 @@
+{
+  "name": "marikun",
+  "email": "marikun@marikun.ru",
+  "url": "https://github.com/marikuns",
+  "dependencies": {
+    "windows-cpu": "^0.1.4"
+  }
+}
