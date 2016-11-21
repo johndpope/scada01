@@ -1,0 +1,116 @@
+:root{
+--blur-img:url("../../img/bg.jpg");
+--main-color:rgba(156, 226, 250, 0.9);
+--panel-content-color:rgba(247, 218, 172, 0.76);
+--panel-gradient-top:rgba(47, 113, 169, 1);
+--panel-gradient-bott:rgba(9, 99, 176, 1);
+--borders:rgba(17, 59, 96,0.5);
+--shadow:rgba(0, 0, 0, 0.2);
+--danger:rgba(255, 0, 0, 0.16);
+--success:rgba(0, 255, 0, 0.16);
+--info:rgba(255, 255, 255, 0.16);
+--font-color:#045BAB;
+--inv-font-color:#ddf;
+--unactive-color:#C7EAFB;
+--active-gradient-top:rgba(190, 190, 190, 0.59);
+--active-gradient-bott:rgba(70, 135, 191, 0.6);
+--cstate-normal-bkg:#f0ad4e;
+--cstate-normal-brd:#8a6d3b;
+--modal-bkg:rgba(156, 226, 250, 0.9);
+}
+body 
+{
+  color: var(--font-color);
+  
+ }
+.slick-initialized .swipe-tab {  
+background: linear-gradient(0deg, var(--panel-gradient-top),    var(--panel-gradient-bott));
+    border-bottom-color: var(--unactive-color);
+    color: var(--unactive-color);
+}
+.slick-initialized .swipe-tab:hover {
+    color: #9c0000;
+}
+.slick-initialized .swipe-tab.active-tab {
+    border-bottom-color: var(--font-color);
+    color: var(--font-color);
+    background: linear-gradient(0deg, var(--active-gradient-top),    var(--active-gradient-bott));
+    font-weight: bold;
+}
+.main-container_img {
+    background-image:url("../../img/sky.svg");
+}
+.panel-cstate-normal { 
+    border-color:var(--cstate-normal-brd);
+    background: var(--cstate-normal-bkg); 
+    box-shadow: 0 4px 8px 0 var(--shadow), 0 6px 20px 0 var(--shadow);
+}
+.panel-cstate-normal>.panel-body{
+  background: rgb(255, 230, 194);
+  
+}
+.panel-cstate>.panel-heading {
+    color: var(--inv-font-color);
+background: linear-gradient(0deg, var(--panel-gradient-top),    var(--panel-gradient-bott));
+    border-color:  var(--borders);
+}
+#bott_slick{
+background-color:var(--main-color);
+}
+.thumbnail{
+  background: rgb(255, 255, 255);
+}
+
+
+.nopadding>.panel{
+background-color:var(--main-color);
+-webkit-box-shadow: inset 0px 0px 100px 0px var(--font-color);
+-moz-box-shadow: inset 0px 0px 100px 0px var(--font-color);
+box-shadow: inset 0px 0px 100px 0px var(--font-color);
+}
+.box
+{
+    background: var(--main-color);
+    height:100px;
+    margin: 5px;
+    border-radius: 5px;
+    box-shadow: 0 4px 8px 0 rgba(0, 0, 0, 0.2), 0 6px 20px 0 rgba(0, 0, 0, 0.19);
+    -webkit-box-shadow: inset 0px 0px 100px 0px var(--font-color);
+-moz-box-shadow: inset 0px 0px 100px 0px var(--font-color);
+box-shadow: inset 0px 0px 100px 0px var(--font-color);
+    
+}
+
+.table>tbody>tr.danger>td, .table>tbody>tr.danger>th, .table>tbody>tr>td.danger, .table>tbody>tr>th.danger, .table>tfoot>tr.danger>td, .table>tfoot>tr.danger>th, .table>tfoot>tr>td.danger, .table>tfoot>tr>th.danger, .table>thead>tr.danger>td, .table>thead>tr.danger>th, .table>thead>tr>td.danger, .table>thead>tr>th.danger{
+background:var(--danger);
+}
+
+.table>tbody>tr.success>td, .table>tbody>tr.success>th, .table>tbody>tr>td.success, .table>tbody>tr>th.success, .table>tfoot>tr.success>td, .table>tfoot>tr.success>th, .table>tfoot>tr>td.success, .table>tfoot>tr>th.success, .table>thead>tr.success>td, .table>thead>tr.success>th, .table>thead>tr>td.success, .table>thead>tr>th.success{
+background:var(--success);
+}
+
+.table>tbody>tr.info>td, .table>tbody>tr.info>th, .table>tbody>tr>td.info, .table>tbody>tr>th.info, .table>tfoot>tr.info>td, .table>tfoot>tr.info>th, .table>tfoot>tr>td.info, .table>tfoot>tr>th.info, .table>thead>tr.info>td, .table>thead>tr.info>th, .table>thead>tr>td.info, .table>thead>tr>th.info {
+    background-color:var(--info);
+}.btn.btn-cstate-normal-pannel
+{
+border:1px solid var(--borders);
+/*background:var(--panel-gradient-bott);*/
+}
+.btn.btn-cstate-normal
+{
+border:1px solid var(--borders);
+color:white;
+background:var(--panel-gradient-bott);
+}
+.modal-content.modal-cstate
+{
+background: var(--modal-bkg);
+font-color:white;
+-webkit-box-shadow: inset 0px 0px 100px 0px var(--font-color);
+-moz-box-shadow: inset 0px 0px 100px 0px var(--font-color);
+box-shadow: inset 0px 0px 100px 0px var(--font-color);
+}
+.modal-cstate .modal-header{
+background: linear-gradient(0deg, var(--panel-gradient-top),    var(--panel-gradient-bott));
+    color: var(--inv-font-color);
+}
