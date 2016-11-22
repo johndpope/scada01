@@ -1,5 +1,11 @@
+var clbks={};
+module.exports.callbacks=clbks;
 module.exports.start=function(){
-var io = require('socket.io').listen(8080); 
+var wsserver =require('socket.io');
+var io=new wsserver();
+io.listen(1234); 
+
+io.set('transports',['websocket']);
 // Отключаем вывод полного лога - пригодится в production'е
 
 // Навешиваем обработчик на подключение нового клиента
@@ -20,10 +26,12 @@ io.sockets.on('connection', function (socket) {
 		socket.broadcast.json.send({'event': 'messageReceived', 'name': ID, 'text': msg, 'time': time})
 	});
 	// При отключении клиента - уведомляем остальных
-	socket.on('disconnect', function() {
+		socket.on('disconnect', function() {
 		var time = (new Date).toLocaleTimeString();
 		io.sockets.json.send({'event': 'userSplit', 'name': ID, 'time': time});
 	});
+	if(exports.callbacks['connect'])
+		exports.callbacks['connect'](socket);
 });
 return io;
 }
