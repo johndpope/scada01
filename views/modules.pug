@@ -1,0 +1,12 @@
+h1(class="page-header") Информация о модулях
+table(class="table",id="tmodules")
+    thead
+        th Статус
+        th Название
+        th Время старта
+        th 
+    tbody
+        tr(rv-each-mod="model.smodule")
+            td {mod.state}
+            td {mod.name}
+            td {mod.name}

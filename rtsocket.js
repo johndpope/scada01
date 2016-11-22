@@ -1,9 +1,9 @@
 var clbks={};
 module.exports.callbacks=clbks;
-module.exports.start=function(){
+module.exports.start=function(http){
 var wsserver =require('socket.io');
-var io=new wsserver();
-io.listen(1234); 
+var io=wsserver(http);
+///io.listen(1234); 
 
 io.set('transports',['websocket']);
 // Отключаем вывод полного лога - пригодится в production'е

@@ -3,6 +3,8 @@
   "email": "marikun@marikun.ru",
   "url": "https://github.com/marikuns",
   "dependencies": {
+    "express": "^4.14.0",
+    "pug": "^2.0.0-beta6",
     "windows-cpu": "^0.1.4"
   }
 }

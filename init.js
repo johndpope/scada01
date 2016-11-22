@@ -1,22 +1,18 @@
-const http = require('http');
+
 var webserver = require('./web_infr/webserver.js');
 var rtsocket = require('./rtsocket.js');
-const transport=rtsocket.start();
+const transport=rtsocket.start(webserver.http);
 var perfmon = require('perfmon');
 var iec104 = require('./iec104.js');
 var platform = require('os').platform(),
     execFile = require('child_process').execFile,
     path = require('path');
 var TotalMemory = {};
+
+
 iec104.startServer(2404);
-const hostname = '0.0.0.0';
-const port = 8000;
-const server = http.createServer(webserver.processRequest);
 totalmem();
-server.listen(port, hostname, () => {
-  console.log(`Server running at http://${hostname}:${port}/`);
-});
-perfmon(['\\238(_total)\\6', '\\Память\\Доступно МБ'], function (err, data) {
+perfmon(['\\238(_total)\\6', '\\Память\\Доступно МБ'],'marikun-ПК', function (err, data) {
   transport.json.send({ 'event': 'perfmon', 'type': 'summary', 'tmem': TotalMemory, 'data': data })
 });
 iec104.dataAdapter.on('data', function (d) {
@@ -50,6 +46,7 @@ var _module = function () {
   this.args = ['run'];
   this.type = 'bin'
   this._obj = {}
+  this.id='0001',
   this.state = 0;
   this.start = function () {
     if (this.type == 'bin') {
@@ -88,6 +85,7 @@ iec1.name = "iec1";
 iec1.path = 'ping';
 iec1.args = ['ya.ru','-t']
 iec1.type='bin';
+iec1.id='987';
 iec1.start();
 
 var iec2 = new _module();

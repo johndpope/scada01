@@ -5,11 +5,16 @@ strings = {
 	'messageReceived': '[in][time]%time%[/time]: [user]%name%[/user]: %text%[/in]',
 	'userSplit': '[sys][time]%time%[/time]: Пользователь [user]%name%[/user] покинул чат.[/sys]'
 };
+viewmodel={}
+viewmodel.smodule={};
 window.onload = function () {
 	initIndicators();
 	// Создаем соединение с сервером; websockets почему-то в Хроме не работают, используем xhr
 	if (navigator.userAgent.toLowerCase().indexOf('chrome') != -1) {
-		socket = io.connect('http://127.0.0.1:1234', { transports: ['websocket'] });
+
+		//socket = io.connect(', { transports: ['websocket'] });
+		socket = io('', { transports: ['websocket'] });
+		
 	} else {
 		socket = io.connect('http://127.0.0.1:8080');
 	}
@@ -44,6 +49,15 @@ window.onload = function () {
 			document.querySelector('#input').value = '';
 		};
 	});
+	//init button links
+	$('*[navigation=true]').on('click',function(e)
+	{
+		$('li.active').removeClass('active');
+		e.preventDefault();
+		$(this.parentNode).addClass('active');
+		var div=$(this).data('div');
+		navigate(div);
+	})
 
 
 
@@ -51,22 +65,46 @@ window.onload = function () {
 };
 var functs = {}
 functs.modules = function (msg) {
+	smodule={};
 	$.each(msg.data, function (k, e) {
 		var started=e.state==0?"stoped":'started';
-		document.querySelector('#log').innerHTML += 'Module:'+e.name+' Path:'+e.path+' '+started+ '<br>';
+		
+	//	viewmodel.smodule[e.id]=e;
 	});
+	viewmodel.smodule=msg.data;
 
 }
+function getbyid(arr, id) {
+    for (var i = 0, len = arr.length; i < len; i++) {
+      if (arr[i].id == id)
+        return arr[i]; // Return as soon as the object is found
+    }
+    return null;
+  }
 functs.modules_upd = function (msg) {
-var e=msg.data;
-		var started=e.state==0?"stoped":'started';
-		document.querySelector('#log').innerHTML += 'Module:'+e.name+' Path:'+e.path+' '+started+ '<br>';
+	var e=msg.data;
+	var started=e.state==0?"stoped":'started';
+
+	
+	for(var i=0;i<viewmodel.smodule.length;i++)
+	{
+		if(viewmodel.smodule[i].id==e.id)
+		{
+			for(var a in e)
+			{
+				viewmodel.smodule[i][a]=e[a];
+			}
+		}
+	}
+
 
 
 }
 functs.perfmon = function (msg) {
 	var cpuObj = $('#cpuLoad').data('radialIndicator');
 	var memObj = $('#ramLoad').data('radialIndicator');
+	if(!cpuObj||!memObj)
+		return;
 	var totalmem = 0;
 	for (var i = 0; i < msg.tmem.length; i++) {
 		totalmem = totalmem + msg.tmem[i];
@@ -102,4 +140,23 @@ function initIndicators() {
 		},
 		percentage: true
 	});
+}
+function navigate(div)
+{
+	$.ajax('/div_'+div).done(function(d){
+		$('.main').html(d);
+		if(_divfuncs[div])
+			_divfuncs[div]();
+	})
+}
+
+
+var _divfuncs={};
+_divfuncs.dash=function()
+{
+initIndicators();
+}
+_divfuncs.modules=function()
+{
+	rivets.bind($('#tmodules'), {model: viewmodel})
 }
