@@ -1,0 +1,79 @@
+2016-11-23 06:35:17	Start system
+2016-11-23 06:35:17	Load modules
+2016-11-23 06:35:17		 webserver loaded
+2016-11-23 06:35:17		 rtsocket loaded
+2016-11-23 06:35:17		 perfmon loaded
+2016-11-23 06:35:17		 iec104 loaded
+2016-11-23 06:35:55	
+2016-11-23 06:35:55	Start system
+2016-11-23 06:35:55	Load modules
+2016-11-23 06:35:55		 webserver loaded
+2016-11-23 06:35:55		 rtsocket loaded
+2016-11-23 06:35:55		 perfmon loaded
+2016-11-23 06:35:55		 iec104 loaded
+2016-11-23 06:37:35	
+2016-11-23 06:37:35	
+2016-11-23 06:37:35	
+2016-11-23 06:37:35	
+2016-11-23 06:37:35	
+2016-11-23 06:37:36	
+2016-11-23 06:37:36	
+	
+2016-11-23 06:37:58	Start system
+2016-11-23 06:37:58	Load modules
+2016-11-23 06:37:58		 webserver loaded
+2016-11-23 06:37:58		 rtsocket loaded
+2016-11-23 06:37:59		 perfmon loaded
+2016-11-23 06:37:59		 iec104 loaded
+	
+2016-11-23 06:42:13	Start system
+2016-11-23 06:42:13	Load modules
+2016-11-23 06:42:13		 webserver loaded
+2016-11-23 06:42:13		 rtsocket loaded
+2016-11-23 06:42:13		 perfmon loaded
+2016-11-23 06:42:13		 iec104 loaded
+2016-11-23 06:42:13	Start module ${sb.name} - ${sb.path} ${str}
+	
+2016-11-23 06:42:53	Start system
+2016-11-23 06:42:53	Load modules
+2016-11-23 06:42:53		 webserver loaded
+2016-11-23 06:42:53		 rtsocket loaded
+2016-11-23 06:42:53		 perfmon loaded
+2016-11-23 06:42:53		 iec104 loaded
+2016-11-23 06:42:53	Start module "${sb.name}" - "${sb.path}" "${str}"
+	
+2016-11-23 06:46:19	Start system
+2016-11-23 06:46:19	Load modules
+2016-11-23 06:46:20		 webserver loaded
+2016-11-23 06:46:20		 rtsocket loaded
+2016-11-23 06:46:20		 perfmon loaded
+2016-11-23 06:46:20		 iec104 loaded
+2016-11-23 06:46:20	Start module iec1 - ping ya.ru -t 
+2016-11-23 06:46:52	Module iec1 stoped.
+	
+2016-11-23 06:50:40	Start system
+2016-11-23 06:50:40	Load modules
+2016-11-23 06:50:41		 webserver loaded
+2016-11-23 06:50:41		 rtsocket loaded
+2016-11-23 06:50:41		 perfmon loaded
+2016-11-23 06:50:41		 iec104 loaded
+2016-11-23 06:50:41	Start module iec1 - ping ya.ru -t 
+2016-11-23 06:57:37	Module iec1 stoped.
+	
+2016-11-23 11:40:34	Start system
+2016-11-23 11:40:34	Load modules
+2016-11-23 11:40:35		 webserver loaded
+2016-11-23 11:40:35		 rtsocket loaded
+2016-11-23 11:40:35		 perfmon loaded
+2016-11-23 11:40:35		 iec104 loaded
+2016-11-23 11:40:35	Start module iec1 - ping ya.ru -t 
+2016-11-23 11:41:09	Module iec1 stoped.
+	
+2016-11-23 11:44:27	Start system
+2016-11-23 11:44:27	Load modules
+2016-11-23 11:44:28		 webserver loaded
+2016-11-23 11:44:28		 rtsocket loaded
+2016-11-23 11:44:28		 perfmon loaded
+2016-11-23 11:44:28		 iec104 loaded
+2016-11-23 11:44:28	Start module iec1 - ping ya.ru -t 
+2016-11-23 12:25:18	Module iec1 stoped.

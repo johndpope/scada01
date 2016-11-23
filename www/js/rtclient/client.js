@@ -1,12 +1,13 @@
 strings = {
 	'connected': '[sys][time]%time%[/time]: Вы успешно соединились к сервером как [user]%name%[/user].[/sys]',
-	'userJoined': '[sys][time]%time%[/time]: Пользователь [user]%name%[/user] присоединился к чату.[/sys]',
+	'userJoined': '[sys][time]%time%[/time]: Пользователь [user]%name%[/user] подключился.[/sys]',
 	'messageSent': '[out][time]%time%[/time]: [user]%name%[/user]: %text%[/out]',
 	'messageReceived': '[in][time]%time%[/time]: [user]%name%[/user]: %text%[/in]',
-	'userSplit': '[sys][time]%time%[/time]: Пользователь [user]%name%[/user] покинул чат.[/sys]'
+	'userSplit': '[sys][time]%time%[/time]: Пользователь [user]%name%[/user] отключился.[/sys]'
 };
-viewmodel={}
+viewmodel={dash:{}}
 viewmodel.smodule={};
+viewmodel.currentdiv='dash';
 window.onload = function () {
 	initIndicators();
 	// Создаем соединение с сервером; websockets почему-то в Хроме не работают, используем xhr
@@ -22,13 +23,16 @@ window.onload = function () {
 		socket.on('message', function (msg) {
 			// Добавляем в лог сообщение, заменив время, имя и текст на полученные
 			console.log(msg);
+
 			if (functs[msg.event]) {
 				functs[msg.event](msg);
 				return;
 			}
 
 
-			document.querySelector('#log').innerHTML += strings[msg.event].replace(/\[([a-z]+)\]/g, '<span class="$1">').replace(/\[\/[a-z]+\]/g, '</span>').replace(/\%time\%/, msg.time).replace(/\%name\%/, msg.name).replace(/\%text\%/, unescape(msg.text).replace('<', '&lt;').replace('>', '&gt;')) + '<br>';
+		
+			dashlog(strings[msg.event].replace(/\[([a-z]+)\]/g, '<span class="$1">').replace(/\[\/[a-z]+\]/g, '</span>').replace(/\%time\%/, msg.time).replace(/\%name\%/, msg.name).replace(/\%text\%/, unescape(msg.text).replace('<', '&lt;').replace('>', '&gt;')) + '<br>');
+
 			// Прокручиваем лог в конец
 			document.querySelector('#log').scrollTop = document.querySelector('#log').scrollHeight;
 		});
@@ -81,6 +85,7 @@ function getbyid(arr, id) {
     }
     return null;
   }
+
 functs.modules_upd = function (msg) {
 	var e=msg.data;
 	var started=e.state==0?"stoped":'started';
@@ -100,6 +105,11 @@ functs.modules_upd = function (msg) {
 
 
 }
+functs.iec104=function(msg)
+{
+				
+			dashlog('<span>'+JSON.stringify(msg)+'</span><br>');
+}
 functs.perfmon = function (msg) {
 	var cpuObj = $('#cpuLoad').data('radialIndicator');
 	var memObj = $('#ramLoad').data('radialIndicator');
@@ -115,6 +125,13 @@ functs.perfmon = function (msg) {
 	cpuObj.animate(msg.data.counters['\\238(_total)\\6']);
 	memObj.animate(memperc);
 }
+function dashlog(msg)
+{
+	var logwin=$('#log');
+	logwin.append(msg);
+	if(viewmodel.dash.logdata!='-')
+		viewmodel.dash.logdata+=msg;
+}
 function initIndicators() {
 	$('#cpuLoad').radialIndicator({
 		radius: 80,
@@ -122,8 +139,6 @@ function initIndicators() {
 		barColor: {
 
 			0: '#33CC33',
-			33: '#0066FF',
-			66: '#FFFF00',
 			100: '#FF0000'
 		},
 		percentage: true
@@ -134,8 +149,6 @@ function initIndicators() {
 		barColor: {
 
 			0: '#33CC33',
-			33: '#0066FF',
-			66: '#FFFF00',
 			100: '#FF0000'
 		},
 		percentage: true
@@ -143,10 +156,13 @@ function initIndicators() {
 }
 function navigate(div)
 {
+	if(_divPreFuncs[viewmodel.currentdiv])
+			_divPreFuncs[viewmodel.currentdiv]();
 	$.ajax('/div_'+div).done(function(d){
 		$('.main').html(d);
 		if(_divfuncs[div])
 			_divfuncs[div]();
+		viewmodel.currentdiv=div;
 	})
 }
 
@@ -155,8 +171,14 @@ var _divfuncs={};
 _divfuncs.dash=function()
 {
 initIndicators();
+$('#log').html(viewmodel.dash.logdata);
 }
 _divfuncs.modules=function()
 {
 	rivets.bind($('#tmodules'), {model: viewmodel})
+}
+var _divPreFuncs={};
+_divPreFuncs.dash=function()
+{
+	viewmodel.dash.logdata=$('#log').html();
 }

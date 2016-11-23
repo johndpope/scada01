@@ -6,7 +6,7 @@ const http = require('http').Server(app);
 var fs = require('fs');
 var functs = {};
 const hostname = '0.0.0.0';
-const port = 8000;
+const port = 1234;
 //const http = http.createServer(webserver.processRequest);
 app.use(express.static('www'));
 app.set('view engine', 'pug');

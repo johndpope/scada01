@@ -1,9 +1,18 @@
-
+var format = require('string-format')
+format.extend(String.prototype);
+var log=require('./logwriter.js').write;
+log('supervisor','');
+log('supervisor','Start system');
+log('supervisor','Load modules');
 var webserver = require('./web_infr/webserver.js');
+log('supervisor','\t webserver loaded');
 var rtsocket = require('./rtsocket.js');
+log('supervisor','\t rtsocket loaded');
 const transport=rtsocket.start(webserver.http);
 var perfmon = require('perfmon');
+log('supervisor','\t perfmon loaded');
 var iec104 = require('./iec104.js');
+log('supervisor','\t iec104 loaded');
 var platform = require('os').platform(),
     execFile = require('child_process').execFile,
     path = require('path');
@@ -12,7 +21,7 @@ var TotalMemory = {};
 
 iec104.startServer(2404);
 totalmem();
-perfmon(['\\238(_total)\\6', '\\Память\\Доступно МБ'],'marikun-ПК', function (err, data) {
+perfmon(['\\238(_total)\\6', '\\Память\\Доступно МБ'],'sokhavp', function (err, data) {
   transport.json.send({ 'event': 'perfmon', 'type': 'summary', 'tmem': TotalMemory, 'data': data })
 });
 iec104.dataAdapter.on('data', function (d) {
@@ -23,6 +32,10 @@ rtsocket.callbacks.connect=function(sckt)
 {
   var m=smodules;
 sckt.json.send({'event': 'modules', 'data': smodules});
+}
+log.callback=function(s)
+{
+  transport.json.send({ 'event': 'mLogLine',  'data': s })
 }
 
 
@@ -75,7 +88,12 @@ var _module = function () {
       console.log('stderror',stderr); 
       sb.state=0;   
       transport.json.send({'event': 'modules_upd', 'data': sb});
+      log('supervisor','Module {0} stoped.'.format(sb.name));
   });sb.state=1;
+  var str='';
+  for(var ai=0;ai<sb.args.length;ai++)
+    str+=sb.args[ai]+' ';
+  log('supervisor','Start module {0} - {1} {2}'.format(sb.name,sb.path,str));
 
   }
 }
@@ -90,7 +108,6 @@ iec1.start();
 
 var iec2 = new _module();
 iec2.name = "iec2";
-console.log(iec1, iec2);
 var smodules=[];
 smodules.push(iec1);
 smodules.push(iec2);
