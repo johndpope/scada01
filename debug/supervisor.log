@@ -260,3 +260,43 @@
 2016-11-24 14:03:15		 perfmon loaded
 2016-11-24 14:03:15		 iec104 loaded
 2016-11-24 14:03:15	Start module iec1 - ping ya.ru -t 
+	
+2016-11-24 19:16:40	Start system
+2016-11-24 19:16:40	Load modules
+2016-11-24 19:16:40		 webserver loaded
+2016-11-24 19:16:40		 rtsocket loaded
+2016-11-24 19:16:41		 perfmon loaded
+2016-11-24 19:16:41		 iec104 loaded
+2016-11-24 19:16:41	Start module iec1 - ping ya.ru -t 
+	
+2016-11-24 19:19:47	Start system
+2016-11-24 19:19:47	Load modules
+2016-11-24 19:19:48		 webserver loaded
+2016-11-24 19:19:48		 rtsocket loaded
+2016-11-24 19:19:48		 perfmon loaded
+2016-11-24 19:19:48		 iec104 loaded
+2016-11-24 19:19:48	Start module iec1 - ping ya.ru -t 
+	
+2016-11-24 19:20:03	Start system
+2016-11-24 19:20:03	Load modules
+2016-11-24 19:20:04		 webserver loaded
+2016-11-24 19:20:04		 rtsocket loaded
+2016-11-24 19:20:04		 perfmon loaded
+2016-11-24 19:20:04		 iec104 loaded
+2016-11-24 19:20:04	Start module iec1 - ping ya.ru -t 
+	
+2016-11-24 19:21:28	Start system
+2016-11-24 19:21:28	Load modules
+2016-11-24 19:21:28		 webserver loaded
+2016-11-24 19:21:28		 rtsocket loaded
+2016-11-24 19:21:28		 perfmon loaded
+2016-11-24 19:21:28		 iec104 loaded
+2016-11-24 19:21:28	Start module iec1 - ping ya.ru -t 
+	
+2016-11-24 19:22:14	Start system
+2016-11-24 19:22:14	Load modules
+2016-11-24 19:22:14		 webserver loaded
+2016-11-24 19:22:14		 rtsocket loaded
+2016-11-24 19:22:15		 perfmon loaded
+2016-11-24 19:22:15		 iec104 loaded
+2016-11-24 19:22:15	Start module iec1 - ping ya.ru -t 
