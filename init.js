@@ -13,6 +13,7 @@ var perfmon = require('perfmon');
 log('supervisor','\t perfmon loaded');
 var iec104 = require('./iec104.js');
 log('supervisor','\t iec104 loaded');
+const odata=new (require('./odata.js'))(log);
 var platform = require('os').platform(),
     execFile = require('child_process').execFile,
     path = require('path');
@@ -27,6 +28,10 @@ perfmon(['\\238(_total)\\6', '\\Память\\Доступно МБ'],'sokhavp',
 iec104.dataAdapter.on('data', function (d) {
   transport.json.send({ 'event': 'iec104', 'type': 'R_frame', 'data': d })
 
+})
+webserver.eventgate.on('wdata',function(d){
+  
+  odata.writeOI('I',1,200,0x100,'01.01.01','01.01.01');
 })
 rtsocket.callbacks.connect=function(sckt)
 {

@@ -182,3 +182,15 @@ _divPreFuncs.dash=function()
 {
 	viewmodel.dash.logdata=$('#log').html();
 }
+var testdata=[];
+function benchmark()
+{
+	$.ajax('/bench').done(function(d){
+		 var dt=new Date();
+		testdata=JSON.parse(d);
+		 var dt2=new Date();
+		 console.log(dt,dt2);
+		}).fail(function(f){
+			alert(f);
+		});
+}

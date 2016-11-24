@@ -1,0 +1,14 @@
+[
+    {
+        "id": 1,
+        "cat":"I",
+        "name": "ТИ 1",
+        "category": 1
+    },
+    {
+        "id": 1,
+        "cat":"S",
+        "name": "ТC 1",
+        "category": 1
+    }
+]
