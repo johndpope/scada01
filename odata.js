@@ -1,4 +1,10 @@
 var fs = require('fs');
+var dstore=require('nedb');
+var db=new dstore({filename:'./data_dir/ois'});
+db.loadDatabase(function(err)
+{
+    console.log(err);
+});
 var mdl={};
 function parseJsData(filename) {
     var json = fs.readFileSync(filename, 'utf8');
