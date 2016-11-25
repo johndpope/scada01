@@ -22,16 +22,24 @@ app.get(/\/div_/, function (req, res) {
 })
 app.get('/bench',function(req,res)
 {
+  console.log('start gen')
   var test=[];
-  var cnt=1000;
+  var cnt=1000000;
+  var temp=[];
   for(var i=0;i<cnt;i++)
   {    
     var tdata={id:i,value:0.2,flag:0x200};
-    da.emit("wdata", tdata);
+    temp.push(tdata);
+    if(temp.length=10000)
+    {
+      da.emit("wdata",temp);
+      temp=[];
+    }    
     test.push(tdata);
   }
-  res.write(JSON.stringify(test));
+  //res.write(JSON.stringify(test));
   res.end();
+  console.log('end gen')
 })
 
 

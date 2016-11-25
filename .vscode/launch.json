@@ -11,6 +11,14 @@
             "program": "${workspaceRoot}/init.js",
             "cwd": "${workspaceRoot}",
             "internalConsoleOptions": "sudo"
+        },        
+        {
+            "type": "node",
+            "request": "launch",
+            "name": "Test",
+            "program": "${workspaceRoot}/test.js",
+            "cwd": "${workspaceRoot}",
+            
         },
         {
             "type": "node",
