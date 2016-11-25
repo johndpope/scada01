@@ -6,6 +6,7 @@ db.loadDatabase(function(err)
     console.log(err);
 });
 var mdl={};
+var writetimeout=null;
 function parseJsData(filename) {
     var json = fs.readFileSync(filename, 'utf8');
     return JSON.parse(json);
@@ -14,8 +15,8 @@ function writeToDisk()
 {
     for(var i in mdl.ois)
     {
-        var param=mdl.ois[i];
-    writeOData(param,mdl.data[param]);
+        var param=mdl.ois[i].cat+mdl.ois[i].id;
+        writeOData(param,mdl.data[param]);
     }
 }
 module.exports=function(logger){
@@ -46,6 +47,7 @@ module.exports=function(logger){
     }
     this.writeOI=function(cat,id,value,prizn,t1,t2)
     {
+        clearTimeout(writetimeout);
         var nval={
             value:value,
             flag:prizn,
@@ -60,6 +62,7 @@ module.exports=function(logger){
         }
         else
         this.logger('odata','Error. Try write non-existent OI - '+param);
+        writetimeout=setTimeout(writeToDisk,1000);
 
     }
     setTimeout(writeToDisk,1000);

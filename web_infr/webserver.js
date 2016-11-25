@@ -23,7 +23,7 @@ app.get(/\/div_/, function (req, res) {
 app.get('/bench',function(req,res)
 {
   var test=[];
-  var cnt=1000000;
+  var cnt=1000;
   for(var i=0;i<cnt;i++)
   {    
     var tdata={id:i,value:0.2,flag:0x200};
