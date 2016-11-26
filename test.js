@@ -16,6 +16,9 @@ if (cluster.isMaster) {
   cluster.on('online', function(worker) {
         console.log('Worker ' + worker.process.pid + ' is online');
     });
+    cluster.on('message', function(worker, message, handle) {
+      console.log('Message from worker '+worker+' - '+message);
+  });
 
 
   cluster.on('death', function(worker) {
@@ -24,6 +27,8 @@ if (cluster.isMaster) {
   });
 } else {
   // Worker processes have a http server.
+ 
+    process.send('hi here');
   
   http.Server(function(req, res) {
     res.writeHead(200);
