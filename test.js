@@ -1,4 +1,5 @@
 console.log('start');
+process.execArgv[0] = process.execArgv[0].replace('-brk', '');
 var cluster = require('cluster');
 var http = require('http');
 var numCPUs = require('os').cpus().length;
