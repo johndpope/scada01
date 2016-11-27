@@ -1,1 +1,77 @@
 {"level":"info","message":"Start service","timestamp":"2016-11-27T21:13:20.913Z"}
+{"level":"info","message":"Start service","timestamp":"2016-11-27T21:24:09.924Z"}
+{"level":"info","message":"Start service","timestamp":"2016-11-27T21:25:04.588Z"}
+{"level":"info","message":"Start service","timestamp":"2016-11-27T21:33:23.564Z"}
+{"level":"info","message":"Web service loaded","timestamp":"2016-11-27T21:33:40.874Z"}
+{"level":"info","message":"Websocket loaded","timestamp":"2016-11-27T21:33:46.619Z"}
+{"level":"info","message":"Start service","timestamp":"2016-11-27T21:34:07.950Z"}
+{"level":"info","message":"Web service loaded","timestamp":"2016-11-27T21:34:15.319Z"}
+{"level":"info","message":"Websocket loaded","timestamp":"2016-11-27T21:34:15.481Z"}
+{"level":"info","message":"Start service","timestamp":"2016-11-27T21:36:05.572Z"}
+{"level":"info","message":"Web service loaded","timestamp":"2016-11-27T21:36:05.807Z"}
+{"level":"info","message":"Websocket loaded","timestamp":"2016-11-27T21:36:06.063Z"}
+{"level":"info","message":"Start service","timestamp":"2016-11-27T21:36:17.351Z"}
+{"level":"info","message":"Web service loaded","timestamp":"2016-11-27T21:36:17.522Z"}
+{"level":"info","message":"Websocket loaded","timestamp":"2016-11-27T21:36:17.728Z"}
+{"level":"info","message":"Start service","timestamp":"2016-11-27T21:43:33.810Z"}
+{"level":"info","message":"Web service loaded","timestamp":"2016-11-27T21:43:33.983Z"}
+{"level":"info","message":"Websocket loaded","timestamp":"2016-11-27T21:43:34.150Z"}
+{"level":"info","message":"Start service","timestamp":"2016-11-27T21:45:07.876Z"}
+{"level":"info","message":"Web service loaded","timestamp":"2016-11-27T21:45:08.025Z"}
+{"level":"info","message":"Websocket loaded","timestamp":"2016-11-27T21:45:08.181Z"}
+{"level":"info","message":"Connected successfully to server","timestamp":"2016-11-27T21:45:11.236Z"}
+{"level":"info","message":"Start service","timestamp":"2016-11-27T21:47:22.112Z"}
+{"level":"info","message":"Web service loaded","timestamp":"2016-11-27T21:47:22.279Z"}
+{"level":"info","message":"Websocket loaded","timestamp":"2016-11-27T21:47:22.445Z"}
+{"level":"info","message":"Connected successfully to server","timestamp":"2016-11-27T21:47:31.957Z"}
+{"level":"info","message":"Start service","timestamp":"2016-11-27T21:48:47.783Z"}
+{"level":"info","message":"Web service loaded","timestamp":"2016-11-27T21:48:47.949Z"}
+{"level":"info","message":"Websocket loaded","timestamp":"2016-11-27T21:48:48.112Z"}
+{"level":"info","message":"Start service","timestamp":"2016-11-27T21:49:18.039Z"}
+{"level":"info","message":"Web service loaded","timestamp":"2016-11-27T21:49:18.208Z"}
+{"level":"info","message":"Websocket loaded","timestamp":"2016-11-27T21:49:18.383Z"}
+{"level":"info","message":"Connected successfully to server","timestamp":"2016-11-27T21:49:18.622Z"}
+{"level":"info","message":"Found the following records","timestamp":"2016-11-27T21:49:18.624Z"}
+{"level":"info","message":"","timestamp":"2016-11-27T21:49:18.625Z"}
+{"level":"info","message":"Start service","timestamp":"2016-11-27T21:51:19.473Z"}
+{"level":"info","message":"Web service loaded","timestamp":"2016-11-27T21:51:19.648Z"}
+{"level":"info","message":"Websocket loaded","timestamp":"2016-11-27T21:51:19.816Z"}
+{"level":"info","message":"Connected successfully to server","timestamp":"2016-11-27T21:51:20.049Z"}
+{"level":"info","message":"Found the following records","timestamp":"2016-11-27T21:51:20.051Z"}
+{"level":"info","message":"","timestamp":"2016-11-27T21:51:20.051Z"}
+{"level":"info","message":"Start service","timestamp":"2016-11-27T21:51:38.824Z"}
+{"level":"info","message":"Web service loaded","timestamp":"2016-11-27T21:51:38.997Z"}
+{"level":"info","message":"Websocket loaded","timestamp":"2016-11-27T21:51:39.162Z"}
+{"level":"info","message":"","timestamp":"2016-11-27T21:51:39.402Z"}
+{"level":"info","message":"Start service","timestamp":"2016-11-27T21:54:34.983Z"}
+{"level":"info","message":"Web service loaded","timestamp":"2016-11-27T21:54:35.153Z"}
+{"level":"info","message":"Websocket loaded","timestamp":"2016-11-27T21:54:35.332Z"}
+{"0":{"_id":{"_bsontype":"ObjectID","id":{"0":88,"1":59,"2":86,"3":15,"4":222,"5":240,"6":76,"7":38,"8":63,"9":237,"10":141,"11":246}},"name":"Real-time data provider","path":"./rtime.js","args":{}},"level":"info","message":"","timestamp":"2016-11-27T21:54:35.570Z"}
+{"level":"info","message":"Start service","timestamp":"2016-11-27T21:54:55.378Z"}
+{"level":"info","message":"Web service loaded","timestamp":"2016-11-27T21:54:55.549Z"}
+{"level":"info","message":"Websocket loaded","timestamp":"2016-11-27T21:54:55.711Z"}
+{"0":{"_id":{"_bsontype":"ObjectID","id":{"0":88,"1":59,"2":86,"3":15,"4":222,"5":240,"6":76,"7":38,"8":63,"9":237,"10":141,"11":246}},"name":"Real-time data provider","path":"./rtime.js","args":{}},"level":"info","message":"","timestamp":"2016-11-27T21:54:55.929Z"}
+{"level":"info","message":"Start service","timestamp":"2016-11-27T21:55:47.730Z"}
+{"level":"info","message":"Web service loaded","timestamp":"2016-11-27T21:55:47.903Z"}
+{"level":"info","message":"Websocket loaded","timestamp":"2016-11-27T21:55:48.069Z"}
+{"level":"info","message":"0","timestamp":"2016-11-27T21:55:48.310Z"}
+{"level":"info","message":"Start service","timestamp":"2016-11-27T21:55:58.402Z"}
+{"level":"info","message":"Web service loaded","timestamp":"2016-11-27T21:55:58.576Z"}
+{"level":"info","message":"Websocket loaded","timestamp":"2016-11-27T21:55:58.745Z"}
+{"_id":{"_bsontype":"ObjectID","id":{"0":88,"1":59,"2":86,"3":15,"4":222,"5":240,"6":76,"7":38,"8":63,"9":237,"10":141,"11":246}},"name":"Real-time data provider","path":"./rtime.js","args":{},"level":"info","message":"","timestamp":"2016-11-27T21:55:58.994Z"}
+{"level":"info","message":"Start service","timestamp":"2016-11-27T22:06:40.591Z"}
+{"level":"info","message":"Web service loaded","timestamp":"2016-11-27T22:06:40.777Z"}
+{"level":"info","message":"Websocket loaded","timestamp":"2016-11-27T22:06:40.963Z"}
+{"_id":{"_bsontype":"ObjectID","id":{"0":88,"1":59,"2":86,"3":15,"4":222,"5":240,"6":76,"7":38,"8":63,"9":237,"10":141,"11":246}},"name":"Real-time data provider","path":"./rtime.js","args":{},"level":"info","message":"","timestamp":"2016-11-27T22:06:41.197Z"}
+{"level":"info","message":"Start service","timestamp":"2016-11-27T22:10:00.481Z"}
+{"level":"info","message":"Web service loaded","timestamp":"2016-11-27T22:10:00.642Z"}
+{"level":"info","message":"Websocket loaded","timestamp":"2016-11-27T22:10:00.835Z"}
+{"_id":{"_bsontype":"ObjectID","id":{"0":88,"1":59,"2":86,"3":15,"4":222,"5":240,"6":76,"7":38,"8":63,"9":237,"10":141,"11":246}},"name":"Real-time data provider","path":"./rtime.js","args":{},"level":"info","message":"","timestamp":"2016-11-27T22:10:01.067Z"}
+{"level":"info","message":"Start service","timestamp":"2016-11-27T22:10:55.470Z"}
+{"level":"info","message":"Web service loaded","timestamp":"2016-11-27T22:10:55.653Z"}
+{"level":"info","message":"Websocket loaded","timestamp":"2016-11-27T22:10:55.830Z"}
+{"_id":{"_bsontype":"ObjectID","id":{"0":88,"1":59,"2":86,"3":15,"4":222,"5":240,"6":76,"7":38,"8":63,"9":237,"10":141,"11":246}},"name":"Real-time data provider","path":"./rtime.js","args":{},"level":"info","message":"","timestamp":"2016-11-27T22:10:56.089Z"}
+{"level":"info","message":"Start service","timestamp":"2016-11-27T22:13:08.988Z"}
+{"level":"info","message":"Web service loaded","timestamp":"2016-11-27T22:13:09.183Z"}
+{"level":"info","message":"Websocket loaded","timestamp":"2016-11-27T22:13:09.341Z"}
+{"_id":{"_bsontype":"ObjectID","id":{"0":88,"1":59,"2":86,"3":15,"4":222,"5":240,"6":76,"7":38,"8":63,"9":237,"10":141,"11":246}},"name":"Real-time data provider","path":"./rtime.js","args":{},"level":"info","message":"","timestamp":"2016-11-27T22:13:09.573Z"}

@@ -1,18 +1,17 @@
+const util = require('util');
+var events = require("events");
 module.exports=function(port=1234,name='noname'){
 var winston = require('winston');
 var logger = new (winston.Logger)({
     level:'info',
     transports: [
       new (winston.transports.Console)(),
-      new (winston.transports.File)({ filename: './debug/web_engine.log' })
+      new (winston.transports.File)({ filename: './debug/web_engine_'+name+'.log' })
     ]
   });
 
 var url = require('url');
 var express=require('express');
-const util = require('util');
-var events = require("events");
-util.inherits(this, events.EventEmitter);
 var app=express();
 const http = require('http').Server(app);
 var fs = require('fs');
@@ -49,10 +48,12 @@ app.get('/bench',function(req,res)
 
 
 http.listen(port, hostname, () => {
-  logger('info',`Server running at http://${hostname}:${port}/`,name);
+  logger.log('info',`Server running at http://${hostname}:${port}/`);
 });
 
 this.http=http;
 this.app=app;
+
 }
+util.inherits(module.exports, events.EventEmitter);
 
