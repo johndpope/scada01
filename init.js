@@ -4,18 +4,18 @@ format.extend(String.prototype);
 var log = require('./logwriter.js').write;
 log('supervisor', '');
 log('supervisor', 'Start system');
-  log('supervisor', 'Load modules');
-  var webserver = require('./web_infr/webserver.js');
-  log('supervisor', '\t webserver loaded');
-  var rtsocket = require('./rtsocket.js');
-  log('supervisor', '\t rtsocket loaded');
-  const transport = rtsocket.start(webserver.http);
-  var perfmon = require('perfmon');
-  log('supervisor', '\t perfmon loaded');
-  var iec104 = require('./iec104.js');
-  log('supervisor', '\t iec104 loaded');
-  const odata = new (require('./odata.js'))(log);
-  var platform = require('os').platform(),
+log('supervisor', 'Load modules');
+var webserver = require('./web_infr/webserver.js');
+log('supervisor', '\t webserver loaded');
+var rtsocket = require('./rtsocket.js');
+log('supervisor', '\t rtsocket loaded');
+const transport = rtsocket.start(webserver.http);
+var perfmon = require('perfmon');
+log('supervisor', '\t perfmon loaded');
+var iec104 = require('./iec104.js');
+log('supervisor', '\t iec104 loaded');
+const odata = new (require('./odata.js'))(log);
+var platform = require('os').platform(),
     execFile = require('child_process').execFile,
     path = require('path');
   var TotalMemory = {};
