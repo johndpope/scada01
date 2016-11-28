@@ -19,6 +19,7 @@ module.exports = function (http,name="noname") {
 	io.set('transports', ['websocket']);
 	// Отключаем вывод полного лога - пригодится в production'е
 	var th=this;
+	this.handles=[];
 	// Навешиваем обработчик на подключение нового клиента
 	io.sockets.on('connection', function (socket) {
 		logger.info('Client %s (%s) connected',socket.id,socket.conn.remoteAddress)
@@ -33,6 +34,10 @@ module.exports = function (http,name="noname") {
 		socket.on('message', function (msg) {
 			logger.info('%s : %j',socket.id,msg)
 			var time = (new Date).toLocaleTimeString();
+			if(th.handles[msg.event])
+			{
+				th.handles[msg.event](msg,socket);
+			}
 			// Уведомляем клиента, что его сообщение успешно дошло до сервера
 			socket.json.send({ 'event': 'messageSent', 'name': ID, 'text': msg, 'time': time });
 			// Отсылаем сообщение остальным участникам чата
@@ -51,6 +56,7 @@ module.exports = function (http,name="noname") {
 	logger.stream({ start: -1 }).on('log', function(log) {
 		    th.emit('log',{ 'event': 'log','src':'web_socket_'+name, 'data': log });
     });
+	
 	this.io=io;
 }
 util.inherits(module.exports, events.EventEmitter);

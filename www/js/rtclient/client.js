@@ -21,6 +21,7 @@ window.onload = function () {
 	}
 	
 	socket.on('connect', function () {
+		$('.footer>.state').toggleClass('success');
 		socket.off('message');
 		socket.on('message', function (msg) {
 			// Добавляем в лог сообщение, заменив время, имя и текст на полученные
@@ -48,19 +49,11 @@ window.onload = function () {
 			console.log(msg);
 		});
 		// При нажатии <Enter> или кнопки отправляем текст
-		document.querySelector('#input').onkeypress = function (e) {
-			if (e.which == '13') {
-				// Отправляем содержимое input'а, закодированное в escape-последовательность
-				socket.send(escape(document.querySelector('#input').value));
-				// Очищаем input
-				document.querySelector('#input').value = '';
-			}
-		};
-		document.querySelector('#send').onclick = function () {
-			socket.send(escape(document.querySelector('#input').value));
-			document.querySelector('#input').value = '';
-		};
+		socket.json.send({event:'get_modules'});
 	});
+	socket.on('disconnect',function(){
+		$('.footer>.state').toggleClass('success');
+	})
 	//init button links
 	$('*[navigation=true]').on('click',function(e)
 	{
@@ -76,11 +69,11 @@ window.onload = function () {
 
 };
 var functs = {}
-functs.modules = function (msg) {
+functs.send_modules = function (msg) {
 	smodule={};
 	$.each(msg.data, function (k, e) {
 		var started=e.state==0?"stoped":'started';
-		
+		e.started=e.state==0?false:true;
 	//	viewmodel.smodule[e.id]=e;
 	});
 	viewmodel.smodule=msg.data;
@@ -106,6 +99,7 @@ functs.modules_upd = function (msg) {
 			for(var a in e)
 			{
 				viewmodel.smodule[i][a]=e[a];
+				viewmodel.smodule[i].started=e.state==0?false:true;
 			}
 		}
 	}
@@ -132,7 +126,8 @@ functs.perfmon = function (msg) {
 	memObj.animate(memperc);
 	}
 functs.log=function(msg){
-	var str='<span class="log_'+msg.data.level+' '+msg.src+'">'+msg.data.timestamp.replace('T',' ')+'('+msg.src+'): '+msg.data.message+'</span><br>';
+	var str='<span class="log_'+msg.data.level+' '+msg.src+'">'+msg.data.timestamp.replace('T',' ').replace('Z',' ')+'(<b>'+msg.src+'</b>): '+msg.data.message+'</span><br>';
+	$('.footer>.last_log').html(str);
 	dashlog(str);
 	}
 

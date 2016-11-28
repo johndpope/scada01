@@ -1,11 +1,12 @@
-var modules={};
+var modules=[];
 
 //Init logger
   var winston = require('winston');
   var logger = new (winston.Logger)({
       level:'info',
       transports: [
-        new (winston.transports.Console)(),
+        new (winston.transports.Console)({  handleExceptions: true,
+    humanReadableUnhandledException: true }),
         new (winston.transports.File)({ filename: './debug/service.log',    handleExceptions: true,
     humanReadableUnhandledException: true })]
       
@@ -37,7 +38,16 @@ var modules={};
     res.write(sres);
     res.end();
   });
-  //setInterval(function(){logger.info('test');},1000);
+
+  setInterval(function(){
+    if(modules[0])
+    {
+      modules[0].state=modules[0].state==0?1:0;
+   transport.io.json.send({ 'event': 'modules_upd', 'data': modules[0] });
+    }
+    
+  },1000);
+
   web.app.get('/getlogs',function(req,res)
   {
       var options = {
@@ -59,6 +69,10 @@ var modules={};
     });
 
   });
+  transport.handles['get_modules']=function(msg,socket)
+  {
+    socket.json.send({ 'event': 'send_modules', data:modules});
+  }
 //mongo
 
   var MongoClient = require('mongodb').MongoClient
@@ -77,14 +91,16 @@ var modules={};
     var collection = db.collection('modules');
     // Find some documents
     winston.profile('mongo read modules');
-    collection.find({}).toArray(function(err, docs) {
+    collection.find({}).each(function(err, docs) {
       assert.equal(err, null);
-      for(var m in docs)
-          logger.info(docs[m])
-      modules=docs;
+      if(docs){
+      var a= {id:docs._id.toString(),name:docs.name,path:docs.path,state:'0',rule:{},args:docs.args};
+      modules.push(a);
+      logger.info(a)
       winston.profile('mongo read modules');
+      }
       if(callback)
       callback(docs);
-    });
+    })//.then(function(){winston.profile('mongo read modules');});
   }
 /////
