@@ -6,6 +6,7 @@
     "express": "^4.14.0",
     "mongodb": "^2.2.11",
     "nedb": "^1.8.0",
+    "node-gyp": "^3.4.0",
     "pug": "^2.0.0-beta6",
     "string-format": "^0.5.0",
     "windows-cpu": "^0.1.4",

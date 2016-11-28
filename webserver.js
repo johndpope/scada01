@@ -9,7 +9,10 @@ var logger = new (winston.Logger)({
       new (winston.transports.File)({ filename: './debug/web_engine_'+name+'.log' })
     ]
   });
-
+  var th=this;
+logger.stream({ start: -1 }).on('log', function(log) {
+    th.emit('log',{ 'event': 'log','src':'web_engine_'+name,'data': log.data });
+  });
 var url = require('url');
 var express=require('express');
 var app=express();

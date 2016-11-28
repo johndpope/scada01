@@ -6,23 +6,38 @@ var modules={};
       level:'info',
       transports: [
         new (winston.transports.Console)(),
-        new (winston.transports.File)({ filename: './debug/service.log' })
-      ]
+        new (winston.transports.File)({ filename: './debug/service.log',    handleExceptions: true,
+    humanReadableUnhandledException: true })]
+      
     });
+  logger.exitOnError = false;
   logger.info('Start service');
 //init WebFace
   var webs=require('./webserver.js')
   var web=new webs(1234,'service');
+  web.on('log',sendLogExternal);
   logger.info('Web service loaded');
   var rtsocket = require('./rtsocket.js');
-  const transport = rtsocket.start(web.http);
+
+  var transport =new rtsocket(web.http);
+  transport.on('log',sendLogExternal);
   logger.info('Websocket loaded');
+  logger.stream({ start: -1 }).on('log', sendLog);
+  function sendLog(log)
+  {
+    transport.io.json.send({ 'event': 'log','src':'service', 'data': log })
+  }
+  function sendLogExternal(log)
+  {
+    transport.io.json.send(log)
+  }
   web.app.get('/getmodules',function(req,res)
   {
     var sres=JSON.stringify(modules);
     res.write(sres);
     res.end();
   });
+  //setInterval(function(){logger.info('test');},1000);
   web.app.get('/getlogs',function(req,res)
   {
       var options = {

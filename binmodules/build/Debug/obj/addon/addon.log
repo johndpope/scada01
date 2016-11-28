@@ -1,0 +1,4 @@
+﻿  test.cc
+  win_delay_load_hook.cc
+  Generating Code...
+LINK : fatal error LNK1104: cannot open file 'C:\Users\svp\.node-gyp\6.9.1\Debug\node.lib'

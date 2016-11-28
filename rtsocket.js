@@ -1,6 +1,8 @@
 var clbks = {};
-module.exports.callbacks = clbks;
-module.exports.start = function (http,name="noname") {
+const util = require('util');
+var events = require("events");
+
+module.exports = function (http,name="noname") {
 	var winston = require('winston');
 	var logger = new (winston.Logger)({
 		level: 'info',
@@ -9,13 +11,14 @@ module.exports.start = function (http,name="noname") {
 			new (winston.transports.File)({ filename: './debug/web_socket_'+name+'.log' })
 		]
 	});
+	this.callbacks = clbks;
 	var wsserver = require('socket.io');
 	var io = wsserver(http);
 	///io.listen(1234); 
 
 	io.set('transports', ['websocket']);
 	// Отключаем вывод полного лога - пригодится в production'е
-
+	var th=this;
 	// Навешиваем обработчик на подключение нового клиента
 	io.sockets.on('connection', function (socket) {
 		logger.info('Client %s (%s) connected',socket.id,socket.conn.remoteAddress)
@@ -41,8 +44,13 @@ module.exports.start = function (http,name="noname") {
 			var time = (new Date).toLocaleTimeString();
 			io.sockets.json.send({ 'event': 'userSplit', 'name': ID, 'time': time });
 		});
-		if (exports.callbacks['connect'])
-			exports.callbacks['connect'](socket);
+		if (th.callbacks['connect'])
+			th.callbacks['connect'](socket);
 	});
-	return io;
+	
+	logger.stream({ start: -1 }).on('log', function(log) {
+		    th.emit('log',{ 'event': 'log','src':'web_socket_'+name, 'data': log });
+    });
+	this.io=io;
 }
+util.inherits(module.exports, events.EventEmitter);

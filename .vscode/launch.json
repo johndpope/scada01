@@ -16,7 +16,7 @@
             "type": "node",
             "request": "launch",
             "name": "Test",
-            "program": "${workspaceRoot}/test.js",
+            "program": "${workspaceRoot}/bin.js",
             "cwd": "${workspaceRoot}"
             
         },

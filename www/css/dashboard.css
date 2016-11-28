@@ -103,3 +103,11 @@ body {
   display: inline-block;
   border-radius: 50%;
 }
+.web_socket_noname
+{
+  color: darkblue;
+}
+.service
+{
+  color:darkred;
+}

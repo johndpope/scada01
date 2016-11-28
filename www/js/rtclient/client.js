@@ -19,7 +19,9 @@ window.onload = function () {
 	} else {
 		socket = io.connect('http://127.0.0.1:8080');
 	}
+	
 	socket.on('connect', function () {
+		socket.off('message');
 		socket.on('message', function (msg) {
 			// Добавляем в лог сообщение, заменив время, имя и текст на полученные
 			console.log(msg);
@@ -31,7 +33,13 @@ window.onload = function () {
 
 
 		
-			dashlog(strings[msg.event].replace(/\[([a-z]+)\]/g, '<span class="$1">').replace(/\[\/[a-z]+\]/g, '</span>').replace(/\%time\%/, msg.time).replace(/\%name\%/, msg.name).replace(/\%text\%/, unescape(msg.text).replace('<', '&lt;').replace('>', '&gt;')) + '<br>');
+			dashlog(strings[msg.event].replace(/\[([a-z]+)\]/g, '<span class="$1">')
+			.replace(/\[\/[a-z]+\]/g, '</span>')
+			.replace(/\%time\%/, msg.time)
+			.replace(/\%name\%/, msg.name)
+			.replace(/\%text\%/, unescape(msg.text)
+			.replace('<', '&lt;')
+			.replace('>', '&gt;')) + '<br>');
 
 			// Прокручиваем лог в конец
 			document.querySelector('#log').scrollTop = document.querySelector('#log').scrollHeight;
@@ -104,12 +112,10 @@ functs.modules_upd = function (msg) {
 
 
 
-}
-functs.iec104=function(msg)
-{
+	}
+functs.iec104=function(msg){
 				
-			dashlog('<span>'+JSON.stringify(msg)+'</span><br>');
-}
+			dashlog('<span>'+JSON.stringify(msg)+'</span><br>');}
 functs.perfmon = function (msg) {
 	var cpuObj = $('#cpuLoad').data('radialIndicator');
 	var memObj = $('#ramLoad').data('radialIndicator');
@@ -124,14 +130,21 @@ functs.perfmon = function (msg) {
 	var memperc = user / (totalmem / 100);
 	cpuObj.animate(msg.data.counters['\\238(_total)\\6']);
 	memObj.animate(memperc);
-}
-function dashlog(msg)
-{
+	}
+functs.log=function(msg){
+	var str='<span class="log_'+msg.data.level+' '+msg.src+'">'+msg.data.timestamp.replace('T',' ')+'('+msg.src+'): '+msg.data.message+'</span><br>';
+	dashlog(str);
+	}
+
+
+
+////////
+function dashlog(msg){
 	var logwin=$('#log');
 	logwin.append(msg);
 	if(viewmodel.dash.logdata!='-')
 		viewmodel.dash.logdata+=msg;
-}
+	}
 function initIndicators() {
 	$('#cpuLoad').radialIndicator({
 		radius: 80,
@@ -153,9 +166,8 @@ function initIndicators() {
 		},
 		percentage: true
 	});
-}
-function navigate(div)
-{
+	}
+function navigate(div){
 	if(_divPreFuncs[viewmodel.currentdiv])
 			_divPreFuncs[viewmodel.currentdiv]();
 	$.ajax('/div_'+div).done(function(d){
@@ -164,27 +176,26 @@ function navigate(div)
 			_divfuncs[div]();
 		viewmodel.currentdiv=div;
 	})
-}
+	}
+
+
 
 
 var _divfuncs={};
-_divfuncs.dash=function()
-{
-initIndicators();
-$('#log').html(viewmodel.dash.logdata);
-}
-_divfuncs.modules=function()
-{
+_divfuncs.dash=function(){
+	initIndicators();
+	$('#log').html(viewmodel.dash.logdata);
+	}
+_divfuncs.modules=function(){
 	rivets.bind($('#tmodules'), {model: viewmodel})
-}
+	}
+
 var _divPreFuncs={};
-_divPreFuncs.dash=function()
-{
+_divPreFuncs.dash=function(){
 	viewmodel.dash.logdata=$('#log').html();
-}
+	}
 var testdata=[];
-function benchmark()
-{
+function benchmark(){
 	$.ajax('/bench').done(function(d){
 		 var dt=new Date();
 		testdata=JSON.parse(d);
@@ -193,4 +204,4 @@ function benchmark()
 		}).fail(function(f){
 			alert(f);
 		});
-}
+	}

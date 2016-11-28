@@ -1,3 +1,5 @@
 const addon = require('./binmodules/build/Release/addon');
 
-console.log(addon.hello()); // 'world'
+addon.doTask(function(s)
+{console.log(s);
+}); // 'world'
