@@ -74,6 +74,8 @@ functs.send_modules = function (msg) {
 	$.each(msg.data, function (k, e) {
 		var started=e.state==0?"stoped":'started';
 		e.started=e.state==0?false:true;
+		e.stoped=!e.started;
+
 	//	viewmodel.smodule[e.id]=e;
 	});
 	viewmodel.smodule=msg.data;
@@ -100,6 +102,7 @@ functs.modules_upd = function (msg) {
 			{
 				viewmodel.smodule[i][a]=e[a];
 				viewmodel.smodule[i].started=e.state==0?false:true;
+				viewmodel.smodule[i].stoped=e.state==0?true:false;
 			}
 		}
 	}

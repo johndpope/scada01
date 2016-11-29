@@ -5,6 +5,8 @@ table(class="table",id="tmodules")
         th Название
         th Время старта
         th 
+            button(class="btn btn-success")
+                    span(class="glyphicon glyphicon-plus",aria-hidden="true")
     tbody
         tr(rv-each-mod="model.smodule")
             td 
@@ -14,4 +16,6 @@ table(class="table",id="tmodules")
             td {mod.name}
             td
                 button(class="btn btn-default")
-                    span(class="glyphicon glyphicon-play",aria-hidden="true")
+                    span(class="glyphicon" rv-class-glyphicon-stop="mod.started" aria-hidden="true" rv-class-glyphicon-play="mod.stoped")
+                button(class="btn btn-warning")
+                    span(class="glyphicon glyphicon-wrench",aria-hidden="true")

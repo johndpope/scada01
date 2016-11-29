@@ -1,4 +1,9 @@
-var modules = [];
+
+var model={
+  modules:[],
+  users:[]
+}
+var appl=this;
 const fs = require('fs');
 //Init logger
 var winston = require('winston');
@@ -34,16 +39,21 @@ function sendLog(log) {
 function sendLogExternal(log) {
   transport.io.json.send(log)
 }
-web.app.get('/getmodules', function (req, res) {
-  var sres = JSON.stringify(modules);
-  res.write(sres);
-  res.end();
-});
+//web modules init
+Object.defineProperty(appl,"model",{set:(v)=>{model=v;synchData()},get:()=>{return model;}});
+var r_modules = require('./routers/modules');
+web.app.use('/modules', r_modules);
+
+
+r_modules.model=appl.model;
+
+///
 
 setInterval(function () {
-  if (modules[0]) {
-    modules[0].state = modules[0].state == 0 ? 1 : 0;
-    transport.io.json.send({ 'event': 'modules_upd', 'data': modules[0] });
+  if (appl.model.modules[0]) {
+    appl.model.modules[0].state = appl.model.modules[0].state == 0 ? 1 : 0;
+    
+    transport.io.json.send({ 'event': 'modules_upd', 'data': appl.model.modules[0] });
   }
 
 }, 1000);
@@ -136,7 +146,7 @@ web.app.post('/getlogs', function (req, res) {
 
 });
 transport.handles['get_modules'] = function (msg, socket) {
-  socket.json.send({ 'event': 'send_modules', data: modules });
+  socket.json.send({ 'event': 'send_modules', data: appl.model.modules });
 }
 //mongo
 
@@ -160,7 +170,7 @@ var loadModules = function (db, callback) {
     assert.equal(err, null);
     if (docs) {
       var a = { id: docs._id.toString(), name: docs.name, path: docs.path, state: '0', rule: {}, args: docs.args };
-      modules.push(a);
+      appl.model.modules.push(a);
       logger.info(a)
       winston.profile('mongo read modules');
     }
@@ -168,4 +178,6 @@ var loadModules = function (db, callback) {
       callback(docs);
   })//.then(function(){winston.profile('mongo read modules');});
 }
+
+
 /////
