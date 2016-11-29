@@ -21,6 +21,11 @@ var fs = require('fs');
 var functs = {};
 const hostname = '0.0.0.0';
 //const http = http.createServer(webserver.processRequest);
+var bodyParser = require('body-parser')
+app.use(bodyParser.json() );       // to support JSON-encoded bodies
+app.use(bodyParser.urlencoded({     // to support URL-encoded bodies
+  extended: true
+})); 
 app.use(express.static('www'));
 app.set('view engine', 'pug');
 app.get(/\/div_/, function (req, res) {

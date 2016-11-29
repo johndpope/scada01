@@ -3,6 +3,7 @@
   "email": "marikun@marikun.ru",
   "url": "https://github.com/marikuns",
   "dependencies": {
+    "body-parser": "^1.15.2",
     "express": "^4.14.0",
     "mongodb": "^2.2.11",
     "nedb": "^1.8.0",
@@ -10,6 +11,7 @@
     "pug": "^2.0.0-beta6",
     "string-format": "^0.5.0",
     "windows-cpu": "^0.1.4",
-    "winston": "^2.3.0"
+    "winston": "^2.3.0",
+    "zip-paths": "^0.4.0"
   }
 }

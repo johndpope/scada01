@@ -11,15 +11,17 @@
 .footer>.state
 {
 background: rgb(255, 200, 200);
-width:100px;
+border:1px solid lightcoral;
+width:45px;
 }
 .footer>.state.success
 {
 background: rgb(200, 255, 200);
-width:100px;
+border:1px solid lightgreen;
+width:45px;
 }
 .footer>.last_log{
-    margin-top: 12px;
+    margin-top: 6px;
     font-family: 'Courier';
 }
 body{
@@ -33,4 +35,9 @@ body{
     line-height: 1.42857143;
     vertical-align: middle;
     border-top: 1px solid #ddd;
+}
+.mlog>span
+{
+    font-family: 'Courier';
+    font-size: 16px;
 }

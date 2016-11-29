@@ -184,6 +184,36 @@ _divfuncs.dash=function(){
 _divfuncs.modules=function(){
 	rivets.bind($('#tmodules'), {model: viewmodel})
 	}
+_divfuncs.logs=function()	{
+		$.ajax('/getlogslist',{dataType:'json'}).done(function(d){
+			var loges={data:d};
+			rivets.bind($('#logbtn'),{loges:loges});
+			setTimeout(()=>{
+				$('.logbtn.btn-default').on('click',(s)=>{
+					$.ajax('getlogs',{method:'post',dataType:'json',data:{file:$(s.target).html()}}).done(
+						(d)=>{
+							$('.mlog').html('');
+							$.each(d.file,function(k,e){
+								var line='<b>'+e.timestamp.replace(new RegExp(/[T,Z]/,'g'),' ')+'</b>:'+e.message;
+								$('.mlog').prepend('<span>'+line+'</span><br>');
+							})
+						}
+					)
+
+				});},200);
+			$('.logbtn.btn-success').on('click',()=>{
+				var link = document.createElement('a');
+				link.setAttribute('href','download_all_logs');
+				link.setAttribute('download','download');
+				onload=link.click();
+
+			})
+
+			}
+
+		);
+
+	}
 
 var _divPreFuncs={};
 _divPreFuncs.dash=function(){
