@@ -312,3 +312,7 @@
 {"level":"info","message":"Web service loaded","timestamp":"2016-11-29T20:41:14.203Z"}
 {"level":"info","message":"Websocket loaded","timestamp":"2016-11-29T20:41:14.351Z"}
 {"id":"583b560fdef04c263fed8df6","name":"Real-time data provider","path":"./rtime.js","state":"0","rule":{},"args":{},"level":"info","message":"","timestamp":"2016-11-29T20:41:17.426Z"}
+{"level":"info","message":"Start service","timestamp":"2016-11-29T22:05:42.769Z"}
+{"level":"info","message":"Web service loaded","timestamp":"2016-11-29T22:05:42.937Z"}
+{"level":"info","message":"Websocket loaded","timestamp":"2016-11-29T22:05:43.077Z"}
+{"id":"583b560fdef04c263fed8df6","name":"Real-time data provider","path":"./rtime.js","state":"0","rule":{},"args":{},"level":"info","message":"","timestamp":"2016-11-29T22:05:49.724Z"}

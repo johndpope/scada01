@@ -153,7 +153,7 @@ transport.handles['get_modules'] = function (msg, socket) {
 var MongoClient = require('mongodb').MongoClient
   , assert = require('assert');
 // Connection URL
-var url = 'mongodb://192.168.0.111:27017/scdme';
+var url = 'mongodb://cstate.marikun.ru:443/scdme';
 // Use connect method to connect to the server
 winston.profile('mongo connect');
 MongoClient.connect(url, function (err, db) {
