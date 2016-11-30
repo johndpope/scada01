@@ -5,7 +5,7 @@ table(class="table",id="tmodules")
         th Название
         th Время старта
         th 
-            button(class="btn btn-success")
+            button(class="btn btn-success" id="showaddmbut")
                     span(class="glyphicon glyphicon-plus",aria-hidden="true")
     tbody
         tr(rv-each-mod="model.smodule")
@@ -15,7 +15,10 @@ table(class="table",id="tmodules")
             td {mod.name}
             td {mod.name}
             td
-                button(class="btn btn-default")
-                    span(class="glyphicon" rv-class-glyphicon-stop="mod.started" aria-hidden="true" rv-class-glyphicon-play="mod.stoped")
-                button(class="btn btn-warning")
-                    span(class="glyphicon glyphicon-wrench",aria-hidden="true")
+                div(class="btn-group" role="group" aria-label="..." rv-data-id="mod.id")
+                    button(class="btn btn-default" rv-on-click="mod.startstop")
+                        span(class="glyphicon" rv-class-glyphicon-stop="mod.started" aria-hidden="true" rv-class-glyphicon-play="mod.stoped")
+                    button(class="btn btn-warning" rv-on-click="mod.edit")
+                        span(class="glyphicon glyphicon-wrench",aria-hidden="true")
+                    button(class="btn btn-danger" rv-on-click="mod.delete")
+                        span(class="glyphicon glyphicon-minus",aria-hidden="true")

@@ -75,6 +75,7 @@ functs.send_modules = function (msg) {
 		var started=e.state==0?"stoped":'started';
 		e.started=e.state==0?false:true;
 		e.stoped=!e.started;
+		expandElem(e,'modules');
 
 	//	viewmodel.smodule[e.id]=e;
 	});
@@ -103,12 +104,15 @@ functs.modules_upd = function (msg) {
 				viewmodel.smodule[i][a]=e[a];
 				viewmodel.smodule[i].started=e.state==0?false:true;
 				viewmodel.smodule[i].stoped=e.state==0?true:false;
+				return;
 			}
 		}
 	}
-
-
-
+	var newm=e;
+	newm.started=e.state==0?false:true;
+	newm.stoped=e.state==0?true:false;
+	
+	viewmodel.smodule.push(newm);
 	}
 functs.iec104=function(msg){
 				
@@ -185,6 +189,24 @@ _divfuncs.dash=function(){
 	$('#log').html(viewmodel.dash.logdata);
 	}
 _divfuncs.modules=function(){
+
+	var addm=function()
+	{
+		
+		$.ajax('/modules/new',{method:'post',data:{
+			name:$('#module-name').val(),
+			desc:$('#module-desc').val(),
+			path:$('#module-path').val(),
+			args:$('#module-args').val()}}).done((d)=>{				
+				$('.add-module-mod').modal('hide');});
+	}
+	$.get('/divmodals_addmodule',function(a){
+		$('.main').append(a);
+		$('#addmodbut').on('click',addm);
+		
+	});
+	$('#showaddmbut').on('click',()=>{$('.add-module-mod').modal('show');});
+
 	rivets.bind($('#tmodules'), {model: viewmodel})
 	}
 _divfuncs.logs=function()	{
@@ -233,3 +255,33 @@ function benchmark(){
 			alert(f);
 		});
 	}
+
+function expandElem(el,type)
+{
+	var ext=obj_exts[type];
+	if(ext)
+	{
+		for(property in ext)
+		{
+			el[property]=ext[property];
+		}
+	}
+}
+var obj_exts={
+	modules:
+	{
+		startstop:function()
+		{
+			$.ajax('/modules/startstop',{method:'post',data:{id:$(this).parent().data('id')}});
+			
+		},
+		edit:function()
+		{
+			$.ajax('/modules/edit',{method:'post',data:{id:$(this).parent().data('id')}});
+		},
+		delete:function()
+		{
+			$.ajax('/modules/delete',{method:'post',data:{id:$(this).parent().data('id')}});
+		},
+	}
+};

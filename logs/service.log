@@ -316,3 +316,968 @@
 {"level":"info","message":"Web service loaded","timestamp":"2016-11-29T22:05:42.937Z"}
 {"level":"info","message":"Websocket loaded","timestamp":"2016-11-29T22:05:43.077Z"}
 {"id":"583b560fdef04c263fed8df6","name":"Real-time data provider","path":"./rtime.js","state":"0","rule":{},"args":{},"level":"info","message":"","timestamp":"2016-11-29T22:05:49.724Z"}
+{"level":"info","message":"Start service","timestamp":"2016-11-30T07:20:44.181Z"}
+{"level":"info","message":"Web service loaded","timestamp":"2016-11-30T07:20:44.777Z"}
+{"level":"info","message":"Websocket loaded","timestamp":"2016-11-30T07:20:45.095Z"}
+{"id":"583b560fdef04c263fed8df6","name":"Real-time data provider","path":"./rtime.js","state":"0","rule":{},"args":{},"level":"info","message":"","timestamp":"2016-11-30T07:20:46.848Z"}
+{"level":"info","message":"Start service","timestamp":"2016-11-30T07:20:54.081Z"}
+{"level":"info","message":"Web service loaded","timestamp":"2016-11-30T07:20:54.603Z"}
+{"level":"info","message":"Websocket loaded","timestamp":"2016-11-30T07:20:54.968Z"}
+{"id":"583b560fdef04c263fed8df6","name":"Real-time data provider","path":"./rtime.js","state":"0","rule":{},"args":{},"level":"info","message":"","timestamp":"2016-11-30T07:20:55.889Z"}
+{"level":"info","message":"Start service","timestamp":"2016-11-30T07:42:21.795Z"}
+{"level":"info","message":"Web service loaded","timestamp":"2016-11-30T07:42:22.347Z"}
+{"level":"info","message":"Websocket loaded","timestamp":"2016-11-30T07:42:22.712Z"}
+{"id":"583b560fdef04c263fed8df6","name":"Real-time data provider","path":"./rtime.js","state":"0","rule":{},"args":{},"level":"info","message":"","timestamp":"2016-11-30T07:42:23.681Z"}
+{"level":"info","message":"Start service","timestamp":"2016-11-30T07:43:22.721Z"}
+{"level":"info","message":"Web service loaded","timestamp":"2016-11-30T07:43:23.083Z"}
+{"level":"info","message":"Websocket loaded","timestamp":"2016-11-30T07:43:23.396Z"}
+{"id":"583b560fdef04c263fed8df6","name":"Real-time data provider","path":"./rtime.js","state":"0","rule":{},"args":{},"level":"info","message":"","timestamp":"2016-11-30T07:43:24.175Z"}
+{"level":"info","message":"Start service","timestamp":"2016-11-30T07:43:55.548Z"}
+{"level":"info","message":"Web service loaded","timestamp":"2016-11-30T07:43:55.950Z"}
+{"level":"info","message":"Websocket loaded","timestamp":"2016-11-30T07:43:56.294Z"}
+{"id":"583b560fdef04c263fed8df6","name":"Real-time data provider","path":"./rtime.js","state":"0","rule":{},"args":{},"level":"info","message":"","timestamp":"2016-11-30T07:43:56.986Z"}
+{"level":"info","message":"Start service","timestamp":"2016-11-30T07:44:10.168Z"}
+{"level":"info","message":"Web service loaded","timestamp":"2016-11-30T07:44:10.499Z"}
+{"level":"info","message":"Websocket loaded","timestamp":"2016-11-30T07:44:10.754Z"}
+{"id":"583b560fdef04c263fed8df6","name":"Real-time data provider","path":"./rtime.js","state":"0","rule":{},"args":{},"level":"info","message":"","timestamp":"2016-11-30T07:44:11.887Z"}
+{"level":"info","message":"Start service","timestamp":"2016-11-30T07:44:22.990Z"}
+{"level":"info","message":"Web service loaded","timestamp":"2016-11-30T07:44:23.281Z"}
+{"level":"info","message":"Websocket loaded","timestamp":"2016-11-30T07:44:23.512Z"}
+{"id":"583b560fdef04c263fed8df6","name":"Real-time data provider","path":"./rtime.js","state":"0","rule":{},"args":{},"level":"info","message":"","timestamp":"2016-11-30T07:44:24.053Z"}
+{"level":"info","message":"Start service","timestamp":"2016-11-30T08:16:20.160Z"}
+{"level":"info","message":"Web service loaded","timestamp":"2016-11-30T08:16:20.575Z"}
+{"level":"info","message":"Websocket loaded","timestamp":"2016-11-30T08:16:20.921Z"}
+{"date":"Wed Nov 30 2016 11:16:29 GMT+0300 (RTZ 2 (зима))","process":{"pid":3276,"uid":null,"gid":null,"cwd":"d:\\Development\\nodeJS\\scada\\scada01","execPath":"C:\\nodejs\\node.exe","version":"v6.9.1","argv":["C:\\nodejs\\node.exe","d:\\Development\\nodeJS\\scada\\scada01\\app.js"],"memoryUsage":{"rss":63528960,"heapTotal":37785600,"heapUsed":24406144}},"os":{"loadavg":[0,0,0],"uptime":774782.5711295},"trace":[{"column":11,"file":"d:\\Development\\nodeJS\\scada\\scada01\\app.js","function":"","line":45,"method":null,"native":false},{"column":32,"file":"module.js","function":"Module._compile","line":570,"method":"_compile","native":false},{"column":10,"file":"module.js","function":"Object.Module._extensions..js","line":579,"method":"Module._extensions..js","native":false},{"column":32,"file":"module.js","function":"Module.load","line":487,"method":"load","native":false},{"column":12,"file":"module.js","function":"tryModuleLoad","line":446,"method":null,"native":false},{"column":3,"file":"module.js","function":"Function.Module._load","line":438,"method":"Module._load","native":false},{"column":10,"file":"module.js","function":"Timeout.Module.runMain [as _onTimeout]","line":604,"method":"Module.runMain [as _onTimeout]","native":false},{"column":14,"file":"timers.js","function":"ontimeout","line":365,"method":null,"native":false},{"column":5,"file":"timers.js","function":"tryOnTimeout","line":237,"method":null,"native":false},{"column":5,"file":"timers.js","function":"Timer.listOnTimeout","line":207,"method":"listOnTimeout","native":false}],"stack":["TypeError: r_modules.on is not a function","    at Object.<anonymous> (d:\\Development\\nodeJS\\scada\\scada01\\app.js:45:11)","    at Module._compile (module.js:570:32)","    at Object.Module._extensions..js (module.js:579:10)","    at Module.load (module.js:487:32)","    at tryModuleLoad (module.js:446:12)","    at Function.Module._load (module.js:438:3)","    at Timeout.Module.runMain [as _onTimeout] (module.js:604:10)","    at ontimeout (timers.js:365:14)","    at tryOnTimeout (timers.js:237:5)","    at Timer.listOnTimeout (timers.js:207:5)"],"level":"error","message":"uncaughtException: r_modules.on is not a function","timestamp":"2016-11-30T08:16:30.146Z"}
+{"level":"info","message":"Start service","timestamp":"2016-11-30T08:18:50.192Z"}
+{"level":"info","message":"Web service loaded","timestamp":"2016-11-30T08:18:50.549Z"}
+{"level":"info","message":"Websocket loaded","timestamp":"2016-11-30T08:18:50.839Z"}
+{"date":"Wed Nov 30 2016 11:18:55 GMT+0300 (RTZ 2 (зима))","process":{"pid":12776,"uid":null,"gid":null,"cwd":"d:\\Development\\nodeJS\\scada\\scada01","execPath":"C:\\nodejs\\node.exe","version":"v6.9.1","argv":["C:\\nodejs\\node.exe","d:\\Development\\nodeJS\\scada\\scada01\\app.js"],"memoryUsage":{"rss":57638912,"heapTotal":38834176,"heapUsed":23648840}},"os":{"loadavg":[0,0,0],"uptime":774927.9116621},"trace":[{"column":null,"file":null,"function":"Function.setPrototypeOf","line":null,"method":"setPrototypeOf","native":true},{"column":10,"file":"util.js","function":"Object.exports.inherits","line":973,"method":"exports.inherits","native":false},{"column":6,"file":"d:\\Development\\nodeJS\\scada\\scada01\\routers\\modules.js","function":"","line":7,"method":null,"native":false},{"column":32,"file":"module.js","function":"Module._compile","line":570,"method":"_compile","native":false},{"column":10,"file":"module.js","function":"Object.Module._extensions..js","line":579,"method":"Module._extensions..js","native":false},{"column":32,"file":"module.js","function":"Module.load","line":487,"method":"load","native":false},{"column":12,"file":"module.js","function":"tryModuleLoad","line":446,"method":null,"native":false},{"column":3,"file":"module.js","function":"Function.Module._load","line":438,"method":"Module._load","native":false},{"column":17,"file":"module.js","function":"Module.require","line":497,"method":"require","native":false},{"column":19,"file":"internal/module.js","function":"require","line":20,"method":null,"native":false}],"stack":["TypeError: Object.setPrototypeOf called on null or undefined","    at Function.setPrototypeOf (native)","    at Object.exports.inherits (util.js:973:10)","    at Object.<anonymous> (d:\\Development\\nodeJS\\scada\\scada01\\routers\\modules.js:7:6)","    at Module._compile (module.js:570:32)","    at Object.Module._extensions..js (module.js:579:10)","    at Module.load (module.js:487:32)","    at tryModuleLoad (module.js:446:12)","    at Function.Module._load (module.js:438:3)","    at Module.require (module.js:497:17)","    at require (internal/module.js:20:19)"],"level":"error","message":"uncaughtException: Object.setPrototypeOf called on null or undefined","timestamp":"2016-11-30T08:18:55.487Z"}
+{"level":"info","message":"Start service","timestamp":"2016-11-30T08:19:18.582Z"}
+{"level":"info","message":"Web service loaded","timestamp":"2016-11-30T08:19:18.918Z"}
+{"level":"info","message":"Websocket loaded","timestamp":"2016-11-30T08:19:19.216Z"}
+{"date":"Wed Nov 30 2016 11:19:26 GMT+0300 (RTZ 2 (зима))","process":{"pid":17256,"uid":null,"gid":null,"cwd":"d:\\Development\\nodeJS\\scada\\scada01","execPath":"C:\\nodejs\\node.exe","version":"v6.9.1","argv":["C:\\nodejs\\node.exe","d:\\Development\\nodeJS\\scada\\scada01\\app.js"],"memoryUsage":{"rss":57393152,"heapTotal":36737024,"heapUsed":13473880}},"os":{"loadavg":[0,0,0],"uptime":774959.1447851},"trace":[{"column":null,"file":null,"function":"Function.setPrototypeOf","line":null,"method":"setPrototypeOf","native":true},{"column":10,"file":"util.js","function":"Object.exports.inherits","line":973,"method":"exports.inherits","native":false},{"column":6,"file":"d:\\Development\\nodeJS\\scada\\scada01\\routers\\modules.js","function":"","line":7,"method":null,"native":false},{"column":32,"file":"module.js","function":"Module._compile","line":570,"method":"_compile","native":false},{"column":10,"file":"module.js","function":"Object.Module._extensions..js","line":579,"method":"Module._extensions..js","native":false},{"column":32,"file":"module.js","function":"Module.load","line":487,"method":"load","native":false},{"column":12,"file":"module.js","function":"tryModuleLoad","line":446,"method":null,"native":false},{"column":3,"file":"module.js","function":"Function.Module._load","line":438,"method":"Module._load","native":false},{"column":17,"file":"module.js","function":"Module.require","line":497,"method":"require","native":false},{"column":19,"file":"internal/module.js","function":"require","line":20,"method":null,"native":false}],"stack":["TypeError: Object.setPrototypeOf called on null or undefined","    at Function.setPrototypeOf (native)","    at Object.exports.inherits (util.js:973:10)","    at Object.<anonymous> (d:\\Development\\nodeJS\\scada\\scada01\\routers\\modules.js:7:6)","    at Module._compile (module.js:570:32)","    at Object.Module._extensions..js (module.js:579:10)","    at Module.load (module.js:487:32)","    at tryModuleLoad (module.js:446:12)","    at Function.Module._load (module.js:438:3)","    at Module.require (module.js:497:17)","    at require (internal/module.js:20:19)"],"level":"error","message":"uncaughtException: Object.setPrototypeOf called on null or undefined","timestamp":"2016-11-30T08:19:26.737Z"}
+{"level":"info","message":"Start service","timestamp":"2016-11-30T08:21:13.209Z"}
+{"level":"info","message":"Web service loaded","timestamp":"2016-11-30T08:21:13.520Z"}
+{"level":"info","message":"Websocket loaded","timestamp":"2016-11-30T08:21:13.797Z"}
+{"id":"583b560fdef04c263fed8df6","name":"Real-time data provider","path":"./rtime.js","state":"0","rule":{},"args":{},"level":"info","message":"","timestamp":"2016-11-30T08:21:22.404Z"}
+{"name":"1","desc":"2","path":"3","args":"4","level":"info","message":"Create module","timestamp":"2016-11-30T08:21:24.961Z"}
+{"name":"jhg","desc":"jhg","path":"jhg","args":"jhg","level":"info","message":"Create module","timestamp":"2016-11-30T08:21:48.820Z"}
+{"level":"info","message":"Start service","timestamp":"2016-11-30T08:22:27.170Z"}
+{"level":"info","message":"Web service loaded","timestamp":"2016-11-30T08:22:27.517Z"}
+{"level":"info","message":"Websocket loaded","timestamp":"2016-11-30T08:22:27.810Z"}
+{"id":"583b560fdef04c263fed8df6","name":"Real-time data provider","path":"./rtime.js","state":"0","rule":{},"args":{},"level":"info","message":"","timestamp":"2016-11-30T08:22:33.149Z"}
+{"level":"info","message":"Create module {\"name\":\"hgf\",\"desc\":\"hf\",\"path\":\"hf\",\"args\":\"hgf\"}","timestamp":"2016-11-30T08:22:51.952Z"}
+{"level":"info","message":"Create module {\"name\":\"\",\"desc\":\"\",\"path\":\"\",\"args\":\"\"}","timestamp":"2016-11-30T08:23:12.562Z"}
+{"level":"info","message":"Start service","timestamp":"2016-11-30T08:32:36.962Z"}
+{"level":"info","message":"Web service loaded","timestamp":"2016-11-30T08:32:37.304Z"}
+{"level":"info","message":"Websocket loaded","timestamp":"2016-11-30T08:32:37.601Z"}
+{"level":"info","message":"Start service","timestamp":"2016-11-30T08:33:27.293Z"}
+{"level":"info","message":"Web service loaded","timestamp":"2016-11-30T08:33:27.618Z"}
+{"level":"info","message":"Websocket loaded","timestamp":"2016-11-30T08:33:27.880Z"}
+{"level":"info","message":"Start service","timestamp":"2016-11-30T08:34:34.236Z"}
+{"level":"info","message":"Web service loaded","timestamp":"2016-11-30T08:34:34.577Z"}
+{"level":"info","message":"Websocket loaded","timestamp":"2016-11-30T08:34:34.900Z"}
+{"id":"583b560fdef04c263fed8df6","name":"Real-time data provider","path":"./rtime.js","state":"0","rule":{},"args":{},"level":"info","message":"","timestamp":"2016-11-30T08:34:38.615Z"}
+{"level":"info","message":"Create module {\"name\":\"Test\",\"desc\":\"Module add test\",\"path\":\"./rt/test.js\",\"args\":\"--port:4432\"}","timestamp":"2016-11-30T08:35:10.037Z"}
+{"level":"info","message":"Start service","timestamp":"2016-11-30T08:36:29.193Z"}
+{"level":"info","message":"Web service loaded","timestamp":"2016-11-30T08:36:29.531Z"}
+{"level":"info","message":"Websocket loaded","timestamp":"2016-11-30T08:36:29.793Z"}
+{"id":"583b560fdef04c263fed8df6","name":"Real-time data provider","path":"./rtime.js","state":"0","rule":{},"args":{},"level":"info","message":"","timestamp":"2016-11-30T08:36:33.109Z"}
+{"level":"info","message":"Create module {\"name\":\"Test\",\"desc\":\"Module add test\",\"path\":\"./rt/test.js\",\"args\":\"--port:4432\"}","timestamp":"2016-11-30T08:36:35.730Z"}
+{"level":"info","message":"Start service","timestamp":"2016-11-30T08:39:26.628Z"}
+{"level":"info","message":"Web service loaded","timestamp":"2016-11-30T08:39:27.006Z"}
+{"level":"info","message":"Websocket loaded","timestamp":"2016-11-30T08:39:27.334Z"}
+{"id":"583b560fdef04c263fed8df6","name":"Real-time data provider","path":"./rtime.js","state":"0","rule":{},"args":{},"level":"info","message":"","timestamp":"2016-11-30T08:39:29.832Z"}
+{"id":"583e8f9341909c4fb86a2a19","name":"Test","path":"./rt/test.js","state":"0","rule":{},"args":{"str":"--port:4432"},"level":"info","message":"","timestamp":"2016-11-30T08:39:30.583Z"}
+{"level":"info","message":"Start service","timestamp":"2016-11-30T08:41:16.555Z"}
+{"level":"info","message":"Web service loaded","timestamp":"2016-11-30T08:41:16.922Z"}
+{"level":"info","message":"Websocket loaded","timestamp":"2016-11-30T08:41:17.176Z"}
+{"id":"583b560fdef04c263fed8df6","name":"Real-time data provider","path":"./rtime.js","state":"0","rule":{},"args":{},"level":"info","message":"","timestamp":"2016-11-30T08:41:20.845Z"}
+{"id":"583e8f9341909c4fb86a2a19","name":"Test","path":"./rt/test.js","state":"0","rule":{},"args":{"str":"--port:4432"},"level":"info","message":"","timestamp":"2016-11-30T08:41:20.849Z"}
+{"level":"info","message":"Create module {\"name\":\"Test2\",\"desc\":\"Test2\",\"path\":\"Test2\",\"args\":\"Test2\"}","timestamp":"2016-11-30T08:41:35.848Z"}
+{"id":"583b560fdef04c263fed8df6","name":"Real-time data provider","path":"./rtime.js","state":"0","rule":{},"args":{},"level":"info","message":"","timestamp":"2016-11-30T08:41:36.016Z"}
+{"id":"583e8f9341909c4fb86a2a19","name":"Test","path":"./rt/test.js","state":"0","rule":{},"args":{"str":"--port:4432"},"level":"info","message":"","timestamp":"2016-11-30T08:41:36.017Z"}
+{"id":"583e90bf6ce7881e0c33f3f1","name":"Test2","path":"Test2","state":"0","rule":{},"args":{"str":"Test2"},"level":"info","message":"","timestamp":"2016-11-30T08:41:36.017Z"}
+{"level":"info","message":"Start service","timestamp":"2016-11-30T08:42:37.021Z"}
+{"level":"info","message":"Web service loaded","timestamp":"2016-11-30T08:42:37.309Z"}
+{"level":"info","message":"Websocket loaded","timestamp":"2016-11-30T08:42:37.560Z"}
+{"id":"583b560fdef04c263fed8df6","name":"Real-time data provider","path":"./rtime.js","state":"0","rule":{},"args":{},"level":"info","message":"","timestamp":"2016-11-30T08:42:38.223Z"}
+{"id":"583e8f9341909c4fb86a2a19","name":"Test","path":"./rt/test.js","state":"0","rule":{},"args":{"str":"--port:4432"},"level":"info","message":"","timestamp":"2016-11-30T08:42:38.224Z"}
+{"id":"583e90bf6ce7881e0c33f3f1","name":"Test2","path":"Test2","state":"0","rule":{},"args":{"str":"Test2"},"level":"info","message":"","timestamp":"2016-11-30T08:42:38.225Z"}
+{"level":"info","message":"Create module {\"name\":\"Test3\",\"desc\":\"Test3\",\"path\":\"Test3\",\"args\":\"Test3\"}","timestamp":"2016-11-30T08:42:53.065Z"}
+{"id":"583b560fdef04c263fed8df6","name":"Real-time data provider","path":"./rtime.js","state":"0","rule":{},"args":{},"level":"info","message":"","timestamp":"2016-11-30T08:42:53.191Z"}
+{"id":"583e8f9341909c4fb86a2a19","name":"Test","path":"./rt/test.js","state":"0","rule":{},"args":{"str":"--port:4432"},"level":"info","message":"","timestamp":"2016-11-30T08:42:53.193Z"}
+{"id":"583e90bf6ce7881e0c33f3f1","name":"Test2","path":"Test2","state":"0","rule":{},"args":{"str":"Test2"},"level":"info","message":"","timestamp":"2016-11-30T08:42:53.193Z"}
+{"id":"583e910d3e59484fe8a21ec6","name":"Test3","path":"Test3","state":"0","rule":{},"args":{"str":"Test3"},"level":"info","message":"","timestamp":"2016-11-30T08:42:53.194Z"}
+{"level":"info","message":"Create module {\"name\":\"Test4\",\"desc\":\"Test4\",\"path\":\"Test4\",\"args\":\"Test4\"}","timestamp":"2016-11-30T08:43:25.026Z"}
+{"id":"583b560fdef04c263fed8df6","name":"Real-time data provider","path":"./rtime.js","state":"0","rule":{},"args":{},"level":"info","message":"","timestamp":"2016-11-30T08:43:25.084Z"}
+{"level":"info","message":"Start service","timestamp":"2016-11-30T08:43:40.470Z"}
+{"level":"info","message":"Web service loaded","timestamp":"2016-11-30T08:43:40.844Z"}
+{"level":"info","message":"Websocket loaded","timestamp":"2016-11-30T08:43:41.144Z"}
+{"id":"583b560fdef04c263fed8df6","name":"Real-time data provider","path":"./rtime.js","state":"0","rule":{},"args":{},"level":"info","message":"","timestamp":"2016-11-30T08:43:42.003Z"}
+{"id":"583e8f9341909c4fb86a2a19","name":"Test","path":"./rt/test.js","state":"0","rule":{},"args":{"str":"--port:4432"},"level":"info","message":"","timestamp":"2016-11-30T08:43:42.004Z"}
+{"id":"583e90bf6ce7881e0c33f3f1","name":"Test2","path":"Test2","state":"0","rule":{},"args":{"str":"Test2"},"level":"info","message":"","timestamp":"2016-11-30T08:43:42.004Z"}
+{"id":"583e910d3e59484fe8a21ec6","name":"Test3","path":"Test3","state":"0","rule":{},"args":{"str":"Test3"},"level":"info","message":"","timestamp":"2016-11-30T08:43:42.004Z"}
+{"id":"583e912d3e59484fe8a21ec7","name":"Test4","path":"Test4","state":"0","rule":{},"args":{"str":"Test4"},"level":"info","message":"","timestamp":"2016-11-30T08:43:42.005Z"}
+{"level":"info","message":"Create module {\"name\":\"Test5\",\"desc\":\"Test5\",\"path\":\"Test5\",\"args\":\"Test5\"}","timestamp":"2016-11-30T08:43:54.931Z"}
+{"id":"583b560fdef04c263fed8df6","name":"Real-time data provider","path":"./rtime.js","state":"0","rule":{},"args":{},"level":"info","message":"","timestamp":"2016-11-30T08:43:55.088Z"}
+{"id":"583e8f9341909c4fb86a2a19","name":"Test","path":"./rt/test.js","state":"0","rule":{},"args":{"str":"--port:4432"},"level":"info","message":"","timestamp":"2016-11-30T08:44:01.072Z"}
+{"id":"583e90bf6ce7881e0c33f3f1","name":"Test2","path":"Test2","state":"0","rule":{},"args":{"str":"Test2"},"level":"info","message":"","timestamp":"2016-11-30T08:45:33.717Z"}
+{"id":"583e910d3e59484fe8a21ec6","name":"Test3","path":"Test3","state":"0","rule":{},"args":{"str":"Test3"},"level":"info","message":"","timestamp":"2016-11-30T08:45:36.660Z"}
+{"id":"583e912d3e59484fe8a21ec7","name":"Test4","path":"Test4","state":"0","rule":{},"args":{"str":"Test4"},"level":"info","message":"","timestamp":"2016-11-30T08:45:39.580Z"}
+{"id":"583e914a3009a43d381434ef","name":"Test5","path":"Test5","state":"0","rule":{},"args":{"str":"Test5"},"level":"info","message":"","timestamp":"2016-11-30T08:45:43.180Z"}
+{"level":"info","message":"Create module {\"name\":\"Test6\",\"desc\":\"Test6\",\"path\":\"Test6\",\"args\":\"Test6\"}","timestamp":"2016-11-30T08:45:43.258Z"}
+{"id":"583b560fdef04c263fed8df6","name":"Real-time data provider","path":"./rtime.js","state":"0","rule":{},"args":{},"level":"info","message":"","timestamp":"2016-11-30T08:45:43.353Z"}
+{"id":"583e8f9341909c4fb86a2a19","name":"Test","path":"./rt/test.js","state":"0","rule":{},"args":{"str":"--port:4432"},"level":"info","message":"","timestamp":"2016-11-30T08:45:43.354Z"}
+{"id":"583e90bf6ce7881e0c33f3f1","name":"Test2","path":"Test2","state":"0","rule":{},"args":{"str":"Test2"},"level":"info","message":"","timestamp":"2016-11-30T08:45:43.355Z"}
+{"id":"583e910d3e59484fe8a21ec6","name":"Test3","path":"Test3","state":"0","rule":{},"args":{"str":"Test3"},"level":"info","message":"","timestamp":"2016-11-30T08:45:43.356Z"}
+{"id":"583e912d3e59484fe8a21ec7","name":"Test4","path":"Test4","state":"0","rule":{},"args":{"str":"Test4"},"level":"info","message":"","timestamp":"2016-11-30T08:45:43.357Z"}
+{"id":"583e914a3009a43d381434ef","name":"Test5","path":"Test5","state":"0","rule":{},"args":{"str":"Test5"},"level":"info","message":"","timestamp":"2016-11-30T08:45:43.358Z"}
+{"id":"583e91b73009a43d381434f0","name":"Test6","path":"Test6","state":"0","rule":{},"args":{"str":"Test6"},"level":"info","message":"","timestamp":"2016-11-30T08:45:43.363Z"}
+{"level":"info","message":"Create module {\"name\":\"Test7\",\"desc\":\"Test6\",\"path\":\"Test6\",\"args\":\"Test6\"}","timestamp":"2016-11-30T08:45:54.839Z"}
+{"id":"583b560fdef04c263fed8df6","name":"Real-time data provider","path":"./rtime.js","state":"0","rule":{},"args":{},"level":"info","message":"","timestamp":"2016-11-30T08:45:54.891Z"}
+{"id":"583e8f9341909c4fb86a2a19","name":"Test","path":"./rt/test.js","state":"0","rule":{},"args":{"str":"--port:4432"},"level":"info","message":"","timestamp":"2016-11-30T08:45:54.892Z"}
+{"id":"583e90bf6ce7881e0c33f3f1","name":"Test2","path":"Test2","state":"0","rule":{},"args":{"str":"Test2"},"level":"info","message":"","timestamp":"2016-11-30T08:45:54.892Z"}
+{"id":"583e910d3e59484fe8a21ec6","name":"Test3","path":"Test3","state":"0","rule":{},"args":{"str":"Test3"},"level":"info","message":"","timestamp":"2016-11-30T08:45:54.893Z"}
+{"id":"583e912d3e59484fe8a21ec7","name":"Test4","path":"Test4","state":"0","rule":{},"args":{"str":"Test4"},"level":"info","message":"","timestamp":"2016-11-30T08:45:54.893Z"}
+{"id":"583e914a3009a43d381434ef","name":"Test5","path":"Test5","state":"0","rule":{},"args":{"str":"Test5"},"level":"info","message":"","timestamp":"2016-11-30T08:45:54.894Z"}
+{"id":"583e91b73009a43d381434f0","name":"Test6","path":"Test6","state":"0","rule":{},"args":{"str":"Test6"},"level":"info","message":"","timestamp":"2016-11-30T08:45:54.894Z"}
+{"level":"info","message":"Create module {\"name\":\"Test7\",\"desc\":\"Test6\",\"path\":\"Test6\",\"args\":\"Test6\"}","timestamp":"2016-11-30T08:46:02.884Z"}
+{"id":"583b560fdef04c263fed8df6","name":"Real-time data provider","path":"./rtime.js","state":"0","rule":{},"args":{},"level":"info","message":"","timestamp":"2016-11-30T08:46:03.018Z"}
+{"id":"583e8f9341909c4fb86a2a19","name":"Test","path":"./rt/test.js","state":"0","rule":{},"args":{"str":"--port:4432"},"level":"info","message":"","timestamp":"2016-11-30T08:46:03.019Z"}
+{"id":"583e90bf6ce7881e0c33f3f1","name":"Test2","path":"Test2","state":"0","rule":{},"args":{"str":"Test2"},"level":"info","message":"","timestamp":"2016-11-30T08:46:03.020Z"}
+{"id":"583e910d3e59484fe8a21ec6","name":"Test3","path":"Test3","state":"0","rule":{},"args":{"str":"Test3"},"level":"info","message":"","timestamp":"2016-11-30T08:46:03.021Z"}
+{"id":"583e912d3e59484fe8a21ec7","name":"Test4","path":"Test4","state":"0","rule":{},"args":{"str":"Test4"},"level":"info","message":"","timestamp":"2016-11-30T08:46:03.023Z"}
+{"id":"583e914a3009a43d381434ef","name":"Test5","path":"Test5","state":"0","rule":{},"args":{"str":"Test5"},"level":"info","message":"","timestamp":"2016-11-30T08:46:03.025Z"}
+{"id":"583e91b73009a43d381434f0","name":"Test6","path":"Test6","state":"0","rule":{},"args":{"str":"Test6"},"level":"info","message":"","timestamp":"2016-11-30T08:46:03.027Z"}
+{"id":"583e91c23009a43d381434f1","name":"Test7","path":"Test6","state":"0","rule":{},"args":{"str":"Test6"},"level":"info","message":"","timestamp":"2016-11-30T08:46:03.027Z"}
+{"id":"583e91ca3009a43d381434f2","name":"Test7","path":"Test6","state":"0","rule":{},"args":{"str":"Test6"},"level":"info","message":"","timestamp":"2016-11-30T08:46:03.029Z"}
+{"level":"info","message":"Create module {\"name\":\"Test7\",\"desc\":\"Test6\",\"path\":\"Test6\",\"args\":\"Test6\"}","timestamp":"2016-11-30T08:46:06.449Z"}
+{"id":"583b560fdef04c263fed8df6","name":"Real-time data provider","path":"./rtime.js","state":"0","rule":{},"args":{},"level":"info","message":"","timestamp":"2016-11-30T08:46:06.498Z"}
+{"id":"583e8f9341909c4fb86a2a19","name":"Test","path":"./rt/test.js","state":"0","rule":{},"args":{"str":"--port:4432"},"level":"info","message":"","timestamp":"2016-11-30T08:46:06.499Z"}
+{"id":"583e90bf6ce7881e0c33f3f1","name":"Test2","path":"Test2","state":"0","rule":{},"args":{"str":"Test2"},"level":"info","message":"","timestamp":"2016-11-30T08:46:06.500Z"}
+{"id":"583e910d3e59484fe8a21ec6","name":"Test3","path":"Test3","state":"0","rule":{},"args":{"str":"Test3"},"level":"info","message":"","timestamp":"2016-11-30T08:46:06.501Z"}
+{"id":"583e912d3e59484fe8a21ec7","name":"Test4","path":"Test4","state":"0","rule":{},"args":{"str":"Test4"},"level":"info","message":"","timestamp":"2016-11-30T08:46:06.504Z"}
+{"id":"583e914a3009a43d381434ef","name":"Test5","path":"Test5","state":"0","rule":{},"args":{"str":"Test5"},"level":"info","message":"","timestamp":"2016-11-30T08:46:06.505Z"}
+{"id":"583e91b73009a43d381434f0","name":"Test6","path":"Test6","state":"0","rule":{},"args":{"str":"Test6"},"level":"info","message":"","timestamp":"2016-11-30T08:46:06.507Z"}
+{"id":"583e91c23009a43d381434f1","name":"Test7","path":"Test6","state":"0","rule":{},"args":{"str":"Test6"},"level":"info","message":"","timestamp":"2016-11-30T08:46:06.507Z"}
+{"id":"583e91ca3009a43d381434f2","name":"Test7","path":"Test6","state":"0","rule":{},"args":{"str":"Test6"},"level":"info","message":"","timestamp":"2016-11-30T08:46:06.508Z"}
+{"id":"583e91ce3009a43d381434f3","name":"Test7","path":"Test6","state":"0","rule":{},"args":{"str":"Test6"},"level":"info","message":"","timestamp":"2016-11-30T08:46:06.509Z"}
+{"level":"info","message":"Create module {\"name\":\"Test78\",\"desc\":\"Test6\",\"path\":\"Test6\",\"args\":\"Test6\"}","timestamp":"2016-11-30T08:46:16.377Z"}
+{"id":"583b560fdef04c263fed8df6","name":"Real-time data provider","path":"./rtime.js","state":"0","rule":{},"args":{},"level":"info","message":"","timestamp":"2016-11-30T08:46:16.426Z"}
+{"id":"583e8f9341909c4fb86a2a19","name":"Test","path":"./rt/test.js","state":"0","rule":{},"args":{"str":"--port:4432"},"level":"info","message":"","timestamp":"2016-11-30T08:46:16.427Z"}
+{"id":"583e90bf6ce7881e0c33f3f1","name":"Test2","path":"Test2","state":"0","rule":{},"args":{"str":"Test2"},"level":"info","message":"","timestamp":"2016-11-30T08:46:16.427Z"}
+{"id":"583e910d3e59484fe8a21ec6","name":"Test3","path":"Test3","state":"0","rule":{},"args":{"str":"Test3"},"level":"info","message":"","timestamp":"2016-11-30T08:46:16.428Z"}
+{"id":"583e912d3e59484fe8a21ec7","name":"Test4","path":"Test4","state":"0","rule":{},"args":{"str":"Test4"},"level":"info","message":"","timestamp":"2016-11-30T08:46:16.428Z"}
+{"id":"583e914a3009a43d381434ef","name":"Test5","path":"Test5","state":"0","rule":{},"args":{"str":"Test5"},"level":"info","message":"","timestamp":"2016-11-30T08:46:16.429Z"}
+{"id":"583e91b73009a43d381434f0","name":"Test6","path":"Test6","state":"0","rule":{},"args":{"str":"Test6"},"level":"info","message":"","timestamp":"2016-11-30T08:46:16.429Z"}
+{"id":"583e91c23009a43d381434f1","name":"Test7","path":"Test6","state":"0","rule":{},"args":{"str":"Test6"},"level":"info","message":"","timestamp":"2016-11-30T08:46:16.433Z"}
+{"id":"583e91ca3009a43d381434f2","name":"Test7","path":"Test6","state":"0","rule":{},"args":{"str":"Test6"},"level":"info","message":"","timestamp":"2016-11-30T08:46:16.434Z"}
+{"id":"583e91ce3009a43d381434f3","name":"Test7","path":"Test6","state":"0","rule":{},"args":{"str":"Test6"},"level":"info","message":"","timestamp":"2016-11-30T08:46:16.434Z"}
+{"id":"583e91d83009a43d381434f4","name":"Test78","path":"Test6","state":"0","rule":{},"args":{"str":"Test6"},"level":"info","message":"","timestamp":"2016-11-30T08:46:16.435Z"}
+{"level":"info","message":"Create module {\"name\":\"Test79\",\"desc\":\"Test6\",\"path\":\"Test6\",\"args\":\"Test6\"}","timestamp":"2016-11-30T08:46:19.735Z"}
+{"id":"583b560fdef04c263fed8df6","name":"Real-time data provider","path":"./rtime.js","state":"0","rule":{},"args":{},"level":"info","message":"","timestamp":"2016-11-30T08:46:19.784Z"}
+{"id":"583e8f9341909c4fb86a2a19","name":"Test","path":"./rt/test.js","state":"0","rule":{},"args":{"str":"--port:4432"},"level":"info","message":"","timestamp":"2016-11-30T08:46:19.785Z"}
+{"id":"583e90bf6ce7881e0c33f3f1","name":"Test2","path":"Test2","state":"0","rule":{},"args":{"str":"Test2"},"level":"info","message":"","timestamp":"2016-11-30T08:46:19.786Z"}
+{"id":"583e910d3e59484fe8a21ec6","name":"Test3","path":"Test3","state":"0","rule":{},"args":{"str":"Test3"},"level":"info","message":"","timestamp":"2016-11-30T08:46:19.786Z"}
+{"id":"583e912d3e59484fe8a21ec7","name":"Test4","path":"Test4","state":"0","rule":{},"args":{"str":"Test4"},"level":"info","message":"","timestamp":"2016-11-30T08:46:19.787Z"}
+{"id":"583e914a3009a43d381434ef","name":"Test5","path":"Test5","state":"0","rule":{},"args":{"str":"Test5"},"level":"info","message":"","timestamp":"2016-11-30T08:46:19.787Z"}
+{"id":"583e91b73009a43d381434f0","name":"Test6","path":"Test6","state":"0","rule":{},"args":{"str":"Test6"},"level":"info","message":"","timestamp":"2016-11-30T08:46:19.788Z"}
+{"id":"583e91c23009a43d381434f1","name":"Test7","path":"Test6","state":"0","rule":{},"args":{"str":"Test6"},"level":"info","message":"","timestamp":"2016-11-30T08:46:19.788Z"}
+{"id":"583e91ca3009a43d381434f2","name":"Test7","path":"Test6","state":"0","rule":{},"args":{"str":"Test6"},"level":"info","message":"","timestamp":"2016-11-30T08:46:19.789Z"}
+{"id":"583e91ce3009a43d381434f3","name":"Test7","path":"Test6","state":"0","rule":{},"args":{"str":"Test6"},"level":"info","message":"","timestamp":"2016-11-30T08:46:19.791Z"}
+{"id":"583e91d83009a43d381434f4","name":"Test78","path":"Test6","state":"0","rule":{},"args":{"str":"Test6"},"level":"info","message":"","timestamp":"2016-11-30T08:46:19.794Z"}
+{"level":"info","message":"Create module {\"name\":\"Test79\",\"desc\":\"Test6\",\"path\":\"Test6\",\"args\":\"Test6\"}","timestamp":"2016-11-30T08:46:58.900Z"}
+{"id":"583b560fdef04c263fed8df6","name":"Real-time data provider","path":"./rtime.js","state":"0","rule":{},"args":{},"level":"info","message":"","timestamp":"2016-11-30T08:46:58.956Z"}
+{"id":"583e8f9341909c4fb86a2a19","name":"Test","path":"./rt/test.js","state":"0","rule":{},"args":{"str":"--port:4432"},"level":"info","message":"","timestamp":"2016-11-30T08:46:58.956Z"}
+{"id":"583e90bf6ce7881e0c33f3f1","name":"Test2","path":"Test2","state":"0","rule":{},"args":{"str":"Test2"},"level":"info","message":"","timestamp":"2016-11-30T08:46:58.957Z"}
+{"id":"583e910d3e59484fe8a21ec6","name":"Test3","path":"Test3","state":"0","rule":{},"args":{"str":"Test3"},"level":"info","message":"","timestamp":"2016-11-30T08:46:58.958Z"}
+{"id":"583e912d3e59484fe8a21ec7","name":"Test4","path":"Test4","state":"0","rule":{},"args":{"str":"Test4"},"level":"info","message":"","timestamp":"2016-11-30T08:46:58.958Z"}
+{"id":"583e914a3009a43d381434ef","name":"Test5","path":"Test5","state":"0","rule":{},"args":{"str":"Test5"},"level":"info","message":"","timestamp":"2016-11-30T08:46:58.958Z"}
+{"id":"583e91b73009a43d381434f0","name":"Test6","path":"Test6","state":"0","rule":{},"args":{"str":"Test6"},"level":"info","message":"","timestamp":"2016-11-30T08:46:58.959Z"}
+{"id":"583e91c23009a43d381434f1","name":"Test7","path":"Test6","state":"0","rule":{},"args":{"str":"Test6"},"level":"info","message":"","timestamp":"2016-11-30T08:46:58.959Z"}
+{"id":"583e91ca3009a43d381434f2","name":"Test7","path":"Test6","state":"0","rule":{},"args":{"str":"Test6"},"level":"info","message":"","timestamp":"2016-11-30T08:46:58.960Z"}
+{"id":"583e91ce3009a43d381434f3","name":"Test7","path":"Test6","state":"0","rule":{},"args":{"str":"Test6"},"level":"info","message":"","timestamp":"2016-11-30T08:46:58.960Z"}
+{"id":"583e91d83009a43d381434f4","name":"Test78","path":"Test6","state":"0","rule":{},"args":{"str":"Test6"},"level":"info","message":"","timestamp":"2016-11-30T08:46:58.962Z"}
+{"id":"583e91db3009a43d381434f5","name":"Test79","path":"Test6","state":"0","rule":{},"args":{"str":"Test6"},"level":"info","message":"","timestamp":"2016-11-30T08:46:58.963Z"}
+{"id":"583e92023009a43d381434f6","name":"Test79","path":"Test6","state":"0","rule":{},"args":{"str":"Test6"},"level":"info","message":"","timestamp":"2016-11-30T08:46:58.966Z"}
+{"level":"info","message":"Create module {\"name\":\"Test80\",\"desc\":\"Test6\",\"path\":\"Test6\",\"args\":\"Test6\"}","timestamp":"2016-11-30T08:47:21.035Z"}
+{"id":"583b560fdef04c263fed8df6","name":"Real-time data provider","path":"./rtime.js","state":"0","rule":{},"args":{},"level":"info","message":"","timestamp":"2016-11-30T08:47:21.100Z"}
+{"id":"583e8f9341909c4fb86a2a19","name":"Test","path":"./rt/test.js","state":"0","rule":{},"args":{"str":"--port:4432"},"level":"info","message":"","timestamp":"2016-11-30T08:47:21.101Z"}
+{"id":"583e90bf6ce7881e0c33f3f1","name":"Test2","path":"Test2","state":"0","rule":{},"args":{"str":"Test2"},"level":"info","message":"","timestamp":"2016-11-30T08:47:21.101Z"}
+{"id":"583e910d3e59484fe8a21ec6","name":"Test3","path":"Test3","state":"0","rule":{},"args":{"str":"Test3"},"level":"info","message":"","timestamp":"2016-11-30T08:47:21.101Z"}
+{"id":"583e912d3e59484fe8a21ec7","name":"Test4","path":"Test4","state":"0","rule":{},"args":{"str":"Test4"},"level":"info","message":"","timestamp":"2016-11-30T08:47:21.102Z"}
+{"id":"583e914a3009a43d381434ef","name":"Test5","path":"Test5","state":"0","rule":{},"args":{"str":"Test5"},"level":"info","message":"","timestamp":"2016-11-30T08:47:21.105Z"}
+{"id":"583e91b73009a43d381434f0","name":"Test6","path":"Test6","state":"0","rule":{},"args":{"str":"Test6"},"level":"info","message":"","timestamp":"2016-11-30T08:47:21.107Z"}
+{"id":"583e91c23009a43d381434f1","name":"Test7","path":"Test6","state":"0","rule":{},"args":{"str":"Test6"},"level":"info","message":"","timestamp":"2016-11-30T08:47:21.109Z"}
+{"id":"583e91ca3009a43d381434f2","name":"Test7","path":"Test6","state":"0","rule":{},"args":{"str":"Test6"},"level":"info","message":"","timestamp":"2016-11-30T08:47:21.109Z"}
+{"id":"583e91ce3009a43d381434f3","name":"Test7","path":"Test6","state":"0","rule":{},"args":{"str":"Test6"},"level":"info","message":"","timestamp":"2016-11-30T08:47:21.110Z"}
+{"id":"583e91d83009a43d381434f4","name":"Test78","path":"Test6","state":"0","rule":{},"args":{"str":"Test6"},"level":"info","message":"","timestamp":"2016-11-30T08:47:21.110Z"}
+{"id":"583e91db3009a43d381434f5","name":"Test79","path":"Test6","state":"0","rule":{},"args":{"str":"Test6"},"level":"info","message":"","timestamp":"2016-11-30T08:47:21.111Z"}
+{"id":"583e92023009a43d381434f6","name":"Test79","path":"Test6","state":"0","rule":{},"args":{"str":"Test6"},"level":"info","message":"","timestamp":"2016-11-30T08:47:21.112Z"}
+{"id":"583e92193009a43d381434f7","name":"Test80","path":"Test6","state":"0","rule":{},"args":{"str":"Test6"},"level":"info","message":"","timestamp":"2016-11-30T08:47:21.113Z"}
+{"level":"info","message":"Create module {\"name\":\"Test81\",\"desc\":\"Test6\",\"path\":\"Test6\",\"args\":\"Test6\"}","timestamp":"2016-11-30T08:47:37.021Z"}
+{"id":"583b560fdef04c263fed8df6","name":"Real-time data provider","path":"./rtime.js","state":"0","rule":{},"args":{},"level":"info","message":"","timestamp":"2016-11-30T08:47:37.080Z"}
+{"id":"583e8f9341909c4fb86a2a19","name":"Test","path":"./rt/test.js","state":"0","rule":{},"args":{"str":"--port:4432"},"level":"info","message":"","timestamp":"2016-11-30T08:47:37.081Z"}
+{"id":"583e90bf6ce7881e0c33f3f1","name":"Test2","path":"Test2","state":"0","rule":{},"args":{"str":"Test2"},"level":"info","message":"","timestamp":"2016-11-30T08:47:37.082Z"}
+{"id":"583e910d3e59484fe8a21ec6","name":"Test3","path":"Test3","state":"0","rule":{},"args":{"str":"Test3"},"level":"info","message":"","timestamp":"2016-11-30T08:47:37.082Z"}
+{"id":"583e912d3e59484fe8a21ec7","name":"Test4","path":"Test4","state":"0","rule":{},"args":{"str":"Test4"},"level":"info","message":"","timestamp":"2016-11-30T08:47:37.082Z"}
+{"id":"583e914a3009a43d381434ef","name":"Test5","path":"Test5","state":"0","rule":{},"args":{"str":"Test5"},"level":"info","message":"","timestamp":"2016-11-30T08:47:37.083Z"}
+{"id":"583e91b73009a43d381434f0","name":"Test6","path":"Test6","state":"0","rule":{},"args":{"str":"Test6"},"level":"info","message":"","timestamp":"2016-11-30T08:47:37.085Z"}
+{"id":"583e91c23009a43d381434f1","name":"Test7","path":"Test6","state":"0","rule":{},"args":{"str":"Test6"},"level":"info","message":"","timestamp":"2016-11-30T08:47:37.086Z"}
+{"id":"583e91ca3009a43d381434f2","name":"Test7","path":"Test6","state":"0","rule":{},"args":{"str":"Test6"},"level":"info","message":"","timestamp":"2016-11-30T08:47:37.086Z"}
+{"id":"583e91ce3009a43d381434f3","name":"Test7","path":"Test6","state":"0","rule":{},"args":{"str":"Test6"},"level":"info","message":"","timestamp":"2016-11-30T08:47:37.087Z"}
+{"id":"583e91d83009a43d381434f4","name":"Test78","path":"Test6","state":"0","rule":{},"args":{"str":"Test6"},"level":"info","message":"","timestamp":"2016-11-30T08:47:37.088Z"}
+{"id":"583e91db3009a43d381434f5","name":"Test79","path":"Test6","state":"0","rule":{},"args":{"str":"Test6"},"level":"info","message":"","timestamp":"2016-11-30T08:47:37.088Z"}
+{"id":"583e92023009a43d381434f6","name":"Test79","path":"Test6","state":"0","rule":{},"args":{"str":"Test6"},"level":"info","message":"","timestamp":"2016-11-30T08:47:37.089Z"}
+{"id":"583e92193009a43d381434f7","name":"Test80","path":"Test6","state":"0","rule":{},"args":{"str":"Test6"},"level":"info","message":"","timestamp":"2016-11-30T08:47:37.090Z"}
+{"id":"583e92293009a43d381434f8","name":"Test81","path":"Test6","state":"0","rule":{},"args":{"str":"Test6"},"level":"info","message":"","timestamp":"2016-11-30T08:47:37.090Z"}
+{"level":"info","message":"Start service","timestamp":"2016-11-30T10:11:20.520Z"}
+{"level":"info","message":"Web service loaded","timestamp":"2016-11-30T10:11:20.980Z"}
+{"level":"info","message":"Websocket loaded","timestamp":"2016-11-30T10:11:21.307Z"}
+{"id":"583b560fdef04c263fed8df6","name":"Real-time data provider","path":"./rtime.js","state":"0","rule":{},"args":{},"level":"info","message":"","timestamp":"2016-11-30T10:11:22.160Z"}
+{"id":"583e8f9341909c4fb86a2a19","name":"Test","path":"./rt/test.js","state":"0","rule":{},"args":{"str":"--port:4432"},"level":"info","message":"","timestamp":"2016-11-30T10:11:22.161Z"}
+{"id":"583e90bf6ce7881e0c33f3f1","name":"Test2","path":"Test2","state":"0","rule":{},"args":{"str":"Test2"},"level":"info","message":"","timestamp":"2016-11-30T10:11:22.162Z"}
+{"id":"583e910d3e59484fe8a21ec6","name":"Test3","path":"Test3","state":"0","rule":{},"args":{"str":"Test3"},"level":"info","message":"","timestamp":"2016-11-30T10:11:22.162Z"}
+{"id":"583e912d3e59484fe8a21ec7","name":"Test4","path":"Test4","state":"0","rule":{},"args":{"str":"Test4"},"level":"info","message":"","timestamp":"2016-11-30T10:11:22.162Z"}
+{"id":"583e914a3009a43d381434ef","name":"Test5","path":"Test5","state":"0","rule":{},"args":{"str":"Test5"},"level":"info","message":"","timestamp":"2016-11-30T10:11:22.162Z"}
+{"id":"583e91b73009a43d381434f0","name":"Test6","path":"Test6","state":"0","rule":{},"args":{"str":"Test6"},"level":"info","message":"","timestamp":"2016-11-30T10:11:22.163Z"}
+{"id":"583e91c23009a43d381434f1","name":"Test7","path":"Test6","state":"0","rule":{},"args":{"str":"Test6"},"level":"info","message":"","timestamp":"2016-11-30T10:11:22.163Z"}
+{"id":"583e91ca3009a43d381434f2","name":"Test7","path":"Test6","state":"0","rule":{},"args":{"str":"Test6"},"level":"info","message":"","timestamp":"2016-11-30T10:11:22.163Z"}
+{"id":"583e91ce3009a43d381434f3","name":"Test7","path":"Test6","state":"0","rule":{},"args":{"str":"Test6"},"level":"info","message":"","timestamp":"2016-11-30T10:11:22.163Z"}
+{"id":"583e91d83009a43d381434f4","name":"Test78","path":"Test6","state":"0","rule":{},"args":{"str":"Test6"},"level":"info","message":"","timestamp":"2016-11-30T10:11:22.163Z"}
+{"id":"583e91db3009a43d381434f5","name":"Test79","path":"Test6","state":"0","rule":{},"args":{"str":"Test6"},"level":"info","message":"","timestamp":"2016-11-30T10:11:22.164Z"}
+{"id":"583e92023009a43d381434f6","name":"Test79","path":"Test6","state":"0","rule":{},"args":{"str":"Test6"},"level":"info","message":"","timestamp":"2016-11-30T10:11:22.164Z"}
+{"id":"583e92193009a43d381434f7","name":"Test80","path":"Test6","state":"0","rule":{},"args":{"str":"Test6"},"level":"info","message":"","timestamp":"2016-11-30T10:11:22.165Z"}
+{"id":"583e92293009a43d381434f8","name":"Test81","path":"Test6","state":"0","rule":{},"args":{"str":"Test6"},"level":"info","message":"","timestamp":"2016-11-30T10:11:22.165Z"}
+{"level":"info","message":"Create module {\"name\":\"4566\",\"desc\":\"4566\",\"path\":\"6654\",\"args\":\"6654\"}","timestamp":"2016-11-30T10:12:03.325Z"}
+{"id":"583b560fdef04c263fed8df6","name":"Real-time data provider","path":"./rtime.js","state":"0","rule":{},"args":{},"level":"info","message":"","timestamp":"2016-11-30T10:12:03.484Z"}
+{"id":"583e8f9341909c4fb86a2a19","name":"Test","path":"./rt/test.js","state":"0","rule":{},"args":{"str":"--port:4432"},"level":"info","message":"","timestamp":"2016-11-30T10:12:03.487Z"}
+{"id":"583e90bf6ce7881e0c33f3f1","name":"Test2","path":"Test2","state":"0","rule":{},"args":{"str":"Test2"},"level":"info","message":"","timestamp":"2016-11-30T10:12:03.487Z"}
+{"id":"583e910d3e59484fe8a21ec6","name":"Test3","path":"Test3","state":"0","rule":{},"args":{"str":"Test3"},"level":"info","message":"","timestamp":"2016-11-30T10:12:03.489Z"}
+{"id":"583e912d3e59484fe8a21ec7","name":"Test4","path":"Test4","state":"0","rule":{},"args":{"str":"Test4"},"level":"info","message":"","timestamp":"2016-11-30T10:12:03.490Z"}
+{"id":"583e914a3009a43d381434ef","name":"Test5","path":"Test5","state":"0","rule":{},"args":{"str":"Test5"},"level":"info","message":"","timestamp":"2016-11-30T10:12:03.490Z"}
+{"id":"583e91b73009a43d381434f0","name":"Test6","path":"Test6","state":"0","rule":{},"args":{"str":"Test6"},"level":"info","message":"","timestamp":"2016-11-30T10:12:03.491Z"}
+{"id":"583e91c23009a43d381434f1","name":"Test7","path":"Test6","state":"0","rule":{},"args":{"str":"Test6"},"level":"info","message":"","timestamp":"2016-11-30T10:12:03.491Z"}
+{"id":"583e91ca3009a43d381434f2","name":"Test7","path":"Test6","state":"0","rule":{},"args":{"str":"Test6"},"level":"info","message":"","timestamp":"2016-11-30T10:12:03.492Z"}
+{"id":"583e91ce3009a43d381434f3","name":"Test7","path":"Test6","state":"0","rule":{},"args":{"str":"Test6"},"level":"info","message":"","timestamp":"2016-11-30T10:12:03.494Z"}
+{"id":"583e91d83009a43d381434f4","name":"Test78","path":"Test6","state":"0","rule":{},"args":{"str":"Test6"},"level":"info","message":"","timestamp":"2016-11-30T10:12:03.494Z"}
+{"id":"583e91db3009a43d381434f5","name":"Test79","path":"Test6","state":"0","rule":{},"args":{"str":"Test6"},"level":"info","message":"","timestamp":"2016-11-30T10:12:03.497Z"}
+{"id":"583e92023009a43d381434f6","name":"Test79","path":"Test6","state":"0","rule":{},"args":{"str":"Test6"},"level":"info","message":"","timestamp":"2016-11-30T10:12:03.498Z"}
+{"id":"583e92193009a43d381434f7","name":"Test80","path":"Test6","state":"0","rule":{},"args":{"str":"Test6"},"level":"info","message":"","timestamp":"2016-11-30T10:12:03.500Z"}
+{"id":"583e92293009a43d381434f8","name":"Test81","path":"Test6","state":"0","rule":{},"args":{"str":"Test6"},"level":"info","message":"","timestamp":"2016-11-30T10:12:03.504Z"}
+{"id":"583ea5f3dc1c774138cf00c8","name":"4566","path":"6654","state":"0","rule":{},"args":{"str":"6654"},"level":"info","message":"","timestamp":"2016-11-30T10:12:03.506Z"}
+{"level":"info","message":"Start service","timestamp":"2016-11-30T12:10:28.326Z"}
+{"level":"info","message":"Web service loaded","timestamp":"2016-11-30T12:10:28.716Z"}
+{"level":"info","message":"Websocket loaded","timestamp":"2016-11-30T12:10:29.208Z"}
+{"id":"583b560fdef04c263fed8df6","name":"Real-time data provider","path":"./rtime.js","state":"0","rule":{},"args":{},"level":"info","message":"","timestamp":"2016-11-30T12:10:30.180Z"}
+{"id":"583e8f9341909c4fb86a2a19","name":"Test","path":"./rt/test.js","state":"0","rule":{},"args":{"str":"--port:4432"},"level":"info","message":"","timestamp":"2016-11-30T12:10:30.181Z"}
+{"id":"583e90bf6ce7881e0c33f3f1","name":"Test2","path":"Test2","state":"0","rule":{},"args":{"str":"Test2"},"level":"info","message":"","timestamp":"2016-11-30T12:10:30.181Z"}
+{"id":"583e910d3e59484fe8a21ec6","name":"Test3","path":"Test3","state":"0","rule":{},"args":{"str":"Test3"},"level":"info","message":"","timestamp":"2016-11-30T12:10:30.182Z"}
+{"id":"583e912d3e59484fe8a21ec7","name":"Test4","path":"Test4","state":"0","rule":{},"args":{"str":"Test4"},"level":"info","message":"","timestamp":"2016-11-30T12:10:30.182Z"}
+{"id":"583e914a3009a43d381434ef","name":"Test5","path":"Test5","state":"0","rule":{},"args":{"str":"Test5"},"level":"info","message":"","timestamp":"2016-11-30T12:10:30.182Z"}
+{"id":"583e91b73009a43d381434f0","name":"Test6","path":"Test6","state":"0","rule":{},"args":{"str":"Test6"},"level":"info","message":"","timestamp":"2016-11-30T12:10:30.182Z"}
+{"id":"583e91c23009a43d381434f1","name":"Test7","path":"Test6","state":"0","rule":{},"args":{"str":"Test6"},"level":"info","message":"","timestamp":"2016-11-30T12:10:30.183Z"}
+{"id":"583e91ca3009a43d381434f2","name":"Test7","path":"Test6","state":"0","rule":{},"args":{"str":"Test6"},"level":"info","message":"","timestamp":"2016-11-30T12:10:30.183Z"}
+{"id":"583e91ce3009a43d381434f3","name":"Test7","path":"Test6","state":"0","rule":{},"args":{"str":"Test6"},"level":"info","message":"","timestamp":"2016-11-30T12:10:30.183Z"}
+{"id":"583e91d83009a43d381434f4","name":"Test78","path":"Test6","state":"0","rule":{},"args":{"str":"Test6"},"level":"info","message":"","timestamp":"2016-11-30T12:10:30.183Z"}
+{"id":"583e91db3009a43d381434f5","name":"Test79","path":"Test6","state":"0","rule":{},"args":{"str":"Test6"},"level":"info","message":"","timestamp":"2016-11-30T12:10:30.184Z"}
+{"id":"583e92023009a43d381434f6","name":"Test79","path":"Test6","state":"0","rule":{},"args":{"str":"Test6"},"level":"info","message":"","timestamp":"2016-11-30T12:10:30.184Z"}
+{"id":"583e92193009a43d381434f7","name":"Test80","path":"Test6","state":"0","rule":{},"args":{"str":"Test6"},"level":"info","message":"","timestamp":"2016-11-30T12:10:30.185Z"}
+{"id":"583e92293009a43d381434f8","name":"Test81","path":"Test6","state":"0","rule":{},"args":{"str":"Test6"},"level":"info","message":"","timestamp":"2016-11-30T12:10:30.185Z"}
+{"id":"583ea5f3dc1c774138cf00c8","name":"4566","path":"6654","state":"0","rule":{},"args":{"str":"6654"},"level":"info","message":"","timestamp":"2016-11-30T12:10:30.185Z"}
+{"level":"info","message":"Start service","timestamp":"2016-11-30T12:13:44.848Z"}
+{"level":"info","message":"Web service loaded","timestamp":"2016-11-30T12:13:45.162Z"}
+{"level":"info","message":"Websocket loaded","timestamp":"2016-11-30T12:13:45.385Z"}
+{"id":"583b560fdef04c263fed8df6","name":"Real-time data provider","path":"./rtime.js","state":"0","rule":{},"args":{},"level":"info","message":"","timestamp":"2016-11-30T12:13:46.183Z"}
+{"id":"583e8f9341909c4fb86a2a19","name":"Test","path":"./rt/test.js","state":"0","rule":{},"args":{"str":"--port:4432"},"level":"info","message":"","timestamp":"2016-11-30T12:13:46.184Z"}
+{"id":"583e90bf6ce7881e0c33f3f1","name":"Test2","path":"Test2","state":"0","rule":{},"args":{"str":"Test2"},"level":"info","message":"","timestamp":"2016-11-30T12:13:46.185Z"}
+{"id":"583e910d3e59484fe8a21ec6","name":"Test3","path":"Test3","state":"0","rule":{},"args":{"str":"Test3"},"level":"info","message":"","timestamp":"2016-11-30T12:13:46.185Z"}
+{"id":"583e912d3e59484fe8a21ec7","name":"Test4","path":"Test4","state":"0","rule":{},"args":{"str":"Test4"},"level":"info","message":"","timestamp":"2016-11-30T12:13:46.185Z"}
+{"id":"583e914a3009a43d381434ef","name":"Test5","path":"Test5","state":"0","rule":{},"args":{"str":"Test5"},"level":"info","message":"","timestamp":"2016-11-30T12:13:46.185Z"}
+{"id":"583e91b73009a43d381434f0","name":"Test6","path":"Test6","state":"0","rule":{},"args":{"str":"Test6"},"level":"info","message":"","timestamp":"2016-11-30T12:13:46.185Z"}
+{"id":"583e91c23009a43d381434f1","name":"Test7","path":"Test6","state":"0","rule":{},"args":{"str":"Test6"},"level":"info","message":"","timestamp":"2016-11-30T12:13:46.186Z"}
+{"id":"583e91ca3009a43d381434f2","name":"Test7","path":"Test6","state":"0","rule":{},"args":{"str":"Test6"},"level":"info","message":"","timestamp":"2016-11-30T12:13:46.186Z"}
+{"id":"583e91ce3009a43d381434f3","name":"Test7","path":"Test6","state":"0","rule":{},"args":{"str":"Test6"},"level":"info","message":"","timestamp":"2016-11-30T12:13:46.186Z"}
+{"id":"583e91d83009a43d381434f4","name":"Test78","path":"Test6","state":"0","rule":{},"args":{"str":"Test6"},"level":"info","message":"","timestamp":"2016-11-30T12:13:46.186Z"}
+{"id":"583e91db3009a43d381434f5","name":"Test79","path":"Test6","state":"0","rule":{},"args":{"str":"Test6"},"level":"info","message":"","timestamp":"2016-11-30T12:13:46.187Z"}
+{"id":"583e92023009a43d381434f6","name":"Test79","path":"Test6","state":"0","rule":{},"args":{"str":"Test6"},"level":"info","message":"","timestamp":"2016-11-30T12:13:46.187Z"}
+{"id":"583e92193009a43d381434f7","name":"Test80","path":"Test6","state":"0","rule":{},"args":{"str":"Test6"},"level":"info","message":"","timestamp":"2016-11-30T12:13:46.188Z"}
+{"id":"583e92293009a43d381434f8","name":"Test81","path":"Test6","state":"0","rule":{},"args":{"str":"Test6"},"level":"info","message":"","timestamp":"2016-11-30T12:13:46.188Z"}
+{"id":"583ea5f3dc1c774138cf00c8","name":"4566","path":"6654","state":"0","rule":{},"args":{"str":"6654"},"level":"info","message":"","timestamp":"2016-11-30T12:13:46.188Z"}
+{"level":"info","message":"Start service","timestamp":"2016-11-30T12:20:03.207Z"}
+{"level":"info","message":"Web service loaded","timestamp":"2016-11-30T12:20:03.627Z"}
+{"level":"info","message":"Websocket loaded","timestamp":"2016-11-30T12:20:03.926Z"}
+{"id":"583b560fdef04c263fed8df6","name":"Real-time data provider","path":"./rtime.js","state":"0","rule":{},"args":{},"level":"info","message":"","timestamp":"2016-11-30T12:20:04.655Z"}
+{"id":"583e8f9341909c4fb86a2a19","name":"Test","path":"./rt/test.js","state":"0","rule":{},"args":{"str":"--port:4432"},"level":"info","message":"","timestamp":"2016-11-30T12:20:04.656Z"}
+{"id":"583e90bf6ce7881e0c33f3f1","name":"Test2","path":"Test2","state":"0","rule":{},"args":{"str":"Test2"},"level":"info","message":"","timestamp":"2016-11-30T12:20:04.657Z"}
+{"id":"583e910d3e59484fe8a21ec6","name":"Test3","path":"Test3","state":"0","rule":{},"args":{"str":"Test3"},"level":"info","message":"","timestamp":"2016-11-30T12:20:04.657Z"}
+{"id":"583e912d3e59484fe8a21ec7","name":"Test4","path":"Test4","state":"0","rule":{},"args":{"str":"Test4"},"level":"info","message":"","timestamp":"2016-11-30T12:20:04.657Z"}
+{"id":"583e914a3009a43d381434ef","name":"Test5","path":"Test5","state":"0","rule":{},"args":{"str":"Test5"},"level":"info","message":"","timestamp":"2016-11-30T12:20:04.658Z"}
+{"id":"583e91b73009a43d381434f0","name":"Test6","path":"Test6","state":"0","rule":{},"args":{"str":"Test6"},"level":"info","message":"","timestamp":"2016-11-30T12:20:04.658Z"}
+{"id":"583e91c23009a43d381434f1","name":"Test7","path":"Test6","state":"0","rule":{},"args":{"str":"Test6"},"level":"info","message":"","timestamp":"2016-11-30T12:20:04.658Z"}
+{"id":"583e91ca3009a43d381434f2","name":"Test7","path":"Test6","state":"0","rule":{},"args":{"str":"Test6"},"level":"info","message":"","timestamp":"2016-11-30T12:20:04.658Z"}
+{"id":"583e91ce3009a43d381434f3","name":"Test7","path":"Test6","state":"0","rule":{},"args":{"str":"Test6"},"level":"info","message":"","timestamp":"2016-11-30T12:20:04.658Z"}
+{"id":"583e91d83009a43d381434f4","name":"Test78","path":"Test6","state":"0","rule":{},"args":{"str":"Test6"},"level":"info","message":"","timestamp":"2016-11-30T12:20:04.659Z"}
+{"id":"583e91db3009a43d381434f5","name":"Test79","path":"Test6","state":"0","rule":{},"args":{"str":"Test6"},"level":"info","message":"","timestamp":"2016-11-30T12:20:04.659Z"}
+{"id":"583e92023009a43d381434f6","name":"Test79","path":"Test6","state":"0","rule":{},"args":{"str":"Test6"},"level":"info","message":"","timestamp":"2016-11-30T12:20:04.660Z"}
+{"id":"583e92193009a43d381434f7","name":"Test80","path":"Test6","state":"0","rule":{},"args":{"str":"Test6"},"level":"info","message":"","timestamp":"2016-11-30T12:20:04.660Z"}
+{"id":"583e92293009a43d381434f8","name":"Test81","path":"Test6","state":"0","rule":{},"args":{"str":"Test6"},"level":"info","message":"","timestamp":"2016-11-30T12:20:04.660Z"}
+{"id":"583ea5f3dc1c774138cf00c8","name":"4566","path":"6654","state":"0","rule":{},"args":{"str":"6654"},"level":"info","message":"","timestamp":"2016-11-30T12:20:04.660Z"}
+{"level":"info","message":"Start service","timestamp":"2016-11-30T12:26:10.919Z"}
+{"level":"info","message":"Web service loaded","timestamp":"2016-11-30T12:26:11.294Z"}
+{"level":"info","message":"Websocket loaded","timestamp":"2016-11-30T12:26:11.606Z"}
+{"id":"583b560fdef04c263fed8df6","name":"Real-time data provider","path":"./rtime.js","state":"0","rule":{},"args":{},"level":"info","message":"","timestamp":"2016-11-30T12:26:12.415Z"}
+{"id":"583e8f9341909c4fb86a2a19","name":"Test","path":"./rt/test.js","state":"0","rule":{},"args":{"str":"--port:4432"},"level":"info","message":"","timestamp":"2016-11-30T12:26:12.416Z"}
+{"id":"583e90bf6ce7881e0c33f3f1","name":"Test2","path":"Test2","state":"0","rule":{},"args":{"str":"Test2"},"level":"info","message":"","timestamp":"2016-11-30T12:26:12.416Z"}
+{"id":"583e910d3e59484fe8a21ec6","name":"Test3","path":"Test3","state":"0","rule":{},"args":{"str":"Test3"},"level":"info","message":"","timestamp":"2016-11-30T12:26:12.416Z"}
+{"id":"583e912d3e59484fe8a21ec7","name":"Test4","path":"Test4","state":"0","rule":{},"args":{"str":"Test4"},"level":"info","message":"","timestamp":"2016-11-30T12:26:12.416Z"}
+{"id":"583e914a3009a43d381434ef","name":"Test5","path":"Test5","state":"0","rule":{},"args":{"str":"Test5"},"level":"info","message":"","timestamp":"2016-11-30T12:26:12.417Z"}
+{"id":"583e91b73009a43d381434f0","name":"Test6","path":"Test6","state":"0","rule":{},"args":{"str":"Test6"},"level":"info","message":"","timestamp":"2016-11-30T12:26:12.417Z"}
+{"id":"583e91c23009a43d381434f1","name":"Test7","path":"Test6","state":"0","rule":{},"args":{"str":"Test6"},"level":"info","message":"","timestamp":"2016-11-30T12:26:12.417Z"}
+{"id":"583e91ca3009a43d381434f2","name":"Test7","path":"Test6","state":"0","rule":{},"args":{"str":"Test6"},"level":"info","message":"","timestamp":"2016-11-30T12:26:12.417Z"}
+{"id":"583e91ce3009a43d381434f3","name":"Test7","path":"Test6","state":"0","rule":{},"args":{"str":"Test6"},"level":"info","message":"","timestamp":"2016-11-30T12:26:12.417Z"}
+{"id":"583e91d83009a43d381434f4","name":"Test78","path":"Test6","state":"0","rule":{},"args":{"str":"Test6"},"level":"info","message":"","timestamp":"2016-11-30T12:26:12.420Z"}
+{"id":"583e91db3009a43d381434f5","name":"Test79","path":"Test6","state":"0","rule":{},"args":{"str":"Test6"},"level":"info","message":"","timestamp":"2016-11-30T12:26:12.421Z"}
+{"id":"583e92023009a43d381434f6","name":"Test79","path":"Test6","state":"0","rule":{},"args":{"str":"Test6"},"level":"info","message":"","timestamp":"2016-11-30T12:26:12.421Z"}
+{"id":"583e92193009a43d381434f7","name":"Test80","path":"Test6","state":"0","rule":{},"args":{"str":"Test6"},"level":"info","message":"","timestamp":"2016-11-30T12:26:12.422Z"}
+{"id":"583e92293009a43d381434f8","name":"Test81","path":"Test6","state":"0","rule":{},"args":{"str":"Test6"},"level":"info","message":"","timestamp":"2016-11-30T12:26:12.422Z"}
+{"id":"583ea5f3dc1c774138cf00c8","name":"4566","path":"6654","state":"0","rule":{},"args":{"str":"6654"},"level":"info","message":"","timestamp":"2016-11-30T12:26:12.422Z"}
+{"level":"info","message":"Start service","timestamp":"2016-11-30T12:28:20.745Z"}
+{"level":"info","message":"Web service loaded","timestamp":"2016-11-30T12:28:21.004Z"}
+{"level":"info","message":"Websocket loaded","timestamp":"2016-11-30T12:28:21.229Z"}
+{"id":"583b560fdef04c263fed8df6","name":"Real-time data provider","path":"./rtime.js","state":"0","rule":{},"args":{},"level":"info","message":"","timestamp":"2016-11-30T12:28:21.885Z"}
+{"id":"583e8f9341909c4fb86a2a19","name":"Test","path":"./rt/test.js","state":"0","rule":{},"args":{"str":"--port:4432"},"level":"info","message":"","timestamp":"2016-11-30T12:28:21.887Z"}
+{"id":"583e90bf6ce7881e0c33f3f1","name":"Test2","path":"Test2","state":"0","rule":{},"args":{"str":"Test2"},"level":"info","message":"","timestamp":"2016-11-30T12:28:21.887Z"}
+{"id":"583e910d3e59484fe8a21ec6","name":"Test3","path":"Test3","state":"0","rule":{},"args":{"str":"Test3"},"level":"info","message":"","timestamp":"2016-11-30T12:28:21.888Z"}
+{"id":"583e912d3e59484fe8a21ec7","name":"Test4","path":"Test4","state":"0","rule":{},"args":{"str":"Test4"},"level":"info","message":"","timestamp":"2016-11-30T12:28:21.888Z"}
+{"id":"583e914a3009a43d381434ef","name":"Test5","path":"Test5","state":"0","rule":{},"args":{"str":"Test5"},"level":"info","message":"","timestamp":"2016-11-30T12:28:21.888Z"}
+{"id":"583e91b73009a43d381434f0","name":"Test6","path":"Test6","state":"0","rule":{},"args":{"str":"Test6"},"level":"info","message":"","timestamp":"2016-11-30T12:28:21.888Z"}
+{"id":"583e91c23009a43d381434f1","name":"Test7","path":"Test6","state":"0","rule":{},"args":{"str":"Test6"},"level":"info","message":"","timestamp":"2016-11-30T12:28:21.889Z"}
+{"id":"583e91ca3009a43d381434f2","name":"Test7","path":"Test6","state":"0","rule":{},"args":{"str":"Test6"},"level":"info","message":"","timestamp":"2016-11-30T12:28:21.889Z"}
+{"id":"583e91ce3009a43d381434f3","name":"Test7","path":"Test6","state":"0","rule":{},"args":{"str":"Test6"},"level":"info","message":"","timestamp":"2016-11-30T12:28:21.889Z"}
+{"id":"583e91d83009a43d381434f4","name":"Test78","path":"Test6","state":"0","rule":{},"args":{"str":"Test6"},"level":"info","message":"","timestamp":"2016-11-30T12:28:21.889Z"}
+{"id":"583e91db3009a43d381434f5","name":"Test79","path":"Test6","state":"0","rule":{},"args":{"str":"Test6"},"level":"info","message":"","timestamp":"2016-11-30T12:28:21.890Z"}
+{"id":"583e92023009a43d381434f6","name":"Test79","path":"Test6","state":"0","rule":{},"args":{"str":"Test6"},"level":"info","message":"","timestamp":"2016-11-30T12:28:21.890Z"}
+{"id":"583e92193009a43d381434f7","name":"Test80","path":"Test6","state":"0","rule":{},"args":{"str":"Test6"},"level":"info","message":"","timestamp":"2016-11-30T12:28:21.893Z"}
+{"id":"583e92293009a43d381434f8","name":"Test81","path":"Test6","state":"0","rule":{},"args":{"str":"Test6"},"level":"info","message":"","timestamp":"2016-11-30T12:28:21.893Z"}
+{"id":"583ea5f3dc1c774138cf00c8","name":"4566","path":"6654","state":"0","rule":{},"args":{"str":"6654"},"level":"info","message":"","timestamp":"2016-11-30T12:28:21.893Z"}
+{"level":"info","message":"Start module  Test2","timestamp":"2016-11-30T12:28:30.435Z"}
+{"level":"info","message":"Stop module  Test2","timestamp":"2016-11-30T12:28:33.653Z"}
+{"level":"info","message":"Start module  Test80","timestamp":"2016-11-30T12:28:37.340Z"}
+{"level":"info","message":"Stop module  Test80","timestamp":"2016-11-30T12:28:39.172Z"}
+{"level":"info","message":"Start module  4566","timestamp":"2016-11-30T12:28:41.924Z"}
+{"level":"info","message":"Stop module  4566","timestamp":"2016-11-30T12:28:43.469Z"}
+{"level":"info","message":"Start module  Test6","timestamp":"2016-11-30T12:28:45.686Z"}
+{"level":"info","message":"Stop module  Test6","timestamp":"2016-11-30T12:28:49.109Z"}
+{"level":"info","message":"Start module  Test6","timestamp":"2016-11-30T12:28:50.970Z"}
+{"level":"info","message":"Stop module  Test6","timestamp":"2016-11-30T12:28:52.436Z"}
+{"level":"info","message":"Start service","timestamp":"2016-11-30T12:35:30.538Z"}
+{"level":"info","message":"Web service loaded","timestamp":"2016-11-30T12:35:30.951Z"}
+{"level":"info","message":"Websocket loaded","timestamp":"2016-11-30T12:35:31.347Z"}
+{"id":"583b560fdef04c263fed8df6","name":"Real-time data provider","path":"./rtime.js","state":"0","rule":{},"args":{},"level":"info","message":"","timestamp":"2016-11-30T12:35:32.177Z"}
+{"id":"583e8f9341909c4fb86a2a19","name":"Test","path":"./rt/test.js","state":"0","rule":{},"args":{"str":"--port:4432"},"level":"info","message":"","timestamp":"2016-11-30T12:35:32.179Z"}
+{"id":"583e90bf6ce7881e0c33f3f1","name":"Test2","path":"Test2","state":"0","rule":{},"args":{"str":"Test2"},"level":"info","message":"","timestamp":"2016-11-30T12:35:32.179Z"}
+{"id":"583e910d3e59484fe8a21ec6","name":"Test3","path":"Test3","state":"0","rule":{},"args":{"str":"Test3"},"level":"info","message":"","timestamp":"2016-11-30T12:35:32.179Z"}
+{"id":"583e912d3e59484fe8a21ec7","name":"Test4","path":"Test4","state":"0","rule":{},"args":{"str":"Test4"},"level":"info","message":"","timestamp":"2016-11-30T12:35:32.179Z"}
+{"id":"583e914a3009a43d381434ef","name":"Test5","path":"Test5","state":"0","rule":{},"args":{"str":"Test5"},"level":"info","message":"","timestamp":"2016-11-30T12:35:32.180Z"}
+{"id":"583e91b73009a43d381434f0","name":"Test6","path":"Test6","state":"0","rule":{},"args":{"str":"Test6"},"level":"info","message":"","timestamp":"2016-11-30T12:35:32.180Z"}
+{"id":"583e91c23009a43d381434f1","name":"Test7","path":"Test6","state":"0","rule":{},"args":{"str":"Test6"},"level":"info","message":"","timestamp":"2016-11-30T12:35:32.180Z"}
+{"id":"583e91ca3009a43d381434f2","name":"Test7","path":"Test6","state":"0","rule":{},"args":{"str":"Test6"},"level":"info","message":"","timestamp":"2016-11-30T12:35:32.180Z"}
+{"id":"583e91ce3009a43d381434f3","name":"Test7","path":"Test6","state":"0","rule":{},"args":{"str":"Test6"},"level":"info","message":"","timestamp":"2016-11-30T12:35:32.180Z"}
+{"id":"583e91d83009a43d381434f4","name":"Test78","path":"Test6","state":"0","rule":{},"args":{"str":"Test6"},"level":"info","message":"","timestamp":"2016-11-30T12:35:32.181Z"}
+{"id":"583e91db3009a43d381434f5","name":"Test79","path":"Test6","state":"0","rule":{},"args":{"str":"Test6"},"level":"info","message":"","timestamp":"2016-11-30T12:35:32.182Z"}
+{"id":"583e92023009a43d381434f6","name":"Test79","path":"Test6","state":"0","rule":{},"args":{"str":"Test6"},"level":"info","message":"","timestamp":"2016-11-30T12:35:32.182Z"}
+{"id":"583e92193009a43d381434f7","name":"Test80","path":"Test6","state":"0","rule":{},"args":{"str":"Test6"},"level":"info","message":"","timestamp":"2016-11-30T12:35:32.182Z"}
+{"id":"583e92293009a43d381434f8","name":"Test81","path":"Test6","state":"0","rule":{},"args":{"str":"Test6"},"level":"info","message":"","timestamp":"2016-11-30T12:35:32.182Z"}
+{"id":"583ea5f3dc1c774138cf00c8","name":"4566","path":"6654","state":"0","rule":{},"args":{"str":"6654"},"level":"info","message":"","timestamp":"2016-11-30T12:35:32.183Z"}
+{"id":"583b560fdef04c263fed8df6","name":"Real-time data provider","path":"./rtime.js","state":"0","rule":{},"args":{},"level":"info","message":"","timestamp":"2016-11-30T12:35:38.624Z"}
+{"id":"583e8f9341909c4fb86a2a19","name":"Test","path":"./rt/test.js","state":"0","rule":{},"args":{"str":"--port:4432"},"level":"info","message":"","timestamp":"2016-11-30T12:35:38.625Z"}
+{"id":"583e90bf6ce7881e0c33f3f1","name":"Test2","path":"Test2","state":"0","rule":{},"args":{"str":"Test2"},"level":"info","message":"","timestamp":"2016-11-30T12:35:38.625Z"}
+{"id":"583e910d3e59484fe8a21ec6","name":"Test3","path":"Test3","state":"0","rule":{},"args":{"str":"Test3"},"level":"info","message":"","timestamp":"2016-11-30T12:35:38.626Z"}
+{"id":"583e912d3e59484fe8a21ec7","name":"Test4","path":"Test4","state":"0","rule":{},"args":{"str":"Test4"},"level":"info","message":"","timestamp":"2016-11-30T12:35:38.626Z"}
+{"id":"583e914a3009a43d381434ef","name":"Test5","path":"Test5","state":"0","rule":{},"args":{"str":"Test5"},"level":"info","message":"","timestamp":"2016-11-30T12:35:38.626Z"}
+{"id":"583e91b73009a43d381434f0","name":"Test6","path":"Test6","state":"0","rule":{},"args":{"str":"Test6"},"level":"info","message":"","timestamp":"2016-11-30T12:35:38.628Z"}
+{"id":"583e91c23009a43d381434f1","name":"Test7","path":"Test6","state":"0","rule":{},"args":{"str":"Test6"},"level":"info","message":"","timestamp":"2016-11-30T12:35:38.629Z"}
+{"id":"583e91ca3009a43d381434f2","name":"Test7","path":"Test6","state":"0","rule":{},"args":{"str":"Test6"},"level":"info","message":"","timestamp":"2016-11-30T12:35:38.629Z"}
+{"id":"583e91ce3009a43d381434f3","name":"Test7","path":"Test6","state":"0","rule":{},"args":{"str":"Test6"},"level":"info","message":"","timestamp":"2016-11-30T12:35:38.630Z"}
+{"id":"583e91d83009a43d381434f4","name":"Test78","path":"Test6","state":"0","rule":{},"args":{"str":"Test6"},"level":"info","message":"","timestamp":"2016-11-30T12:35:38.630Z"}
+{"id":"583e91db3009a43d381434f5","name":"Test79","path":"Test6","state":"0","rule":{},"args":{"str":"Test6"},"level":"info","message":"","timestamp":"2016-11-30T12:35:38.631Z"}
+{"id":"583e92023009a43d381434f6","name":"Test79","path":"Test6","state":"0","rule":{},"args":{"str":"Test6"},"level":"info","message":"","timestamp":"2016-11-30T12:35:38.631Z"}
+{"id":"583e92193009a43d381434f7","name":"Test80","path":"Test6","state":"0","rule":{},"args":{"str":"Test6"},"level":"info","message":"","timestamp":"2016-11-30T12:35:38.631Z"}
+{"id":"583e92293009a43d381434f8","name":"Test81","path":"Test6","state":"0","rule":{},"args":{"str":"Test6"},"level":"info","message":"","timestamp":"2016-11-30T12:35:38.632Z"}
+{"id":"583ea5f3dc1c774138cf00c8","name":"4566","path":"6654","state":"0","rule":{},"args":{"str":"6654"},"level":"info","message":"","timestamp":"2016-11-30T12:35:38.632Z"}
+{"id":"583b560fdef04c263fed8df6","name":"Real-time data provider","path":"./rtime.js","state":"0","rule":{},"args":{},"level":"info","message":"","timestamp":"2016-11-30T12:35:41.389Z"}
+{"id":"583e8f9341909c4fb86a2a19","name":"Test","path":"./rt/test.js","state":"0","rule":{},"args":{"str":"--port:4432"},"level":"info","message":"","timestamp":"2016-11-30T12:35:41.392Z"}
+{"id":"583e90bf6ce7881e0c33f3f1","name":"Test2","path":"Test2","state":"0","rule":{},"args":{"str":"Test2"},"level":"info","message":"","timestamp":"2016-11-30T12:35:41.393Z"}
+{"id":"583e910d3e59484fe8a21ec6","name":"Test3","path":"Test3","state":"0","rule":{},"args":{"str":"Test3"},"level":"info","message":"","timestamp":"2016-11-30T12:35:41.393Z"}
+{"id":"583e912d3e59484fe8a21ec7","name":"Test4","path":"Test4","state":"0","rule":{},"args":{"str":"Test4"},"level":"info","message":"","timestamp":"2016-11-30T12:35:41.394Z"}
+{"id":"583e914a3009a43d381434ef","name":"Test5","path":"Test5","state":"0","rule":{},"args":{"str":"Test5"},"level":"info","message":"","timestamp":"2016-11-30T12:35:41.394Z"}
+{"id":"583e91b73009a43d381434f0","name":"Test6","path":"Test6","state":"0","rule":{},"args":{"str":"Test6"},"level":"info","message":"","timestamp":"2016-11-30T12:35:41.394Z"}
+{"id":"583e91c23009a43d381434f1","name":"Test7","path":"Test6","state":"0","rule":{},"args":{"str":"Test6"},"level":"info","message":"","timestamp":"2016-11-30T12:35:41.396Z"}
+{"id":"583e91ca3009a43d381434f2","name":"Test7","path":"Test6","state":"0","rule":{},"args":{"str":"Test6"},"level":"info","message":"","timestamp":"2016-11-30T12:35:41.396Z"}
+{"id":"583e91ce3009a43d381434f3","name":"Test7","path":"Test6","state":"0","rule":{},"args":{"str":"Test6"},"level":"info","message":"","timestamp":"2016-11-30T12:35:41.397Z"}
+{"id":"583e91d83009a43d381434f4","name":"Test78","path":"Test6","state":"0","rule":{},"args":{"str":"Test6"},"level":"info","message":"","timestamp":"2016-11-30T12:35:41.397Z"}
+{"id":"583e91db3009a43d381434f5","name":"Test79","path":"Test6","state":"0","rule":{},"args":{"str":"Test6"},"level":"info","message":"","timestamp":"2016-11-30T12:35:41.398Z"}
+{"id":"583e92023009a43d381434f6","name":"Test79","path":"Test6","state":"0","rule":{},"args":{"str":"Test6"},"level":"info","message":"","timestamp":"2016-11-30T12:35:41.399Z"}
+{"id":"583e92193009a43d381434f7","name":"Test80","path":"Test6","state":"0","rule":{},"args":{"str":"Test6"},"level":"info","message":"","timestamp":"2016-11-30T12:35:41.400Z"}
+{"id":"583e92293009a43d381434f8","name":"Test81","path":"Test6","state":"0","rule":{},"args":{"str":"Test6"},"level":"info","message":"","timestamp":"2016-11-30T12:35:41.400Z"}
+{"id":"583ea5f3dc1c774138cf00c8","name":"4566","path":"6654","state":"0","rule":{},"args":{"str":"6654"},"level":"info","message":"","timestamp":"2016-11-30T12:35:41.400Z"}
+{"id":"583b560fdef04c263fed8df6","name":"Real-time data provider","path":"./rtime.js","state":"0","rule":{},"args":{},"level":"info","message":"","timestamp":"2016-11-30T12:35:43.702Z"}
+{"id":"583e8f9341909c4fb86a2a19","name":"Test","path":"./rt/test.js","state":"0","rule":{},"args":{"str":"--port:4432"},"level":"info","message":"","timestamp":"2016-11-30T12:35:43.703Z"}
+{"id":"583e90bf6ce7881e0c33f3f1","name":"Test2","path":"Test2","state":"0","rule":{},"args":{"str":"Test2"},"level":"info","message":"","timestamp":"2016-11-30T12:35:43.703Z"}
+{"id":"583e910d3e59484fe8a21ec6","name":"Test3","path":"Test3","state":"0","rule":{},"args":{"str":"Test3"},"level":"info","message":"","timestamp":"2016-11-30T12:35:43.704Z"}
+{"id":"583e912d3e59484fe8a21ec7","name":"Test4","path":"Test4","state":"0","rule":{},"args":{"str":"Test4"},"level":"info","message":"","timestamp":"2016-11-30T12:35:43.704Z"}
+{"id":"583e914a3009a43d381434ef","name":"Test5","path":"Test5","state":"0","rule":{},"args":{"str":"Test5"},"level":"info","message":"","timestamp":"2016-11-30T12:35:43.704Z"}
+{"id":"583e91b73009a43d381434f0","name":"Test6","path":"Test6","state":"0","rule":{},"args":{"str":"Test6"},"level":"info","message":"","timestamp":"2016-11-30T12:35:43.705Z"}
+{"id":"583e91c23009a43d381434f1","name":"Test7","path":"Test6","state":"0","rule":{},"args":{"str":"Test6"},"level":"info","message":"","timestamp":"2016-11-30T12:35:43.705Z"}
+{"id":"583e91ca3009a43d381434f2","name":"Test7","path":"Test6","state":"0","rule":{},"args":{"str":"Test6"},"level":"info","message":"","timestamp":"2016-11-30T12:35:43.706Z"}
+{"id":"583e91ce3009a43d381434f3","name":"Test7","path":"Test6","state":"0","rule":{},"args":{"str":"Test6"},"level":"info","message":"","timestamp":"2016-11-30T12:35:43.706Z"}
+{"id":"583e91d83009a43d381434f4","name":"Test78","path":"Test6","state":"0","rule":{},"args":{"str":"Test6"},"level":"info","message":"","timestamp":"2016-11-30T12:35:43.706Z"}
+{"id":"583e91db3009a43d381434f5","name":"Test79","path":"Test6","state":"0","rule":{},"args":{"str":"Test6"},"level":"info","message":"","timestamp":"2016-11-30T12:35:43.707Z"}
+{"id":"583e92023009a43d381434f6","name":"Test79","path":"Test6","state":"0","rule":{},"args":{"str":"Test6"},"level":"info","message":"","timestamp":"2016-11-30T12:35:43.708Z"}
+{"id":"583e92193009a43d381434f7","name":"Test80","path":"Test6","state":"0","rule":{},"args":{"str":"Test6"},"level":"info","message":"","timestamp":"2016-11-30T12:35:43.708Z"}
+{"id":"583e92293009a43d381434f8","name":"Test81","path":"Test6","state":"0","rule":{},"args":{"str":"Test6"},"level":"info","message":"","timestamp":"2016-11-30T12:35:43.708Z"}
+{"id":"583ea5f3dc1c774138cf00c8","name":"4566","path":"6654","state":"0","rule":{},"args":{"str":"6654"},"level":"info","message":"","timestamp":"2016-11-30T12:35:43.709Z"}
+{"id":"583b560fdef04c263fed8df6","name":"Real-time data provider","path":"./rtime.js","state":"0","rule":{},"args":{},"level":"info","message":"","timestamp":"2016-11-30T12:35:50.499Z"}
+{"id":"583e8f9341909c4fb86a2a19","name":"Test","path":"./rt/test.js","state":"0","rule":{},"args":{"str":"--port:4432"},"level":"info","message":"","timestamp":"2016-11-30T12:35:50.500Z"}
+{"id":"583e90bf6ce7881e0c33f3f1","name":"Test2","path":"Test2","state":"0","rule":{},"args":{"str":"Test2"},"level":"info","message":"","timestamp":"2016-11-30T12:35:50.501Z"}
+{"id":"583e910d3e59484fe8a21ec6","name":"Test3","path":"Test3","state":"0","rule":{},"args":{"str":"Test3"},"level":"info","message":"","timestamp":"2016-11-30T12:35:50.501Z"}
+{"id":"583e912d3e59484fe8a21ec7","name":"Test4","path":"Test4","state":"0","rule":{},"args":{"str":"Test4"},"level":"info","message":"","timestamp":"2016-11-30T12:35:50.502Z"}
+{"id":"583e914a3009a43d381434ef","name":"Test5","path":"Test5","state":"0","rule":{},"args":{"str":"Test5"},"level":"info","message":"","timestamp":"2016-11-30T12:35:50.502Z"}
+{"id":"583e91b73009a43d381434f0","name":"Test6","path":"Test6","state":"0","rule":{},"args":{"str":"Test6"},"level":"info","message":"","timestamp":"2016-11-30T12:35:50.503Z"}
+{"id":"583e91c23009a43d381434f1","name":"Test7","path":"Test6","state":"0","rule":{},"args":{"str":"Test6"},"level":"info","message":"","timestamp":"2016-11-30T12:35:50.504Z"}
+{"id":"583e91ca3009a43d381434f2","name":"Test7","path":"Test6","state":"0","rule":{},"args":{"str":"Test6"},"level":"info","message":"","timestamp":"2016-11-30T12:35:50.506Z"}
+{"id":"583e91ce3009a43d381434f3","name":"Test7","path":"Test6","state":"0","rule":{},"args":{"str":"Test6"},"level":"info","message":"","timestamp":"2016-11-30T12:35:50.506Z"}
+{"id":"583e91d83009a43d381434f4","name":"Test78","path":"Test6","state":"0","rule":{},"args":{"str":"Test6"},"level":"info","message":"","timestamp":"2016-11-30T12:35:50.507Z"}
+{"id":"583e91db3009a43d381434f5","name":"Test79","path":"Test6","state":"0","rule":{},"args":{"str":"Test6"},"level":"info","message":"","timestamp":"2016-11-30T12:35:50.510Z"}
+{"id":"583e92023009a43d381434f6","name":"Test79","path":"Test6","state":"0","rule":{},"args":{"str":"Test6"},"level":"info","message":"","timestamp":"2016-11-30T12:35:50.510Z"}
+{"id":"583e92193009a43d381434f7","name":"Test80","path":"Test6","state":"0","rule":{},"args":{"str":"Test6"},"level":"info","message":"","timestamp":"2016-11-30T12:35:50.512Z"}
+{"id":"583e92293009a43d381434f8","name":"Test81","path":"Test6","state":"0","rule":{},"args":{"str":"Test6"},"level":"info","message":"","timestamp":"2016-11-30T12:35:50.512Z"}
+{"id":"583ea5f3dc1c774138cf00c8","name":"4566","path":"6654","state":"0","rule":{},"args":{"str":"6654"},"level":"info","message":"","timestamp":"2016-11-30T12:35:50.514Z"}
+{"level":"info","message":"Start service","timestamp":"2016-11-30T12:36:26.665Z"}
+{"level":"info","message":"Web service loaded","timestamp":"2016-11-30T12:36:27.022Z"}
+{"level":"info","message":"Websocket loaded","timestamp":"2016-11-30T12:36:27.346Z"}
+{"id":"583b560fdef04c263fed8df6","name":"Real-time data provider","path":"./rtime.js","state":"0","rule":{},"args":{},"level":"info","message":"","timestamp":"2016-11-30T12:36:28.112Z"}
+{"id":"583e8f9341909c4fb86a2a19","name":"Test","path":"./rt/test.js","state":"0","rule":{},"args":{"str":"--port:4432"},"level":"info","message":"","timestamp":"2016-11-30T12:36:28.113Z"}
+{"id":"583e90bf6ce7881e0c33f3f1","name":"Test2","path":"Test2","state":"0","rule":{},"args":{"str":"Test2"},"level":"info","message":"","timestamp":"2016-11-30T12:36:28.113Z"}
+{"id":"583e910d3e59484fe8a21ec6","name":"Test3","path":"Test3","state":"0","rule":{},"args":{"str":"Test3"},"level":"info","message":"","timestamp":"2016-11-30T12:36:28.113Z"}
+{"id":"583e912d3e59484fe8a21ec7","name":"Test4","path":"Test4","state":"0","rule":{},"args":{"str":"Test4"},"level":"info","message":"","timestamp":"2016-11-30T12:36:28.113Z"}
+{"id":"583e914a3009a43d381434ef","name":"Test5","path":"Test5","state":"0","rule":{},"args":{"str":"Test5"},"level":"info","message":"","timestamp":"2016-11-30T12:36:28.114Z"}
+{"id":"583e91b73009a43d381434f0","name":"Test6","path":"Test6","state":"0","rule":{},"args":{"str":"Test6"},"level":"info","message":"","timestamp":"2016-11-30T12:36:28.114Z"}
+{"id":"583e91c23009a43d381434f1","name":"Test7","path":"Test6","state":"0","rule":{},"args":{"str":"Test6"},"level":"info","message":"","timestamp":"2016-11-30T12:36:28.114Z"}
+{"id":"583e91ca3009a43d381434f2","name":"Test7","path":"Test6","state":"0","rule":{},"args":{"str":"Test6"},"level":"info","message":"","timestamp":"2016-11-30T12:36:28.114Z"}
+{"id":"583e91ce3009a43d381434f3","name":"Test7","path":"Test6","state":"0","rule":{},"args":{"str":"Test6"},"level":"info","message":"","timestamp":"2016-11-30T12:36:28.115Z"}
+{"id":"583e91d83009a43d381434f4","name":"Test78","path":"Test6","state":"0","rule":{},"args":{"str":"Test6"},"level":"info","message":"","timestamp":"2016-11-30T12:36:28.115Z"}
+{"id":"583e91db3009a43d381434f5","name":"Test79","path":"Test6","state":"0","rule":{},"args":{"str":"Test6"},"level":"info","message":"","timestamp":"2016-11-30T12:36:28.116Z"}
+{"id":"583e92023009a43d381434f6","name":"Test79","path":"Test6","state":"0","rule":{},"args":{"str":"Test6"},"level":"info","message":"","timestamp":"2016-11-30T12:36:28.116Z"}
+{"id":"583e92193009a43d381434f7","name":"Test80","path":"Test6","state":"0","rule":{},"args":{"str":"Test6"},"level":"info","message":"","timestamp":"2016-11-30T12:36:28.117Z"}
+{"id":"583e92293009a43d381434f8","name":"Test81","path":"Test6","state":"0","rule":{},"args":{"str":"Test6"},"level":"info","message":"","timestamp":"2016-11-30T12:36:28.117Z"}
+{"id":"583ea5f3dc1c774138cf00c8","name":"4566","path":"6654","state":"0","rule":{},"args":{"str":"6654"},"level":"info","message":"","timestamp":"2016-11-30T12:36:28.117Z"}
+{"id":"583b560fdef04c263fed8df6","name":"Real-time data provider","path":"./rtime.js","state":"0","rule":{},"args":{},"level":"info","message":"","timestamp":"2016-11-30T12:36:59.898Z"}
+{"id":"583e8f9341909c4fb86a2a19","name":"Test","path":"./rt/test.js","state":"0","rule":{},"args":{"str":"--port:4432"},"level":"info","message":"","timestamp":"2016-11-30T12:36:59.903Z"}
+{"id":"583e90bf6ce7881e0c33f3f1","name":"Test2","path":"Test2","state":"0","rule":{},"args":{"str":"Test2"},"level":"info","message":"","timestamp":"2016-11-30T12:36:59.903Z"}
+{"id":"583e910d3e59484fe8a21ec6","name":"Test3","path":"Test3","state":"0","rule":{},"args":{"str":"Test3"},"level":"info","message":"","timestamp":"2016-11-30T12:36:59.904Z"}
+{"id":"583e912d3e59484fe8a21ec7","name":"Test4","path":"Test4","state":"0","rule":{},"args":{"str":"Test4"},"level":"info","message":"","timestamp":"2016-11-30T12:36:59.904Z"}
+{"id":"583e914a3009a43d381434ef","name":"Test5","path":"Test5","state":"0","rule":{},"args":{"str":"Test5"},"level":"info","message":"","timestamp":"2016-11-30T12:36:59.904Z"}
+{"id":"583e91b73009a43d381434f0","name":"Test6","path":"Test6","state":"0","rule":{},"args":{"str":"Test6"},"level":"info","message":"","timestamp":"2016-11-30T12:36:59.905Z"}
+{"id":"583e91c23009a43d381434f1","name":"Test7","path":"Test6","state":"0","rule":{},"args":{"str":"Test6"},"level":"info","message":"","timestamp":"2016-11-30T12:36:59.905Z"}
+{"id":"583e91ca3009a43d381434f2","name":"Test7","path":"Test6","state":"0","rule":{},"args":{"str":"Test6"},"level":"info","message":"","timestamp":"2016-11-30T12:36:59.905Z"}
+{"id":"583e91ce3009a43d381434f3","name":"Test7","path":"Test6","state":"0","rule":{},"args":{"str":"Test6"},"level":"info","message":"","timestamp":"2016-11-30T12:36:59.906Z"}
+{"id":"583e91d83009a43d381434f4","name":"Test78","path":"Test6","state":"0","rule":{},"args":{"str":"Test6"},"level":"info","message":"","timestamp":"2016-11-30T12:36:59.906Z"}
+{"id":"583e91db3009a43d381434f5","name":"Test79","path":"Test6","state":"0","rule":{},"args":{"str":"Test6"},"level":"info","message":"","timestamp":"2016-11-30T12:36:59.906Z"}
+{"id":"583e92023009a43d381434f6","name":"Test79","path":"Test6","state":"0","rule":{},"args":{"str":"Test6"},"level":"info","message":"","timestamp":"2016-11-30T12:36:59.907Z"}
+{"id":"583e92193009a43d381434f7","name":"Test80","path":"Test6","state":"0","rule":{},"args":{"str":"Test6"},"level":"info","message":"","timestamp":"2016-11-30T12:36:59.907Z"}
+{"id":"583e92293009a43d381434f8","name":"Test81","path":"Test6","state":"0","rule":{},"args":{"str":"Test6"},"level":"info","message":"","timestamp":"2016-11-30T12:36:59.908Z"}
+{"id":"583ea5f3dc1c774138cf00c8","name":"4566","path":"6654","state":"0","rule":{},"args":{"str":"6654"},"level":"info","message":"","timestamp":"2016-11-30T12:36:59.908Z"}
+{"level":"info","message":"Start service","timestamp":"2016-11-30T12:37:13.621Z"}
+{"level":"info","message":"Web service loaded","timestamp":"2016-11-30T12:37:13.947Z"}
+{"level":"info","message":"Websocket loaded","timestamp":"2016-11-30T12:37:14.218Z"}
+{"id":"583b560fdef04c263fed8df6","name":"Real-time data provider","path":"./rtime.js","state":"0","rule":{},"args":{},"level":"info","message":"","timestamp":"2016-11-30T12:37:14.928Z"}
+{"id":"583e8f9341909c4fb86a2a19","name":"Test","path":"./rt/test.js","state":"0","rule":{},"args":{"str":"--port:4432"},"level":"info","message":"","timestamp":"2016-11-30T12:37:14.930Z"}
+{"id":"583e90bf6ce7881e0c33f3f1","name":"Test2","path":"Test2","state":"0","rule":{},"args":{"str":"Test2"},"level":"info","message":"","timestamp":"2016-11-30T12:37:14.930Z"}
+{"id":"583e910d3e59484fe8a21ec6","name":"Test3","path":"Test3","state":"0","rule":{},"args":{"str":"Test3"},"level":"info","message":"","timestamp":"2016-11-30T12:37:14.930Z"}
+{"id":"583e912d3e59484fe8a21ec7","name":"Test4","path":"Test4","state":"0","rule":{},"args":{"str":"Test4"},"level":"info","message":"","timestamp":"2016-11-30T12:37:14.930Z"}
+{"id":"583e914a3009a43d381434ef","name":"Test5","path":"Test5","state":"0","rule":{},"args":{"str":"Test5"},"level":"info","message":"","timestamp":"2016-11-30T12:37:14.931Z"}
+{"id":"583e91b73009a43d381434f0","name":"Test6","path":"Test6","state":"0","rule":{},"args":{"str":"Test6"},"level":"info","message":"","timestamp":"2016-11-30T12:37:14.931Z"}
+{"id":"583e91c23009a43d381434f1","name":"Test7","path":"Test6","state":"0","rule":{},"args":{"str":"Test6"},"level":"info","message":"","timestamp":"2016-11-30T12:37:14.931Z"}
+{"id":"583e91ca3009a43d381434f2","name":"Test7","path":"Test6","state":"0","rule":{},"args":{"str":"Test6"},"level":"info","message":"","timestamp":"2016-11-30T12:37:14.931Z"}
+{"id":"583e91ce3009a43d381434f3","name":"Test7","path":"Test6","state":"0","rule":{},"args":{"str":"Test6"},"level":"info","message":"","timestamp":"2016-11-30T12:37:14.931Z"}
+{"id":"583e91d83009a43d381434f4","name":"Test78","path":"Test6","state":"0","rule":{},"args":{"str":"Test6"},"level":"info","message":"","timestamp":"2016-11-30T12:37:14.932Z"}
+{"id":"583e91db3009a43d381434f5","name":"Test79","path":"Test6","state":"0","rule":{},"args":{"str":"Test6"},"level":"info","message":"","timestamp":"2016-11-30T12:37:14.932Z"}
+{"id":"583e92023009a43d381434f6","name":"Test79","path":"Test6","state":"0","rule":{},"args":{"str":"Test6"},"level":"info","message":"","timestamp":"2016-11-30T12:37:14.933Z"}
+{"id":"583e92193009a43d381434f7","name":"Test80","path":"Test6","state":"0","rule":{},"args":{"str":"Test6"},"level":"info","message":"","timestamp":"2016-11-30T12:37:14.933Z"}
+{"id":"583e92293009a43d381434f8","name":"Test81","path":"Test6","state":"0","rule":{},"args":{"str":"Test6"},"level":"info","message":"","timestamp":"2016-11-30T12:37:14.933Z"}
+{"id":"583ea5f3dc1c774138cf00c8","name":"4566","path":"6654","state":"0","rule":{},"args":{"str":"6654"},"level":"info","message":"","timestamp":"2016-11-30T12:37:14.934Z"}
+{"id":"583b560fdef04c263fed8df6","name":"Real-time data provider","path":"./rtime.js","state":"0","rule":{},"args":{},"level":"info","message":"","timestamp":"2016-11-30T12:37:23.844Z"}
+{"id":"583e8f9341909c4fb86a2a19","name":"Test","path":"./rt/test.js","state":"0","rule":{},"args":{"str":"--port:4432"},"level":"info","message":"","timestamp":"2016-11-30T12:37:23.849Z"}
+{"id":"583e90bf6ce7881e0c33f3f1","name":"Test2","path":"Test2","state":"0","rule":{},"args":{"str":"Test2"},"level":"info","message":"","timestamp":"2016-11-30T12:37:23.850Z"}
+{"id":"583e910d3e59484fe8a21ec6","name":"Test3","path":"Test3","state":"0","rule":{},"args":{"str":"Test3"},"level":"info","message":"","timestamp":"2016-11-30T12:37:23.850Z"}
+{"id":"583e912d3e59484fe8a21ec7","name":"Test4","path":"Test4","state":"0","rule":{},"args":{"str":"Test4"},"level":"info","message":"","timestamp":"2016-11-30T12:37:23.851Z"}
+{"id":"583e914a3009a43d381434ef","name":"Test5","path":"Test5","state":"0","rule":{},"args":{"str":"Test5"},"level":"info","message":"","timestamp":"2016-11-30T12:37:23.851Z"}
+{"id":"583e91b73009a43d381434f0","name":"Test6","path":"Test6","state":"0","rule":{},"args":{"str":"Test6"},"level":"info","message":"","timestamp":"2016-11-30T12:37:23.851Z"}
+{"id":"583e91c23009a43d381434f1","name":"Test7","path":"Test6","state":"0","rule":{},"args":{"str":"Test6"},"level":"info","message":"","timestamp":"2016-11-30T12:37:23.852Z"}
+{"id":"583e91ca3009a43d381434f2","name":"Test7","path":"Test6","state":"0","rule":{},"args":{"str":"Test6"},"level":"info","message":"","timestamp":"2016-11-30T12:37:23.852Z"}
+{"id":"583e91ce3009a43d381434f3","name":"Test7","path":"Test6","state":"0","rule":{},"args":{"str":"Test6"},"level":"info","message":"","timestamp":"2016-11-30T12:37:23.853Z"}
+{"id":"583e91d83009a43d381434f4","name":"Test78","path":"Test6","state":"0","rule":{},"args":{"str":"Test6"},"level":"info","message":"","timestamp":"2016-11-30T12:37:23.854Z"}
+{"id":"583e91db3009a43d381434f5","name":"Test79","path":"Test6","state":"0","rule":{},"args":{"str":"Test6"},"level":"info","message":"","timestamp":"2016-11-30T12:37:23.854Z"}
+{"id":"583e92023009a43d381434f6","name":"Test79","path":"Test6","state":"0","rule":{},"args":{"str":"Test6"},"level":"info","message":"","timestamp":"2016-11-30T12:37:23.855Z"}
+{"id":"583e92193009a43d381434f7","name":"Test80","path":"Test6","state":"0","rule":{},"args":{"str":"Test6"},"level":"info","message":"","timestamp":"2016-11-30T12:37:23.855Z"}
+{"id":"583e92293009a43d381434f8","name":"Test81","path":"Test6","state":"0","rule":{},"args":{"str":"Test6"},"level":"info","message":"","timestamp":"2016-11-30T12:37:23.856Z"}
+{"id":"583ea5f3dc1c774138cf00c8","name":"4566","path":"6654","state":"0","rule":{},"args":{"str":"6654"},"level":"info","message":"","timestamp":"2016-11-30T12:37:23.857Z"}
+{"id":"583b560fdef04c263fed8df6","name":"Real-time data provider","path":"./rtime.js","state":"0","rule":{},"args":{},"level":"info","message":"","timestamp":"2016-11-30T12:37:29.680Z"}
+{"id":"583e8f9341909c4fb86a2a19","name":"Test","path":"./rt/test.js","state":"0","rule":{},"args":{"str":"--port:4432"},"level":"info","message":"","timestamp":"2016-11-30T12:37:29.682Z"}
+{"id":"583e90bf6ce7881e0c33f3f1","name":"Test2","path":"Test2","state":"0","rule":{},"args":{"str":"Test2"},"level":"info","message":"","timestamp":"2016-11-30T12:37:29.683Z"}
+{"id":"583e910d3e59484fe8a21ec6","name":"Test3","path":"Test3","state":"0","rule":{},"args":{"str":"Test3"},"level":"info","message":"","timestamp":"2016-11-30T12:37:29.684Z"}
+{"id":"583e912d3e59484fe8a21ec7","name":"Test4","path":"Test4","state":"0","rule":{},"args":{"str":"Test4"},"level":"info","message":"","timestamp":"2016-11-30T12:37:29.684Z"}
+{"id":"583e914a3009a43d381434ef","name":"Test5","path":"Test5","state":"0","rule":{},"args":{"str":"Test5"},"level":"info","message":"","timestamp":"2016-11-30T12:37:29.685Z"}
+{"id":"583e91b73009a43d381434f0","name":"Test6","path":"Test6","state":"0","rule":{},"args":{"str":"Test6"},"level":"info","message":"","timestamp":"2016-11-30T12:37:29.686Z"}
+{"id":"583e91c23009a43d381434f1","name":"Test7","path":"Test6","state":"0","rule":{},"args":{"str":"Test6"},"level":"info","message":"","timestamp":"2016-11-30T12:37:29.687Z"}
+{"id":"583e91ca3009a43d381434f2","name":"Test7","path":"Test6","state":"0","rule":{},"args":{"str":"Test6"},"level":"info","message":"","timestamp":"2016-11-30T12:37:29.687Z"}
+{"id":"583e91ce3009a43d381434f3","name":"Test7","path":"Test6","state":"0","rule":{},"args":{"str":"Test6"},"level":"info","message":"","timestamp":"2016-11-30T12:37:29.688Z"}
+{"id":"583e91d83009a43d381434f4","name":"Test78","path":"Test6","state":"0","rule":{},"args":{"str":"Test6"},"level":"info","message":"","timestamp":"2016-11-30T12:37:29.689Z"}
+{"id":"583e91db3009a43d381434f5","name":"Test79","path":"Test6","state":"0","rule":{},"args":{"str":"Test6"},"level":"info","message":"","timestamp":"2016-11-30T12:37:29.690Z"}
+{"id":"583e92023009a43d381434f6","name":"Test79","path":"Test6","state":"0","rule":{},"args":{"str":"Test6"},"level":"info","message":"","timestamp":"2016-11-30T12:37:29.690Z"}
+{"id":"583e92193009a43d381434f7","name":"Test80","path":"Test6","state":"0","rule":{},"args":{"str":"Test6"},"level":"info","message":"","timestamp":"2016-11-30T12:37:29.691Z"}
+{"id":"583e92293009a43d381434f8","name":"Test81","path":"Test6","state":"0","rule":{},"args":{"str":"Test6"},"level":"info","message":"","timestamp":"2016-11-30T12:37:29.692Z"}
+{"id":"583ea5f3dc1c774138cf00c8","name":"4566","path":"6654","state":"0","rule":{},"args":{"str":"6654"},"level":"info","message":"","timestamp":"2016-11-30T12:37:29.693Z"}
+{"id":"583b560fdef04c263fed8df6","name":"Real-time data provider","path":"./rtime.js","state":"0","rule":{},"args":{},"level":"info","message":"","timestamp":"2016-11-30T12:37:31.965Z"}
+{"id":"583e8f9341909c4fb86a2a19","name":"Test","path":"./rt/test.js","state":"0","rule":{},"args":{"str":"--port:4432"},"level":"info","message":"","timestamp":"2016-11-30T12:37:31.967Z"}
+{"id":"583e90bf6ce7881e0c33f3f1","name":"Test2","path":"Test2","state":"0","rule":{},"args":{"str":"Test2"},"level":"info","message":"","timestamp":"2016-11-30T12:37:31.968Z"}
+{"id":"583e910d3e59484fe8a21ec6","name":"Test3","path":"Test3","state":"0","rule":{},"args":{"str":"Test3"},"level":"info","message":"","timestamp":"2016-11-30T12:37:31.969Z"}
+{"id":"583e912d3e59484fe8a21ec7","name":"Test4","path":"Test4","state":"0","rule":{},"args":{"str":"Test4"},"level":"info","message":"","timestamp":"2016-11-30T12:37:31.970Z"}
+{"id":"583e914a3009a43d381434ef","name":"Test5","path":"Test5","state":"0","rule":{},"args":{"str":"Test5"},"level":"info","message":"","timestamp":"2016-11-30T12:37:31.970Z"}
+{"id":"583e91b73009a43d381434f0","name":"Test6","path":"Test6","state":"0","rule":{},"args":{"str":"Test6"},"level":"info","message":"","timestamp":"2016-11-30T12:37:31.971Z"}
+{"id":"583e91c23009a43d381434f1","name":"Test7","path":"Test6","state":"0","rule":{},"args":{"str":"Test6"},"level":"info","message":"","timestamp":"2016-11-30T12:37:31.971Z"}
+{"id":"583e91ca3009a43d381434f2","name":"Test7","path":"Test6","state":"0","rule":{},"args":{"str":"Test6"},"level":"info","message":"","timestamp":"2016-11-30T12:37:31.973Z"}
+{"id":"583e91ce3009a43d381434f3","name":"Test7","path":"Test6","state":"0","rule":{},"args":{"str":"Test6"},"level":"info","message":"","timestamp":"2016-11-30T12:37:31.974Z"}
+{"id":"583e91d83009a43d381434f4","name":"Test78","path":"Test6","state":"0","rule":{},"args":{"str":"Test6"},"level":"info","message":"","timestamp":"2016-11-30T12:37:31.975Z"}
+{"id":"583e91db3009a43d381434f5","name":"Test79","path":"Test6","state":"0","rule":{},"args":{"str":"Test6"},"level":"info","message":"","timestamp":"2016-11-30T12:37:31.977Z"}
+{"id":"583e92023009a43d381434f6","name":"Test79","path":"Test6","state":"0","rule":{},"args":{"str":"Test6"},"level":"info","message":"","timestamp":"2016-11-30T12:37:31.977Z"}
+{"id":"583e92193009a43d381434f7","name":"Test80","path":"Test6","state":"0","rule":{},"args":{"str":"Test6"},"level":"info","message":"","timestamp":"2016-11-30T12:37:31.978Z"}
+{"id":"583e92293009a43d381434f8","name":"Test81","path":"Test6","state":"0","rule":{},"args":{"str":"Test6"},"level":"info","message":"","timestamp":"2016-11-30T12:37:31.979Z"}
+{"id":"583ea5f3dc1c774138cf00c8","name":"4566","path":"6654","state":"0","rule":{},"args":{"str":"6654"},"level":"info","message":"","timestamp":"2016-11-30T12:37:31.979Z"}
+{"id":"583b560fdef04c263fed8df6","name":"Real-time data provider","path":"./rtime.js","state":"0","rule":{},"args":{},"level":"info","message":"","timestamp":"2016-11-30T12:37:33.265Z"}
+{"id":"583e8f9341909c4fb86a2a19","name":"Test","path":"./rt/test.js","state":"0","rule":{},"args":{"str":"--port:4432"},"level":"info","message":"","timestamp":"2016-11-30T12:37:33.266Z"}
+{"id":"583e90bf6ce7881e0c33f3f1","name":"Test2","path":"Test2","state":"0","rule":{},"args":{"str":"Test2"},"level":"info","message":"","timestamp":"2016-11-30T12:37:33.267Z"}
+{"id":"583e910d3e59484fe8a21ec6","name":"Test3","path":"Test3","state":"0","rule":{},"args":{"str":"Test3"},"level":"info","message":"","timestamp":"2016-11-30T12:37:33.268Z"}
+{"id":"583e912d3e59484fe8a21ec7","name":"Test4","path":"Test4","state":"0","rule":{},"args":{"str":"Test4"},"level":"info","message":"","timestamp":"2016-11-30T12:37:33.268Z"}
+{"id":"583e914a3009a43d381434ef","name":"Test5","path":"Test5","state":"0","rule":{},"args":{"str":"Test5"},"level":"info","message":"","timestamp":"2016-11-30T12:37:33.269Z"}
+{"id":"583e91b73009a43d381434f0","name":"Test6","path":"Test6","state":"0","rule":{},"args":{"str":"Test6"},"level":"info","message":"","timestamp":"2016-11-30T12:37:33.271Z"}
+{"id":"583e91c23009a43d381434f1","name":"Test7","path":"Test6","state":"0","rule":{},"args":{"str":"Test6"},"level":"info","message":"","timestamp":"2016-11-30T12:37:33.273Z"}
+{"id":"583e91ca3009a43d381434f2","name":"Test7","path":"Test6","state":"0","rule":{},"args":{"str":"Test6"},"level":"info","message":"","timestamp":"2016-11-30T12:37:33.274Z"}
+{"id":"583e91ce3009a43d381434f3","name":"Test7","path":"Test6","state":"0","rule":{},"args":{"str":"Test6"},"level":"info","message":"","timestamp":"2016-11-30T12:37:33.275Z"}
+{"id":"583e91d83009a43d381434f4","name":"Test78","path":"Test6","state":"0","rule":{},"args":{"str":"Test6"},"level":"info","message":"","timestamp":"2016-11-30T12:37:33.275Z"}
+{"id":"583e91db3009a43d381434f5","name":"Test79","path":"Test6","state":"0","rule":{},"args":{"str":"Test6"},"level":"info","message":"","timestamp":"2016-11-30T12:37:33.277Z"}
+{"id":"583e92023009a43d381434f6","name":"Test79","path":"Test6","state":"0","rule":{},"args":{"str":"Test6"},"level":"info","message":"","timestamp":"2016-11-30T12:37:33.277Z"}
+{"id":"583e92193009a43d381434f7","name":"Test80","path":"Test6","state":"0","rule":{},"args":{"str":"Test6"},"level":"info","message":"","timestamp":"2016-11-30T12:37:33.278Z"}
+{"id":"583e92293009a43d381434f8","name":"Test81","path":"Test6","state":"0","rule":{},"args":{"str":"Test6"},"level":"info","message":"","timestamp":"2016-11-30T12:37:33.279Z"}
+{"id":"583ea5f3dc1c774138cf00c8","name":"4566","path":"6654","state":"0","rule":{},"args":{"str":"6654"},"level":"info","message":"","timestamp":"2016-11-30T12:37:33.280Z"}
+{"id":"583b560fdef04c263fed8df6","name":"Real-time data provider","path":"./rtime.js","state":"0","rule":{},"args":{},"level":"info","message":"","timestamp":"2016-11-30T12:37:34.951Z"}
+{"id":"583e8f9341909c4fb86a2a19","name":"Test","path":"./rt/test.js","state":"0","rule":{},"args":{"str":"--port:4432"},"level":"info","message":"","timestamp":"2016-11-30T12:37:34.952Z"}
+{"id":"583e90bf6ce7881e0c33f3f1","name":"Test2","path":"Test2","state":"0","rule":{},"args":{"str":"Test2"},"level":"info","message":"","timestamp":"2016-11-30T12:37:34.953Z"}
+{"id":"583e910d3e59484fe8a21ec6","name":"Test3","path":"Test3","state":"0","rule":{},"args":{"str":"Test3"},"level":"info","message":"","timestamp":"2016-11-30T12:37:34.954Z"}
+{"id":"583e912d3e59484fe8a21ec7","name":"Test4","path":"Test4","state":"0","rule":{},"args":{"str":"Test4"},"level":"info","message":"","timestamp":"2016-11-30T12:37:34.954Z"}
+{"id":"583e914a3009a43d381434ef","name":"Test5","path":"Test5","state":"0","rule":{},"args":{"str":"Test5"},"level":"info","message":"","timestamp":"2016-11-30T12:37:34.955Z"}
+{"id":"583e91b73009a43d381434f0","name":"Test6","path":"Test6","state":"0","rule":{},"args":{"str":"Test6"},"level":"info","message":"","timestamp":"2016-11-30T12:37:34.955Z"}
+{"id":"583e91c23009a43d381434f1","name":"Test7","path":"Test6","state":"0","rule":{},"args":{"str":"Test6"},"level":"info","message":"","timestamp":"2016-11-30T12:37:34.956Z"}
+{"id":"583e91ca3009a43d381434f2","name":"Test7","path":"Test6","state":"0","rule":{},"args":{"str":"Test6"},"level":"info","message":"","timestamp":"2016-11-30T12:37:34.958Z"}
+{"id":"583e91ce3009a43d381434f3","name":"Test7","path":"Test6","state":"0","rule":{},"args":{"str":"Test6"},"level":"info","message":"","timestamp":"2016-11-30T12:37:34.959Z"}
+{"id":"583e91d83009a43d381434f4","name":"Test78","path":"Test6","state":"0","rule":{},"args":{"str":"Test6"},"level":"info","message":"","timestamp":"2016-11-30T12:37:34.960Z"}
+{"id":"583e91db3009a43d381434f5","name":"Test79","path":"Test6","state":"0","rule":{},"args":{"str":"Test6"},"level":"info","message":"","timestamp":"2016-11-30T12:37:34.960Z"}
+{"id":"583e92023009a43d381434f6","name":"Test79","path":"Test6","state":"0","rule":{},"args":{"str":"Test6"},"level":"info","message":"","timestamp":"2016-11-30T12:37:34.961Z"}
+{"id":"583e92193009a43d381434f7","name":"Test80","path":"Test6","state":"0","rule":{},"args":{"str":"Test6"},"level":"info","message":"","timestamp":"2016-11-30T12:37:34.964Z"}
+{"id":"583e92293009a43d381434f8","name":"Test81","path":"Test6","state":"0","rule":{},"args":{"str":"Test6"},"level":"info","message":"","timestamp":"2016-11-30T12:37:34.965Z"}
+{"id":"583ea5f3dc1c774138cf00c8","name":"4566","path":"6654","state":"0","rule":{},"args":{"str":"6654"},"level":"info","message":"","timestamp":"2016-11-30T12:37:34.965Z"}
+{"id":"583b560fdef04c263fed8df6","name":"Real-time data provider","path":"./rtime.js","state":"0","rule":{},"args":{},"level":"info","message":"","timestamp":"2016-11-30T12:37:36.052Z"}
+{"id":"583e8f9341909c4fb86a2a19","name":"Test","path":"./rt/test.js","state":"0","rule":{},"args":{"str":"--port:4432"},"level":"info","message":"","timestamp":"2016-11-30T12:37:36.053Z"}
+{"id":"583e90bf6ce7881e0c33f3f1","name":"Test2","path":"Test2","state":"0","rule":{},"args":{"str":"Test2"},"level":"info","message":"","timestamp":"2016-11-30T12:37:36.053Z"}
+{"id":"583e910d3e59484fe8a21ec6","name":"Test3","path":"Test3","state":"0","rule":{},"args":{"str":"Test3"},"level":"info","message":"","timestamp":"2016-11-30T12:37:36.054Z"}
+{"id":"583e912d3e59484fe8a21ec7","name":"Test4","path":"Test4","state":"0","rule":{},"args":{"str":"Test4"},"level":"info","message":"","timestamp":"2016-11-30T12:37:36.054Z"}
+{"id":"583e914a3009a43d381434ef","name":"Test5","path":"Test5","state":"0","rule":{},"args":{"str":"Test5"},"level":"info","message":"","timestamp":"2016-11-30T12:37:36.055Z"}
+{"id":"583e91b73009a43d381434f0","name":"Test6","path":"Test6","state":"0","rule":{},"args":{"str":"Test6"},"level":"info","message":"","timestamp":"2016-11-30T12:37:36.056Z"}
+{"id":"583e91c23009a43d381434f1","name":"Test7","path":"Test6","state":"0","rule":{},"args":{"str":"Test6"},"level":"info","message":"","timestamp":"2016-11-30T12:37:36.057Z"}
+{"id":"583e91ca3009a43d381434f2","name":"Test7","path":"Test6","state":"0","rule":{},"args":{"str":"Test6"},"level":"info","message":"","timestamp":"2016-11-30T12:37:36.057Z"}
+{"id":"583e91ce3009a43d381434f3","name":"Test7","path":"Test6","state":"0","rule":{},"args":{"str":"Test6"},"level":"info","message":"","timestamp":"2016-11-30T12:37:36.058Z"}
+{"id":"583e91d83009a43d381434f4","name":"Test78","path":"Test6","state":"0","rule":{},"args":{"str":"Test6"},"level":"info","message":"","timestamp":"2016-11-30T12:37:36.058Z"}
+{"id":"583e91db3009a43d381434f5","name":"Test79","path":"Test6","state":"0","rule":{},"args":{"str":"Test6"},"level":"info","message":"","timestamp":"2016-11-30T12:37:36.059Z"}
+{"id":"583e92023009a43d381434f6","name":"Test79","path":"Test6","state":"0","rule":{},"args":{"str":"Test6"},"level":"info","message":"","timestamp":"2016-11-30T12:37:36.059Z"}
+{"id":"583e92193009a43d381434f7","name":"Test80","path":"Test6","state":"0","rule":{},"args":{"str":"Test6"},"level":"info","message":"","timestamp":"2016-11-30T12:37:36.060Z"}
+{"id":"583e92293009a43d381434f8","name":"Test81","path":"Test6","state":"0","rule":{},"args":{"str":"Test6"},"level":"info","message":"","timestamp":"2016-11-30T12:37:36.060Z"}
+{"id":"583ea5f3dc1c774138cf00c8","name":"4566","path":"6654","state":"0","rule":{},"args":{"str":"6654"},"level":"info","message":"","timestamp":"2016-11-30T12:37:36.061Z"}
+{"id":"583b560fdef04c263fed8df6","name":"Real-time data provider","path":"./rtime.js","state":"0","rule":{},"args":{},"level":"info","message":"","timestamp":"2016-11-30T12:37:38.163Z"}
+{"id":"583e8f9341909c4fb86a2a19","name":"Test","path":"./rt/test.js","state":"0","rule":{},"args":{"str":"--port:4432"},"level":"info","message":"","timestamp":"2016-11-30T12:37:38.165Z"}
+{"id":"583e90bf6ce7881e0c33f3f1","name":"Test2","path":"Test2","state":"0","rule":{},"args":{"str":"Test2"},"level":"info","message":"","timestamp":"2016-11-30T12:37:38.166Z"}
+{"id":"583e910d3e59484fe8a21ec6","name":"Test3","path":"Test3","state":"0","rule":{},"args":{"str":"Test3"},"level":"info","message":"","timestamp":"2016-11-30T12:37:38.166Z"}
+{"id":"583e912d3e59484fe8a21ec7","name":"Test4","path":"Test4","state":"0","rule":{},"args":{"str":"Test4"},"level":"info","message":"","timestamp":"2016-11-30T12:37:38.167Z"}
+{"id":"583e914a3009a43d381434ef","name":"Test5","path":"Test5","state":"0","rule":{},"args":{"str":"Test5"},"level":"info","message":"","timestamp":"2016-11-30T12:37:38.168Z"}
+{"id":"583e91b73009a43d381434f0","name":"Test6","path":"Test6","state":"0","rule":{},"args":{"str":"Test6"},"level":"info","message":"","timestamp":"2016-11-30T12:37:38.169Z"}
+{"id":"583e91c23009a43d381434f1","name":"Test7","path":"Test6","state":"0","rule":{},"args":{"str":"Test6"},"level":"info","message":"","timestamp":"2016-11-30T12:37:38.169Z"}
+{"id":"583e91ca3009a43d381434f2","name":"Test7","path":"Test6","state":"0","rule":{},"args":{"str":"Test6"},"level":"info","message":"","timestamp":"2016-11-30T12:37:38.169Z"}
+{"id":"583e91ce3009a43d381434f3","name":"Test7","path":"Test6","state":"0","rule":{},"args":{"str":"Test6"},"level":"info","message":"","timestamp":"2016-11-30T12:37:38.170Z"}
+{"id":"583e91d83009a43d381434f4","name":"Test78","path":"Test6","state":"0","rule":{},"args":{"str":"Test6"},"level":"info","message":"","timestamp":"2016-11-30T12:37:38.171Z"}
+{"id":"583e91db3009a43d381434f5","name":"Test79","path":"Test6","state":"0","rule":{},"args":{"str":"Test6"},"level":"info","message":"","timestamp":"2016-11-30T12:37:38.172Z"}
+{"id":"583e92023009a43d381434f6","name":"Test79","path":"Test6","state":"0","rule":{},"args":{"str":"Test6"},"level":"info","message":"","timestamp":"2016-11-30T12:37:38.173Z"}
+{"id":"583e92193009a43d381434f7","name":"Test80","path":"Test6","state":"0","rule":{},"args":{"str":"Test6"},"level":"info","message":"","timestamp":"2016-11-30T12:37:38.174Z"}
+{"id":"583e92293009a43d381434f8","name":"Test81","path":"Test6","state":"0","rule":{},"args":{"str":"Test6"},"level":"info","message":"","timestamp":"2016-11-30T12:37:38.174Z"}
+{"id":"583ea5f3dc1c774138cf00c8","name":"4566","path":"6654","state":"0","rule":{},"args":{"str":"6654"},"level":"info","message":"","timestamp":"2016-11-30T12:37:38.175Z"}
+{"id":"583b560fdef04c263fed8df6","name":"Real-time data provider","path":"./rtime.js","state":"0","rule":{},"args":{},"level":"info","message":"","timestamp":"2016-11-30T12:37:41.841Z"}
+{"id":"583e8f9341909c4fb86a2a19","name":"Test","path":"./rt/test.js","state":"0","rule":{},"args":{"str":"--port:4432"},"level":"info","message":"","timestamp":"2016-11-30T12:37:41.842Z"}
+{"id":"583e90bf6ce7881e0c33f3f1","name":"Test2","path":"Test2","state":"0","rule":{},"args":{"str":"Test2"},"level":"info","message":"","timestamp":"2016-11-30T12:37:41.843Z"}
+{"id":"583e910d3e59484fe8a21ec6","name":"Test3","path":"Test3","state":"0","rule":{},"args":{"str":"Test3"},"level":"info","message":"","timestamp":"2016-11-30T12:37:41.845Z"}
+{"id":"583e912d3e59484fe8a21ec7","name":"Test4","path":"Test4","state":"0","rule":{},"args":{"str":"Test4"},"level":"info","message":"","timestamp":"2016-11-30T12:37:41.846Z"}
+{"id":"583e914a3009a43d381434ef","name":"Test5","path":"Test5","state":"0","rule":{},"args":{"str":"Test5"},"level":"info","message":"","timestamp":"2016-11-30T12:37:41.846Z"}
+{"id":"583e91b73009a43d381434f0","name":"Test6","path":"Test6","state":"0","rule":{},"args":{"str":"Test6"},"level":"info","message":"","timestamp":"2016-11-30T12:37:41.847Z"}
+{"id":"583e91c23009a43d381434f1","name":"Test7","path":"Test6","state":"0","rule":{},"args":{"str":"Test6"},"level":"info","message":"","timestamp":"2016-11-30T12:37:41.847Z"}
+{"id":"583e91ca3009a43d381434f2","name":"Test7","path":"Test6","state":"0","rule":{},"args":{"str":"Test6"},"level":"info","message":"","timestamp":"2016-11-30T12:37:41.848Z"}
+{"id":"583e91ce3009a43d381434f3","name":"Test7","path":"Test6","state":"0","rule":{},"args":{"str":"Test6"},"level":"info","message":"","timestamp":"2016-11-30T12:37:41.848Z"}
+{"id":"583e91d83009a43d381434f4","name":"Test78","path":"Test6","state":"0","rule":{},"args":{"str":"Test6"},"level":"info","message":"","timestamp":"2016-11-30T12:37:41.849Z"}
+{"id":"583e91db3009a43d381434f5","name":"Test79","path":"Test6","state":"0","rule":{},"args":{"str":"Test6"},"level":"info","message":"","timestamp":"2016-11-30T12:37:41.851Z"}
+{"id":"583e92023009a43d381434f6","name":"Test79","path":"Test6","state":"0","rule":{},"args":{"str":"Test6"},"level":"info","message":"","timestamp":"2016-11-30T12:37:41.852Z"}
+{"id":"583e92193009a43d381434f7","name":"Test80","path":"Test6","state":"0","rule":{},"args":{"str":"Test6"},"level":"info","message":"","timestamp":"2016-11-30T12:37:41.855Z"}
+{"id":"583e92293009a43d381434f8","name":"Test81","path":"Test6","state":"0","rule":{},"args":{"str":"Test6"},"level":"info","message":"","timestamp":"2016-11-30T12:37:41.856Z"}
+{"id":"583ea5f3dc1c774138cf00c8","name":"4566","path":"6654","state":"0","rule":{},"args":{"str":"6654"},"level":"info","message":"","timestamp":"2016-11-30T12:37:41.857Z"}
+{"id":"583b560fdef04c263fed8df6","name":"Real-time data provider","path":"./rtime.js","state":"0","rule":{},"args":{},"level":"info","message":"","timestamp":"2016-11-30T12:37:45.507Z"}
+{"id":"583e8f9341909c4fb86a2a19","name":"Test","path":"./rt/test.js","state":"0","rule":{},"args":{"str":"--port:4432"},"level":"info","message":"","timestamp":"2016-11-30T12:37:45.508Z"}
+{"id":"583e90bf6ce7881e0c33f3f1","name":"Test2","path":"Test2","state":"0","rule":{},"args":{"str":"Test2"},"level":"info","message":"","timestamp":"2016-11-30T12:37:45.509Z"}
+{"id":"583e910d3e59484fe8a21ec6","name":"Test3","path":"Test3","state":"0","rule":{},"args":{"str":"Test3"},"level":"info","message":"","timestamp":"2016-11-30T12:37:45.510Z"}
+{"id":"583e912d3e59484fe8a21ec7","name":"Test4","path":"Test4","state":"0","rule":{},"args":{"str":"Test4"},"level":"info","message":"","timestamp":"2016-11-30T12:37:45.512Z"}
+{"id":"583e914a3009a43d381434ef","name":"Test5","path":"Test5","state":"0","rule":{},"args":{"str":"Test5"},"level":"info","message":"","timestamp":"2016-11-30T12:37:45.512Z"}
+{"id":"583e91b73009a43d381434f0","name":"Test6","path":"Test6","state":"0","rule":{},"args":{"str":"Test6"},"level":"info","message":"","timestamp":"2016-11-30T12:37:45.513Z"}
+{"id":"583e91c23009a43d381434f1","name":"Test7","path":"Test6","state":"0","rule":{},"args":{"str":"Test6"},"level":"info","message":"","timestamp":"2016-11-30T12:37:45.513Z"}
+{"id":"583e91ca3009a43d381434f2","name":"Test7","path":"Test6","state":"0","rule":{},"args":{"str":"Test6"},"level":"info","message":"","timestamp":"2016-11-30T12:37:45.514Z"}
+{"id":"583e91ce3009a43d381434f3","name":"Test7","path":"Test6","state":"0","rule":{},"args":{"str":"Test6"},"level":"info","message":"","timestamp":"2016-11-30T12:37:45.514Z"}
+{"id":"583e91d83009a43d381434f4","name":"Test78","path":"Test6","state":"0","rule":{},"args":{"str":"Test6"},"level":"info","message":"","timestamp":"2016-11-30T12:37:45.515Z"}
+{"id":"583e91db3009a43d381434f5","name":"Test79","path":"Test6","state":"0","rule":{},"args":{"str":"Test6"},"level":"info","message":"","timestamp":"2016-11-30T12:37:45.515Z"}
+{"id":"583e92023009a43d381434f6","name":"Test79","path":"Test6","state":"0","rule":{},"args":{"str":"Test6"},"level":"info","message":"","timestamp":"2016-11-30T12:37:45.516Z"}
+{"id":"583e92193009a43d381434f7","name":"Test80","path":"Test6","state":"0","rule":{},"args":{"str":"Test6"},"level":"info","message":"","timestamp":"2016-11-30T12:37:45.517Z"}
+{"id":"583e92293009a43d381434f8","name":"Test81","path":"Test6","state":"0","rule":{},"args":{"str":"Test6"},"level":"info","message":"","timestamp":"2016-11-30T12:37:45.518Z"}
+{"id":"583ea5f3dc1c774138cf00c8","name":"4566","path":"6654","state":"0","rule":{},"args":{"str":"6654"},"level":"info","message":"","timestamp":"2016-11-30T12:37:45.519Z"}
+{"level":"info","message":"Start service","timestamp":"2016-11-30T12:38:41.968Z"}
+{"level":"info","message":"Web service loaded","timestamp":"2016-11-30T12:38:42.314Z"}
+{"level":"info","message":"Websocket loaded","timestamp":"2016-11-30T12:38:42.583Z"}
+{"id":"583b560fdef04c263fed8df6","name":"Real-time data provider","path":"./rtime.js","state":"0","rule":{},"args":{},"level":"info","message":"","timestamp":"2016-11-30T12:38:43.273Z"}
+{"id":"583e8f9341909c4fb86a2a19","name":"Test","path":"./rt/test.js","state":"0","rule":{},"args":{"str":"--port:4432"},"level":"info","message":"","timestamp":"2016-11-30T12:38:43.274Z"}
+{"id":"583e90bf6ce7881e0c33f3f1","name":"Test2","path":"Test2","state":"0","rule":{},"args":{"str":"Test2"},"level":"info","message":"","timestamp":"2016-11-30T12:38:43.274Z"}
+{"id":"583e910d3e59484fe8a21ec6","name":"Test3","path":"Test3","state":"0","rule":{},"args":{"str":"Test3"},"level":"info","message":"","timestamp":"2016-11-30T12:38:43.274Z"}
+{"id":"583e912d3e59484fe8a21ec7","name":"Test4","path":"Test4","state":"0","rule":{},"args":{"str":"Test4"},"level":"info","message":"","timestamp":"2016-11-30T12:38:43.274Z"}
+{"id":"583e914a3009a43d381434ef","name":"Test5","path":"Test5","state":"0","rule":{},"args":{"str":"Test5"},"level":"info","message":"","timestamp":"2016-11-30T12:38:43.275Z"}
+{"id":"583e91b73009a43d381434f0","name":"Test6","path":"Test6","state":"0","rule":{},"args":{"str":"Test6"},"level":"info","message":"","timestamp":"2016-11-30T12:38:43.275Z"}
+{"id":"583e91c23009a43d381434f1","name":"Test7","path":"Test6","state":"0","rule":{},"args":{"str":"Test6"},"level":"info","message":"","timestamp":"2016-11-30T12:38:43.275Z"}
+{"id":"583e91ca3009a43d381434f2","name":"Test7","path":"Test6","state":"0","rule":{},"args":{"str":"Test6"},"level":"info","message":"","timestamp":"2016-11-30T12:38:43.275Z"}
+{"id":"583e91ce3009a43d381434f3","name":"Test7","path":"Test6","state":"0","rule":{},"args":{"str":"Test6"},"level":"info","message":"","timestamp":"2016-11-30T12:38:43.275Z"}
+{"id":"583e91d83009a43d381434f4","name":"Test78","path":"Test6","state":"0","rule":{},"args":{"str":"Test6"},"level":"info","message":"","timestamp":"2016-11-30T12:38:43.276Z"}
+{"id":"583e91db3009a43d381434f5","name":"Test79","path":"Test6","state":"0","rule":{},"args":{"str":"Test6"},"level":"info","message":"","timestamp":"2016-11-30T12:38:43.276Z"}
+{"id":"583e92023009a43d381434f6","name":"Test79","path":"Test6","state":"0","rule":{},"args":{"str":"Test6"},"level":"info","message":"","timestamp":"2016-11-30T12:38:43.276Z"}
+{"id":"583e92193009a43d381434f7","name":"Test80","path":"Test6","state":"0","rule":{},"args":{"str":"Test6"},"level":"info","message":"","timestamp":"2016-11-30T12:38:43.277Z"}
+{"id":"583e92293009a43d381434f8","name":"Test81","path":"Test6","state":"0","rule":{},"args":{"str":"Test6"},"level":"info","message":"","timestamp":"2016-11-30T12:38:43.277Z"}
+{"id":"583ea5f3dc1c774138cf00c8","name":"4566","path":"6654","state":"0","rule":{},"args":{"str":"6654"},"level":"info","message":"","timestamp":"2016-11-30T12:38:43.277Z"}
+{"level":"info","message":"Start service","timestamp":"2016-11-30T12:39:41.895Z"}
+{"level":"info","message":"Web service loaded","timestamp":"2016-11-30T12:39:42.257Z"}
+{"level":"info","message":"Websocket loaded","timestamp":"2016-11-30T12:39:42.596Z"}
+{"id":"583b560fdef04c263fed8df6","name":"Real-time data provider","path":"./rtime.js","state":"0","rule":{},"args":{},"level":"info","message":"","timestamp":"2016-11-30T12:39:43.442Z"}
+{"id":"583e8f9341909c4fb86a2a19","name":"Test","path":"./rt/test.js","state":"0","rule":{},"args":{"str":"--port:4432"},"level":"info","message":"","timestamp":"2016-11-30T12:39:43.443Z"}
+{"id":"583e90bf6ce7881e0c33f3f1","name":"Test2","path":"Test2","state":"0","rule":{},"args":{"str":"Test2"},"level":"info","message":"","timestamp":"2016-11-30T12:39:43.444Z"}
+{"id":"583e910d3e59484fe8a21ec6","name":"Test3","path":"Test3","state":"0","rule":{},"args":{"str":"Test3"},"level":"info","message":"","timestamp":"2016-11-30T12:39:43.444Z"}
+{"id":"583e912d3e59484fe8a21ec7","name":"Test4","path":"Test4","state":"0","rule":{},"args":{"str":"Test4"},"level":"info","message":"","timestamp":"2016-11-30T12:39:43.444Z"}
+{"id":"583e914a3009a43d381434ef","name":"Test5","path":"Test5","state":"0","rule":{},"args":{"str":"Test5"},"level":"info","message":"","timestamp":"2016-11-30T12:39:43.444Z"}
+{"id":"583e91b73009a43d381434f0","name":"Test6","path":"Test6","state":"0","rule":{},"args":{"str":"Test6"},"level":"info","message":"","timestamp":"2016-11-30T12:39:43.444Z"}
+{"id":"583e91c23009a43d381434f1","name":"Test7","path":"Test6","state":"0","rule":{},"args":{"str":"Test6"},"level":"info","message":"","timestamp":"2016-11-30T12:39:43.445Z"}
+{"id":"583e91ca3009a43d381434f2","name":"Test7","path":"Test6","state":"0","rule":{},"args":{"str":"Test6"},"level":"info","message":"","timestamp":"2016-11-30T12:39:43.445Z"}
+{"id":"583e91ce3009a43d381434f3","name":"Test7","path":"Test6","state":"0","rule":{},"args":{"str":"Test6"},"level":"info","message":"","timestamp":"2016-11-30T12:39:43.445Z"}
+{"id":"583e91d83009a43d381434f4","name":"Test78","path":"Test6","state":"0","rule":{},"args":{"str":"Test6"},"level":"info","message":"","timestamp":"2016-11-30T12:39:43.445Z"}
+{"id":"583e91db3009a43d381434f5","name":"Test79","path":"Test6","state":"0","rule":{},"args":{"str":"Test6"},"level":"info","message":"","timestamp":"2016-11-30T12:39:43.446Z"}
+{"id":"583e92023009a43d381434f6","name":"Test79","path":"Test6","state":"0","rule":{},"args":{"str":"Test6"},"level":"info","message":"","timestamp":"2016-11-30T12:39:43.446Z"}
+{"id":"583e92193009a43d381434f7","name":"Test80","path":"Test6","state":"0","rule":{},"args":{"str":"Test6"},"level":"info","message":"","timestamp":"2016-11-30T12:39:43.447Z"}
+{"id":"583e92293009a43d381434f8","name":"Test81","path":"Test6","state":"0","rule":{},"args":{"str":"Test6"},"level":"info","message":"","timestamp":"2016-11-30T12:39:43.447Z"}
+{"id":"583ea5f3dc1c774138cf00c8","name":"4566","path":"6654","state":"0","rule":{},"args":{"str":"6654"},"level":"info","message":"","timestamp":"2016-11-30T12:39:43.447Z"}
+{"id":"583b560fdef04c263fed8df6","name":"Real-time data provider","path":"./rtime.js","state":"0","rule":{},"args":{},"level":"info","message":"","timestamp":"2016-11-30T12:39:53.407Z"}
+{"id":"583e8f9341909c4fb86a2a19","name":"Test","path":"./rt/test.js","state":"0","rule":{},"args":{"str":"--port:4432"},"level":"info","message":"","timestamp":"2016-11-30T12:39:53.407Z"}
+{"id":"583e90bf6ce7881e0c33f3f1","name":"Test2","path":"Test2","state":"0","rule":{},"args":{"str":"Test2"},"level":"info","message":"","timestamp":"2016-11-30T12:39:53.408Z"}
+{"id":"583e910d3e59484fe8a21ec6","name":"Test3","path":"Test3","state":"0","rule":{},"args":{"str":"Test3"},"level":"info","message":"","timestamp":"2016-11-30T12:39:53.408Z"}
+{"id":"583e912d3e59484fe8a21ec7","name":"Test4","path":"Test4","state":"0","rule":{},"args":{"str":"Test4"},"level":"info","message":"","timestamp":"2016-11-30T12:39:53.409Z"}
+{"id":"583e914a3009a43d381434ef","name":"Test5","path":"Test5","state":"0","rule":{},"args":{"str":"Test5"},"level":"info","message":"","timestamp":"2016-11-30T12:39:53.409Z"}
+{"id":"583e91b73009a43d381434f0","name":"Test6","path":"Test6","state":"0","rule":{},"args":{"str":"Test6"},"level":"info","message":"","timestamp":"2016-11-30T12:39:53.409Z"}
+{"id":"583e91c23009a43d381434f1","name":"Test7","path":"Test6","state":"0","rule":{},"args":{"str":"Test6"},"level":"info","message":"","timestamp":"2016-11-30T12:39:53.410Z"}
+{"id":"583e91ca3009a43d381434f2","name":"Test7","path":"Test6","state":"0","rule":{},"args":{"str":"Test6"},"level":"info","message":"","timestamp":"2016-11-30T12:39:53.410Z"}
+{"id":"583e91ce3009a43d381434f3","name":"Test7","path":"Test6","state":"0","rule":{},"args":{"str":"Test6"},"level":"info","message":"","timestamp":"2016-11-30T12:39:53.411Z"}
+{"id":"583e91d83009a43d381434f4","name":"Test78","path":"Test6","state":"0","rule":{},"args":{"str":"Test6"},"level":"info","message":"","timestamp":"2016-11-30T12:39:53.411Z"}
+{"id":"583e91db3009a43d381434f5","name":"Test79","path":"Test6","state":"0","rule":{},"args":{"str":"Test6"},"level":"info","message":"","timestamp":"2016-11-30T12:39:53.411Z"}
+{"id":"583e92023009a43d381434f6","name":"Test79","path":"Test6","state":"0","rule":{},"args":{"str":"Test6"},"level":"info","message":"","timestamp":"2016-11-30T12:39:53.412Z"}
+{"id":"583e92193009a43d381434f7","name":"Test80","path":"Test6","state":"0","rule":{},"args":{"str":"Test6"},"level":"info","message":"","timestamp":"2016-11-30T12:39:53.413Z"}
+{"id":"583e92293009a43d381434f8","name":"Test81","path":"Test6","state":"0","rule":{},"args":{"str":"Test6"},"level":"info","message":"","timestamp":"2016-11-30T12:39:53.413Z"}
+{"id":"583ea5f3dc1c774138cf00c8","name":"4566","path":"6654","state":"0","rule":{},"args":{"str":"6654"},"level":"info","message":"","timestamp":"2016-11-30T12:39:53.413Z"}
+{"id":"583b560fdef04c263fed8df6","name":"Real-time data provider","path":"./rtime.js","state":"0","rule":{},"args":{},"level":"info","message":"","timestamp":"2016-11-30T12:39:55.838Z"}
+{"id":"583e8f9341909c4fb86a2a19","name":"Test","path":"./rt/test.js","state":"0","rule":{},"args":{"str":"--port:4432"},"level":"info","message":"","timestamp":"2016-11-30T12:39:55.839Z"}
+{"id":"583e90bf6ce7881e0c33f3f1","name":"Test2","path":"Test2","state":"0","rule":{},"args":{"str":"Test2"},"level":"info","message":"","timestamp":"2016-11-30T12:39:55.840Z"}
+{"id":"583e910d3e59484fe8a21ec6","name":"Test3","path":"Test3","state":"0","rule":{},"args":{"str":"Test3"},"level":"info","message":"","timestamp":"2016-11-30T12:39:55.840Z"}
+{"id":"583e912d3e59484fe8a21ec7","name":"Test4","path":"Test4","state":"0","rule":{},"args":{"str":"Test4"},"level":"info","message":"","timestamp":"2016-11-30T12:39:55.841Z"}
+{"id":"583e914a3009a43d381434ef","name":"Test5","path":"Test5","state":"0","rule":{},"args":{"str":"Test5"},"level":"info","message":"","timestamp":"2016-11-30T12:39:55.841Z"}
+{"id":"583e91b73009a43d381434f0","name":"Test6","path":"Test6","state":"0","rule":{},"args":{"str":"Test6"},"level":"info","message":"","timestamp":"2016-11-30T12:39:55.842Z"}
+{"id":"583e91c23009a43d381434f1","name":"Test7","path":"Test6","state":"0","rule":{},"args":{"str":"Test6"},"level":"info","message":"","timestamp":"2016-11-30T12:39:55.842Z"}
+{"id":"583e91ca3009a43d381434f2","name":"Test7","path":"Test6","state":"0","rule":{},"args":{"str":"Test6"},"level":"info","message":"","timestamp":"2016-11-30T12:39:55.843Z"}
+{"id":"583e91ce3009a43d381434f3","name":"Test7","path":"Test6","state":"0","rule":{},"args":{"str":"Test6"},"level":"info","message":"","timestamp":"2016-11-30T12:39:55.843Z"}
+{"id":"583e91d83009a43d381434f4","name":"Test78","path":"Test6","state":"0","rule":{},"args":{"str":"Test6"},"level":"info","message":"","timestamp":"2016-11-30T12:39:55.843Z"}
+{"id":"583e91db3009a43d381434f5","name":"Test79","path":"Test6","state":"0","rule":{},"args":{"str":"Test6"},"level":"info","message":"","timestamp":"2016-11-30T12:39:55.844Z"}
+{"id":"583e92023009a43d381434f6","name":"Test79","path":"Test6","state":"0","rule":{},"args":{"str":"Test6"},"level":"info","message":"","timestamp":"2016-11-30T12:39:55.844Z"}
+{"id":"583e92193009a43d381434f7","name":"Test80","path":"Test6","state":"0","rule":{},"args":{"str":"Test6"},"level":"info","message":"","timestamp":"2016-11-30T12:39:55.844Z"}
+{"id":"583e92293009a43d381434f8","name":"Test81","path":"Test6","state":"0","rule":{},"args":{"str":"Test6"},"level":"info","message":"","timestamp":"2016-11-30T12:39:55.846Z"}
+{"id":"583ea5f3dc1c774138cf00c8","name":"4566","path":"6654","state":"0","rule":{},"args":{"str":"6654"},"level":"info","message":"","timestamp":"2016-11-30T12:39:55.846Z"}
+{"id":"583b560fdef04c263fed8df6","name":"Real-time data provider","path":"./rtime.js","state":"0","rule":{},"args":{},"level":"info","message":"","timestamp":"2016-11-30T12:39:58.604Z"}
+{"id":"583e8f9341909c4fb86a2a19","name":"Test","path":"./rt/test.js","state":"0","rule":{},"args":{"str":"--port:4432"},"level":"info","message":"","timestamp":"2016-11-30T12:39:58.605Z"}
+{"id":"583e90bf6ce7881e0c33f3f1","name":"Test2","path":"Test2","state":"0","rule":{},"args":{"str":"Test2"},"level":"info","message":"","timestamp":"2016-11-30T12:39:58.605Z"}
+{"id":"583e910d3e59484fe8a21ec6","name":"Test3","path":"Test3","state":"0","rule":{},"args":{"str":"Test3"},"level":"info","message":"","timestamp":"2016-11-30T12:39:58.605Z"}
+{"id":"583e912d3e59484fe8a21ec7","name":"Test4","path":"Test4","state":"0","rule":{},"args":{"str":"Test4"},"level":"info","message":"","timestamp":"2016-11-30T12:39:58.607Z"}
+{"id":"583e914a3009a43d381434ef","name":"Test5","path":"Test5","state":"0","rule":{},"args":{"str":"Test5"},"level":"info","message":"","timestamp":"2016-11-30T12:39:58.607Z"}
+{"id":"583e91b73009a43d381434f0","name":"Test6","path":"Test6","state":"0","rule":{},"args":{"str":"Test6"},"level":"info","message":"","timestamp":"2016-11-30T12:39:58.609Z"}
+{"id":"583e91c23009a43d381434f1","name":"Test7","path":"Test6","state":"0","rule":{},"args":{"str":"Test6"},"level":"info","message":"","timestamp":"2016-11-30T12:39:58.610Z"}
+{"id":"583e91ca3009a43d381434f2","name":"Test7","path":"Test6","state":"0","rule":{},"args":{"str":"Test6"},"level":"info","message":"","timestamp":"2016-11-30T12:39:58.611Z"}
+{"id":"583e91ce3009a43d381434f3","name":"Test7","path":"Test6","state":"0","rule":{},"args":{"str":"Test6"},"level":"info","message":"","timestamp":"2016-11-30T12:39:58.611Z"}
+{"id":"583e91d83009a43d381434f4","name":"Test78","path":"Test6","state":"0","rule":{},"args":{"str":"Test6"},"level":"info","message":"","timestamp":"2016-11-30T12:39:58.612Z"}
+{"id":"583e91db3009a43d381434f5","name":"Test79","path":"Test6","state":"0","rule":{},"args":{"str":"Test6"},"level":"info","message":"","timestamp":"2016-11-30T12:39:58.615Z"}
+{"id":"583e92023009a43d381434f6","name":"Test79","path":"Test6","state":"0","rule":{},"args":{"str":"Test6"},"level":"info","message":"","timestamp":"2016-11-30T12:39:58.616Z"}
+{"id":"583e92193009a43d381434f7","name":"Test80","path":"Test6","state":"0","rule":{},"args":{"str":"Test6"},"level":"info","message":"","timestamp":"2016-11-30T12:39:58.617Z"}
+{"id":"583e92293009a43d381434f8","name":"Test81","path":"Test6","state":"0","rule":{},"args":{"str":"Test6"},"level":"info","message":"","timestamp":"2016-11-30T12:39:58.618Z"}
+{"id":"583ea5f3dc1c774138cf00c8","name":"4566","path":"6654","state":"0","rule":{},"args":{"str":"6654"},"level":"info","message":"","timestamp":"2016-11-30T12:39:58.619Z"}
+{"level":"info","message":"Start service","timestamp":"2016-11-30T12:41:30.539Z"}
+{"level":"info","message":"Web service loaded","timestamp":"2016-11-30T12:41:30.987Z"}
+{"level":"info","message":"Websocket loaded","timestamp":"2016-11-30T12:41:31.503Z"}
+{"id":"583b560fdef04c263fed8df6","name":"Real-time data provider","path":"./rtime.js","state":"0","rule":{},"args":{},"level":"info","message":"","timestamp":"2016-11-30T12:41:32.407Z"}
+{"id":"583e8f9341909c4fb86a2a19","name":"Test","path":"./rt/test.js","state":"0","rule":{},"args":{"str":"--port:4432"},"level":"info","message":"","timestamp":"2016-11-30T12:41:32.409Z"}
+{"id":"583e90bf6ce7881e0c33f3f1","name":"Test2","path":"Test2","state":"0","rule":{},"args":{"str":"Test2"},"level":"info","message":"","timestamp":"2016-11-30T12:41:32.409Z"}
+{"id":"583e910d3e59484fe8a21ec6","name":"Test3","path":"Test3","state":"0","rule":{},"args":{"str":"Test3"},"level":"info","message":"","timestamp":"2016-11-30T12:41:32.409Z"}
+{"id":"583e912d3e59484fe8a21ec7","name":"Test4","path":"Test4","state":"0","rule":{},"args":{"str":"Test4"},"level":"info","message":"","timestamp":"2016-11-30T12:41:32.409Z"}
+{"id":"583e914a3009a43d381434ef","name":"Test5","path":"Test5","state":"0","rule":{},"args":{"str":"Test5"},"level":"info","message":"","timestamp":"2016-11-30T12:41:32.409Z"}
+{"id":"583e91b73009a43d381434f0","name":"Test6","path":"Test6","state":"0","rule":{},"args":{"str":"Test6"},"level":"info","message":"","timestamp":"2016-11-30T12:41:32.410Z"}
+{"id":"583e91c23009a43d381434f1","name":"Test7","path":"Test6","state":"0","rule":{},"args":{"str":"Test6"},"level":"info","message":"","timestamp":"2016-11-30T12:41:32.410Z"}
+{"id":"583e91ca3009a43d381434f2","name":"Test7","path":"Test6","state":"0","rule":{},"args":{"str":"Test6"},"level":"info","message":"","timestamp":"2016-11-30T12:41:32.410Z"}
+{"id":"583e91ce3009a43d381434f3","name":"Test7","path":"Test6","state":"0","rule":{},"args":{"str":"Test6"},"level":"info","message":"","timestamp":"2016-11-30T12:41:32.410Z"}
+{"id":"583e91d83009a43d381434f4","name":"Test78","path":"Test6","state":"0","rule":{},"args":{"str":"Test6"},"level":"info","message":"","timestamp":"2016-11-30T12:41:32.411Z"}
+{"id":"583e91db3009a43d381434f5","name":"Test79","path":"Test6","state":"0","rule":{},"args":{"str":"Test6"},"level":"info","message":"","timestamp":"2016-11-30T12:41:32.411Z"}
+{"id":"583e92023009a43d381434f6","name":"Test79","path":"Test6","state":"0","rule":{},"args":{"str":"Test6"},"level":"info","message":"","timestamp":"2016-11-30T12:41:32.412Z"}
+{"id":"583e92193009a43d381434f7","name":"Test80","path":"Test6","state":"0","rule":{},"args":{"str":"Test6"},"level":"info","message":"","timestamp":"2016-11-30T12:41:32.412Z"}
+{"id":"583e92293009a43d381434f8","name":"Test81","path":"Test6","state":"0","rule":{},"args":{"str":"Test6"},"level":"info","message":"","timestamp":"2016-11-30T12:41:32.413Z"}
+{"id":"583ea5f3dc1c774138cf00c8","name":"4566","path":"6654","state":"0","rule":{},"args":{"str":"6654"},"level":"info","message":"","timestamp":"2016-11-30T12:41:32.413Z"}
+{"level":"info","message":"Start service","timestamp":"2016-11-30T12:41:51.967Z"}
+{"level":"info","message":"Web service loaded","timestamp":"2016-11-30T12:41:52.314Z"}
+{"level":"info","message":"Websocket loaded","timestamp":"2016-11-30T12:41:52.577Z"}
+{"id":"583b560fdef04c263fed8df6","name":"Real-time data provider","path":"./rtime.js","state":"0","rule":{},"args":{},"level":"info","message":"","timestamp":"2016-11-30T12:41:53.322Z"}
+{"id":"583e8f9341909c4fb86a2a19","name":"Test","path":"./rt/test.js","state":"0","rule":{},"args":{"str":"--port:4432"},"level":"info","message":"","timestamp":"2016-11-30T12:41:53.323Z"}
+{"id":"583e90bf6ce7881e0c33f3f1","name":"Test2","path":"Test2","state":"0","rule":{},"args":{"str":"Test2"},"level":"info","message":"","timestamp":"2016-11-30T12:41:53.323Z"}
+{"id":"583e910d3e59484fe8a21ec6","name":"Test3","path":"Test3","state":"0","rule":{},"args":{"str":"Test3"},"level":"info","message":"","timestamp":"2016-11-30T12:41:53.324Z"}
+{"id":"583e912d3e59484fe8a21ec7","name":"Test4","path":"Test4","state":"0","rule":{},"args":{"str":"Test4"},"level":"info","message":"","timestamp":"2016-11-30T12:41:53.324Z"}
+{"id":"583e914a3009a43d381434ef","name":"Test5","path":"Test5","state":"0","rule":{},"args":{"str":"Test5"},"level":"info","message":"","timestamp":"2016-11-30T12:41:53.324Z"}
+{"id":"583e91b73009a43d381434f0","name":"Test6","path":"Test6","state":"0","rule":{},"args":{"str":"Test6"},"level":"info","message":"","timestamp":"2016-11-30T12:41:53.324Z"}
+{"id":"583e91c23009a43d381434f1","name":"Test7","path":"Test6","state":"0","rule":{},"args":{"str":"Test6"},"level":"info","message":"","timestamp":"2016-11-30T12:41:53.325Z"}
+{"id":"583e91ca3009a43d381434f2","name":"Test7","path":"Test6","state":"0","rule":{},"args":{"str":"Test6"},"level":"info","message":"","timestamp":"2016-11-30T12:41:53.325Z"}
+{"id":"583e91ce3009a43d381434f3","name":"Test7","path":"Test6","state":"0","rule":{},"args":{"str":"Test6"},"level":"info","message":"","timestamp":"2016-11-30T12:41:53.325Z"}
+{"id":"583e91d83009a43d381434f4","name":"Test78","path":"Test6","state":"0","rule":{},"args":{"str":"Test6"},"level":"info","message":"","timestamp":"2016-11-30T12:41:53.325Z"}
+{"id":"583e91db3009a43d381434f5","name":"Test79","path":"Test6","state":"0","rule":{},"args":{"str":"Test6"},"level":"info","message":"","timestamp":"2016-11-30T12:41:53.326Z"}
+{"id":"583e92023009a43d381434f6","name":"Test79","path":"Test6","state":"0","rule":{},"args":{"str":"Test6"},"level":"info","message":"","timestamp":"2016-11-30T12:41:53.326Z"}
+{"id":"583e92193009a43d381434f7","name":"Test80","path":"Test6","state":"0","rule":{},"args":{"str":"Test6"},"level":"info","message":"","timestamp":"2016-11-30T12:41:53.327Z"}
+{"id":"583e92293009a43d381434f8","name":"Test81","path":"Test6","state":"0","rule":{},"args":{"str":"Test6"},"level":"info","message":"","timestamp":"2016-11-30T12:41:53.327Z"}
+{"id":"583ea5f3dc1c774138cf00c8","name":"4566","path":"6654","state":"0","rule":{},"args":{"str":"6654"},"level":"info","message":"","timestamp":"2016-11-30T12:41:53.327Z"}
+{"id":"583b560fdef04c263fed8df6","name":"Real-time data provider","path":"./rtime.js","state":"0","rule":{},"args":{},"level":"info","message":"","timestamp":"2016-11-30T12:41:57.457Z"}
+{"id":"583e8f9341909c4fb86a2a19","name":"Test","path":"./rt/test.js","state":"0","rule":{},"args":{"str":"--port:4432"},"level":"info","message":"","timestamp":"2016-11-30T12:41:57.458Z"}
+{"id":"583e90bf6ce7881e0c33f3f1","name":"Test2","path":"Test2","state":"0","rule":{},"args":{"str":"Test2"},"level":"info","message":"","timestamp":"2016-11-30T12:41:57.458Z"}
+{"id":"583e910d3e59484fe8a21ec6","name":"Test3","path":"Test3","state":"0","rule":{},"args":{"str":"Test3"},"level":"info","message":"","timestamp":"2016-11-30T12:41:57.459Z"}
+{"id":"583e912d3e59484fe8a21ec7","name":"Test4","path":"Test4","state":"0","rule":{},"args":{"str":"Test4"},"level":"info","message":"","timestamp":"2016-11-30T12:41:57.459Z"}
+{"id":"583e914a3009a43d381434ef","name":"Test5","path":"Test5","state":"0","rule":{},"args":{"str":"Test5"},"level":"info","message":"","timestamp":"2016-11-30T12:41:57.459Z"}
+{"id":"583e91b73009a43d381434f0","name":"Test6","path":"Test6","state":"0","rule":{},"args":{"str":"Test6"},"level":"info","message":"","timestamp":"2016-11-30T12:41:57.460Z"}
+{"id":"583e91c23009a43d381434f1","name":"Test7","path":"Test6","state":"0","rule":{},"args":{"str":"Test6"},"level":"info","message":"","timestamp":"2016-11-30T12:41:57.460Z"}
+{"id":"583e91ca3009a43d381434f2","name":"Test7","path":"Test6","state":"0","rule":{},"args":{"str":"Test6"},"level":"info","message":"","timestamp":"2016-11-30T12:41:57.460Z"}
+{"id":"583e91ce3009a43d381434f3","name":"Test7","path":"Test6","state":"0","rule":{},"args":{"str":"Test6"},"level":"info","message":"","timestamp":"2016-11-30T12:41:57.461Z"}
+{"id":"583e91d83009a43d381434f4","name":"Test78","path":"Test6","state":"0","rule":{},"args":{"str":"Test6"},"level":"info","message":"","timestamp":"2016-11-30T12:41:57.461Z"}
+{"id":"583e91db3009a43d381434f5","name":"Test79","path":"Test6","state":"0","rule":{},"args":{"str":"Test6"},"level":"info","message":"","timestamp":"2016-11-30T12:41:57.463Z"}
+{"id":"583e92023009a43d381434f6","name":"Test79","path":"Test6","state":"0","rule":{},"args":{"str":"Test6"},"level":"info","message":"","timestamp":"2016-11-30T12:41:57.464Z"}
+{"id":"583e92193009a43d381434f7","name":"Test80","path":"Test6","state":"0","rule":{},"args":{"str":"Test6"},"level":"info","message":"","timestamp":"2016-11-30T12:41:57.465Z"}
+{"id":"583e92293009a43d381434f8","name":"Test81","path":"Test6","state":"0","rule":{},"args":{"str":"Test6"},"level":"info","message":"","timestamp":"2016-11-30T12:41:57.466Z"}
+{"id":"583b560fdef04c263fed8df6","name":"Real-time data provider","path":"./rtime.js","state":"0","rule":{},"args":{},"level":"info","message":"","timestamp":"2016-11-30T12:42:00.016Z"}
+{"id":"583e8f9341909c4fb86a2a19","name":"Test","path":"./rt/test.js","state":"0","rule":{},"args":{"str":"--port:4432"},"level":"info","message":"","timestamp":"2016-11-30T12:42:00.016Z"}
+{"id":"583e90bf6ce7881e0c33f3f1","name":"Test2","path":"Test2","state":"0","rule":{},"args":{"str":"Test2"},"level":"info","message":"","timestamp":"2016-11-30T12:42:00.017Z"}
+{"id":"583e910d3e59484fe8a21ec6","name":"Test3","path":"Test3","state":"0","rule":{},"args":{"str":"Test3"},"level":"info","message":"","timestamp":"2016-11-30T12:42:00.018Z"}
+{"id":"583e912d3e59484fe8a21ec7","name":"Test4","path":"Test4","state":"0","rule":{},"args":{"str":"Test4"},"level":"info","message":"","timestamp":"2016-11-30T12:42:00.019Z"}
+{"id":"583e914a3009a43d381434ef","name":"Test5","path":"Test5","state":"0","rule":{},"args":{"str":"Test5"},"level":"info","message":"","timestamp":"2016-11-30T12:42:00.020Z"}
+{"id":"583e91b73009a43d381434f0","name":"Test6","path":"Test6","state":"0","rule":{},"args":{"str":"Test6"},"level":"info","message":"","timestamp":"2016-11-30T12:42:00.022Z"}
+{"id":"583e91c23009a43d381434f1","name":"Test7","path":"Test6","state":"0","rule":{},"args":{"str":"Test6"},"level":"info","message":"","timestamp":"2016-11-30T12:42:00.023Z"}
+{"id":"583e91ca3009a43d381434f2","name":"Test7","path":"Test6","state":"0","rule":{},"args":{"str":"Test6"},"level":"info","message":"","timestamp":"2016-11-30T12:42:00.024Z"}
+{"id":"583e91ce3009a43d381434f3","name":"Test7","path":"Test6","state":"0","rule":{},"args":{"str":"Test6"},"level":"info","message":"","timestamp":"2016-11-30T12:42:00.024Z"}
+{"id":"583e91d83009a43d381434f4","name":"Test78","path":"Test6","state":"0","rule":{},"args":{"str":"Test6"},"level":"info","message":"","timestamp":"2016-11-30T12:42:00.026Z"}
+{"id":"583e91db3009a43d381434f5","name":"Test79","path":"Test6","state":"0","rule":{},"args":{"str":"Test6"},"level":"info","message":"","timestamp":"2016-11-30T12:42:00.026Z"}
+{"id":"583e92023009a43d381434f6","name":"Test79","path":"Test6","state":"0","rule":{},"args":{"str":"Test6"},"level":"info","message":"","timestamp":"2016-11-30T12:42:00.027Z"}
+{"id":"583e92193009a43d381434f7","name":"Test80","path":"Test6","state":"0","rule":{},"args":{"str":"Test6"},"level":"info","message":"","timestamp":"2016-11-30T12:42:00.027Z"}
+{"id":"583b560fdef04c263fed8df6","name":"Real-time data provider","path":"./rtime.js","state":"0","rule":{},"args":{},"level":"info","message":"","timestamp":"2016-11-30T12:42:01.730Z"}
+{"id":"583e8f9341909c4fb86a2a19","name":"Test","path":"./rt/test.js","state":"0","rule":{},"args":{"str":"--port:4432"},"level":"info","message":"","timestamp":"2016-11-30T12:42:01.731Z"}
+{"id":"583e90bf6ce7881e0c33f3f1","name":"Test2","path":"Test2","state":"0","rule":{},"args":{"str":"Test2"},"level":"info","message":"","timestamp":"2016-11-30T12:42:01.731Z"}
+{"id":"583e910d3e59484fe8a21ec6","name":"Test3","path":"Test3","state":"0","rule":{},"args":{"str":"Test3"},"level":"info","message":"","timestamp":"2016-11-30T12:42:01.732Z"}
+{"id":"583e912d3e59484fe8a21ec7","name":"Test4","path":"Test4","state":"0","rule":{},"args":{"str":"Test4"},"level":"info","message":"","timestamp":"2016-11-30T12:42:01.732Z"}
+{"id":"583e914a3009a43d381434ef","name":"Test5","path":"Test5","state":"0","rule":{},"args":{"str":"Test5"},"level":"info","message":"","timestamp":"2016-11-30T12:42:01.733Z"}
+{"id":"583e91b73009a43d381434f0","name":"Test6","path":"Test6","state":"0","rule":{},"args":{"str":"Test6"},"level":"info","message":"","timestamp":"2016-11-30T12:42:01.733Z"}
+{"id":"583e91c23009a43d381434f1","name":"Test7","path":"Test6","state":"0","rule":{},"args":{"str":"Test6"},"level":"info","message":"","timestamp":"2016-11-30T12:42:01.736Z"}
+{"id":"583e91ca3009a43d381434f2","name":"Test7","path":"Test6","state":"0","rule":{},"args":{"str":"Test6"},"level":"info","message":"","timestamp":"2016-11-30T12:42:01.736Z"}
+{"id":"583e91ce3009a43d381434f3","name":"Test7","path":"Test6","state":"0","rule":{},"args":{"str":"Test6"},"level":"info","message":"","timestamp":"2016-11-30T12:42:01.737Z"}
+{"id":"583e91d83009a43d381434f4","name":"Test78","path":"Test6","state":"0","rule":{},"args":{"str":"Test6"},"level":"info","message":"","timestamp":"2016-11-30T12:42:01.738Z"}
+{"id":"583e91db3009a43d381434f5","name":"Test79","path":"Test6","state":"0","rule":{},"args":{"str":"Test6"},"level":"info","message":"","timestamp":"2016-11-30T12:42:01.738Z"}
+{"id":"583e92023009a43d381434f6","name":"Test79","path":"Test6","state":"0","rule":{},"args":{"str":"Test6"},"level":"info","message":"","timestamp":"2016-11-30T12:42:01.739Z"}
+{"id":"583b560fdef04c263fed8df6","name":"Real-time data provider","path":"./rtime.js","state":"0","rule":{},"args":{},"level":"info","message":"","timestamp":"2016-11-30T12:42:02.966Z"}
+{"id":"583e8f9341909c4fb86a2a19","name":"Test","path":"./rt/test.js","state":"0","rule":{},"args":{"str":"--port:4432"},"level":"info","message":"","timestamp":"2016-11-30T12:42:02.967Z"}
+{"id":"583e90bf6ce7881e0c33f3f1","name":"Test2","path":"Test2","state":"0","rule":{},"args":{"str":"Test2"},"level":"info","message":"","timestamp":"2016-11-30T12:42:02.967Z"}
+{"id":"583e910d3e59484fe8a21ec6","name":"Test3","path":"Test3","state":"0","rule":{},"args":{"str":"Test3"},"level":"info","message":"","timestamp":"2016-11-30T12:42:02.968Z"}
+{"id":"583e912d3e59484fe8a21ec7","name":"Test4","path":"Test4","state":"0","rule":{},"args":{"str":"Test4"},"level":"info","message":"","timestamp":"2016-11-30T12:42:02.968Z"}
+{"id":"583e914a3009a43d381434ef","name":"Test5","path":"Test5","state":"0","rule":{},"args":{"str":"Test5"},"level":"info","message":"","timestamp":"2016-11-30T12:42:02.968Z"}
+{"id":"583e91b73009a43d381434f0","name":"Test6","path":"Test6","state":"0","rule":{},"args":{"str":"Test6"},"level":"info","message":"","timestamp":"2016-11-30T12:42:02.969Z"}
+{"id":"583e91c23009a43d381434f1","name":"Test7","path":"Test6","state":"0","rule":{},"args":{"str":"Test6"},"level":"info","message":"","timestamp":"2016-11-30T12:42:02.969Z"}
+{"id":"583e91ca3009a43d381434f2","name":"Test7","path":"Test6","state":"0","rule":{},"args":{"str":"Test6"},"level":"info","message":"","timestamp":"2016-11-30T12:42:02.969Z"}
+{"id":"583e91ce3009a43d381434f3","name":"Test7","path":"Test6","state":"0","rule":{},"args":{"str":"Test6"},"level":"info","message":"","timestamp":"2016-11-30T12:42:02.970Z"}
+{"id":"583e91d83009a43d381434f4","name":"Test78","path":"Test6","state":"0","rule":{},"args":{"str":"Test6"},"level":"info","message":"","timestamp":"2016-11-30T12:42:02.970Z"}
+{"id":"583e91db3009a43d381434f5","name":"Test79","path":"Test6","state":"0","rule":{},"args":{"str":"Test6"},"level":"info","message":"","timestamp":"2016-11-30T12:42:02.970Z"}
+{"id":"583b560fdef04c263fed8df6","name":"Real-time data provider","path":"./rtime.js","state":"0","rule":{},"args":{},"level":"info","message":"","timestamp":"2016-11-30T12:42:03.792Z"}
+{"id":"583e8f9341909c4fb86a2a19","name":"Test","path":"./rt/test.js","state":"0","rule":{},"args":{"str":"--port:4432"},"level":"info","message":"","timestamp":"2016-11-30T12:42:03.793Z"}
+{"id":"583e90bf6ce7881e0c33f3f1","name":"Test2","path":"Test2","state":"0","rule":{},"args":{"str":"Test2"},"level":"info","message":"","timestamp":"2016-11-30T12:42:03.793Z"}
+{"id":"583e910d3e59484fe8a21ec6","name":"Test3","path":"Test3","state":"0","rule":{},"args":{"str":"Test3"},"level":"info","message":"","timestamp":"2016-11-30T12:42:03.793Z"}
+{"id":"583e912d3e59484fe8a21ec7","name":"Test4","path":"Test4","state":"0","rule":{},"args":{"str":"Test4"},"level":"info","message":"","timestamp":"2016-11-30T12:42:03.794Z"}
+{"id":"583e914a3009a43d381434ef","name":"Test5","path":"Test5","state":"0","rule":{},"args":{"str":"Test5"},"level":"info","message":"","timestamp":"2016-11-30T12:42:03.794Z"}
+{"id":"583e91b73009a43d381434f0","name":"Test6","path":"Test6","state":"0","rule":{},"args":{"str":"Test6"},"level":"info","message":"","timestamp":"2016-11-30T12:42:03.794Z"}
+{"id":"583e91c23009a43d381434f1","name":"Test7","path":"Test6","state":"0","rule":{},"args":{"str":"Test6"},"level":"info","message":"","timestamp":"2016-11-30T12:42:03.794Z"}
+{"id":"583e91ca3009a43d381434f2","name":"Test7","path":"Test6","state":"0","rule":{},"args":{"str":"Test6"},"level":"info","message":"","timestamp":"2016-11-30T12:42:03.795Z"}
+{"id":"583e91ce3009a43d381434f3","name":"Test7","path":"Test6","state":"0","rule":{},"args":{"str":"Test6"},"level":"info","message":"","timestamp":"2016-11-30T12:42:03.795Z"}
+{"id":"583e91d83009a43d381434f4","name":"Test78","path":"Test6","state":"0","rule":{},"args":{"str":"Test6"},"level":"info","message":"","timestamp":"2016-11-30T12:42:03.795Z"}
+{"id":"583b560fdef04c263fed8df6","name":"Real-time data provider","path":"./rtime.js","state":"0","rule":{},"args":{},"level":"info","message":"","timestamp":"2016-11-30T12:42:04.458Z"}
+{"id":"583e8f9341909c4fb86a2a19","name":"Test","path":"./rt/test.js","state":"0","rule":{},"args":{"str":"--port:4432"},"level":"info","message":"","timestamp":"2016-11-30T12:42:04.459Z"}
+{"id":"583e90bf6ce7881e0c33f3f1","name":"Test2","path":"Test2","state":"0","rule":{},"args":{"str":"Test2"},"level":"info","message":"","timestamp":"2016-11-30T12:42:04.459Z"}
+{"id":"583e910d3e59484fe8a21ec6","name":"Test3","path":"Test3","state":"0","rule":{},"args":{"str":"Test3"},"level":"info","message":"","timestamp":"2016-11-30T12:42:04.460Z"}
+{"id":"583e912d3e59484fe8a21ec7","name":"Test4","path":"Test4","state":"0","rule":{},"args":{"str":"Test4"},"level":"info","message":"","timestamp":"2016-11-30T12:42:04.461Z"}
+{"id":"583e914a3009a43d381434ef","name":"Test5","path":"Test5","state":"0","rule":{},"args":{"str":"Test5"},"level":"info","message":"","timestamp":"2016-11-30T12:42:04.461Z"}
+{"id":"583e91b73009a43d381434f0","name":"Test6","path":"Test6","state":"0","rule":{},"args":{"str":"Test6"},"level":"info","message":"","timestamp":"2016-11-30T12:42:04.461Z"}
+{"id":"583e91c23009a43d381434f1","name":"Test7","path":"Test6","state":"0","rule":{},"args":{"str":"Test6"},"level":"info","message":"","timestamp":"2016-11-30T12:42:04.462Z"}
+{"id":"583e91ca3009a43d381434f2","name":"Test7","path":"Test6","state":"0","rule":{},"args":{"str":"Test6"},"level":"info","message":"","timestamp":"2016-11-30T12:42:04.462Z"}
+{"id":"583e91ce3009a43d381434f3","name":"Test7","path":"Test6","state":"0","rule":{},"args":{"str":"Test6"},"level":"info","message":"","timestamp":"2016-11-30T12:42:04.463Z"}
+{"id":"583b560fdef04c263fed8df6","name":"Real-time data provider","path":"./rtime.js","state":"0","rule":{},"args":{},"level":"info","message":"","timestamp":"2016-11-30T12:42:05.165Z"}
+{"id":"583e8f9341909c4fb86a2a19","name":"Test","path":"./rt/test.js","state":"0","rule":{},"args":{"str":"--port:4432"},"level":"info","message":"","timestamp":"2016-11-30T12:42:05.166Z"}
+{"id":"583e90bf6ce7881e0c33f3f1","name":"Test2","path":"Test2","state":"0","rule":{},"args":{"str":"Test2"},"level":"info","message":"","timestamp":"2016-11-30T12:42:05.166Z"}
+{"id":"583e910d3e59484fe8a21ec6","name":"Test3","path":"Test3","state":"0","rule":{},"args":{"str":"Test3"},"level":"info","message":"","timestamp":"2016-11-30T12:42:05.167Z"}
+{"id":"583e912d3e59484fe8a21ec7","name":"Test4","path":"Test4","state":"0","rule":{},"args":{"str":"Test4"},"level":"info","message":"","timestamp":"2016-11-30T12:42:05.167Z"}
+{"id":"583e914a3009a43d381434ef","name":"Test5","path":"Test5","state":"0","rule":{},"args":{"str":"Test5"},"level":"info","message":"","timestamp":"2016-11-30T12:42:05.167Z"}
+{"id":"583e91b73009a43d381434f0","name":"Test6","path":"Test6","state":"0","rule":{},"args":{"str":"Test6"},"level":"info","message":"","timestamp":"2016-11-30T12:42:05.168Z"}
+{"id":"583e91c23009a43d381434f1","name":"Test7","path":"Test6","state":"0","rule":{},"args":{"str":"Test6"},"level":"info","message":"","timestamp":"2016-11-30T12:42:05.168Z"}
+{"id":"583e91ca3009a43d381434f2","name":"Test7","path":"Test6","state":"0","rule":{},"args":{"str":"Test6"},"level":"info","message":"","timestamp":"2016-11-30T12:42:05.168Z"}
+{"id":"583b560fdef04c263fed8df6","name":"Real-time data provider","path":"./rtime.js","state":"0","rule":{},"args":{},"level":"info","message":"","timestamp":"2016-11-30T12:42:05.836Z"}
+{"id":"583e8f9341909c4fb86a2a19","name":"Test","path":"./rt/test.js","state":"0","rule":{},"args":{"str":"--port:4432"},"level":"info","message":"","timestamp":"2016-11-30T12:42:05.837Z"}
+{"id":"583e90bf6ce7881e0c33f3f1","name":"Test2","path":"Test2","state":"0","rule":{},"args":{"str":"Test2"},"level":"info","message":"","timestamp":"2016-11-30T12:42:05.837Z"}
+{"id":"583e910d3e59484fe8a21ec6","name":"Test3","path":"Test3","state":"0","rule":{},"args":{"str":"Test3"},"level":"info","message":"","timestamp":"2016-11-30T12:42:05.838Z"}
+{"id":"583e912d3e59484fe8a21ec7","name":"Test4","path":"Test4","state":"0","rule":{},"args":{"str":"Test4"},"level":"info","message":"","timestamp":"2016-11-30T12:42:05.838Z"}
+{"id":"583e914a3009a43d381434ef","name":"Test5","path":"Test5","state":"0","rule":{},"args":{"str":"Test5"},"level":"info","message":"","timestamp":"2016-11-30T12:42:05.838Z"}
+{"id":"583e91b73009a43d381434f0","name":"Test6","path":"Test6","state":"0","rule":{},"args":{"str":"Test6"},"level":"info","message":"","timestamp":"2016-11-30T12:42:05.839Z"}
+{"id":"583e91c23009a43d381434f1","name":"Test7","path":"Test6","state":"0","rule":{},"args":{"str":"Test6"},"level":"info","message":"","timestamp":"2016-11-30T12:42:05.839Z"}
+{"id":"583b560fdef04c263fed8df6","name":"Real-time data provider","path":"./rtime.js","state":"0","rule":{},"args":{},"level":"info","message":"","timestamp":"2016-11-30T12:42:06.993Z"}
+{"id":"583e8f9341909c4fb86a2a19","name":"Test","path":"./rt/test.js","state":"0","rule":{},"args":{"str":"--port:4432"},"level":"info","message":"","timestamp":"2016-11-30T12:42:06.994Z"}
+{"id":"583e90bf6ce7881e0c33f3f1","name":"Test2","path":"Test2","state":"0","rule":{},"args":{"str":"Test2"},"level":"info","message":"","timestamp":"2016-11-30T12:42:06.994Z"}
+{"id":"583e910d3e59484fe8a21ec6","name":"Test3","path":"Test3","state":"0","rule":{},"args":{"str":"Test3"},"level":"info","message":"","timestamp":"2016-11-30T12:42:06.995Z"}
+{"id":"583e912d3e59484fe8a21ec7","name":"Test4","path":"Test4","state":"0","rule":{},"args":{"str":"Test4"},"level":"info","message":"","timestamp":"2016-11-30T12:42:06.996Z"}
+{"id":"583e914a3009a43d381434ef","name":"Test5","path":"Test5","state":"0","rule":{},"args":{"str":"Test5"},"level":"info","message":"","timestamp":"2016-11-30T12:42:06.997Z"}
+{"id":"583e91b73009a43d381434f0","name":"Test6","path":"Test6","state":"0","rule":{},"args":{"str":"Test6"},"level":"info","message":"","timestamp":"2016-11-30T12:42:06.997Z"}
+{"id":"583b560fdef04c263fed8df6","name":"Real-time data provider","path":"./rtime.js","state":"0","rule":{},"args":{},"level":"info","message":"","timestamp":"2016-11-30T12:42:07.597Z"}
+{"id":"583e8f9341909c4fb86a2a19","name":"Test","path":"./rt/test.js","state":"0","rule":{},"args":{"str":"--port:4432"},"level":"info","message":"","timestamp":"2016-11-30T12:42:07.597Z"}
+{"id":"583e90bf6ce7881e0c33f3f1","name":"Test2","path":"Test2","state":"0","rule":{},"args":{"str":"Test2"},"level":"info","message":"","timestamp":"2016-11-30T12:42:07.598Z"}
+{"id":"583e910d3e59484fe8a21ec6","name":"Test3","path":"Test3","state":"0","rule":{},"args":{"str":"Test3"},"level":"info","message":"","timestamp":"2016-11-30T12:42:07.598Z"}
+{"id":"583e912d3e59484fe8a21ec7","name":"Test4","path":"Test4","state":"0","rule":{},"args":{"str":"Test4"},"level":"info","message":"","timestamp":"2016-11-30T12:42:07.599Z"}
+{"id":"583e914a3009a43d381434ef","name":"Test5","path":"Test5","state":"0","rule":{},"args":{"str":"Test5"},"level":"info","message":"","timestamp":"2016-11-30T12:42:07.599Z"}
+{"id":"583b560fdef04c263fed8df6","name":"Real-time data provider","path":"./rtime.js","state":"0","rule":{},"args":{},"level":"info","message":"","timestamp":"2016-11-30T12:42:08.269Z"}
+{"id":"583e8f9341909c4fb86a2a19","name":"Test","path":"./rt/test.js","state":"0","rule":{},"args":{"str":"--port:4432"},"level":"info","message":"","timestamp":"2016-11-30T12:42:08.269Z"}
+{"id":"583e90bf6ce7881e0c33f3f1","name":"Test2","path":"Test2","state":"0","rule":{},"args":{"str":"Test2"},"level":"info","message":"","timestamp":"2016-11-30T12:42:08.270Z"}
+{"id":"583e910d3e59484fe8a21ec6","name":"Test3","path":"Test3","state":"0","rule":{},"args":{"str":"Test3"},"level":"info","message":"","timestamp":"2016-11-30T12:42:08.271Z"}
+{"id":"583e912d3e59484fe8a21ec7","name":"Test4","path":"Test4","state":"0","rule":{},"args":{"str":"Test4"},"level":"info","message":"","timestamp":"2016-11-30T12:42:08.272Z"}
+{"id":"583b560fdef04c263fed8df6","name":"Real-time data provider","path":"./rtime.js","state":"0","rule":{},"args":{},"level":"info","message":"","timestamp":"2016-11-30T12:42:09.115Z"}
+{"id":"583e8f9341909c4fb86a2a19","name":"Test","path":"./rt/test.js","state":"0","rule":{},"args":{"str":"--port:4432"},"level":"info","message":"","timestamp":"2016-11-30T12:42:09.116Z"}
+{"id":"583e90bf6ce7881e0c33f3f1","name":"Test2","path":"Test2","state":"0","rule":{},"args":{"str":"Test2"},"level":"info","message":"","timestamp":"2016-11-30T12:42:09.117Z"}
+{"id":"583e910d3e59484fe8a21ec6","name":"Test3","path":"Test3","state":"0","rule":{},"args":{"str":"Test3"},"level":"info","message":"","timestamp":"2016-11-30T12:42:09.117Z"}
+{"id":"583b560fdef04c263fed8df6","name":"Real-time data provider","path":"./rtime.js","state":"0","rule":{},"args":{},"level":"info","message":"","timestamp":"2016-11-30T12:42:09.748Z"}
+{"id":"583e8f9341909c4fb86a2a19","name":"Test","path":"./rt/test.js","state":"0","rule":{},"args":{"str":"--port:4432"},"level":"info","message":"","timestamp":"2016-11-30T12:42:09.750Z"}
+{"id":"583e90bf6ce7881e0c33f3f1","name":"Test2","path":"Test2","state":"0","rule":{},"args":{"str":"Test2"},"level":"info","message":"","timestamp":"2016-11-30T12:42:09.751Z"}
+{"id":"583b560fdef04c263fed8df6","name":"Real-time data provider","path":"./rtime.js","state":"0","rule":{},"args":{},"level":"info","message":"","timestamp":"2016-11-30T12:42:10.340Z"}
+{"id":"583e8f9341909c4fb86a2a19","name":"Test","path":"./rt/test.js","state":"0","rule":{},"args":{"str":"--port:4432"},"level":"info","message":"","timestamp":"2016-11-30T12:42:10.341Z"}
+{"id":"583b560fdef04c263fed8df6","name":"Real-time data provider","path":"./rtime.js","state":"0","rule":{},"args":{},"level":"info","message":"","timestamp":"2016-11-30T12:42:12.177Z"}
+{"level":"info","message":"Create module {\"name\":\"Тестовый модуль\",\"desc\":\"Тестовый модуль\",\"path\":\"./rt/test.js\",\"args\":\"--nan\"}","timestamp":"2016-11-30T12:42:33.006Z"}
+{"id":"583b560fdef04c263fed8df6","name":"Real-time data provider","path":"./rtime.js","state":"0","rule":{},"args":{},"level":"info","message":"","timestamp":"2016-11-30T12:42:33.140Z"}
+{"id":"583ec9391336eb144080c82b","name":"Тестовый модуль","path":"./rt/test.js","state":"0","rule":{},"args":{"str":"--nan"},"level":"info","message":"","timestamp":"2016-11-30T12:42:33.141Z"}
+{"level":"info","message":"Start module  Тестовый модуль","timestamp":"2016-11-30T12:42:52.589Z"}
+{"level":"info","message":"Stop module  Тестовый модуль","timestamp":"2016-11-30T12:43:55.281Z"}
+{"level":"info","message":"Start module  Real-time data provider","timestamp":"2016-11-30T12:43:57.078Z"}
+{"level":"info","message":"Start module  Real-time data provider","timestamp":"2016-11-30T12:43:57.782Z"}
+{"level":"info","message":"Start module  Тестовый модуль","timestamp":"2016-11-30T12:43:59.961Z"}
+{"level":"info","message":"Stop module  Тестовый модуль","timestamp":"2016-11-30T12:44:00.694Z"}
+{"level":"info","message":"Start module  Тестовый модуль","timestamp":"2016-11-30T12:44:01.351Z"}
+{"level":"info","message":"Stop module  Тестовый модуль","timestamp":"2016-11-30T12:44:02.013Z"}
+{"level":"info","message":"Start module  Тестовый модуль","timestamp":"2016-11-30T12:44:02.615Z"}
+{"level":"info","message":"Stop module  Тестовый модуль","timestamp":"2016-11-30T12:44:03.030Z"}
+{"level":"info","message":"Start module  Тестовый модуль","timestamp":"2016-11-30T12:44:04.246Z"}
+{"level":"info","message":"Stop module  Тестовый модуль","timestamp":"2016-11-30T12:44:04.711Z"}
+{"level":"info","message":"Start module  Тестовый модуль","timestamp":"2016-11-30T12:44:05.456Z"}
+{"level":"info","message":"Stop module  Тестовый модуль","timestamp":"2016-11-30T12:44:05.978Z"}
+{"level":"info","message":"Start module  Тестовый модуль","timestamp":"2016-11-30T12:44:08.221Z"}
+{"level":"info","message":"Stop module  Тестовый модуль","timestamp":"2016-11-30T12:44:08.839Z"}
+{"level":"info","message":"Start module  Тестовый модуль","timestamp":"2016-11-30T12:44:09.990Z"}
+{"level":"info","message":"Stop module  Тестовый модуль","timestamp":"2016-11-30T12:44:10.678Z"}
+{"level":"info","message":"Start module  Тестовый модуль","timestamp":"2016-11-30T12:44:11.376Z"}
+{"level":"info","message":"Stop module  Тестовый модуль","timestamp":"2016-11-30T12:44:12.127Z"}
+{"level":"info","message":"Start module  Тестовый модуль","timestamp":"2016-11-30T12:44:12.649Z"}
+{"level":"info","message":"Stop module  Тестовый модуль","timestamp":"2016-11-30T12:52:16.439Z"}
+{"level":"info","message":"Start module  Тестовый модуль","timestamp":"2016-11-30T12:52:17.005Z"}
+{"level":"info","message":"Stop module  Тестовый модуль","timestamp":"2016-11-30T12:52:19.211Z"}
+{"level":"info","message":"Start module  Тестовый модуль","timestamp":"2016-11-30T12:52:19.938Z"}
+{"level":"info","message":"Stop module  Тестовый модуль","timestamp":"2016-11-30T12:52:25.892Z"}
+{"level":"info","message":"Start service","timestamp":"2016-11-30T13:05:24.523Z"}
+{"level":"info","message":"Web service loaded","timestamp":"2016-11-30T13:05:24.846Z"}
+{"level":"info","message":"Websocket loaded","timestamp":"2016-11-30T13:05:25.150Z"}
+{"id":"583b560fdef04c263fed8df6","name":"Real-time data provider","path":"./rtime.js","state":"0","rule":{},"args":{},"level":"info","message":"","timestamp":"2016-11-30T13:05:25.909Z"}
+{"id":"583ec9391336eb144080c82b","name":"Тестовый модуль","path":"./rt/test.js","state":"0","rule":{},"args":{"str":"--nan"},"level":"info","message":"","timestamp":"2016-11-30T13:05:25.910Z"}
+{"level":"info","message":"Start module  Тестовый модуль","timestamp":"2016-11-30T13:05:42.529Z"}
+{"level":"info","message":"Stop module  Тестовый модуль","timestamp":"2016-11-30T13:06:05.962Z"}
+{"level":"info","message":"Start module  Тестовый модуль","timestamp":"2016-11-30T13:06:08.597Z"}
+{"level":"info","message":"Start service","timestamp":"2016-11-30T13:17:55.608Z"}
+{"level":"info","message":"Web service loaded","timestamp":"2016-11-30T13:17:55.966Z"}
+{"level":"info","message":"Websocket loaded","timestamp":"2016-11-30T13:17:56.381Z"}
+{"id":"583b560fdef04c263fed8df6","name":"Real-time data provider","path":"./rtime.js","state":"0","rule":{},"args":{},"level":"info","message":"","timestamp":"2016-11-30T13:17:57.247Z"}
+{"id":"583ec9391336eb144080c82b","name":"Тестовый модуль","path":"./rt/test.js","state":"0","rule":{},"args":{"str":"--nan"},"level":"info","message":"","timestamp":"2016-11-30T13:17:57.248Z"}
+{"level":"info","message":"Start module  Тестовый модуль","timestamp":"2016-11-30T13:18:04.602Z"}
+{"level":"info","message":"Stop module  Тестовый модуль","timestamp":"2016-11-30T13:19:15.412Z"}
+{"level":"info","message":"Start module  Тестовый модуль","timestamp":"2016-11-30T13:19:19.073Z"}
+{"level":"info","message":"Stop module  Тестовый модуль","timestamp":"2016-11-30T13:20:27.023Z"}
+{"level":"info","message":"Start module  Тестовый модуль","timestamp":"2016-11-30T13:20:34.117Z"}
+{"level":"info","message":"Start service","timestamp":"2016-11-30T13:21:45.838Z"}
+{"level":"info","message":"Web service loaded","timestamp":"2016-11-30T13:21:46.141Z"}
+{"level":"info","message":"Websocket loaded","timestamp":"2016-11-30T13:21:46.504Z"}
+{"id":"583b560fdef04c263fed8df6","name":"Real-time data provider","path":"./rtime.js","state":"0","rule":{},"args":{},"level":"info","message":"","timestamp":"2016-11-30T13:21:47.414Z"}
+{"id":"583ec9391336eb144080c82b","name":"Тестовый модуль","path":"./rt/test.js","state":"0","rule":{},"args":{"str":"--nan"},"level":"info","message":"","timestamp":"2016-11-30T13:21:47.415Z"}
+{"level":"info","message":"Start module  Тестовый модуль","timestamp":"2016-11-30T13:21:51.088Z"}
+{"date":"Wed Nov 30 2016 16:21:58 GMT+0300 (RTZ 2 (зима))","process":{"pid":15432,"uid":null,"gid":null,"cwd":"d:\\Development\\nodeJS\\scada\\scada01","execPath":"C:\\nodejs\\node.exe","version":"v6.9.1","argv":["C:\\nodejs\\node.exe","d:\\Development\\nodeJS\\scada\\scada01\\app.js"],"memoryUsage":{"rss":62464000,"heapTotal":34639872,"heapUsed":25878888}},"os":{"loadavg":[0,0,0],"uptime":793111.4001131},"trace":[{"column":9,"file":"d:\\Development\\nodeJS\\scada\\scada01\\app.js","function":"Object.callback","line":227,"method":"callback","native":false},{"column":60,"file":"d:\\Development\\nodeJS\\scada\\scada01\\node_modules\\cjs-noticeboard\\cjs-noticeboard.js","function":"Timeout._onTimeout","line":176,"method":"_onTimeout","native":false},{"column":14,"file":"timers.js","function":"ontimeout","line":365,"method":null,"native":false},{"column":5,"file":"timers.js","function":"tryOnTimeout","line":237,"method":null,"native":false},{"column":5,"file":"timers.js","function":"Timer.listOnTimeout","line":207,"method":"listOnTimeout","native":false}],"stack":["Error: Тестовый модуль crashed excessively","    at Object.callback (d:\\Development\\nodeJS\\scada\\scada01\\app.js:227:9)","    at Timeout._onTimeout (d:\\Development\\nodeJS\\scada\\scada01\\node_modules\\cjs-noticeboard\\cjs-noticeboard.js:176:60)","    at ontimeout (timers.js:365:14)","    at tryOnTimeout (timers.js:237:5)","    at Timer.listOnTimeout (timers.js:207:5)"],"level":"error","message":"uncaughtException: Тестовый модуль crashed excessively","timestamp":"2016-11-30T13:21:58.971Z"}
+{"level":"info","message":"Stop module  Тестовый модуль","timestamp":"2016-11-30T13:22:45.926Z"}
+{"level":"info","message":"Start module  Тестовый модуль","timestamp":"2016-11-30T13:22:52.300Z"}
+{"level":"info","message":"Stop module  Тестовый модуль","timestamp":"2016-11-30T13:24:28.440Z"}
+{"level":"info","message":"Start module  Тестовый модуль","timestamp":"2016-11-30T13:24:31.007Z"}
+{"level":"info","message":"Stop module  Тестовый модуль","timestamp":"2016-11-30T13:24:47.950Z"}
+{"level":"info","message":"Start module  Тестовый модуль","timestamp":"2016-11-30T13:24:51.980Z"}
+{"level":"info","message":"Stop module  Тестовый модуль","timestamp":"2016-11-30T13:24:59.134Z"}
+{"level":"info","message":"Start module  Тестовый модуль","timestamp":"2016-11-30T13:25:01.376Z"}
+{"level":"info","message":"Stop module  Тестовый модуль","timestamp":"2016-11-30T13:25:04.066Z"}
+{"level":"info","message":"Start module  Тестовый модуль","timestamp":"2016-11-30T13:25:06.788Z"}
+{"level":"info","message":"Stop module  Тестовый модуль","timestamp":"2016-11-30T13:25:08.251Z"}
+{"level":"info","message":"Start module  Тестовый модуль","timestamp":"2016-11-30T13:25:09.154Z"}
+{"level":"info","message":"Stop module  Тестовый модуль","timestamp":"2016-11-30T13:25:10.130Z"}
+{"level":"info","message":"Start module  Тестовый модуль","timestamp":"2016-11-30T13:25:11.050Z"}
+{"level":"info","message":"Start service","timestamp":"2016-11-30T13:25:15.269Z"}
+{"level":"info","message":"Web service loaded","timestamp":"2016-11-30T13:25:15.621Z"}
+{"level":"info","message":"Websocket loaded","timestamp":"2016-11-30T13:25:15.907Z"}
+{"id":"583b560fdef04c263fed8df6","name":"Real-time data provider","path":"./rtime.js","state":"0","rule":{},"args":{},"level":"info","message":"","timestamp":"2016-11-30T13:25:16.707Z"}
+{"id":"583ec9391336eb144080c82b","name":"Тестовый модуль","path":"./rt/test.js","state":"0","rule":{},"args":{"str":"--nan"},"level":"info","message":"","timestamp":"2016-11-30T13:25:16.708Z"}
+{"level":"info","message":"Start module  Тестовый модуль","timestamp":"2016-11-30T13:25:29.898Z"}
+{"level":"info","message":"Stop module  Тестовый модуль","timestamp":"2016-11-30T13:26:02.303Z"}
+{"level":"info","message":"Start module  Тестовый модуль","timestamp":"2016-11-30T13:26:02.905Z"}
+{"level":"info","message":"Start service","timestamp":"2016-11-30T13:26:30.241Z"}
+{"level":"info","message":"Web service loaded","timestamp":"2016-11-30T13:26:30.578Z"}
+{"level":"info","message":"Websocket loaded","timestamp":"2016-11-30T13:26:30.925Z"}
+{"id":"583b560fdef04c263fed8df6","name":"Real-time data provider","path":"./rtime.js","state":"0","rule":{},"args":{},"level":"info","message":"","timestamp":"2016-11-30T13:26:31.692Z"}
+{"id":"583ec9391336eb144080c82b","name":"Тестовый модуль","path":"./rt/test.js","state":"0","rule":{},"args":{"str":"--nan"},"level":"info","message":"","timestamp":"2016-11-30T13:26:31.696Z"}
+{"level":"info","message":"Start module  Тестовый модуль","timestamp":"2016-11-30T13:26:33.996Z"}
+{"level":"info","message":"Stop module  Тестовый модуль","timestamp":"2016-11-30T13:26:58.116Z"}
+{"level":"info","message":"Start module  Тестовый модуль","timestamp":"2016-11-30T13:26:58.553Z"}

@@ -32,6 +32,10 @@ app.get(/\/div_/, function (req, res) {
     var type=req.originalUrl.substring(5);
   res.render(type, { title: 'Hey', message: 'Hello there!' })
 })
+app.get(/\/divmodals_/, function (req, res) {
+    var type=req.originalUrl.substring(11);
+  res.render('modals/'+type, { title: 'Hey', message: 'Hello there!' })
+})
 app.get('/bench',function(req,res)
 {
   console.log('start gen')

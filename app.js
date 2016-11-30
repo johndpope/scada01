@@ -3,6 +3,8 @@ var model={
   modules:[],
   users:[]
 }
+this.launchedModules={};
+var mongodb={};
 var appl=this;
 const fs = require('fs');
 //Init logger
@@ -42,6 +44,39 @@ function sendLogExternal(log) {
 //web modules init
 Object.defineProperty(appl,"model",{set:(v)=>{model=v;synchData()},get:()=>{return model;}});
 var r_modules = require('./routers/modules');
+r_modules.events.on('new',(d)=>{
+  logger.info('Create module',JSON.stringify(d));
+  d.args={str:d.args};
+  d.state=0;
+  d.rule={};
+  mongodb.collection('modules').insertOne(d);
+  loadModules(mongodb,()=>{
+    appl.model.modules.forEach((e)=>{
+      transport.io.json.send({ 'event': 'modules_upd', 'data': e });
+    })
+  });
+})
+r_modules.events.on('startstop',(d)=>{
+  var m=getbyid(appl.model.modules,d.id);
+  if(m.state==0)
+  {  m.state=1;
+    logger.info('Start module ',m.name);
+    m.server=supervisor.start(m.name,'rt\\test.js');
+    //m.server
+  }
+  else
+  {
+    m.state=0;
+    logger.info('Stop module ',m.name);
+  }  
+  transport.io.json.send({ 'event': 'modules_upd', 'data':{id:m.id,name:m.name,path:m.path,desc:m.desc,args:m.args,state:m.state}});
+})
+r_modules.events.on('delete',(d)=>{
+  mongodb.collection('modules').deleteOne({_id:new mongo.ObjectID(d.id)},()=>{
+  loadModules(mongodb,()=>{
+     transport.io.json.send({ 'event': 'send_modules', data: appl.model.modules });
+  })});
+})
 web.app.use('/modules', r_modules);
 
 
@@ -53,7 +88,7 @@ setInterval(function () {
   if (appl.model.modules[0]) {
     appl.model.modules[0].state = appl.model.modules[0].state == 0 ? 1 : 0;
     
-    transport.io.json.send({ 'event': 'modules_upd', 'data': appl.model.modules[0] });
+ //   transport.io.json.send({ 'event': 'modules_upd', 'data': appl.model.modules[0] });
   }
 
 }, 1000);
@@ -149,8 +184,8 @@ transport.handles['get_modules'] = function (msg, socket) {
   socket.json.send({ 'event': 'send_modules', data: appl.model.modules });
 }
 //mongo
-
-var MongoClient = require('mongodb').MongoClient
+var mongo=require('mongodb');
+var MongoClient = mongo.MongoClient
   , assert = require('assert');
 // Connection URL
 var url = 'mongodb://cstate.marikun.ru:443/scdme';
@@ -158,10 +193,13 @@ var url = 'mongodb://cstate.marikun.ru:443/scdme';
 winston.profile('mongo connect');
 MongoClient.connect(url, function (err, db) {
   assert.equal(null, err);
+  mongodb=db;
   loadModules(db)
   winston.profile('mongo connect');
 });
+
 var loadModules = function (db, callback) {
+  appl.model.modules=[];
   // Get the documents collection
   var collection = db.collection('modules');
   // Find some documents
@@ -180,4 +218,22 @@ var loadModules = function (db, callback) {
 }
 
 
+/////supervisor
+var supe = require('supe'),
+    supervisor = supe();
+    supervisor.noticeboard.watch( 'citizen-excessive-crash', 'crash-supervisor', function( msg ){
+
+  var name = msg.notice;
+  throw new Error( name + ' crashed excessively' );
+});
+
 /////
+
+
+function getbyid(arr, id) {
+    for (var i = 0, len = arr.length; i < len; i++) {
+      if (arr[i].id == id)
+        return arr[i]; // Return as soon as the object is found
+    }
+    return null;
+  }

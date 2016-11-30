@@ -117,3 +117,11 @@ var platform = require('os').platform(),
   var smodules = [];
   smodules.push(iec1);
   smodules.push(iec2);
+
+  function getbyid(arr, id) {
+    for (var i = 0, len = arr.length; i < len; i++) {
+      if (arr[i].id == id)
+        return arr[i]; // Return as soon as the object is found
+    }
+    return null;
+  }
