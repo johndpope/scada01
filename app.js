@@ -1,7 +1,23 @@
-
+const util = require('util');
 var model={
   modules:[],
   users:[]
+}
+class lmodule
+{
+  constructor(o) {
+    this.id= o.id
+    this.name= o.name
+    this.path= o.path
+    this.state= '0'
+    this.rule= {}
+    this.args= o.args 
+  }
+   setState(s){
+    this.state=s;
+    transport.io.json.send({ 'event': 'modules_upd', 'data':{id:this.id,name:this.name,path:this.path,desc:this.desc,args:this.args,state:this.state}});
+  }
+  
 }
 this.launchedModules={};
 var mongodb={};
@@ -61,13 +77,14 @@ r_modules.events.on('startstop',(d)=>{
   if(m.state==0)
   {  m.state=1;
     logger.info('Start module ',m.name);
-    m.server=supervisor.start(m.name,'rt\\test.js');
+    sup.add(m);
     //m.server
   }
   else
   {
     m.state=0;
     logger.info('Stop module ',m.name);
+    sup.remove(m);
   }  
   transport.io.json.send({ 'event': 'modules_upd', 'data':{id:m.id,name:m.name,path:m.path,desc:m.desc,args:m.args,state:m.state}});
 })
@@ -87,6 +104,11 @@ r_modules.model=appl.model;
 setInterval(function () {
   if (appl.model.modules[0]) {
     appl.model.modules[0].state = appl.model.modules[0].state == 0 ? 1 : 0;
+    for (var id in cluster.workers) {
+      var wrk=cluster.workers[id];
+      logger.info('Modules Info: ',wrk.id);
+       
+    }
     
  //   transport.io.json.send({ 'event': 'modules_upd', 'data': appl.model.modules[0] });
   }
@@ -207,7 +229,7 @@ var loadModules = function (db, callback) {
   collection.find({}).each(function (err, docs) {
     assert.equal(err, null);
     if (docs) {
-      var a = { id: docs._id.toString(), name: docs.name, path: docs.path, state: '0', rule: {}, args: docs.args };
+      var a = new lmodule({ id: docs._id.toString(), name: docs.name, path: docs.path, state: '0', rule: {}, args: docs.args });
       appl.model.modules.push(a);
       logger.info(a)
       winston.profile('mongo read modules');
@@ -219,13 +241,46 @@ var loadModules = function (db, callback) {
 
 
 /////supervisor
-var supe = require('supe'),
-    supervisor = supe();
-    supervisor.noticeboard.watch( 'citizen-excessive-crash', 'crash-supervisor', function( msg ){
 
-  var name = msg.notice;
-  throw new Error( name + ' crashed excessively' );
-});
+const cluster = require('cluster');
+function supervisor(){
+  this.workers=[];
+
+  this.add=(m)=>
+  {
+    if(this.workers.indexOf(m)==-1)
+    { cluster.setupMaster({
+      exec:m.path});
+      var wrk=cluster.fork();
+      wrk.on('exit', (code, signal) => {
+        logger.info('Process '+m.path +' closed',{code:code,signal:signal})
+         m.wrk_id=-1;
+         m.setState(0);
+
+      });
+      wrk.on('error', (e) => {
+        logger.info('Process '+m.path +' error',{er:e})
+      });
+      wrk.on('online', () => {
+        logger.info('Process '+m.path +' online')
+        m.wrk_id=wrk.id;
+        m.setState(1);
+      });
+      wrk.on('message', (ms) => {
+        logger.info('Process '+m.path +' message',JSON.stringify(ms))
+      });
+    
+      return wrk;
+    } 
+  }
+  this.remove=(m)=>{
+    if(m.wrk_id!=-1)
+      cluster.workers[m.wrk_id].kill();
+
+
+  }
+}
+var sup=new supervisor();
 
 /////
 
