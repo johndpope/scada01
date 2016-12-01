@@ -255,7 +255,7 @@ function supervisor(){
       wrk.on('exit', (code, signal) => {
         logger.info('Process '+m.path +' closed',{code:code,signal:signal})
          m.wrk_id=-1;
-         m.setState(0);
+         m.setState(0); 
 
       });
       wrk.on('error', (e) => {
