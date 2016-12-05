@@ -1081,3 +1081,9 @@
 {"level":"info","message":"Client y7nQO50G-kbn_AI2AAAU (127.0.0.1) connected","timestamp":"2016-12-05T13:39:30.622Z"}
 {"level":"info","message":"y7nQO50G-kbn_AI2AAAU : {\"event\":\"get_modules\"}","timestamp":"2016-12-05T13:39:30.655Z"}
 {"level":"info","message":"y7nQO50G-kbn_AI2AAAU : {\"event\":\"terminal\",\"text\":\"mstar\"}","timestamp":"2016-12-05T13:39:35.622Z"}
+{"level":"info","message":"Client Pf3INRK1KFN1Zs3nAAAA (127.0.0.1) connected","timestamp":"2016-12-05T13:40:33.040Z"}
+{"level":"info","message":"Client Pf3INRK1KFN1Zs3nAAAA disconnected","timestamp":"2016-12-05T13:40:55.891Z"}
+{"level":"info","message":"Client GY6dsEnr7T7Epf0fAAAB (127.0.0.1) connected","timestamp":"2016-12-05T13:40:57.024Z"}
+{"level":"info","message":"Client r_-7MscBlT4jXNB8AAAA (127.0.0.1) connected","timestamp":"2016-12-05T13:43:42.477Z"}
+{"level":"info","message":"Client r_-7MscBlT4jXNB8AAAA disconnected","timestamp":"2016-12-05T13:45:42.548Z"}
+{"level":"info","message":"Client 5PI-9pSgXg_e656LAAAB (127.0.0.1) connected","timestamp":"2016-12-05T13:45:43.058Z"}

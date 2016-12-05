@@ -228,8 +228,8 @@ transport.handles['get_modules'] = function (msg, socket) {
 }
 var terminal_cmds=[];
 terminal_cmds['mstart']=function(prm){
-  var par=JSON.parse(prm);
-  var m=getbyfld(appl.model.modules,par.name,'name');
+  
+  var m=getbyfld(appl.model.modules,prm,'name');
   if(m.state==0)
   {  
     logger.info('Start module ',m.name);
@@ -247,8 +247,8 @@ terminal_cmds['mstart']=function(prm){
 
 }
 terminal_cmds['mstop']=function(prm){
-  var par=JSON.parse(prm);
-  var m=getbyfld(appl.model.modules,par.name,'name');
+  
+  var m=getbyfld(appl.model.modules,prm,'name');
   if(m.state==0)
   {  
     logger.info('Start module ',m.name);

@@ -2893,3 +2893,31 @@
 {"level":"info","message":"Stop module  dMaster","timestamp":"2016-12-05T13:36:22.208Z"}
 {"level":"info","message":"terminal command mstar","timestamp":"2016-12-05T13:39:35.622Z"}
 {"level":"info","message":"Unknown command!","timestamp":"2016-12-05T13:39:35.622Z"}
+{"level":"info","message":"Start service","timestamp":"2016-12-05T13:40:31.564Z"}
+{"level":"info","message":"Web service loaded","timestamp":"2016-12-05T13:40:32.035Z"}
+{"level":"info","message":"Websocket loaded","timestamp":"2016-12-05T13:40:32.380Z"}
+{"level":"info","message":"Total records in data - 0","timestamp":"2016-12-05T13:40:33.008Z"}
+{"id":"584521ec24fd773b5c2b81c8","name":"test","path":"teset","state":"0","rule":{},"args":{"str":"test"},"level":"info","message":"","timestamp":"2016-12-05T13:40:33.009Z"}
+{"id":"584522f30afa4735fc7335c5","name":"dMaster","path":"./rt/dMaster","state":"0","rule":{},"args":{"str":"gg44"},"level":"info","message":"","timestamp":"2016-12-05T13:40:33.013Z"}
+{"id":"584523bc0afa4735fc7335c6","name":"dProccer","path":"./rt/dProccer","state":"0","rule":{},"args":{"str":"12"},"level":"info","message":"","timestamp":"2016-12-05T13:40:33.013Z"}
+{"id":"584523f90afa4735fc7335c7","name":"987","path":"987","state":"0","rule":{},"args":{"str":"987"},"level":"info","message":"","timestamp":"2016-12-05T13:40:33.013Z"}
+{"id":"58452a26e201741794699e81","name":"76","path":"76","state":"0","rule":{},"args":{"str":"76"},"level":"info","message":"","timestamp":"2016-12-05T13:40:33.013Z"}
+{"level":"info","message":"terminal command mstart {\"name\":\"dMaster\"}","timestamp":"2016-12-05T13:42:26.799Z"}
+{"level":"info","message":"Start module  dMaster","timestamp":"2016-12-05T13:42:26.799Z"}
+{"level":"info","message":"Process ./rt/dMaster online","timestamp":"2016-12-05T13:42:27.188Z"}
+{"level":"info","message":"terminal command mstop {\"name\":\"dMaster\"}","timestamp":"2016-12-05T13:42:49.125Z"}
+{"level":"info","message":"Stop module  dMaster","timestamp":"2016-12-05T13:42:49.126Z"}
+{"level":"info","message":"Start service","timestamp":"2016-12-05T13:43:41.112Z"}
+{"level":"info","message":"Web service loaded","timestamp":"2016-12-05T13:43:41.448Z"}
+{"level":"info","message":"Websocket loaded","timestamp":"2016-12-05T13:43:41.754Z"}
+{"level":"info","message":"Total records in data - 0","timestamp":"2016-12-05T13:43:42.278Z"}
+{"id":"584521ec24fd773b5c2b81c8","name":"test","path":"teset","state":"0","rule":{},"args":{"str":"test"},"level":"info","message":"","timestamp":"2016-12-05T13:43:42.279Z"}
+{"id":"584522f30afa4735fc7335c5","name":"dMaster","path":"./rt/dMaster","state":"0","rule":{},"args":{"str":"gg44"},"level":"info","message":"","timestamp":"2016-12-05T13:43:42.280Z"}
+{"id":"584523bc0afa4735fc7335c6","name":"dProccer","path":"./rt/dProccer","state":"0","rule":{},"args":{"str":"12"},"level":"info","message":"","timestamp":"2016-12-05T13:43:42.281Z"}
+{"id":"584523f90afa4735fc7335c7","name":"987","path":"987","state":"0","rule":{},"args":{"str":"987"},"level":"info","message":"","timestamp":"2016-12-05T13:43:42.281Z"}
+{"id":"58452a26e201741794699e81","name":"76","path":"76","state":"0","rule":{},"args":{"str":"76"},"level":"info","message":"","timestamp":"2016-12-05T13:43:42.282Z"}
+{"level":"info","message":"terminal command mstart dMaster","timestamp":"2016-12-05T13:43:50.440Z"}
+{"level":"info","message":"Start module  dMaster","timestamp":"2016-12-05T13:43:50.440Z"}
+{"level":"info","message":"Process ./rt/dMaster online","timestamp":"2016-12-05T13:43:50.824Z"}
+{"level":"info","message":"terminal command mstop dMaster","timestamp":"2016-12-05T13:43:56.875Z"}
+{"level":"info","message":"Stop module  dMaster","timestamp":"2016-12-05T13:43:56.875Z"}
