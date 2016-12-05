@@ -2032,3 +2032,781 @@
 {"level":"info","message":"Websocket loaded","timestamp":"2016-12-02T13:39:24.851Z"}
 {"level":"info","message":"Total records in data - 1036433","timestamp":"2016-12-02T13:39:25.375Z"}
 {"id":"58415e9863c323b7d0eacdbe","name":"test","path":"-","state":"0","rule":{},"args":"","level":"info","message":"","timestamp":"2016-12-02T13:39:25.375Z"}
+{"level":"info","message":"Start service","timestamp":"2016-12-05T07:29:26.380Z"}
+{"level":"info","message":"Web service loaded","timestamp":"2016-12-05T07:29:26.752Z"}
+{"level":"info","message":"Websocket loaded","timestamp":"2016-12-05T07:29:27.091Z"}
+{"date":"Mon Dec 05 2016 10:29:31 GMT+0300 (RTZ 2 (зима))","process":{"pid":9412,"uid":null,"gid":null,"cwd":"d:\\Development\\nodeJS\\scada\\scada01","execPath":"C:\\nodejs\\node.exe","version":"v6.9.1","argv":["C:\\nodejs\\node.exe","d:\\Development\\nodeJS\\scada\\scada01\\app.js"],"memoryUsage":{"rss":70979584,"heapTotal":46174208,"heapUsed":23782320}},"os":{"loadavg":[0,0,0],"uptime":1203963.6575038},"trace":[{"column":null,"file":null,"function":"Pool.eventHandler","line":null,"method":"eventHandler","native":false},{"column":10,"file":"d:\\Development\\nodeJS\\scada\\scada01\\app.js","function":null,"line":226,"method":null,"native":false},{"column":5,"file":"d:\\Development\\nodeJS\\scada\\scada01\\node_modules\\mongodb\\lib\\mongo_client.js","function":"connectCallback","line":315,"method":null,"native":false},{"column":11,"file":"d:\\Development\\nodeJS\\scada\\scada01\\node_modules\\mongodb\\lib\\mongo_client.js","function":null,"line":222,"method":null,"native":false},{"column":7,"file":"internal/process/next_tick.js","function":"_combinedTickCallback","line":67,"method":null,"native":false},{"column":9,"file":"internal/process/next_tick.js","function":"process._tickCallback","line":98,"method":"_tickCallback","native":false}],"stack":["AssertionError: null == { MongoError: failed to connect to server [127.0.0.1:27017] on first connect","    at Pool.eventHandler (d:\\Development\\nodeJS\\sca","    at d:\\Development\\nodeJS\\scada\\scada01\\app.js:226:10","    at connectCallback (d:\\Development\\nodeJS\\scada\\scada01\\node_modules\\mongodb\\lib\\mongo_client.js:315:5)","    at d:\\Development\\nodeJS\\scada\\scada01\\node_modules\\mongodb\\lib\\mongo_client.js:222:11","    at _combinedTickCallback (internal/process/next_tick.js:67:7)","    at process._tickCallback (internal/process/next_tick.js:98:9)"],"level":"error","message":"uncaughtException: null == { MongoError: failed to connect to server [127.0.0.1:27017] on first connect\n    at Pool.eventHandler (d:\\Development\\nodeJS\\sca","timestamp":"2016-12-05T07:29:31.230Z"}
+{"level":"info","message":"Start service","timestamp":"2016-12-05T07:54:49.951Z"}
+{"level":"info","message":"Web service loaded","timestamp":"2016-12-05T07:54:50.662Z"}
+{"level":"info","message":"Websocket loaded","timestamp":"2016-12-05T07:54:51.164Z"}
+{"level":"info","message":"Total records in data - 0","timestamp":"2016-12-05T07:54:51.923Z"}
+{"id":"58451d4271bb3a775f32ae89","state":"0","rule":{},"level":"info","message":"","timestamp":"2016-12-05T07:54:52.183Z"}
+{"level":"info","message":"Start service","timestamp":"2016-12-05T08:09:04.453Z"}
+{"level":"info","message":"Web service loaded","timestamp":"2016-12-05T08:09:04.823Z"}
+{"level":"info","message":"Websocket loaded","timestamp":"2016-12-05T08:09:05.116Z"}
+{"level":"info","message":"Total records in data - 0","timestamp":"2016-12-05T08:09:05.720Z"}
+{"level":"info","message":"Start service","timestamp":"2016-12-05T08:09:25.055Z"}
+{"level":"info","message":"Web service loaded","timestamp":"2016-12-05T08:09:25.371Z"}
+{"level":"info","message":"Websocket loaded","timestamp":"2016-12-05T08:09:25.652Z"}
+{"level":"info","message":"Total records in data - 0","timestamp":"2016-12-05T08:09:26.178Z"}
+{"level":"info","message":"Start service","timestamp":"2016-12-05T08:14:21.584Z"}
+{"level":"info","message":"Web service loaded","timestamp":"2016-12-05T08:14:22.147Z"}
+{"level":"info","message":"Websocket loaded","timestamp":"2016-12-05T08:14:22.440Z"}
+{"level":"info","message":"Total records in data - 0","timestamp":"2016-12-05T08:14:23.250Z"}
+{"level":"info","message":"Create module {\"name\":\"test\",\"desc\":\"teste\",\"path\":\"teset\",\"args\":\"test\"}","timestamp":"2016-12-05T08:14:36.644Z"}
+{"id":"584521ec24fd773b5c2b81c8","name":"test","path":"teset","state":"0","rule":{},"args":{"str":"test"},"level":"info","message":"","timestamp":"2016-12-05T08:14:36.653Z"}
+{"level":"info","message":"Total records in data - 0","timestamp":"2016-12-05T08:14:36.654Z"}
+{"level":"info","message":"Stop module  test","timestamp":"2016-12-05T08:17:28.999Z"}
+{"level":"info","message":"Stop module  test","timestamp":"2016-12-05T08:17:59.414Z"}
+{"level":"info","message":"Start service","timestamp":"2016-12-05T08:18:33.942Z"}
+{"level":"info","message":"Web service loaded","timestamp":"2016-12-05T08:18:34.245Z"}
+{"level":"info","message":"Websocket loaded","timestamp":"2016-12-05T08:18:34.496Z"}
+{"level":"info","message":"Total records in data - 0","timestamp":"2016-12-05T08:18:34.951Z"}
+{"id":"584521ec24fd773b5c2b81c8","name":"test","path":"teset","state":"0","rule":{},"args":{"str":"test"},"level":"info","message":"","timestamp":"2016-12-05T08:18:34.952Z"}
+{"level":"info","message":"Stop module  test","timestamp":"2016-12-05T08:18:44.183Z"}
+{"level":"info","message":"Create module {\"name\":\"gg\",\"desc\":\"gg\",\"path\":\"gg\",\"args\":\"gg\"}","timestamp":"2016-12-05T08:18:59.920Z"}
+{"id":"584521ec24fd773b5c2b81c8","name":"test","path":"teset","state":"0","rule":{},"args":{"str":"test"},"level":"info","message":"","timestamp":"2016-12-05T08:18:59.944Z"}
+{"id":"584522f30afa4735fc7335c5","name":"gg","path":"gg","state":"0","rule":{},"args":{"str":"gg"},"level":"info","message":"","timestamp":"2016-12-05T08:18:59.945Z"}
+{"level":"info","message":"Total records in data - 0","timestamp":"2016-12-05T08:18:59.950Z"}
+{"level":"info","message":"Start module  gg","timestamp":"2016-12-05T08:22:03.985Z"}
+{"level":"info","message":"Process gg online","timestamp":"2016-12-05T08:22:04.440Z"}
+{"code":1,"signal":null,"level":"info","message":"Process gg closed","timestamp":"2016-12-05T08:22:04.592Z"}
+{"level":"info","message":"Start module  gg","timestamp":"2016-12-05T08:22:05.226Z"}
+{"level":"info","message":"Process gg online","timestamp":"2016-12-05T08:22:05.674Z"}
+{"code":1,"signal":null,"level":"info","message":"Process gg closed","timestamp":"2016-12-05T08:22:05.776Z"}
+{"level":"info","message":"Stop module  test","timestamp":"2016-12-05T08:22:11.364Z"}
+{"level":"info","message":"Stop module  test","timestamp":"2016-12-05T08:22:12.085Z"}
+{"level":"info","message":"Start module  test","timestamp":"2016-12-05T08:22:14.747Z"}
+{"level":"info","message":"Modules Info:  3","timestamp":"2016-12-05T08:22:14.954Z"}
+{"level":"info","message":"Process teset online","timestamp":"2016-12-05T08:22:15.092Z"}
+{"code":1,"signal":null,"level":"info","message":"Process teset closed","timestamp":"2016-12-05T08:22:15.183Z"}
+{"level":"info","message":"Stop module  test","timestamp":"2016-12-05T08:22:15.988Z"}
+{"level":"info","message":"Create module {\"name\":\"12\",\"desc\":\"12\",\"path\":\"12\",\"args\":\"12\"}","timestamp":"2016-12-05T08:22:20.357Z"}
+{"id":"584521ec24fd773b5c2b81c8","name":"test","path":"teset","state":"0","rule":{},"args":{"str":"test"},"level":"info","message":"","timestamp":"2016-12-05T08:22:20.377Z"}
+{"id":"584522f30afa4735fc7335c5","name":"gg","path":"gg","state":"0","rule":{},"args":{"str":"gg"},"level":"info","message":"","timestamp":"2016-12-05T08:22:20.378Z"}
+{"id":"584523bc0afa4735fc7335c6","name":"12","path":"12","state":"0","rule":{},"args":{"str":"12"},"level":"info","message":"","timestamp":"2016-12-05T08:22:20.378Z"}
+{"level":"info","message":"Total records in data - 0","timestamp":"2016-12-05T08:22:20.384Z"}
+{"level":"info","message":"Start module  test","timestamp":"2016-12-05T08:22:46.163Z"}
+{"level":"info","message":"Process teset online","timestamp":"2016-12-05T08:22:46.558Z"}
+{"code":1,"signal":null,"level":"info","message":"Process teset closed","timestamp":"2016-12-05T08:22:46.657Z"}
+{"level":"info","message":"Stop module  test","timestamp":"2016-12-05T08:22:47.287Z"}
+{"level":"info","message":"Start module  gg","timestamp":"2016-12-05T08:23:13.022Z"}
+{"level":"info","message":"Modules Info:  5","timestamp":"2016-12-05T08:23:13.048Z"}
+{"level":"info","message":"Process gg online","timestamp":"2016-12-05T08:23:13.386Z"}
+{"level":"info","message":"Stop module  gg","timestamp":"2016-12-05T08:23:13.441Z"}
+{"code":1,"signal":null,"level":"info","message":"Process gg closed","timestamp":"2016-12-05T08:23:13.515Z"}
+{"level":"info","message":"Start module  gg","timestamp":"2016-12-05T08:23:14.226Z"}
+{"level":"info","message":"Process gg online","timestamp":"2016-12-05T08:23:14.791Z"}
+{"code":1,"signal":null,"level":"info","message":"Process gg closed","timestamp":"2016-12-05T08:23:14.897Z"}
+{"level":"info","message":"Start module  12","timestamp":"2016-12-05T08:23:16.114Z"}
+{"level":"info","message":"Process 12 online","timestamp":"2016-12-05T08:23:16.565Z"}
+{"code":1,"signal":null,"level":"info","message":"Process 12 closed","timestamp":"2016-12-05T08:23:16.694Z"}
+{"level":"info","message":"Create module {\"name\":\"987\",\"desc\":\"987\",\"path\":\"987\",\"args\":\"987\"}","timestamp":"2016-12-05T08:23:21.582Z"}
+{"level":"info","message":"Total records in data - 0","timestamp":"2016-12-05T08:23:21.586Z"}
+{"id":"584521ec24fd773b5c2b81c8","name":"test","path":"teset","state":"0","rule":{},"args":{"str":"test"},"level":"info","message":"","timestamp":"2016-12-05T08:23:21.587Z"}
+{"id":"584522f30afa4735fc7335c5","name":"gg","path":"gg","state":"0","rule":{},"args":{"str":"gg"},"level":"info","message":"","timestamp":"2016-12-05T08:23:21.588Z"}
+{"id":"584523bc0afa4735fc7335c6","name":"12","path":"12","state":"0","rule":{},"args":{"str":"12"},"level":"info","message":"","timestamp":"2016-12-05T08:23:21.588Z"}
+{"id":"584523f90afa4735fc7335c7","name":"987","path":"987","state":"0","rule":{},"args":{"str":"987"},"level":"info","message":"","timestamp":"2016-12-05T08:23:21.589Z"}
+{"level":"info","message":"Start module  987","timestamp":"2016-12-05T08:23:23.286Z"}
+{"level":"info","message":"Process 987 online","timestamp":"2016-12-05T08:23:23.643Z"}
+{"code":1,"signal":null,"level":"info","message":"Process 987 closed","timestamp":"2016-12-05T08:23:23.737Z"}
+{"level":"info","message":"Start module  987","timestamp":"2016-12-05T08:23:24.652Z"}
+{"level":"info","message":"Process 987 online","timestamp":"2016-12-05T08:23:25.005Z"}
+{"level":"info","message":"Modules Info:  9","timestamp":"2016-12-05T08:23:25.050Z"}
+{"code":1,"signal":null,"level":"info","message":"Process 987 closed","timestamp":"2016-12-05T08:23:25.100Z"}
+{"level":"info","message":"Start service","timestamp":"2016-12-05T08:38:56.516Z"}
+{"level":"info","message":"Web service loaded","timestamp":"2016-12-05T08:38:56.851Z"}
+{"level":"info","message":"Websocket loaded","timestamp":"2016-12-05T08:38:57.116Z"}
+{"level":"info","message":"Total records in data - 0","timestamp":"2016-12-05T08:38:57.587Z"}
+{"id":"584521ec24fd773b5c2b81c8","name":"test","path":"teset","state":"0","rule":{},"args":{"str":"test"},"level":"info","message":"","timestamp":"2016-12-05T08:38:57.588Z"}
+{"id":"584522f30afa4735fc7335c5","name":"gg","path":"gg","state":"0","rule":{},"args":{"str":"gg"},"level":"info","message":"","timestamp":"2016-12-05T08:38:57.589Z"}
+{"id":"584523bc0afa4735fc7335c6","name":"12","path":"12","state":"0","rule":{},"args":{"str":"12"},"level":"info","message":"","timestamp":"2016-12-05T08:38:57.589Z"}
+{"id":"584523f90afa4735fc7335c7","name":"987","path":"987","state":"0","rule":{},"args":{"str":"987"},"level":"info","message":"","timestamp":"2016-12-05T08:38:57.589Z"}
+{"level":"info","message":"Start service","timestamp":"2016-12-05T08:47:51.521Z"}
+{"level":"info","message":"Web service loaded","timestamp":"2016-12-05T08:47:51.912Z"}
+{"level":"info","message":"Websocket loaded","timestamp":"2016-12-05T08:47:52.190Z"}
+{"level":"info","message":"Total records in data - 0","timestamp":"2016-12-05T08:47:52.700Z"}
+{"id":"584521ec24fd773b5c2b81c8","name":"test","path":"teset","state":"0","rule":{},"args":{"str":"test"},"level":"info","message":"","timestamp":"2016-12-05T08:47:52.701Z"}
+{"id":"584522f30afa4735fc7335c5","name":"gg","path":"gg","state":"0","rule":{},"args":{"str":"gg"},"level":"info","message":"","timestamp":"2016-12-05T08:47:52.701Z"}
+{"id":"584523bc0afa4735fc7335c6","name":"12","path":"12","state":"0","rule":{},"args":{"str":"12"},"level":"info","message":"","timestamp":"2016-12-05T08:47:52.701Z"}
+{"id":"584523f90afa4735fc7335c7","name":"987","path":"987","state":"0","rule":{},"args":{"str":"987"},"level":"info","message":"","timestamp":"2016-12-05T08:47:52.701Z"}
+{"level":"info","message":"Create module {\"name\":\"76\",\"desc\":\"76\",\"path\":\"76\",\"args\":\"76\"}","timestamp":"2016-12-05T08:49:30.759Z"}
+{"id":"584521ec24fd773b5c2b81c8","name":"test","path":"teset","state":"0","rule":{},"args":{"str":"test"},"level":"info","message":"","timestamp":"2016-12-05T08:49:42.382Z"}
+{"id":"584522f30afa4735fc7335c5","name":"gg","path":"gg","state":"0","rule":{},"args":{"str":"gg"},"level":"info","message":"","timestamp":"2016-12-05T08:49:42.385Z"}
+{"id":"584523bc0afa4735fc7335c6","name":"12","path":"12","state":"0","rule":{},"args":{"str":"12"},"level":"info","message":"","timestamp":"2016-12-05T08:49:42.386Z"}
+{"id":"584523f90afa4735fc7335c7","name":"987","path":"987","state":"0","rule":{},"args":{"str":"987"},"level":"info","message":"","timestamp":"2016-12-05T08:49:42.387Z"}
+{"id":"58452a26e201741794699e81","name":"76","path":"76","state":"0","rule":{},"args":{"str":"76"},"level":"info","message":"","timestamp":"2016-12-05T08:49:42.387Z"}
+{"level":"info","message":"Total records in data - 0","timestamp":"2016-12-05T08:49:42.395Z"}
+{"level":"info","message":"Start service","timestamp":"2016-12-05T10:19:25.379Z"}
+{"level":"info","message":"Web service loaded","timestamp":"2016-12-05T10:19:25.891Z"}
+{"level":"info","message":"Websocket loaded","timestamp":"2016-12-05T10:19:26.344Z"}
+{"date":"Mon Dec 05 2016 13:19:39 GMT+0300 (RTZ 2 (зима))","process":{"pid":3300,"uid":null,"gid":null,"cwd":"d:\\Development\\nodeJS\\scada\\scada01","execPath":"C:\\nodejs\\node.exe","version":"v6.9.1","argv":["C:\\nodejs\\node.exe","d:\\Development\\nodeJS\\scada\\scada01\\app.js"],"memoryUsage":{"rss":51355648,"heapTotal":27299840,"heapUsed":17516560}},"os":{"loadavg":[0,0,0],"uptime":1214171.9373837},"trace":[{"column":30,"file":"d:\\Development\\nodeJS\\scada\\scada01\\app.js","function":"getbyfld","line":358,"method":null,"native":false},{"column":7,"file":"d:\\Development\\nodeJS\\scada\\scada01\\app.js","function":null,"line":257,"method":null,"native":false},{"column":5,"file":"d:\\Development\\nodeJS\\scada\\scada01\\node_modules\\mongodb-core\\lib\\cursor.js","function":"handleCallback","line":172,"method":null,"native":false},{"column":5,"file":"d:\\Development\\nodeJS\\scada\\scada01\\node_modules\\mongodb-core\\lib\\cursor.js","function":"nextFunction","line":686,"method":null,"native":false},{"column":3,"file":"d:\\Development\\nodeJS\\scada\\scada01\\node_modules\\mongodb-core\\lib\\cursor.js","function":"Cursor.next [as _next]","line":696,"method":"next [as _next]","native":false},{"column":8,"file":"d:\\Development\\nodeJS\\scada\\scada01\\node_modules\\mongodb\\lib\\cursor.js","function":"loop","line":687,"method":null,"native":false},{"column":38,"file":"d:\\Development\\nodeJS\\scada\\scada01\\node_modules\\mongodb\\lib\\cursor.js","function":"_each","line":734,"method":null,"native":false},{"column":7,"file":"d:\\Development\\nodeJS\\scada\\scada01\\node_modules\\mongodb\\lib\\cursor.js","function":null,"line":745,"method":null,"native":false},{"column":56,"file":"d:\\Development\\nodeJS\\scada\\scada01\\node_modules\\mongodb\\lib\\utils.js","function":"handleCallback","line":96,"method":null,"native":false},{"column":5,"file":"d:\\Development\\nodeJS\\scada\\scada01\\node_modules\\mongodb\\lib\\cursor.js","function":null,"line":675,"method":null,"native":false}],"stack":["TypeError: Cannot read property 'length' of undefined","    at getbyfld (d:\\Development\\nodeJS\\scada\\scada01\\app.js:358:30)","    at d:\\Development\\nodeJS\\scada\\scada01\\app.js:257:7","    at handleCallback (d:\\Development\\nodeJS\\scada\\scada01\\node_modules\\mongodb-core\\lib\\cursor.js:172:5)","    at nextFunction (d:\\Development\\nodeJS\\scada\\scada01\\node_modules\\mongodb-core\\lib\\cursor.js:686:5)","    at Cursor.next [as _next] (d:\\Development\\nodeJS\\scada\\scada01\\node_modules\\mongodb-core\\lib\\cursor.js:696:3)","    at loop (d:\\Development\\nodeJS\\scada\\scada01\\node_modules\\mongodb\\lib\\cursor.js:687:8)","    at _each (d:\\Development\\nodeJS\\scada\\scada01\\node_modules\\mongodb\\lib\\cursor.js:734:38)","    at d:\\Development\\nodeJS\\scada\\scada01\\node_modules\\mongodb\\lib\\cursor.js:745:7","    at handleCallback (d:\\Development\\nodeJS\\scada\\scada01\\node_modules\\mongodb\\lib\\utils.js:96:56)","    at d:\\Development\\nodeJS\\scada\\scada01\\node_modules\\mongodb\\lib\\cursor.js:675:5"],"level":"error","message":"uncaughtException: Cannot read property 'length' of undefined","timestamp":"2016-12-05T10:19:39.507Z"}
+{"date":"Mon Dec 05 2016 13:19:40 GMT+0300 (RTZ 2 (зима))","process":{"pid":3300,"uid":null,"gid":null,"cwd":"d:\\Development\\nodeJS\\scada\\scada01","execPath":"C:\\nodejs\\node.exe","version":"v6.9.1","argv":["C:\\nodejs\\node.exe","d:\\Development\\nodeJS\\scada\\scada01\\app.js"],"memoryUsage":{"rss":51924992,"heapTotal":27299840,"heapUsed":18254976}},"os":{"loadavg":[0,0,0],"uptime":1214172.5844484},"trace":[{"column":30,"file":"d:\\Development\\nodeJS\\scada\\scada01\\app.js","function":"getbyfld","line":358,"method":null,"native":false},{"column":7,"file":"d:\\Development\\nodeJS\\scada\\scada01\\app.js","function":null,"line":257,"method":null,"native":false},{"column":5,"file":"d:\\Development\\nodeJS\\scada\\scada01\\node_modules\\mongodb-core\\lib\\cursor.js","function":"handleCallback","line":172,"method":null,"native":false},{"column":5,"file":"d:\\Development\\nodeJS\\scada\\scada01\\node_modules\\mongodb-core\\lib\\cursor.js","function":"nextFunction","line":686,"method":null,"native":false},{"column":3,"file":"d:\\Development\\nodeJS\\scada\\scada01\\node_modules\\mongodb-core\\lib\\cursor.js","function":"Cursor.next [as _next]","line":696,"method":"next [as _next]","native":false},{"column":8,"file":"d:\\Development\\nodeJS\\scada\\scada01\\node_modules\\mongodb\\lib\\cursor.js","function":"loop","line":687,"method":null,"native":false},{"column":16,"file":"d:\\Development\\nodeJS\\scada\\scada01\\node_modules\\mongodb\\lib\\cursor.js","function":"_each","line":734,"method":null,"native":false},{"column":7,"file":"d:\\Development\\nodeJS\\scada\\scada01\\node_modules\\mongodb\\lib\\cursor.js","function":null,"line":745,"method":null,"native":false},{"column":56,"file":"d:\\Development\\nodeJS\\scada\\scada01\\node_modules\\mongodb\\lib\\utils.js","function":"handleCallback","line":96,"method":null,"native":false},{"column":5,"file":"d:\\Development\\nodeJS\\scada\\scada01\\node_modules\\mongodb\\lib\\cursor.js","function":null,"line":675,"method":null,"native":false}],"stack":["TypeError: Cannot read property 'length' of undefined","    at getbyfld (d:\\Development\\nodeJS\\scada\\scada01\\app.js:358:30)","    at d:\\Development\\nodeJS\\scada\\scada01\\app.js:257:7","    at handleCallback (d:\\Development\\nodeJS\\scada\\scada01\\node_modules\\mongodb-core\\lib\\cursor.js:172:5)","    at nextFunction (d:\\Development\\nodeJS\\scada\\scada01\\node_modules\\mongodb-core\\lib\\cursor.js:686:5)","    at Cursor.next [as _next] (d:\\Development\\nodeJS\\scada\\scada01\\node_modules\\mongodb-core\\lib\\cursor.js:696:3)","    at loop (d:\\Development\\nodeJS\\scada\\scada01\\node_modules\\mongodb\\lib\\cursor.js:687:8)","    at _each (d:\\Development\\nodeJS\\scada\\scada01\\node_modules\\mongodb\\lib\\cursor.js:734:16)","    at d:\\Development\\nodeJS\\scada\\scada01\\node_modules\\mongodb\\lib\\cursor.js:745:7","    at handleCallback (d:\\Development\\nodeJS\\scada\\scada01\\node_modules\\mongodb\\lib\\utils.js:96:56)","    at d:\\Development\\nodeJS\\scada\\scada01\\node_modules\\mongodb\\lib\\cursor.js:675:5"],"level":"error","message":"uncaughtException: Cannot read property 'length' of undefined","timestamp":"2016-12-05T10:19:40.153Z"}
+{"level":"info","message":"Total records in data - 0","timestamp":"2016-12-05T10:19:26.959Z"}
+{"date":"Mon Dec 05 2016 13:19:29 GMT+0300 (RTZ 2 (зима))","process":{"pid":3300,"uid":null,"gid":null,"cwd":"d:\\Development\\nodeJS\\scada\\scada01","execPath":"C:\\nodejs\\node.exe","version":"v6.9.1","argv":["C:\\nodejs\\node.exe","d:\\Development\\nodeJS\\scada\\scada01\\app.js"],"memoryUsage":{"rss":65720320,"heapTotal":46174208,"heapUsed":23717520}},"os":{"loadavg":[0,0,0],"uptime":1214162.4524353},"trace":[{"column":30,"file":"d:\\Development\\nodeJS\\scada\\scada01\\app.js","function":"getbyfld","line":358,"method":null,"native":false},{"column":7,"file":"d:\\Development\\nodeJS\\scada\\scada01\\app.js","function":null,"line":257,"method":null,"native":false},{"column":5,"file":"d:\\Development\\nodeJS\\scada\\scada01\\node_modules\\mongodb-core\\lib\\cursor.js","function":"handleCallback","line":172,"method":null,"native":false},{"column":5,"file":"d:\\Development\\nodeJS\\scada\\scada01\\node_modules\\mongodb-core\\lib\\cursor.js","function":"nextFunction","line":686,"method":null,"native":false},{"column":3,"file":"d:\\Development\\nodeJS\\scada\\scada01\\node_modules\\mongodb-core\\lib\\cursor.js","function":"Cursor.next [as _next]","line":696,"method":"next [as _next]","native":false},{"column":8,"file":"d:\\Development\\nodeJS\\scada\\scada01\\node_modules\\mongodb\\lib\\cursor.js","function":"loop","line":687,"method":null,"native":false},{"column":16,"file":"d:\\Development\\nodeJS\\scada\\scada01\\node_modules\\mongodb\\lib\\cursor.js","function":"_each","line":734,"method":null,"native":false},{"column":7,"file":"d:\\Development\\nodeJS\\scada\\scada01\\node_modules\\mongodb\\lib\\cursor.js","function":null,"line":745,"method":null,"native":false},{"column":56,"file":"d:\\Development\\nodeJS\\scada\\scada01\\node_modules\\mongodb\\lib\\utils.js","function":"handleCallback","line":96,"method":null,"native":false},{"column":5,"file":"d:\\Development\\nodeJS\\scada\\scada01\\node_modules\\mongodb\\lib\\cursor.js","function":null,"line":675,"method":null,"native":false}],"stack":["TypeError: Cannot read property 'length' of undefined","    at getbyfld (d:\\Development\\nodeJS\\scada\\scada01\\app.js:358:30)","    at d:\\Development\\nodeJS\\scada\\scada01\\app.js:257:7","    at handleCallback (d:\\Development\\nodeJS\\scada\\scada01\\node_modules\\mongodb-core\\lib\\cursor.js:172:5)","    at nextFunction (d:\\Development\\nodeJS\\scada\\scada01\\node_modules\\mongodb-core\\lib\\cursor.js:686:5)","    at Cursor.next [as _next] (d:\\Development\\nodeJS\\scada\\scada01\\node_modules\\mongodb-core\\lib\\cursor.js:696:3)","    at loop (d:\\Development\\nodeJS\\scada\\scada01\\node_modules\\mongodb\\lib\\cursor.js:687:8)","    at _each (d:\\Development\\nodeJS\\scada\\scada01\\node_modules\\mongodb\\lib\\cursor.js:734:16)","    at d:\\Development\\nodeJS\\scada\\scada01\\node_modules\\mongodb\\lib\\cursor.js:745:7","    at handleCallback (d:\\Development\\nodeJS\\scada\\scada01\\node_modules\\mongodb\\lib\\utils.js:96:56)","    at d:\\Development\\nodeJS\\scada\\scada01\\node_modules\\mongodb\\lib\\cursor.js:675:5"],"level":"error","message":"uncaughtException: Cannot read property 'length' of undefined","timestamp":"2016-12-05T10:19:30.028Z"}
+{"date":"Mon Dec 05 2016 13:19:30 GMT+0300 (RTZ 2 (зима))","process":{"pid":3300,"uid":null,"gid":null,"cwd":"d:\\Development\\nodeJS\\scada\\scada01","execPath":"C:\\nodejs\\node.exe","version":"v6.9.1","argv":["C:\\nodejs\\node.exe","d:\\Development\\nodeJS\\scada\\scada01\\app.js"],"memoryUsage":{"rss":66506752,"heapTotal":46174208,"heapUsed":24429232}},"os":{"loadavg":[0,0,0],"uptime":1214163.209511},"trace":[{"column":30,"file":"d:\\Development\\nodeJS\\scada\\scada01\\app.js","function":"getbyfld","line":358,"method":null,"native":false},{"column":7,"file":"d:\\Development\\nodeJS\\scada\\scada01\\app.js","function":null,"line":257,"method":null,"native":false},{"column":5,"file":"d:\\Development\\nodeJS\\scada\\scada01\\node_modules\\mongodb-core\\lib\\cursor.js","function":"handleCallback","line":172,"method":null,"native":false},{"column":5,"file":"d:\\Development\\nodeJS\\scada\\scada01\\node_modules\\mongodb-core\\lib\\cursor.js","function":"nextFunction","line":686,"method":null,"native":false},{"column":3,"file":"d:\\Development\\nodeJS\\scada\\scada01\\node_modules\\mongodb-core\\lib\\cursor.js","function":"Cursor.next [as _next]","line":696,"method":"next [as _next]","native":false},{"column":8,"file":"d:\\Development\\nodeJS\\scada\\scada01\\node_modules\\mongodb\\lib\\cursor.js","function":"loop","line":687,"method":null,"native":false},{"column":38,"file":"d:\\Development\\nodeJS\\scada\\scada01\\node_modules\\mongodb\\lib\\cursor.js","function":"_each","line":734,"method":null,"native":false},{"column":7,"file":"d:\\Development\\nodeJS\\scada\\scada01\\node_modules\\mongodb\\lib\\cursor.js","function":null,"line":745,"method":null,"native":false},{"column":56,"file":"d:\\Development\\nodeJS\\scada\\scada01\\node_modules\\mongodb\\lib\\utils.js","function":"handleCallback","line":96,"method":null,"native":false},{"column":5,"file":"d:\\Development\\nodeJS\\scada\\scada01\\node_modules\\mongodb\\lib\\cursor.js","function":null,"line":675,"method":null,"native":false}],"stack":["TypeError: Cannot read property 'length' of undefined","    at getbyfld (d:\\Development\\nodeJS\\scada\\scada01\\app.js:358:30)","    at d:\\Development\\nodeJS\\scada\\scada01\\app.js:257:7","    at handleCallback (d:\\Development\\nodeJS\\scada\\scada01\\node_modules\\mongodb-core\\lib\\cursor.js:172:5)","    at nextFunction (d:\\Development\\nodeJS\\scada\\scada01\\node_modules\\mongodb-core\\lib\\cursor.js:686:5)","    at Cursor.next [as _next] (d:\\Development\\nodeJS\\scada\\scada01\\node_modules\\mongodb-core\\lib\\cursor.js:696:3)","    at loop (d:\\Development\\nodeJS\\scada\\scada01\\node_modules\\mongodb\\lib\\cursor.js:687:8)","    at _each (d:\\Development\\nodeJS\\scada\\scada01\\node_modules\\mongodb\\lib\\cursor.js:734:38)","    at d:\\Development\\nodeJS\\scada\\scada01\\node_modules\\mongodb\\lib\\cursor.js:745:7","    at handleCallback (d:\\Development\\nodeJS\\scada\\scada01\\node_modules\\mongodb\\lib\\utils.js:96:56)","    at d:\\Development\\nodeJS\\scada\\scada01\\node_modules\\mongodb\\lib\\cursor.js:675:5"],"level":"error","message":"uncaughtException: Cannot read property 'length' of undefined","timestamp":"2016-12-05T10:19:30.781Z"}
+{"date":"Mon Dec 05 2016 13:19:38 GMT+0300 (RTZ 2 (зима))","process":{"pid":3300,"uid":null,"gid":null,"cwd":"d:\\Development\\nodeJS\\scada\\scada01","execPath":"C:\\nodejs\\node.exe","version":"v6.9.1","argv":["C:\\nodejs\\node.exe","d:\\Development\\nodeJS\\scada\\scada01\\app.js"],"memoryUsage":{"rss":50917376,"heapTotal":27299840,"heapUsed":16610368}},"os":{"loadavg":[0,0,0],"uptime":1214170.5792479},"trace":[{"column":30,"file":"d:\\Development\\nodeJS\\scada\\scada01\\app.js","function":"getbyfld","line":358,"method":null,"native":false},{"column":7,"file":"d:\\Development\\nodeJS\\scada\\scada01\\app.js","function":null,"line":257,"method":null,"native":false},{"column":5,"file":"d:\\Development\\nodeJS\\scada\\scada01\\node_modules\\mongodb-core\\lib\\cursor.js","function":"handleCallback","line":172,"method":null,"native":false},{"column":5,"file":"d:\\Development\\nodeJS\\scada\\scada01\\node_modules\\mongodb-core\\lib\\cursor.js","function":"nextFunction","line":686,"method":null,"native":false},{"column":3,"file":"d:\\Development\\nodeJS\\scada\\scada01\\node_modules\\mongodb-core\\lib\\cursor.js","function":"Cursor.next [as _next]","line":696,"method":"next [as _next]","native":false},{"column":8,"file":"d:\\Development\\nodeJS\\scada\\scada01\\node_modules\\mongodb\\lib\\cursor.js","function":"loop","line":687,"method":null,"native":false},{"column":16,"file":"d:\\Development\\nodeJS\\scada\\scada01\\node_modules\\mongodb\\lib\\cursor.js","function":"_each","line":734,"method":null,"native":false},{"column":7,"file":"d:\\Development\\nodeJS\\scada\\scada01\\node_modules\\mongodb\\lib\\cursor.js","function":null,"line":745,"method":null,"native":false},{"column":56,"file":"d:\\Development\\nodeJS\\scada\\scada01\\node_modules\\mongodb\\lib\\utils.js","function":"handleCallback","line":96,"method":null,"native":false},{"column":5,"file":"d:\\Development\\nodeJS\\scada\\scada01\\node_modules\\mongodb\\lib\\cursor.js","function":null,"line":675,"method":null,"native":false}],"stack":["TypeError: Cannot read property 'length' of undefined","    at getbyfld (d:\\Development\\nodeJS\\scada\\scada01\\app.js:358:30)","    at d:\\Development\\nodeJS\\scada\\scada01\\app.js:257:7","    at handleCallback (d:\\Development\\nodeJS\\scada\\scada01\\node_modules\\mongodb-core\\lib\\cursor.js:172:5)","    at nextFunction (d:\\Development\\nodeJS\\scada\\scada01\\node_modules\\mongodb-core\\lib\\cursor.js:686:5)","    at Cursor.next [as _next] (d:\\Development\\nodeJS\\scada\\scada01\\node_modules\\mongodb-core\\lib\\cursor.js:696:3)","    at loop (d:\\Development\\nodeJS\\scada\\scada01\\node_modules\\mongodb\\lib\\cursor.js:687:8)","    at _each (d:\\Development\\nodeJS\\scada\\scada01\\node_modules\\mongodb\\lib\\cursor.js:734:16)","    at d:\\Development\\nodeJS\\scada\\scada01\\node_modules\\mongodb\\lib\\cursor.js:745:7","    at handleCallback (d:\\Development\\nodeJS\\scada\\scada01\\node_modules\\mongodb\\lib\\utils.js:96:56)","    at d:\\Development\\nodeJS\\scada\\scada01\\node_modules\\mongodb\\lib\\cursor.js:675:5"],"level":"error","message":"uncaughtException: Cannot read property 'length' of undefined","timestamp":"2016-12-05T10:19:38.157Z"}
+{"level":"info","message":"Start service","timestamp":"2016-12-05T10:19:45.591Z"}
+{"level":"info","message":"Web service loaded","timestamp":"2016-12-05T10:19:45.941Z"}
+{"level":"info","message":"Websocket loaded","timestamp":"2016-12-05T10:19:46.208Z"}
+{"level":"info","message":"Start service","timestamp":"2016-12-05T10:20:18.250Z"}
+{"level":"info","message":"Web service loaded","timestamp":"2016-12-05T10:20:18.639Z"}
+{"level":"info","message":"Websocket loaded","timestamp":"2016-12-05T10:20:18.945Z"}
+{"level":"info","message":"Start service","timestamp":"2016-12-05T10:20:33.296Z"}
+{"level":"info","message":"Web service loaded","timestamp":"2016-12-05T10:20:33.589Z"}
+{"level":"info","message":"Websocket loaded","timestamp":"2016-12-05T10:20:33.839Z"}
+{"level":"info","message":"Start service","timestamp":"2016-12-05T10:20:42.569Z"}
+{"level":"info","message":"Web service loaded","timestamp":"2016-12-05T10:20:42.907Z"}
+{"level":"info","message":"Websocket loaded","timestamp":"2016-12-05T10:20:43.190Z"}
+{"level":"info","message":"Total records in data - 0","timestamp":"2016-12-05T10:20:43.693Z"}
+{"id":"584521ec24fd773b5c2b81c8","name":"test","path":"teset","state":"0","rule":{},"args":{"str":"test"},"level":"info","message":"","timestamp":"2016-12-05T10:20:53.254Z"}
+{"id":"584522f30afa4735fc7335c5","name":"gg","path":"gg","state":"0","rule":{},"args":{"str":"gg"},"level":"info","message":"","timestamp":"2016-12-05T10:20:57.649Z"}
+{"id":"584523bc0afa4735fc7335c6","name":"12","path":"12","state":"0","rule":{},"args":{"str":"12"},"level":"info","message":"","timestamp":"2016-12-05T10:20:59.496Z"}
+{"id":"584523f90afa4735fc7335c7","name":"987","path":"987","state":"0","rule":{},"args":{"str":"987"},"level":"info","message":"","timestamp":"2016-12-05T10:20:59.497Z"}
+{"id":"58452a26e201741794699e81","name":"76","path":"76","state":"0","rule":{},"args":{"str":"76"},"level":"info","message":"","timestamp":"2016-12-05T10:20:59.497Z"}
+{"level":"info","message":"Edit module {\"id\":\"584522f30afa4735fc7335c5\",\"name\":\"\",\"desc\":\"\",\"path\":\"\",\"args\":\"\"}","timestamp":"2016-12-05T10:22:02.630Z"}
+{"level":"info","message":"Total records in data - 0","timestamp":"2016-12-05T10:22:02.650Z"}
+{"id":"584521ec24fd773b5c2b81c8","name":"test","path":"teset","state":"0","rule":{},"args":{"str":"test"},"level":"info","message":"","timestamp":"2016-12-05T10:22:02.713Z"}
+{"id":"584522f30afa4735fc7335c5","name":"gg","path":"gg","state":"0","rule":{},"args":{"str":"gg"},"level":"info","message":"","timestamp":"2016-12-05T10:22:02.715Z"}
+{"id":"584523bc0afa4735fc7335c6","name":"12","path":"12","state":"0","rule":{},"args":{"str":"12"},"level":"info","message":"","timestamp":"2016-12-05T10:22:02.715Z"}
+{"id":"584523f90afa4735fc7335c7","name":"987","path":"987","state":"0","rule":{},"args":{"str":"987"},"level":"info","message":"","timestamp":"2016-12-05T10:22:02.716Z"}
+{"id":"58452a26e201741794699e81","name":"76","path":"76","state":"0","rule":{},"args":{"str":"76"},"level":"info","message":"","timestamp":"2016-12-05T10:22:02.716Z"}
+{"level":"info","message":"Edit module {\"id\":\"584522f30afa4735fc7335c5\",\"name\":\"9098089098\",\"desc\":\"\",\"path\":\"gg\",\"args\":\"[object Object]\"}","timestamp":"2016-12-05T10:23:01.803Z"}
+{"id":"584521ec24fd773b5c2b81c8","name":"test","path":"teset","state":"0","rule":{},"args":{"str":"test"},"level":"info","message":"","timestamp":"2016-12-05T10:23:01.819Z"}
+{"id":"584522f30afa4735fc7335c5","name":"gg","path":"gg","state":"0","rule":{},"args":{"str":"gg"},"level":"info","message":"","timestamp":"2016-12-05T10:23:01.820Z"}
+{"id":"584523bc0afa4735fc7335c6","name":"12","path":"12","state":"0","rule":{},"args":{"str":"12"},"level":"info","message":"","timestamp":"2016-12-05T10:23:01.820Z"}
+{"id":"584523f90afa4735fc7335c7","name":"987","path":"987","state":"0","rule":{},"args":{"str":"987"},"level":"info","message":"","timestamp":"2016-12-05T10:23:01.820Z"}
+{"id":"58452a26e201741794699e81","name":"76","path":"76","state":"0","rule":{},"args":{"str":"76"},"level":"info","message":"","timestamp":"2016-12-05T10:23:01.821Z"}
+{"level":"info","message":"Total records in data - 0","timestamp":"2016-12-05T10:23:01.826Z"}
+{"level":"info","message":"Edit module {\"id\":\"584522f30afa4735fc7335c5\",\"name\":\"gglll\",\"desc\":\"\",\"path\":\"gg\",\"args\":\"[object Object]\"}","timestamp":"2016-12-05T10:23:49.939Z"}
+{"level":"info","message":"Total records in data - 0","timestamp":"2016-12-05T10:23:49.942Z"}
+{"id":"584521ec24fd773b5c2b81c8","name":"test","path":"teset","state":"0","rule":{},"args":{"str":"test"},"level":"info","message":"","timestamp":"2016-12-05T10:23:49.943Z"}
+{"id":"584522f30afa4735fc7335c5","name":"gg","path":"gg","state":"0","rule":{},"args":{"str":"gg"},"level":"info","message":"","timestamp":"2016-12-05T10:23:49.945Z"}
+{"id":"584523bc0afa4735fc7335c6","name":"12","path":"12","state":"0","rule":{},"args":{"str":"12"},"level":"info","message":"","timestamp":"2016-12-05T10:23:49.946Z"}
+{"id":"584523f90afa4735fc7335c7","name":"987","path":"987","state":"0","rule":{},"args":{"str":"987"},"level":"info","message":"","timestamp":"2016-12-05T10:23:49.946Z"}
+{"id":"58452a26e201741794699e81","name":"76","path":"76","state":"0","rule":{},"args":{"str":"76"},"level":"info","message":"","timestamp":"2016-12-05T10:23:49.947Z"}
+{"level":"info","message":"Edit module {\"id\":\"584522f30afa4735fc7335c5\",\"name\":\"ggkjhg\",\"desc\":\"\",\"path\":\"ggkjg\",\"args\":\"gg\"}","timestamp":"2016-12-05T10:24:16.704Z"}
+{"id":"584521ec24fd773b5c2b81c8","name":"test","path":"teset","state":"0","rule":{},"args":{"str":"test"},"level":"info","message":"","timestamp":"2016-12-05T10:24:16.715Z"}
+{"id":"584522f30afa4735fc7335c5","name":"gg","path":"gg","state":"0","rule":{},"args":{"str":"gg"},"level":"info","message":"","timestamp":"2016-12-05T10:24:16.716Z"}
+{"id":"584523bc0afa4735fc7335c6","name":"12","path":"12","state":"0","rule":{},"args":{"str":"12"},"level":"info","message":"","timestamp":"2016-12-05T10:24:16.717Z"}
+{"id":"584523f90afa4735fc7335c7","name":"987","path":"987","state":"0","rule":{},"args":{"str":"987"},"level":"info","message":"","timestamp":"2016-12-05T10:24:16.719Z"}
+{"id":"58452a26e201741794699e81","name":"76","path":"76","state":"0","rule":{},"args":{"str":"76"},"level":"info","message":"","timestamp":"2016-12-05T10:24:16.720Z"}
+{"level":"info","message":"Total records in data - 0","timestamp":"2016-12-05T10:24:16.726Z"}
+{"level":"info","message":"Start service","timestamp":"2016-12-05T10:25:25.501Z"}
+{"level":"info","message":"Web service loaded","timestamp":"2016-12-05T10:25:25.791Z"}
+{"level":"info","message":"Websocket loaded","timestamp":"2016-12-05T10:25:26.051Z"}
+{"level":"info","message":"Total records in data - 0","timestamp":"2016-12-05T10:25:26.576Z"}
+{"id":"584521ec24fd773b5c2b81c8","name":"test","path":"teset","state":"0","rule":{},"args":{"str":"test"},"level":"info","message":"","timestamp":"2016-12-05T10:25:26.578Z"}
+{"id":"584522f30afa4735fc7335c5","name":"gg","path":"gg","state":"0","rule":{},"args":{"str":"gg"},"level":"info","message":"","timestamp":"2016-12-05T10:25:26.578Z"}
+{"id":"584523bc0afa4735fc7335c6","name":"12","path":"12","state":"0","rule":{},"args":{"str":"12"},"level":"info","message":"","timestamp":"2016-12-05T10:25:26.578Z"}
+{"id":"584523f90afa4735fc7335c7","name":"987","path":"987","state":"0","rule":{},"args":{"str":"987"},"level":"info","message":"","timestamp":"2016-12-05T10:25:26.579Z"}
+{"id":"58452a26e201741794699e81","name":"76","path":"76","state":"0","rule":{},"args":{"str":"76"},"level":"info","message":"","timestamp":"2016-12-05T10:25:26.579Z"}
+{"level":"info","message":"Edit module {\"id\":\"584522f30afa4735fc7335c5\",\"name\":\"gg44\",\"desc\":\"\",\"path\":\"gg44\",\"args\":\"gg44\"}","timestamp":"2016-12-05T10:25:36.194Z"}
+{"level":"info","message":"Total records in data - 0","timestamp":"2016-12-05T10:25:36.206Z"}
+{"id":"584521ec24fd773b5c2b81c8","name":"test","path":"teset","state":"0","rule":{},"args":{"str":"test"},"level":"info","message":"","timestamp":"2016-12-05T10:25:36.232Z"}
+{"id":"584522f30afa4735fc7335c5","name":"gg44","path":"gg44","state":"0","rule":{},"args":{"str":"gg44"},"level":"info","message":"","timestamp":"2016-12-05T10:25:36.233Z"}
+{"id":"584523bc0afa4735fc7335c6","name":"12","path":"12","state":"0","rule":{},"args":{"str":"12"},"level":"info","message":"","timestamp":"2016-12-05T10:25:36.234Z"}
+{"id":"584523f90afa4735fc7335c7","name":"987","path":"987","state":"0","rule":{},"args":{"str":"987"},"level":"info","message":"","timestamp":"2016-12-05T10:25:36.235Z"}
+{"id":"58452a26e201741794699e81","name":"76","path":"76","state":"0","rule":{},"args":{"str":"76"},"level":"info","message":"","timestamp":"2016-12-05T10:25:36.235Z"}
+{"level":"info","message":"Edit module {\"id\":\"584522f30afa4735fc7335c5\",\"name\":\"gg44999\",\"desc\":\"\",\"path\":\"gg44\",\"args\":\"gg44\"}","timestamp":"2016-12-05T10:27:03.292Z"}
+{"level":"info","message":"Total records in data - 0","timestamp":"2016-12-05T10:27:03.297Z"}
+{"id":"584521ec24fd773b5c2b81c8","name":"test","path":"teset","state":"0","rule":{},"args":{"str":"test"},"level":"info","message":"","timestamp":"2016-12-05T10:27:03.298Z"}
+{"id":"584522f30afa4735fc7335c5","name":"gg44","path":"gg44","state":"0","rule":{},"args":{"str":"gg44"},"level":"info","message":"","timestamp":"2016-12-05T10:27:03.299Z"}
+{"id":"584523bc0afa4735fc7335c6","name":"12","path":"12","state":"0","rule":{},"args":{"str":"12"},"level":"info","message":"","timestamp":"2016-12-05T10:27:03.300Z"}
+{"id":"584523f90afa4735fc7335c7","name":"987","path":"987","state":"0","rule":{},"args":{"str":"987"},"level":"info","message":"","timestamp":"2016-12-05T10:27:03.300Z"}
+{"id":"58452a26e201741794699e81","name":"76","path":"76","state":"0","rule":{},"args":{"str":"76"},"level":"info","message":"","timestamp":"2016-12-05T10:27:03.300Z"}
+{"level":"info","message":"Edit module {\"id\":\"584522f30afa4735fc7335c5\",\"name\":\"gg44999\",\"desc\":\"\",\"path\":\"gg44\",\"args\":\"gg44\"}","timestamp":"2016-12-05T10:27:57.099Z"}
+{"level":"info","message":"Total records in data - 0","timestamp":"2016-12-05T10:27:57.103Z"}
+{"id":"584521ec24fd773b5c2b81c8","name":"test","path":"teset","state":"0","rule":{},"args":{"str":"test"},"level":"info","message":"","timestamp":"2016-12-05T10:27:57.104Z"}
+{"id":"584522f30afa4735fc7335c5","name":"gg44999","path":"gg44","state":"0","rule":{},"args":{"str":"gg44"},"level":"info","message":"","timestamp":"2016-12-05T10:27:57.104Z"}
+{"id":"584523bc0afa4735fc7335c6","name":"12","path":"12","state":"0","rule":{},"args":{"str":"12"},"level":"info","message":"","timestamp":"2016-12-05T10:27:57.105Z"}
+{"id":"584523f90afa4735fc7335c7","name":"987","path":"987","state":"0","rule":{},"args":{"str":"987"},"level":"info","message":"","timestamp":"2016-12-05T10:27:57.105Z"}
+{"id":"58452a26e201741794699e81","name":"76","path":"76","state":"0","rule":{},"args":{"str":"76"},"level":"info","message":"","timestamp":"2016-12-05T10:27:57.107Z"}
+{"level":"info","message":"Edit module {\"id\":\"584522f30afa4735fc7335c5\",\"name\":\"gg449993333\",\"desc\":\"\",\"path\":\"gg44\",\"args\":\"gg44\"}","timestamp":"2016-12-05T10:30:27.964Z"}
+{"level":"info","message":"Total records in data - 0","timestamp":"2016-12-05T10:30:27.967Z"}
+{"id":"584521ec24fd773b5c2b81c8","name":"test","path":"teset","state":"0","rule":{},"args":{"str":"test"},"level":"info","message":"","timestamp":"2016-12-05T10:30:27.970Z"}
+{"id":"584522f30afa4735fc7335c5","name":"gg449993333","path":"gg44","state":"0","rule":{},"args":{"str":"gg44"},"level":"info","message":"","timestamp":"2016-12-05T10:30:27.972Z"}
+{"id":"584523bc0afa4735fc7335c6","name":"12","path":"12","state":"0","rule":{},"args":{"str":"12"},"level":"info","message":"","timestamp":"2016-12-05T10:30:27.972Z"}
+{"id":"584523f90afa4735fc7335c7","name":"987","path":"987","state":"0","rule":{},"args":{"str":"987"},"level":"info","message":"","timestamp":"2016-12-05T10:30:27.973Z"}
+{"id":"58452a26e201741794699e81","name":"76","path":"76","state":"0","rule":{},"args":{"str":"76"},"level":"info","message":"","timestamp":"2016-12-05T10:30:27.973Z"}
+{"level":"info","message":"Edit module {\"id\":\"584522f30afa4735fc7335c5\",\"name\":\"gg44999788\",\"desc\":\"\",\"path\":\"gg44\",\"args\":\"gg44\"}","timestamp":"2016-12-05T10:31:46.111Z"}
+{"id":"584521ec24fd773b5c2b81c8","name":"test","path":"teset","state":"0","rule":{},"args":{"str":"test"},"level":"info","message":"","timestamp":"2016-12-05T10:31:46.119Z"}
+{"id":"584522f30afa4735fc7335c5","name":"gg449993333","path":"gg44","state":"0","rule":{},"args":{"str":"gg44"},"level":"info","message":"","timestamp":"2016-12-05T10:31:46.122Z"}
+{"id":"584523bc0afa4735fc7335c6","name":"12","path":"12","state":"0","rule":{},"args":{"str":"12"},"level":"info","message":"","timestamp":"2016-12-05T10:31:46.123Z"}
+{"id":"584523f90afa4735fc7335c7","name":"987","path":"987","state":"0","rule":{},"args":{"str":"987"},"level":"info","message":"","timestamp":"2016-12-05T10:31:46.123Z"}
+{"id":"58452a26e201741794699e81","name":"76","path":"76","state":"0","rule":{},"args":{"str":"76"},"level":"info","message":"","timestamp":"2016-12-05T10:31:46.123Z"}
+{"level":"info","message":"Total records in data - 0","timestamp":"2016-12-05T10:31:46.128Z"}
+{"level":"info","message":"Edit module {\"id\":\"584522f30afa4735fc7335c5\",\"name\":\"dMaster\",\"desc\":\"\",\"path\":\"./rt/dMaster\",\"args\":\"gg44\"}","timestamp":"2016-12-05T10:34:06.495Z"}
+{"level":"info","message":"Total records in data - 0","timestamp":"2016-12-05T10:34:06.501Z"}
+{"id":"584521ec24fd773b5c2b81c8","name":"test","path":"teset","state":"0","rule":{},"args":{"str":"test"},"level":"info","message":"","timestamp":"2016-12-05T10:34:06.504Z"}
+{"id":"584522f30afa4735fc7335c5","name":"dMaster","path":"./rt/dMaster","state":"0","rule":{},"args":{"str":"gg44"},"level":"info","message":"","timestamp":"2016-12-05T10:34:06.505Z"}
+{"id":"584523bc0afa4735fc7335c6","name":"12","path":"12","state":"0","rule":{},"args":{"str":"12"},"level":"info","message":"","timestamp":"2016-12-05T10:34:06.507Z"}
+{"id":"584523f90afa4735fc7335c7","name":"987","path":"987","state":"0","rule":{},"args":{"str":"987"},"level":"info","message":"","timestamp":"2016-12-05T10:34:06.508Z"}
+{"id":"58452a26e201741794699e81","name":"76","path":"76","state":"0","rule":{},"args":{"str":"76"},"level":"info","message":"","timestamp":"2016-12-05T10:34:06.508Z"}
+{"level":"info","message":"Start module  dMaster","timestamp":"2016-12-05T10:34:14.635Z"}
+{"level":"info","message":"Process ./rt/dMaster online","timestamp":"2016-12-05T10:34:15.085Z"}
+{"level":"info","message":"Modules Info:  1","timestamp":"2016-12-05T10:34:15.535Z"}
+{"level":"info","message":"Modules Info:  1","timestamp":"2016-12-05T10:34:16.535Z"}
+{"level":"info","message":"Modules Info:  1","timestamp":"2016-12-05T10:34:17.535Z"}
+{"level":"info","message":"Modules Info:  1","timestamp":"2016-12-05T10:34:18.537Z"}
+{"level":"info","message":"Modules Info:  1","timestamp":"2016-12-05T10:34:19.537Z"}
+{"level":"info","message":"Modules Info:  1","timestamp":"2016-12-05T10:34:20.540Z"}
+{"level":"info","message":"Modules Info:  1","timestamp":"2016-12-05T10:34:21.542Z"}
+{"level":"info","message":"Modules Info:  1","timestamp":"2016-12-05T10:34:22.543Z"}
+{"level":"info","message":"Modules Info:  1","timestamp":"2016-12-05T10:34:23.544Z"}
+{"level":"info","message":"Modules Info:  1","timestamp":"2016-12-05T10:34:24.545Z"}
+{"level":"info","message":"Modules Info:  1","timestamp":"2016-12-05T10:34:25.546Z"}
+{"level":"info","message":"Modules Info:  1","timestamp":"2016-12-05T10:34:26.547Z"}
+{"level":"info","message":"Modules Info:  1","timestamp":"2016-12-05T10:34:27.553Z"}
+{"level":"info","message":"Modules Info:  1","timestamp":"2016-12-05T10:34:28.555Z"}
+{"level":"info","message":"Modules Info:  1","timestamp":"2016-12-05T10:34:29.556Z"}
+{"level":"info","message":"Modules Info:  1","timestamp":"2016-12-05T10:34:30.557Z"}
+{"level":"info","message":"Modules Info:  1","timestamp":"2016-12-05T10:34:31.558Z"}
+{"level":"info","message":"Modules Info:  1","timestamp":"2016-12-05T10:34:32.559Z"}
+{"level":"info","message":"Modules Info:  1","timestamp":"2016-12-05T10:34:33.559Z"}
+{"level":"info","message":"Modules Info:  1","timestamp":"2016-12-05T10:34:34.559Z"}
+{"level":"info","message":"Modules Info:  1","timestamp":"2016-12-05T10:34:35.559Z"}
+{"level":"info","message":"Modules Info:  1","timestamp":"2016-12-05T10:34:36.559Z"}
+{"level":"info","message":"Modules Info:  1","timestamp":"2016-12-05T10:34:37.559Z"}
+{"level":"info","message":"Modules Info:  1","timestamp":"2016-12-05T10:34:38.559Z"}
+{"level":"info","message":"Modules Info:  1","timestamp":"2016-12-05T10:34:39.559Z"}
+{"level":"info","message":"Modules Info:  1","timestamp":"2016-12-05T10:34:40.559Z"}
+{"level":"info","message":"Modules Info:  1","timestamp":"2016-12-05T10:34:41.559Z"}
+{"level":"info","message":"Modules Info:  1","timestamp":"2016-12-05T10:34:42.559Z"}
+{"level":"info","message":"Modules Info:  1","timestamp":"2016-12-05T10:34:43.560Z"}
+{"level":"info","message":"Modules Info:  1","timestamp":"2016-12-05T10:34:44.561Z"}
+{"level":"info","message":"Modules Info:  1","timestamp":"2016-12-05T10:34:45.562Z"}
+{"level":"info","message":"Modules Info:  1","timestamp":"2016-12-05T10:34:46.562Z"}
+{"level":"info","message":"Modules Info:  1","timestamp":"2016-12-05T10:34:47.562Z"}
+{"level":"info","message":"Modules Info:  1","timestamp":"2016-12-05T10:34:48.563Z"}
+{"level":"info","message":"Modules Info:  1","timestamp":"2016-12-05T10:34:49.564Z"}
+{"level":"info","message":"Modules Info:  1","timestamp":"2016-12-05T10:34:50.564Z"}
+{"level":"info","message":"Modules Info:  1","timestamp":"2016-12-05T10:34:51.566Z"}
+{"level":"info","message":"Modules Info:  1","timestamp":"2016-12-05T10:34:52.567Z"}
+{"level":"info","message":"Modules Info:  1","timestamp":"2016-12-05T10:34:53.568Z"}
+{"level":"info","message":"Modules Info:  1","timestamp":"2016-12-05T10:34:54.569Z"}
+{"level":"info","message":"Modules Info:  1","timestamp":"2016-12-05T10:34:55.570Z"}
+{"level":"info","message":"Modules Info:  1","timestamp":"2016-12-05T10:34:56.571Z"}
+{"level":"info","message":"Modules Info:  1","timestamp":"2016-12-05T10:34:57.572Z"}
+{"level":"info","message":"Modules Info:  1","timestamp":"2016-12-05T10:34:58.573Z"}
+{"level":"info","message":"Modules Info:  1","timestamp":"2016-12-05T10:34:59.575Z"}
+{"level":"info","message":"Modules Info:  1","timestamp":"2016-12-05T10:35:00.576Z"}
+{"level":"info","message":"Modules Info:  1","timestamp":"2016-12-05T10:35:01.577Z"}
+{"level":"info","message":"Modules Info:  1","timestamp":"2016-12-05T10:35:02.579Z"}
+{"level":"info","message":"Modules Info:  1","timestamp":"2016-12-05T10:35:03.579Z"}
+{"level":"info","message":"Start service","timestamp":"2016-12-05T10:35:31.780Z"}
+{"level":"info","message":"Web service loaded","timestamp":"2016-12-05T10:35:32.105Z"}
+{"level":"info","message":"Websocket loaded","timestamp":"2016-12-05T10:35:32.382Z"}
+{"level":"info","message":"Total records in data - 0","timestamp":"2016-12-05T10:35:32.955Z"}
+{"id":"584521ec24fd773b5c2b81c8","name":"test","path":"teset","state":"0","rule":{},"args":{"str":"test"},"level":"info","message":"","timestamp":"2016-12-05T10:35:32.956Z"}
+{"id":"584522f30afa4735fc7335c5","name":"dMaster","path":"./rt/dMaster","state":"0","rule":{},"args":{"str":"gg44"},"level":"info","message":"","timestamp":"2016-12-05T10:35:32.957Z"}
+{"id":"584523bc0afa4735fc7335c6","name":"12","path":"12","state":"0","rule":{},"args":{"str":"12"},"level":"info","message":"","timestamp":"2016-12-05T10:35:32.957Z"}
+{"id":"584523f90afa4735fc7335c7","name":"987","path":"987","state":"0","rule":{},"args":{"str":"987"},"level":"info","message":"","timestamp":"2016-12-05T10:35:32.957Z"}
+{"id":"58452a26e201741794699e81","name":"76","path":"76","state":"0","rule":{},"args":{"str":"76"},"level":"info","message":"","timestamp":"2016-12-05T10:35:32.957Z"}
+{"level":"info","message":"Start module  dMaster","timestamp":"2016-12-05T10:35:40.606Z"}
+{"level":"info","message":"Process ./rt/dMaster online","timestamp":"2016-12-05T10:35:41.053Z"}
+{"level":"info","message":"Stop module  dMaster","timestamp":"2016-12-05T10:35:46.432Z"}
+{"level":"info","message":"Start service","timestamp":"2016-12-05T10:35:59.224Z"}
+{"level":"info","message":"Web service loaded","timestamp":"2016-12-05T10:35:59.475Z"}
+{"level":"info","message":"Websocket loaded","timestamp":"2016-12-05T10:35:59.674Z"}
+{"level":"info","message":"Total records in data - 0","timestamp":"2016-12-05T10:36:00.200Z"}
+{"id":"584521ec24fd773b5c2b81c8","name":"test","path":"teset","state":"0","rule":{},"args":{"str":"test"},"level":"info","message":"","timestamp":"2016-12-05T10:36:00.218Z"}
+{"id":"584522f30afa4735fc7335c5","name":"dMaster","path":"./rt/dMaster","state":"0","rule":{},"args":{"str":"gg44"},"level":"info","message":"","timestamp":"2016-12-05T10:36:00.220Z"}
+{"id":"584523bc0afa4735fc7335c6","name":"12","path":"12","state":"0","rule":{},"args":{"str":"12"},"level":"info","message":"","timestamp":"2016-12-05T10:36:00.222Z"}
+{"id":"584523f90afa4735fc7335c7","name":"987","path":"987","state":"0","rule":{},"args":{"str":"987"},"level":"info","message":"","timestamp":"2016-12-05T10:36:00.223Z"}
+{"id":"58452a26e201741794699e81","name":"76","path":"76","state":"0","rule":{},"args":{"str":"76"},"level":"info","message":"","timestamp":"2016-12-05T10:36:00.224Z"}
+{"level":"info","message":"Start module  dMaster","timestamp":"2016-12-05T10:36:07.010Z"}
+{"level":"info","message":"Process ./rt/dMaster online","timestamp":"2016-12-05T10:36:07.252Z"}
+{"code":1,"signal":null,"level":"info","message":"Process ./rt/dMaster closed","timestamp":"2016-12-05T10:36:07.739Z"}
+{"level":"info","message":"Start module  dMaster","timestamp":"2016-12-05T10:36:51.589Z"}
+{"level":"info","message":"Process ./rt/dMaster online","timestamp":"2016-12-05T10:36:51.881Z"}
+{"code":1,"signal":null,"level":"info","message":"Process ./rt/dMaster closed","timestamp":"2016-12-05T10:36:52.323Z"}
+{"level":"info","message":"Start module  dMaster","timestamp":"2016-12-05T10:38:11.088Z"}
+{"level":"info","message":"Process ./rt/dMaster online","timestamp":"2016-12-05T10:38:11.328Z"}
+{"code":1,"signal":null,"level":"info","message":"Process ./rt/dMaster closed","timestamp":"2016-12-05T10:38:11.844Z"}
+{"level":"info","message":"Start module  dMaster","timestamp":"2016-12-05T10:38:38.328Z"}
+{"level":"info","message":"Process ./rt/dMaster online","timestamp":"2016-12-05T10:38:38.573Z"}
+{"level":"info","message":"Process ./rt/dMaster message {\"type\":\"log\",\"src\":\"dMaster\",\"data\":{\"level\":\"info\",\"message\":\"Start dMaster\",\"timestamp\":\"2016-12-05T10:38:11.754Z\",\"transport\":[\"file\"]}}","timestamp":"2016-12-05T10:38:39.105Z"}
+{"code":1,"signal":null,"level":"info","message":"Process ./rt/dMaster closed","timestamp":"2016-12-05T10:38:39.129Z"}
+{"level":"info","message":"Start module  dMaster","timestamp":"2016-12-05T10:39:01.263Z"}
+{"level":"info","message":"Process ./rt/dMaster online","timestamp":"2016-12-05T10:39:01.542Z"}
+{"level":"info","message":"Process ./rt/dMaster message {\"type\":\"log\",\"src\":\"dMaster\",\"data\":{\"level\":\"info\",\"message\":\"Start dMaster\",\"timestamp\":\"2016-12-05T10:38:11.754Z\",\"transport\":[\"file\"]}}","timestamp":"2016-12-05T10:39:01.998Z"}
+{"level":"info","message":"Process ./rt/dMaster message {\"type\":\"log\",\"src\":\"dMaster\",\"data\":{\"level\":\"info\",\"message\":\"Start dMaster\",\"timestamp\":\"2016-12-05T10:38:39.058Z\",\"transport\":[\"file\"]}}","timestamp":"2016-12-05T10:39:01.999Z"}
+{"level":"info","message":"Process ./rt/dMaster message {\"type\":\"log\",\"src\":\"dMaster\",\"data\":{\"level\":\"info\",\"message\":\"Start dMaster\",\"timestamp\":\"2016-12-05T10:39:01.956Z\",\"transport\":[\"file\"]}}","timestamp":"2016-12-05T10:39:03.048Z"}
+{"level":"info","message":"Process ./rt/dMaster message {\"type\":\"log\",\"src\":\"dMaster\",\"data\":{\"level\":\"info\",\"message\":\"Connecting to mongodb://127.0.0.1:27017/scdme\",\"timestamp\":\"2016-12-05T10:39:01.959Z\",\"transport\":[\"file\"]}}","timestamp":"2016-12-05T10:39:03.049Z"}
+{"level":"info","message":"Process ./rt/dMaster message {\"type\":\"log\",\"src\":\"dMaster\",\"data\":{\"level\":\"info\",\"message\":\"OK. Connected to mongodb...\",\"timestamp\":\"2016-12-05T10:39:02.009Z\",\"transport\":[\"file\"]}}","timestamp":"2016-12-05T10:39:03.049Z"}
+{"level":"info","message":"Process ./rt/dMaster message {\"type\":\"log\",\"src\":\"dMaster\",\"data\":{\"level\":\"info\",\"message\":\"Promise { <pending> }\",\"timestamp\":\"2016-12-05T10:39:02.047Z\",\"transport\":[\"file\"]}}","timestamp":"2016-12-05T10:39:03.049Z"}
+{"level":"info","message":"Start service","timestamp":"2016-12-05T10:42:30.636Z"}
+{"level":"info","message":"Web service loaded","timestamp":"2016-12-05T10:42:30.861Z"}
+{"level":"info","message":"Websocket loaded","timestamp":"2016-12-05T10:42:31.056Z"}
+{"level":"info","message":"Total records in data - 0","timestamp":"2016-12-05T10:42:31.481Z"}
+{"id":"584521ec24fd773b5c2b81c8","name":"test","path":"teset","state":"0","rule":{},"args":{"str":"test"},"level":"info","message":"","timestamp":"2016-12-05T10:42:31.484Z"}
+{"id":"584522f30afa4735fc7335c5","name":"dMaster","path":"./rt/dMaster","state":"0","rule":{},"args":{"str":"gg44"},"level":"info","message":"","timestamp":"2016-12-05T10:42:31.485Z"}
+{"id":"584523bc0afa4735fc7335c6","name":"12","path":"12","state":"0","rule":{},"args":{"str":"12"},"level":"info","message":"","timestamp":"2016-12-05T10:42:31.486Z"}
+{"id":"584523f90afa4735fc7335c7","name":"987","path":"987","state":"0","rule":{},"args":{"str":"987"},"level":"info","message":"","timestamp":"2016-12-05T10:42:31.487Z"}
+{"id":"58452a26e201741794699e81","name":"76","path":"76","state":"0","rule":{},"args":{"str":"76"},"level":"info","message":"","timestamp":"2016-12-05T10:42:31.487Z"}
+{"level":"info","message":"Start module  dMaster","timestamp":"2016-12-05T10:42:36.383Z"}
+{"level":"info","message":"Process ./rt/dMaster online","timestamp":"2016-12-05T10:42:36.649Z"}
+{"level":"info","message":"./rt/dMaster :  Start dMaster","timestamp":"2016-12-05T10:42:37.111Z"}
+{"level":"info","message":"./rt/dMaster :  Start dMaster","timestamp":"2016-12-05T10:42:37.111Z"}
+{"level":"info","message":"./rt/dMaster :  Start dMaster","timestamp":"2016-12-05T10:42:37.112Z"}
+{"level":"info","message":"./rt/dMaster :  Connecting to mongodb://127.0.0.1:27017/scdme","timestamp":"2016-12-05T10:42:37.112Z"}
+{"level":"info","message":"./rt/dMaster :  OK. Connected to mongodb...","timestamp":"2016-12-05T10:42:37.112Z"}
+{"level":"info","message":"./rt/dMaster :  Promise { <pending> }","timestamp":"2016-12-05T10:42:37.113Z"}
+{"level":"info","message":"./rt/dMaster :  Start dMaster","timestamp":"2016-12-05T10:42:38.165Z"}
+{"level":"info","message":"./rt/dMaster :  Connecting to mongodb://127.0.0.1:27017/scdme","timestamp":"2016-12-05T10:42:38.166Z"}
+{"level":"info","message":"./rt/dMaster :  OK. Connected to mongodb...","timestamp":"2016-12-05T10:42:38.166Z"}
+{"level":"info","message":"./rt/dMaster :  Promise { <pending> }","timestamp":"2016-12-05T10:42:38.166Z"}
+{"level":"info","message":"Stop module  dMaster","timestamp":"2016-12-05T10:42:52.489Z"}
+{"code":null,"signal":"SIGTERM","level":"info","message":"Process ./rt/dMaster closed","timestamp":"2016-12-05T10:42:52.534Z"}
+{"level":"info","message":"Start module  dMaster","timestamp":"2016-12-05T10:43:29.353Z"}
+{"level":"info","message":"Process ./rt/dMaster online","timestamp":"2016-12-05T10:43:29.629Z"}
+{"level":"info","message":"./rt/dMaster :  Start dMaster","timestamp":"2016-12-05T10:43:30.149Z"}
+{"level":"info","message":"./rt/dMaster :  Start dMaster","timestamp":"2016-12-05T10:43:30.150Z"}
+{"level":"info","message":"./rt/dMaster :  Start dMaster","timestamp":"2016-12-05T10:43:30.153Z"}
+{"level":"info","message":"./rt/dMaster :  Connecting to mongodb://127.0.0.1:27017/scdme","timestamp":"2016-12-05T10:43:30.154Z"}
+{"level":"info","message":"./rt/dMaster :  OK. Connected to mongodb...","timestamp":"2016-12-05T10:43:30.155Z"}
+{"level":"info","message":"./rt/dMaster :  Promise { <pending> }","timestamp":"2016-12-05T10:43:30.156Z"}
+{"level":"info","message":"./rt/dMaster :  Start dMaster","timestamp":"2016-12-05T10:43:30.157Z"}
+{"level":"info","message":"./rt/dMaster :  Connecting to mongodb://127.0.0.1:27017/scdme","timestamp":"2016-12-05T10:43:30.158Z"}
+{"level":"info","message":"./rt/dMaster :  OK. Connected to mongodb...","timestamp":"2016-12-05T10:43:30.160Z"}
+{"level":"info","message":"./rt/dMaster :  Promise { <pending> }","timestamp":"2016-12-05T10:43:30.160Z"}
+{"level":"info","message":"./rt/dMaster :  Start dMaster","timestamp":"2016-12-05T10:43:31.176Z"}
+{"level":"info","message":"./rt/dMaster :  Connecting to mongodb://127.0.0.1:27017/scdme","timestamp":"2016-12-05T10:43:31.176Z"}
+{"level":"info","message":"./rt/dMaster :  OK. Connected to mongodb...","timestamp":"2016-12-05T10:43:31.177Z"}
+{"meta":"","level":"info","message":"./rt/dMaster : ","timestamp":"2016-12-05T10:43:31.177Z"}
+{"level":"info","message":"Stop module  dMaster","timestamp":"2016-12-05T10:44:23.838Z"}
+{"code":null,"signal":"SIGTERM","level":"info","message":"Process ./rt/dMaster closed","timestamp":"2016-12-05T10:44:23.854Z"}
+{"level":"info","message":"Start module  dMaster","timestamp":"2016-12-05T10:44:25.380Z"}
+{"level":"info","message":"Process ./rt/dMaster online","timestamp":"2016-12-05T10:44:25.628Z"}
+{"level":"info","message":"./rt/dMaster :  Start dMaster","timestamp":"2016-12-05T10:44:26.111Z"}
+{"level":"info","message":"./rt/dMaster :  Start dMaster","timestamp":"2016-12-05T10:44:26.111Z"}
+{"level":"info","message":"./rt/dMaster :  Start dMaster","timestamp":"2016-12-05T10:44:26.112Z"}
+{"level":"info","message":"./rt/dMaster :  Connecting to mongodb://127.0.0.1:27017/scdme","timestamp":"2016-12-05T10:44:26.112Z"}
+{"level":"info","message":"./rt/dMaster :  OK. Connected to mongodb...","timestamp":"2016-12-05T10:44:26.112Z"}
+{"level":"info","message":"./rt/dMaster :  Promise { <pending> }","timestamp":"2016-12-05T10:44:26.113Z"}
+{"level":"info","message":"./rt/dMaster :  Start dMaster","timestamp":"2016-12-05T10:44:26.114Z"}
+{"level":"info","message":"./rt/dMaster :  Connecting to mongodb://127.0.0.1:27017/scdme","timestamp":"2016-12-05T10:44:26.114Z"}
+{"level":"info","message":"./rt/dMaster :  OK. Connected to mongodb...","timestamp":"2016-12-05T10:44:26.114Z"}
+{"level":"info","message":"./rt/dMaster :  Promise { <pending> }","timestamp":"2016-12-05T10:44:26.114Z"}
+{"level":"info","message":"./rt/dMaster :  Start dMaster","timestamp":"2016-12-05T10:44:26.115Z"}
+{"level":"info","message":"./rt/dMaster :  Connecting to mongodb://127.0.0.1:27017/scdme","timestamp":"2016-12-05T10:44:26.116Z"}
+{"level":"info","message":"./rt/dMaster :  OK. Connected to mongodb...","timestamp":"2016-12-05T10:44:26.117Z"}
+{"meta":"","level":"info","message":"./rt/dMaster : ","timestamp":"2016-12-05T10:44:26.117Z"}
+{"level":"info","message":"./rt/dMaster :  Start dMaster","timestamp":"2016-12-05T10:44:27.129Z"}
+{"level":"info","message":"./rt/dMaster :  Connecting to mongodb://127.0.0.1:27017/scdme","timestamp":"2016-12-05T10:44:27.129Z"}
+{"level":"info","message":"./rt/dMaster :  OK. Connected to mongodb...","timestamp":"2016-12-05T10:44:27.130Z"}
+{"meta":"","level":"info","message":"./rt/dMaster : ","timestamp":"2016-12-05T10:44:27.131Z"}
+{"level":"info","message":"Stop module  dMaster","timestamp":"2016-12-05T10:45:03.480Z"}
+{"code":null,"signal":"SIGTERM","level":"info","message":"Process ./rt/dMaster closed","timestamp":"2016-12-05T10:45:03.508Z"}
+{"level":"info","message":"Start module  dMaster","timestamp":"2016-12-05T10:45:04.506Z"}
+{"level":"info","message":"Process ./rt/dMaster online","timestamp":"2016-12-05T10:45:04.846Z"}
+{"level":"info","message":"./rt/dMaster :  Start dMaster","timestamp":"2016-12-05T10:45:05.360Z"}
+{"level":"info","message":"./rt/dMaster :  Start dMaster","timestamp":"2016-12-05T10:45:05.361Z"}
+{"level":"info","message":"./rt/dMaster :  Start dMaster","timestamp":"2016-12-05T10:45:05.362Z"}
+{"level":"info","message":"./rt/dMaster :  Connecting to mongodb://127.0.0.1:27017/scdme","timestamp":"2016-12-05T10:45:05.362Z"}
+{"level":"info","message":"./rt/dMaster :  OK. Connected to mongodb...","timestamp":"2016-12-05T10:45:05.363Z"}
+{"level":"info","message":"./rt/dMaster :  Promise { <pending> }","timestamp":"2016-12-05T10:45:05.363Z"}
+{"level":"info","message":"./rt/dMaster :  Start dMaster","timestamp":"2016-12-05T10:45:05.363Z"}
+{"level":"info","message":"./rt/dMaster :  Connecting to mongodb://127.0.0.1:27017/scdme","timestamp":"2016-12-05T10:45:05.363Z"}
+{"level":"info","message":"./rt/dMaster :  OK. Connected to mongodb...","timestamp":"2016-12-05T10:45:05.364Z"}
+{"level":"info","message":"./rt/dMaster :  Promise { <pending> }","timestamp":"2016-12-05T10:45:05.364Z"}
+{"level":"info","message":"./rt/dMaster :  Start dMaster","timestamp":"2016-12-05T10:45:05.364Z"}
+{"level":"info","message":"./rt/dMaster :  Connecting to mongodb://127.0.0.1:27017/scdme","timestamp":"2016-12-05T10:45:05.364Z"}
+{"level":"info","message":"./rt/dMaster :  OK. Connected to mongodb...","timestamp":"2016-12-05T10:45:05.365Z"}
+{"meta":"","level":"info","message":"./rt/dMaster : ","timestamp":"2016-12-05T10:45:05.365Z"}
+{"level":"info","message":"./rt/dMaster :  Start dMaster","timestamp":"2016-12-05T10:45:05.365Z"}
+{"level":"info","message":"./rt/dMaster :  Connecting to mongodb://127.0.0.1:27017/scdme","timestamp":"2016-12-05T10:45:05.366Z"}
+{"level":"info","message":"./rt/dMaster :  OK. Connected to mongodb...","timestamp":"2016-12-05T10:45:05.366Z"}
+{"meta":"","level":"info","message":"./rt/dMaster : ","timestamp":"2016-12-05T10:45:05.368Z"}
+{"level":"info","message":"./rt/dMaster :  Start dMaster","timestamp":"2016-12-05T10:45:06.384Z"}
+{"level":"info","message":"./rt/dMaster :  Connecting to mongodb://127.0.0.1:27017/scdme","timestamp":"2016-12-05T10:45:06.386Z"}
+{"level":"info","message":"./rt/dMaster :  OK. Connected to mongodb...","timestamp":"2016-12-05T10:45:06.387Z"}
+{"meta":"","level":"info","message":"./rt/dMaster : ","timestamp":"2016-12-05T10:45:06.388Z"}
+{"level":"info","message":"Stop module  dMaster","timestamp":"2016-12-05T10:45:53.888Z"}
+{"code":null,"signal":"SIGTERM","level":"info","message":"Process ./rt/dMaster closed","timestamp":"2016-12-05T10:45:53.900Z"}
+{"level":"info","message":"Start module  dMaster","timestamp":"2016-12-05T10:45:55.347Z"}
+{"level":"info","message":"Process ./rt/dMaster online","timestamp":"2016-12-05T10:45:55.622Z"}
+{"level":"info","message":"./rt/dMaster :  Start dMaster","timestamp":"2016-12-05T10:45:56.140Z"}
+{"level":"info","message":"./rt/dMaster :  Start dMaster","timestamp":"2016-12-05T10:45:56.141Z"}
+{"level":"info","message":"./rt/dMaster :  Start dMaster","timestamp":"2016-12-05T10:45:56.142Z"}
+{"level":"info","message":"./rt/dMaster :  Connecting to mongodb://127.0.0.1:27017/scdme","timestamp":"2016-12-05T10:45:56.143Z"}
+{"level":"info","message":"./rt/dMaster :  OK. Connected to mongodb...","timestamp":"2016-12-05T10:45:56.144Z"}
+{"level":"info","message":"./rt/dMaster :  Promise { <pending> }","timestamp":"2016-12-05T10:45:56.144Z"}
+{"level":"info","message":"./rt/dMaster :  Start dMaster","timestamp":"2016-12-05T10:45:56.144Z"}
+{"level":"info","message":"./rt/dMaster :  Connecting to mongodb://127.0.0.1:27017/scdme","timestamp":"2016-12-05T10:45:56.145Z"}
+{"level":"info","message":"./rt/dMaster :  OK. Connected to mongodb...","timestamp":"2016-12-05T10:45:56.145Z"}
+{"level":"info","message":"./rt/dMaster :  Promise { <pending> }","timestamp":"2016-12-05T10:45:56.146Z"}
+{"level":"info","message":"./rt/dMaster :  Start dMaster","timestamp":"2016-12-05T10:45:56.146Z"}
+{"level":"info","message":"./rt/dMaster :  Connecting to mongodb://127.0.0.1:27017/scdme","timestamp":"2016-12-05T10:45:56.146Z"}
+{"level":"info","message":"./rt/dMaster :  OK. Connected to mongodb...","timestamp":"2016-12-05T10:45:56.147Z"}
+{"meta":"","level":"info","message":"./rt/dMaster : ","timestamp":"2016-12-05T10:45:56.147Z"}
+{"level":"info","message":"./rt/dMaster :  Start dMaster","timestamp":"2016-12-05T10:45:56.148Z"}
+{"level":"info","message":"./rt/dMaster :  Connecting to mongodb://127.0.0.1:27017/scdme","timestamp":"2016-12-05T10:45:56.148Z"}
+{"level":"info","message":"./rt/dMaster :  OK. Connected to mongodb...","timestamp":"2016-12-05T10:45:56.149Z"}
+{"meta":"","level":"info","message":"./rt/dMaster : ","timestamp":"2016-12-05T10:45:56.150Z"}
+{"level":"info","message":"./rt/dMaster :  Start dMaster","timestamp":"2016-12-05T10:45:56.150Z"}
+{"level":"info","message":"./rt/dMaster :  Connecting to mongodb://127.0.0.1:27017/scdme","timestamp":"2016-12-05T10:45:56.150Z"}
+{"level":"info","message":"./rt/dMaster :  OK. Connected to mongodb...","timestamp":"2016-12-05T10:45:56.151Z"}
+{"meta":"","level":"info","message":"./rt/dMaster : ","timestamp":"2016-12-05T10:45:56.152Z"}
+{"level":"info","message":"./rt/dMaster :  Start dMaster","timestamp":"2016-12-05T10:45:57.161Z"}
+{"level":"info","message":"./rt/dMaster :  Connecting to mongodb://127.0.0.1:27017/scdme","timestamp":"2016-12-05T10:45:57.163Z"}
+{"level":"info","message":"./rt/dMaster :  OK. Connected to mongodb...","timestamp":"2016-12-05T10:45:57.167Z"}
+{"meta":"","level":"info","message":"./rt/dMaster : ","timestamp":"2016-12-05T10:45:57.168Z"}
+{"level":"info","message":"Start service","timestamp":"2016-12-05T10:47:27.632Z"}
+{"level":"info","message":"Web service loaded","timestamp":"2016-12-05T10:47:27.907Z"}
+{"level":"info","message":"Websocket loaded","timestamp":"2016-12-05T10:47:28.158Z"}
+{"level":"info","message":"Total records in data - 0","timestamp":"2016-12-05T10:47:28.636Z"}
+{"id":"584521ec24fd773b5c2b81c8","name":"test","path":"teset","state":"0","rule":{},"args":{"str":"test"},"level":"info","message":"","timestamp":"2016-12-05T10:47:28.638Z"}
+{"id":"584522f30afa4735fc7335c5","name":"dMaster","path":"./rt/dMaster","state":"0","rule":{},"args":{"str":"gg44"},"level":"info","message":"","timestamp":"2016-12-05T10:47:28.641Z"}
+{"id":"584523bc0afa4735fc7335c6","name":"12","path":"12","state":"0","rule":{},"args":{"str":"12"},"level":"info","message":"","timestamp":"2016-12-05T10:47:28.643Z"}
+{"id":"584523f90afa4735fc7335c7","name":"987","path":"987","state":"0","rule":{},"args":{"str":"987"},"level":"info","message":"","timestamp":"2016-12-05T10:47:28.644Z"}
+{"id":"58452a26e201741794699e81","name":"76","path":"76","state":"0","rule":{},"args":{"str":"76"},"level":"info","message":"","timestamp":"2016-12-05T10:47:28.645Z"}
+{"level":"info","message":"Start module  dMaster","timestamp":"2016-12-05T10:47:36.164Z"}
+{"level":"info","message":"Process ./rt/dMaster online","timestamp":"2016-12-05T10:47:36.401Z"}
+{"level":"info","message":"./rt/dMaster :  Start dMaster","timestamp":"2016-12-05T10:47:36.793Z"}
+{"level":"info","message":"./rt/dMaster :  Start dMaster","timestamp":"2016-12-05T10:47:36.794Z"}
+{"level":"info","message":"./rt/dMaster :  Start dMaster","timestamp":"2016-12-05T10:47:36.794Z"}
+{"level":"info","message":"./rt/dMaster :  Connecting to mongodb://127.0.0.1:27017/scdme","timestamp":"2016-12-05T10:47:36.795Z"}
+{"level":"info","message":"./rt/dMaster :  OK. Connected to mongodb...","timestamp":"2016-12-05T10:47:36.795Z"}
+{"level":"info","message":"./rt/dMaster :  Promise { <pending> }","timestamp":"2016-12-05T10:47:36.796Z"}
+{"level":"info","message":"./rt/dMaster :  Start dMaster","timestamp":"2016-12-05T10:47:36.797Z"}
+{"level":"info","message":"./rt/dMaster :  Connecting to mongodb://127.0.0.1:27017/scdme","timestamp":"2016-12-05T10:47:36.799Z"}
+{"level":"info","message":"./rt/dMaster :  OK. Connected to mongodb...","timestamp":"2016-12-05T10:47:36.801Z"}
+{"level":"info","message":"./rt/dMaster :  Promise { <pending> }","timestamp":"2016-12-05T10:47:36.802Z"}
+{"level":"info","message":"./rt/dMaster :  Start dMaster","timestamp":"2016-12-05T10:47:36.803Z"}
+{"level":"info","message":"./rt/dMaster :  Connecting to mongodb://127.0.0.1:27017/scdme","timestamp":"2016-12-05T10:47:36.804Z"}
+{"level":"info","message":"./rt/dMaster :  OK. Connected to mongodb...","timestamp":"2016-12-05T10:47:36.805Z"}
+{"meta":"","level":"info","message":"./rt/dMaster : ","timestamp":"2016-12-05T10:47:36.805Z"}
+{"level":"info","message":"./rt/dMaster :  Start dMaster","timestamp":"2016-12-05T10:47:36.806Z"}
+{"level":"info","message":"./rt/dMaster :  Connecting to mongodb://127.0.0.1:27017/scdme","timestamp":"2016-12-05T10:47:36.806Z"}
+{"level":"info","message":"./rt/dMaster :  OK. Connected to mongodb...","timestamp":"2016-12-05T10:47:36.807Z"}
+{"meta":"","level":"info","message":"./rt/dMaster : ","timestamp":"2016-12-05T10:47:36.809Z"}
+{"level":"info","message":"./rt/dMaster :  Start dMaster","timestamp":"2016-12-05T10:47:36.810Z"}
+{"level":"info","message":"./rt/dMaster :  Connecting to mongodb://127.0.0.1:27017/scdme","timestamp":"2016-12-05T10:47:36.812Z"}
+{"level":"info","message":"./rt/dMaster :  OK. Connected to mongodb...","timestamp":"2016-12-05T10:47:36.812Z"}
+{"meta":"","level":"info","message":"./rt/dMaster : ","timestamp":"2016-12-05T10:47:36.813Z"}
+{"level":"info","message":"./rt/dMaster :  Start dMaster","timestamp":"2016-12-05T10:47:36.813Z"}
+{"level":"info","message":"./rt/dMaster :  Connecting to mongodb://127.0.0.1:27017/scdme","timestamp":"2016-12-05T10:47:36.813Z"}
+{"level":"info","message":"./rt/dMaster :  OK. Connected to mongodb...","timestamp":"2016-12-05T10:47:36.815Z"}
+{"meta":"","level":"info","message":"./rt/dMaster : ","timestamp":"2016-12-05T10:47:36.820Z"}
+{"level":"info","message":"./rt/dMaster :  Start dMaster","timestamp":"2016-12-05T10:47:37.823Z"}
+{"level":"info","message":"./rt/dMaster :  Connecting to mongodb://127.0.0.1:27017/scdme","timestamp":"2016-12-05T10:47:37.824Z"}
+{"level":"info","message":"./rt/dMaster :  OK. Connected to mongodb...","timestamp":"2016-12-05T10:47:37.824Z"}
+{"meta":"","level":"info","message":"./rt/dMaster : ","timestamp":"2016-12-05T10:47:37.825Z"}
+{"level":"info","message":"Stop module  dMaster","timestamp":"2016-12-05T10:49:23.119Z"}
+{"code":null,"signal":"SIGTERM","level":"info","message":"Process ./rt/dMaster closed","timestamp":"2016-12-05T10:49:23.153Z"}
+{"level":"info","message":"Start module  dMaster","timestamp":"2016-12-05T10:49:24.203Z"}
+{"level":"info","message":"Process ./rt/dMaster online","timestamp":"2016-12-05T10:49:24.427Z"}
+{"level":"info","message":"./rt/dMaster :  Start dMaster","timestamp":"2016-12-05T10:49:24.884Z"}
+{"level":"info","message":"./rt/dMaster :  Start dMaster","timestamp":"2016-12-05T10:49:24.885Z"}
+{"level":"info","message":"./rt/dMaster :  Start dMaster","timestamp":"2016-12-05T10:49:24.885Z"}
+{"level":"info","message":"./rt/dMaster :  Connecting to mongodb://127.0.0.1:27017/scdme","timestamp":"2016-12-05T10:49:24.886Z"}
+{"level":"info","message":"./rt/dMaster :  OK. Connected to mongodb...","timestamp":"2016-12-05T10:49:24.886Z"}
+{"level":"info","message":"./rt/dMaster :  Promise { <pending> }","timestamp":"2016-12-05T10:49:24.887Z"}
+{"level":"info","message":"./rt/dMaster :  Start dMaster","timestamp":"2016-12-05T10:49:24.887Z"}
+{"level":"info","message":"./rt/dMaster :  Connecting to mongodb://127.0.0.1:27017/scdme","timestamp":"2016-12-05T10:49:24.888Z"}
+{"level":"info","message":"./rt/dMaster :  OK. Connected to mongodb...","timestamp":"2016-12-05T10:49:24.888Z"}
+{"level":"info","message":"./rt/dMaster :  Promise { <pending> }","timestamp":"2016-12-05T10:49:24.888Z"}
+{"level":"info","message":"./rt/dMaster :  Start dMaster","timestamp":"2016-12-05T10:49:24.888Z"}
+{"level":"info","message":"./rt/dMaster :  Connecting to mongodb://127.0.0.1:27017/scdme","timestamp":"2016-12-05T10:49:24.889Z"}
+{"level":"info","message":"./rt/dMaster :  OK. Connected to mongodb...","timestamp":"2016-12-05T10:49:24.889Z"}
+{"meta":"","level":"info","message":"./rt/dMaster : ","timestamp":"2016-12-05T10:49:24.889Z"}
+{"level":"info","message":"./rt/dMaster :  Start dMaster","timestamp":"2016-12-05T10:49:24.890Z"}
+{"level":"info","message":"./rt/dMaster :  Connecting to mongodb://127.0.0.1:27017/scdme","timestamp":"2016-12-05T10:49:24.890Z"}
+{"level":"info","message":"./rt/dMaster :  OK. Connected to mongodb...","timestamp":"2016-12-05T10:49:24.891Z"}
+{"meta":"","level":"info","message":"./rt/dMaster : ","timestamp":"2016-12-05T10:49:24.892Z"}
+{"level":"info","message":"./rt/dMaster :  Start dMaster","timestamp":"2016-12-05T10:49:24.892Z"}
+{"level":"info","message":"./rt/dMaster :  Connecting to mongodb://127.0.0.1:27017/scdme","timestamp":"2016-12-05T10:49:24.893Z"}
+{"level":"info","message":"./rt/dMaster :  OK. Connected to mongodb...","timestamp":"2016-12-05T10:49:24.893Z"}
+{"meta":"","level":"info","message":"./rt/dMaster : ","timestamp":"2016-12-05T10:49:24.894Z"}
+{"level":"info","message":"./rt/dMaster :  Start dMaster","timestamp":"2016-12-05T10:49:24.894Z"}
+{"level":"info","message":"./rt/dMaster :  Connecting to mongodb://127.0.0.1:27017/scdme","timestamp":"2016-12-05T10:49:24.895Z"}
+{"level":"info","message":"./rt/dMaster :  OK. Connected to mongodb...","timestamp":"2016-12-05T10:49:24.896Z"}
+{"meta":"","level":"info","message":"./rt/dMaster : ","timestamp":"2016-12-05T10:49:24.896Z"}
+{"level":"info","message":"./rt/dMaster :  Start dMaster","timestamp":"2016-12-05T10:49:24.896Z"}
+{"level":"info","message":"./rt/dMaster :  Connecting to mongodb://127.0.0.1:27017/scdme","timestamp":"2016-12-05T10:49:24.897Z"}
+{"level":"info","message":"./rt/dMaster :  OK. Connected to mongodb...","timestamp":"2016-12-05T10:49:24.897Z"}
+{"meta":"","level":"info","message":"./rt/dMaster : ","timestamp":"2016-12-05T10:49:24.897Z"}
+{"level":"info","message":"./rt/dMaster :  Start dMaster","timestamp":"2016-12-05T10:49:25.906Z"}
+{"level":"info","message":"./rt/dMaster :  Connecting to mongodb://127.0.0.1:27017/scdme","timestamp":"2016-12-05T10:49:25.908Z"}
+{"level":"info","message":"./rt/dMaster :  OK. Connected to mongodb...","timestamp":"2016-12-05T10:49:25.909Z"}
+{"meta":"","level":"info","message":"./rt/dMaster : ","timestamp":"2016-12-05T10:49:25.911Z"}
+{"level":"info","message":"Stop module  dMaster","timestamp":"2016-12-05T10:49:35.846Z"}
+{"code":null,"signal":"SIGTERM","level":"info","message":"Process ./rt/dMaster closed","timestamp":"2016-12-05T10:49:35.867Z"}
+{"level":"info","message":"Start module  dMaster","timestamp":"2016-12-05T10:49:47.620Z"}
+{"level":"info","message":"Process ./rt/dMaster online","timestamp":"2016-12-05T10:49:47.882Z"}
+{"level":"info","message":"./rt/dMaster :  Start dMaster","timestamp":"2016-12-05T10:49:49.320Z"}
+{"level":"info","message":"./rt/dMaster :  Connecting to mongodb://127.0.0.1:27017/scdme","timestamp":"2016-12-05T10:49:49.321Z"}
+{"level":"info","message":"./rt/dMaster :  OK. Connected to mongodb...","timestamp":"2016-12-05T10:49:49.321Z"}
+{"meta":"","level":"info","message":"./rt/dMaster : ","timestamp":"2016-12-05T10:49:49.322Z"}
+{"level":"info","message":"Stop module  dMaster","timestamp":"2016-12-05T10:49:54.326Z"}
+{"code":null,"signal":"SIGTERM","level":"info","message":"Process ./rt/dMaster closed","timestamp":"2016-12-05T10:49:54.345Z"}
+{"level":"info","message":"Start module  dMaster","timestamp":"2016-12-05T10:49:55.020Z"}
+{"level":"info","message":"Process ./rt/dMaster online","timestamp":"2016-12-05T10:49:55.237Z"}
+{"level":"info","message":"./rt/dMaster :  Start dMaster","timestamp":"2016-12-05T10:49:55.629Z"}
+{"level":"info","message":"./rt/dMaster :  Connecting to mongodb://127.0.0.1:27017/scdme","timestamp":"2016-12-05T10:49:55.630Z"}
+{"level":"info","message":"./rt/dMaster :  OK. Connected to mongodb...","timestamp":"2016-12-05T10:49:55.630Z"}
+{"meta":"","level":"info","message":"./rt/dMaster : ","timestamp":"2016-12-05T10:49:55.631Z"}
+{"level":"info","message":"./rt/dMaster :  Start dMaster","timestamp":"2016-12-05T10:49:56.645Z"}
+{"level":"info","message":"./rt/dMaster :  Connecting to mongodb://127.0.0.1:27017/scdme","timestamp":"2016-12-05T10:49:56.646Z"}
+{"level":"info","message":"./rt/dMaster :  OK. Connected to mongodb...","timestamp":"2016-12-05T10:49:56.647Z"}
+{"meta":"","level":"info","message":"./rt/dMaster : ","timestamp":"2016-12-05T10:49:56.647Z"}
+{"level":"info","message":"Stop module  dMaster","timestamp":"2016-12-05T10:52:06.332Z"}
+{"code":null,"signal":"SIGTERM","level":"info","message":"Process ./rt/dMaster closed","timestamp":"2016-12-05T10:52:06.362Z"}
+{"level":"info","message":"Start module  dMaster","timestamp":"2016-12-05T10:52:06.995Z"}
+{"level":"info","message":"Process ./rt/dMaster online","timestamp":"2016-12-05T10:52:07.295Z"}
+{"level":"info","message":"./rt/dMaster :  Start dMaster","timestamp":"2016-12-05T10:52:07.818Z"}
+{"level":"info","message":"./rt/dMaster :  Connecting to mongodb://127.0.0.1:27017/scdme","timestamp":"2016-12-05T10:52:07.818Z"}
+{"level":"info","message":"./rt/dMaster :  OK. Connected to mongodb...","timestamp":"2016-12-05T10:52:07.819Z"}
+{"meta":"","level":"info","message":"./rt/dMaster : ","timestamp":"2016-12-05T10:52:07.820Z"}
+{"level":"info","message":"./rt/dMaster :  Start dMaster","timestamp":"2016-12-05T10:52:07.820Z"}
+{"level":"info","message":"./rt/dMaster :  Connecting to mongodb://127.0.0.1:27017/scdme","timestamp":"2016-12-05T10:52:07.821Z"}
+{"level":"info","message":"./rt/dMaster :  OK. Connected to mongodb...","timestamp":"2016-12-05T10:52:07.821Z"}
+{"meta":"","level":"info","message":"./rt/dMaster : ","timestamp":"2016-12-05T10:52:07.822Z"}
+{"level":"info","message":"./rt/dMaster :  Start dMaster","timestamp":"2016-12-05T10:52:08.837Z"}
+{"level":"info","message":"./rt/dMaster :  Connecting to mongodb://127.0.0.1:27017/scdme","timestamp":"2016-12-05T10:52:08.838Z"}
+{"level":"info","message":"./rt/dMaster :  OK. Connected to mongodb...","timestamp":"2016-12-05T10:52:08.838Z"}
+{"meta":"","level":"info","message":"./rt/dMaster : ","timestamp":"2016-12-05T10:52:08.842Z"}
+{"level":"info","message":"Stop module  dMaster","timestamp":"2016-12-05T10:53:54.243Z"}
+{"code":null,"signal":"SIGTERM","level":"info","message":"Process ./rt/dMaster closed","timestamp":"2016-12-05T10:53:54.258Z"}
+{"level":"info","message":"Start module  dMaster","timestamp":"2016-12-05T10:53:54.733Z"}
+{"level":"info","message":"Process ./rt/dMaster online","timestamp":"2016-12-05T10:53:54.962Z"}
+{"level":"info","message":"./rt/dMaster :  Start dMaster","timestamp":"2016-12-05T10:53:55.561Z"}
+{"level":"info","message":"./rt/dMaster :  Connecting to mongodb://127.0.0.1:27017/scdme","timestamp":"2016-12-05T10:53:55.561Z"}
+{"level":"info","message":"./rt/dMaster :  OK. Connected to mongodb...","timestamp":"2016-12-05T10:53:55.561Z"}
+{"meta":"","level":"info","message":"./rt/dMaster : ","timestamp":"2016-12-05T10:53:55.563Z"}
+{"level":"info","message":"./rt/dMaster :  Start dMaster","timestamp":"2016-12-05T10:53:55.563Z"}
+{"level":"info","message":"./rt/dMaster :  Connecting to mongodb://127.0.0.1:27017/scdme","timestamp":"2016-12-05T10:53:55.565Z"}
+{"level":"info","message":"./rt/dMaster :  OK. Connected to mongodb...","timestamp":"2016-12-05T10:53:55.566Z"}
+{"meta":"","level":"info","message":"./rt/dMaster : ","timestamp":"2016-12-05T10:53:55.568Z"}
+{"level":"info","message":"./rt/dMaster :  Start dMaster","timestamp":"2016-12-05T10:53:55.569Z"}
+{"level":"info","message":"./rt/dMaster :  Connecting to mongodb://127.0.0.1:27017/scdme","timestamp":"2016-12-05T10:53:55.570Z"}
+{"level":"info","message":"./rt/dMaster :  OK. Connected to mongodb...","timestamp":"2016-12-05T10:53:55.570Z"}
+{"meta":"","level":"info","message":"./rt/dMaster : ","timestamp":"2016-12-05T10:53:55.573Z"}
+{"level":"info","message":"./rt/dMaster :  Start dMaster","timestamp":"2016-12-05T10:53:56.596Z"}
+{"level":"info","message":"./rt/dMaster :  Connecting to mongodb://127.0.0.1:27017/scdme","timestamp":"2016-12-05T10:53:56.596Z"}
+{"level":"info","message":"./rt/dMaster :  OK. Connected to mongodb...","timestamp":"2016-12-05T10:53:56.597Z"}
+{"level":"info","message":"Stop module  dMaster","timestamp":"2016-12-05T10:54:09.384Z"}
+{"code":null,"signal":"SIGTERM","level":"info","message":"Process ./rt/dMaster closed","timestamp":"2016-12-05T10:54:09.421Z"}
+{"level":"info","message":"Start module  dMaster","timestamp":"2016-12-05T10:54:10.046Z"}
+{"level":"info","message":"Process ./rt/dMaster online","timestamp":"2016-12-05T10:54:10.350Z"}
+{"level":"info","message":"./rt/dMaster :  Start dMaster","timestamp":"2016-12-05T10:54:10.806Z"}
+{"level":"info","message":"./rt/dMaster :  Connecting to mongodb://127.0.0.1:27017/scdme","timestamp":"2016-12-05T10:54:10.806Z"}
+{"level":"info","message":"./rt/dMaster :  OK. Connected to mongodb...","timestamp":"2016-12-05T10:54:10.807Z"}
+{"meta":"","level":"info","message":"./rt/dMaster : ","timestamp":"2016-12-05T10:54:10.808Z"}
+{"level":"info","message":"./rt/dMaster :  Start dMaster","timestamp":"2016-12-05T10:54:10.808Z"}
+{"level":"info","message":"./rt/dMaster :  Connecting to mongodb://127.0.0.1:27017/scdme","timestamp":"2016-12-05T10:54:10.808Z"}
+{"level":"info","message":"./rt/dMaster :  OK. Connected to mongodb...","timestamp":"2016-12-05T10:54:10.809Z"}
+{"meta":"","level":"info","message":"./rt/dMaster : ","timestamp":"2016-12-05T10:54:10.809Z"}
+{"level":"info","message":"./rt/dMaster :  Start dMaster","timestamp":"2016-12-05T10:54:10.810Z"}
+{"level":"info","message":"./rt/dMaster :  Connecting to mongodb://127.0.0.1:27017/scdme","timestamp":"2016-12-05T10:54:10.810Z"}
+{"level":"info","message":"./rt/dMaster :  OK. Connected to mongodb...","timestamp":"2016-12-05T10:54:10.811Z"}
+{"meta":"","level":"info","message":"./rt/dMaster : ","timestamp":"2016-12-05T10:54:10.812Z"}
+{"level":"info","message":"./rt/dMaster :  Start dMaster","timestamp":"2016-12-05T10:54:10.813Z"}
+{"level":"info","message":"./rt/dMaster :  Connecting to mongodb://127.0.0.1:27017/scdme","timestamp":"2016-12-05T10:54:10.813Z"}
+{"level":"info","message":"./rt/dMaster :  OK. Connected to mongodb...","timestamp":"2016-12-05T10:54:10.814Z"}
+{"level":"info","message":"./rt/dMaster :  Start dMaster","timestamp":"2016-12-05T10:54:11.827Z"}
+{"level":"info","message":"./rt/dMaster :  Connecting to mongodb://127.0.0.1:27017/scdme","timestamp":"2016-12-05T10:54:11.828Z"}
+{"level":"info","message":"./rt/dMaster :  OK. Connected to mongodb...","timestamp":"2016-12-05T10:54:11.828Z"}
+{"meta":"","level":"info","message":"./rt/dMaster : ","timestamp":"2016-12-05T10:54:11.830Z"}
+{"level":"info","message":"Start service","timestamp":"2016-12-05T10:56:06.444Z"}
+{"level":"info","message":"Web service loaded","timestamp":"2016-12-05T10:56:06.758Z"}
+{"level":"info","message":"Websocket loaded","timestamp":"2016-12-05T10:56:07.019Z"}
+{"level":"info","message":"Total records in data - 0","timestamp":"2016-12-05T10:56:07.508Z"}
+{"id":"584521ec24fd773b5c2b81c8","name":"test","path":"teset","state":"0","rule":{},"args":{"str":"test"},"level":"info","message":"","timestamp":"2016-12-05T10:56:07.509Z"}
+{"id":"584522f30afa4735fc7335c5","name":"dMaster","path":"./rt/dMaster","state":"0","rule":{},"args":{"str":"gg44"},"level":"info","message":"","timestamp":"2016-12-05T10:56:07.510Z"}
+{"id":"584523bc0afa4735fc7335c6","name":"12","path":"12","state":"0","rule":{},"args":{"str":"12"},"level":"info","message":"","timestamp":"2016-12-05T10:56:07.510Z"}
+{"id":"584523f90afa4735fc7335c7","name":"987","path":"987","state":"0","rule":{},"args":{"str":"987"},"level":"info","message":"","timestamp":"2016-12-05T10:56:07.510Z"}
+{"id":"58452a26e201741794699e81","name":"76","path":"76","state":"0","rule":{},"args":{"str":"76"},"level":"info","message":"","timestamp":"2016-12-05T10:56:07.510Z"}
+{"level":"info","message":"Start module  dMaster","timestamp":"2016-12-05T10:56:14.067Z"}
+{"level":"info","message":"Process ./rt/dMaster online","timestamp":"2016-12-05T10:56:14.439Z"}
+{"level":"info","message":"Stop module  dMaster","timestamp":"2016-12-05T10:56:29.553Z"}
+{"code":1,"signal":null,"level":"info","message":"Process ./rt/dMaster closed","timestamp":"2016-12-05T10:56:40.056Z"}
+{"level":"info","message":"Start service","timestamp":"2016-12-05T10:57:31.892Z"}
+{"level":"info","message":"Web service loaded","timestamp":"2016-12-05T10:57:32.187Z"}
+{"level":"info","message":"Websocket loaded","timestamp":"2016-12-05T10:57:32.476Z"}
+{"level":"info","message":"Start service","timestamp":"2016-12-05T11:37:36.271Z"}
+{"level":"info","message":"Web service loaded","timestamp":"2016-12-05T11:37:36.665Z"}
+{"level":"info","message":"Websocket loaded","timestamp":"2016-12-05T11:37:36.959Z"}
+{"level":"info","message":"Total records in data - 0","timestamp":"2016-12-05T11:37:37.428Z"}
+{"id":"584521ec24fd773b5c2b81c8","name":"test","path":"teset","state":"0","rule":{},"args":{"str":"test"},"level":"info","message":"","timestamp":"2016-12-05T11:37:37.429Z"}
+{"id":"584522f30afa4735fc7335c5","name":"dMaster","path":"./rt/dMaster","state":"0","rule":{},"args":{"str":"gg44"},"level":"info","message":"","timestamp":"2016-12-05T11:37:37.429Z"}
+{"id":"584523bc0afa4735fc7335c6","name":"12","path":"12","state":"0","rule":{},"args":{"str":"12"},"level":"info","message":"","timestamp":"2016-12-05T11:37:37.429Z"}
+{"id":"584523f90afa4735fc7335c7","name":"987","path":"987","state":"0","rule":{},"args":{"str":"987"},"level":"info","message":"","timestamp":"2016-12-05T11:37:37.430Z"}
+{"id":"58452a26e201741794699e81","name":"76","path":"76","state":"0","rule":{},"args":{"str":"76"},"level":"info","message":"","timestamp":"2016-12-05T11:37:37.430Z"}
+{"level":"info","message":"Edit module {\"id\":\"584523bc0afa4735fc7335c6\",\"name\":\"dProccer\",\"desc\":\"\",\"path\":\"./rt/dProccer\",\"args\":\"12\"}","timestamp":"2016-12-05T11:38:02.805Z"}
+{"id":"584521ec24fd773b5c2b81c8","name":"test","path":"teset","state":"0","rule":{},"args":{"str":"test"},"level":"info","message":"","timestamp":"2016-12-05T11:38:02.823Z"}
+{"id":"584522f30afa4735fc7335c5","name":"dMaster","path":"./rt/dMaster","state":"0","rule":{},"args":{"str":"gg44"},"level":"info","message":"","timestamp":"2016-12-05T11:38:02.823Z"}
+{"id":"584523bc0afa4735fc7335c6","name":"dProccer","path":"./rt/dProccer","state":"0","rule":{},"args":{"str":"12"},"level":"info","message":"","timestamp":"2016-12-05T11:38:02.824Z"}
+{"id":"584523f90afa4735fc7335c7","name":"987","path":"987","state":"0","rule":{},"args":{"str":"987"},"level":"info","message":"","timestamp":"2016-12-05T11:38:02.824Z"}
+{"id":"58452a26e201741794699e81","name":"76","path":"76","state":"0","rule":{},"args":{"str":"76"},"level":"info","message":"","timestamp":"2016-12-05T11:38:02.825Z"}
+{"level":"info","message":"Total records in data - 0","timestamp":"2016-12-05T11:38:02.826Z"}
+{"level":"info","message":"Edit module {\"id\":\"584523bc0afa4735fc7335c6\",\"name\":\"dProccer\",\"desc\":\"\",\"path\":\"./rt/dProccer\",\"args\":\"12\"}","timestamp":"2016-12-05T11:38:27.162Z"}
+{"level":"info","message":"Total records in data - 0","timestamp":"2016-12-05T11:38:27.173Z"}
+{"id":"584521ec24fd773b5c2b81c8","name":"test","path":"teset","state":"0","rule":{},"args":{"str":"test"},"level":"info","message":"","timestamp":"2016-12-05T11:38:27.178Z"}
+{"id":"584522f30afa4735fc7335c5","name":"dMaster","path":"./rt/dMaster","state":"0","rule":{},"args":{"str":"gg44"},"level":"info","message":"","timestamp":"2016-12-05T11:38:27.179Z"}
+{"id":"584523bc0afa4735fc7335c6","name":"dProccer","path":"./rt/dProccer","state":"0","rule":{},"args":{"str":"12"},"level":"info","message":"","timestamp":"2016-12-05T11:38:27.179Z"}
+{"id":"584523f90afa4735fc7335c7","name":"987","path":"987","state":"0","rule":{},"args":{"str":"987"},"level":"info","message":"","timestamp":"2016-12-05T11:38:27.180Z"}
+{"id":"58452a26e201741794699e81","name":"76","path":"76","state":"0","rule":{},"args":{"str":"76"},"level":"info","message":"","timestamp":"2016-12-05T11:38:27.181Z"}
+{"level":"info","message":"Edit module {\"id\":\"584523bc0afa4735fc7335c6\",\"name\":\"dProccer\",\"desc\":\"\",\"path\":\"./rt/dProccer\",\"args\":\"12\"}","timestamp":"2016-12-05T11:38:40.251Z"}
+{"level":"info","message":"Total records in data - 0","timestamp":"2016-12-05T11:38:40.254Z"}
+{"id":"584521ec24fd773b5c2b81c8","name":"test","path":"teset","state":"0","rule":{},"args":{"str":"test"},"level":"info","message":"","timestamp":"2016-12-05T11:38:40.256Z"}
+{"id":"584522f30afa4735fc7335c5","name":"dMaster","path":"./rt/dMaster","state":"0","rule":{},"args":{"str":"gg44"},"level":"info","message":"","timestamp":"2016-12-05T11:38:40.256Z"}
+{"id":"584523bc0afa4735fc7335c6","name":"dProccer","path":"./rt/dProccer","state":"0","rule":{},"args":{"str":"12"},"level":"info","message":"","timestamp":"2016-12-05T11:38:40.257Z"}
+{"id":"584523f90afa4735fc7335c7","name":"987","path":"987","state":"0","rule":{},"args":{"str":"987"},"level":"info","message":"","timestamp":"2016-12-05T11:38:40.257Z"}
+{"id":"58452a26e201741794699e81","name":"76","path":"76","state":"0","rule":{},"args":{"str":"76"},"level":"info","message":"","timestamp":"2016-12-05T11:38:40.257Z"}
+{"level":"info","message":"Edit module {\"id\":\"584523bc0afa4735fc7335c6\",\"name\":\"dProccer\",\"desc\":\"\",\"path\":\"./rt/dProccer\",\"args\":\"12\"}","timestamp":"2016-12-05T11:40:37.713Z"}
+{"level":"info","message":"Total records in data - 0","timestamp":"2016-12-05T11:40:37.719Z"}
+{"id":"584521ec24fd773b5c2b81c8","name":"test","path":"teset","state":"0","rule":{},"args":{"str":"test"},"level":"info","message":"","timestamp":"2016-12-05T11:40:37.722Z"}
+{"id":"584522f30afa4735fc7335c5","name":"dMaster","path":"./rt/dMaster","state":"0","rule":{},"args":{"str":"gg44"},"level":"info","message":"","timestamp":"2016-12-05T11:40:37.722Z"}
+{"id":"584523bc0afa4735fc7335c6","name":"dProccer","path":"./rt/dProccer","state":"0","rule":{},"args":{"str":"12"},"level":"info","message":"","timestamp":"2016-12-05T11:40:37.723Z"}
+{"id":"584523f90afa4735fc7335c7","name":"987","path":"987","state":"0","rule":{},"args":{"str":"987"},"level":"info","message":"","timestamp":"2016-12-05T11:40:37.723Z"}
+{"id":"58452a26e201741794699e81","name":"76","path":"76","state":"0","rule":{},"args":{"str":"76"},"level":"info","message":"","timestamp":"2016-12-05T11:40:37.723Z"}
+{"level":"info","message":"Edit module {\"id\":\"584523bc0afa4735fc7335c6\",\"name\":\"dProccer\",\"desc\":\"\",\"path\":\"./rt/dProccer\",\"args\":\"12\"}","timestamp":"2016-12-05T11:40:40.078Z"}
+{"level":"info","message":"Total records in data - 0","timestamp":"2016-12-05T11:40:40.080Z"}
+{"id":"584521ec24fd773b5c2b81c8","name":"test","path":"teset","state":"0","rule":{},"args":{"str":"test"},"level":"info","message":"","timestamp":"2016-12-05T11:40:40.081Z"}
+{"id":"584522f30afa4735fc7335c5","name":"dMaster","path":"./rt/dMaster","state":"0","rule":{},"args":{"str":"gg44"},"level":"info","message":"","timestamp":"2016-12-05T11:40:40.081Z"}
+{"id":"584523bc0afa4735fc7335c6","name":"dProccer","path":"./rt/dProccer","state":"0","rule":{},"args":{"str":"12"},"level":"info","message":"","timestamp":"2016-12-05T11:40:40.082Z"}
+{"id":"584523f90afa4735fc7335c7","name":"987","path":"987","state":"0","rule":{},"args":{"str":"987"},"level":"info","message":"","timestamp":"2016-12-05T11:40:40.082Z"}
+{"id":"58452a26e201741794699e81","name":"76","path":"76","state":"0","rule":{},"args":{"str":"76"},"level":"info","message":"","timestamp":"2016-12-05T11:40:40.083Z"}
+{"level":"info","message":"Edit module {\"id\":\"584523bc0afa4735fc7335c6\",\"name\":\"dProccer\",\"desc\":\"\",\"path\":\"./rt/dProccer\",\"args\":\"12\"}","timestamp":"2016-12-05T11:40:47.917Z"}
+{"level":"info","message":"Edit module {\"id\":\"584523bc0afa4735fc7335c6\",\"name\":\"dProccer\",\"desc\":\"\",\"path\":\"./rt/dProccer\",\"args\":\"12\"}","timestamp":"2016-12-05T11:40:47.920Z"}
+{"level":"info","message":"Total records in data - 0","timestamp":"2016-12-05T11:40:47.924Z"}
+{"id":"584521ec24fd773b5c2b81c8","name":"test","path":"teset","state":"0","rule":{},"args":{"str":"test"},"level":"info","message":"","timestamp":"2016-12-05T11:40:47.928Z"}
+{"id":"584522f30afa4735fc7335c5","name":"dMaster","path":"./rt/dMaster","state":"0","rule":{},"args":{"str":"gg44"},"level":"info","message":"","timestamp":"2016-12-05T11:40:47.929Z"}
+{"id":"584523bc0afa4735fc7335c6","name":"dProccer","path":"./rt/dProccer","state":"0","rule":{},"args":{"str":"12"},"level":"info","message":"","timestamp":"2016-12-05T11:40:47.929Z"}
+{"id":"584523f90afa4735fc7335c7","name":"987","path":"987","state":"0","rule":{},"args":{"str":"987"},"level":"info","message":"","timestamp":"2016-12-05T11:40:47.930Z"}
+{"id":"58452a26e201741794699e81","name":"76","path":"76","state":"0","rule":{},"args":{"str":"76"},"level":"info","message":"","timestamp":"2016-12-05T11:40:47.930Z"}
+{"id":"584521ec24fd773b5c2b81c8","name":"test","path":"teset","state":"0","rule":{},"args":{"str":"test"},"level":"info","message":"","timestamp":"2016-12-05T11:40:47.932Z"}
+{"id":"584522f30afa4735fc7335c5","name":"dMaster","path":"./rt/dMaster","state":"0","rule":{},"args":{"str":"gg44"},"level":"info","message":"","timestamp":"2016-12-05T11:40:47.933Z"}
+{"id":"584523bc0afa4735fc7335c6","name":"dProccer","path":"./rt/dProccer","state":"0","rule":{},"args":{"str":"12"},"level":"info","message":"","timestamp":"2016-12-05T11:40:47.933Z"}
+{"id":"584523f90afa4735fc7335c7","name":"987","path":"987","state":"0","rule":{},"args":{"str":"987"},"level":"info","message":"","timestamp":"2016-12-05T11:40:47.934Z"}
+{"id":"58452a26e201741794699e81","name":"76","path":"76","state":"0","rule":{},"args":{"str":"76"},"level":"info","message":"","timestamp":"2016-12-05T11:40:47.936Z"}
+{"level":"info","message":"Total records in data - 0","timestamp":"2016-12-05T11:40:47.937Z"}
+{"level":"info","message":"Start module  dProccer","timestamp":"2016-12-05T11:45:33.105Z"}
+{"level":"info","message":"Process ./rt/dProccer online","timestamp":"2016-12-05T11:45:33.533Z"}
+{"code":1,"signal":null,"level":"info","message":"Process ./rt/dProccer closed","timestamp":"2016-12-05T11:45:33.622Z"}
+{"level":"info","message":"Start service","timestamp":"2016-12-05T11:46:19.841Z"}
+{"level":"info","message":"Web service loaded","timestamp":"2016-12-05T11:46:20.153Z"}
+{"level":"info","message":"Websocket loaded","timestamp":"2016-12-05T11:46:20.429Z"}
+{"level":"info","message":"Total records in data - 0","timestamp":"2016-12-05T11:46:20.948Z"}
+{"id":"584521ec24fd773b5c2b81c8","name":"test","path":"teset","state":"0","rule":{},"args":{"str":"test"},"level":"info","message":"","timestamp":"2016-12-05T11:46:20.950Z"}
+{"id":"584522f30afa4735fc7335c5","name":"dMaster","path":"./rt/dMaster","state":"0","rule":{},"args":{"str":"gg44"},"level":"info","message":"","timestamp":"2016-12-05T11:46:20.950Z"}
+{"id":"584523bc0afa4735fc7335c6","name":"dProccer","path":"./rt/dProccer","state":"0","rule":{},"args":{"str":"12"},"level":"info","message":"","timestamp":"2016-12-05T11:46:20.950Z"}
+{"id":"584523f90afa4735fc7335c7","name":"987","path":"987","state":"0","rule":{},"args":{"str":"987"},"level":"info","message":"","timestamp":"2016-12-05T11:46:20.951Z"}
+{"id":"58452a26e201741794699e81","name":"76","path":"76","state":"0","rule":{},"args":{"str":"76"},"level":"info","message":"","timestamp":"2016-12-05T11:46:20.951Z"}
+{"level":"info","message":"Start module  dProccer","timestamp":"2016-12-05T11:50:49.805Z"}
+{"level":"info","message":"Process ./rt/dProccer online","timestamp":"2016-12-05T11:50:50.155Z"}
+{"code":1,"signal":null,"level":"info","message":"Process ./rt/dProccer closed","timestamp":"2016-12-05T11:50:50.243Z"}
+{"level":"info","message":"Start module  dProccer","timestamp":"2016-12-05T11:50:51.454Z"}
+{"level":"info","message":"Process ./rt/dProccer online","timestamp":"2016-12-05T11:50:51.798Z"}
+{"code":1,"signal":null,"level":"info","message":"Process ./rt/dProccer closed","timestamp":"2016-12-05T11:50:51.889Z"}
+{"level":"info","message":"Start module  dProccer","timestamp":"2016-12-05T11:50:52.983Z"}
+{"level":"info","message":"Process ./rt/dProccer online","timestamp":"2016-12-05T11:50:53.326Z"}
+{"code":1,"signal":null,"level":"info","message":"Process ./rt/dProccer closed","timestamp":"2016-12-05T11:50:53.409Z"}
+{"level":"info","message":"Start module  dProccer","timestamp":"2016-12-05T11:50:54.383Z"}
+{"level":"info","message":"Process ./rt/dProccer online","timestamp":"2016-12-05T11:50:54.703Z"}
+{"code":1,"signal":null,"level":"info","message":"Process ./rt/dProccer closed","timestamp":"2016-12-05T11:50:54.792Z"}
+{"level":"info","message":"Start module  dProccer","timestamp":"2016-12-05T11:50:59.737Z"}
+{"level":"info","message":"Process ./rt/dProccer online","timestamp":"2016-12-05T11:51:00.040Z"}
+{"code":1,"signal":null,"level":"info","message":"Process ./rt/dProccer closed","timestamp":"2016-12-05T11:51:00.128Z"}
+{"level":"info","message":"Start module  dProccer","timestamp":"2016-12-05T11:51:01.017Z"}
+{"level":"info","message":"Process ./rt/dProccer online","timestamp":"2016-12-05T11:51:01.334Z"}
+{"code":1,"signal":null,"level":"info","message":"Process ./rt/dProccer closed","timestamp":"2016-12-05T11:51:01.423Z"}
+{"level":"info","message":"Start module  987","timestamp":"2016-12-05T11:51:01.873Z"}
+{"level":"info","message":"Process 987 online","timestamp":"2016-12-05T11:51:02.208Z"}
+{"code":1,"signal":null,"level":"info","message":"Process 987 closed","timestamp":"2016-12-05T11:51:02.305Z"}
+{"level":"info","message":"Start module  76","timestamp":"2016-12-05T11:51:02.560Z"}
+{"level":"info","message":"Process 76 online","timestamp":"2016-12-05T11:51:02.865Z"}
+{"code":1,"signal":null,"level":"info","message":"Process 76 closed","timestamp":"2016-12-05T11:51:02.953Z"}
+{"level":"info","message":"Start module  987","timestamp":"2016-12-05T11:51:03.234Z"}
+{"level":"info","message":"Process 987 online","timestamp":"2016-12-05T11:51:03.543Z"}
+{"code":1,"signal":null,"level":"info","message":"Process 987 closed","timestamp":"2016-12-05T11:51:03.629Z"}
+{"level":"info","message":"Start module  dProccer","timestamp":"2016-12-05T11:51:04.511Z"}
+{"level":"info","message":"Process ./rt/dProccer online","timestamp":"2016-12-05T11:51:04.838Z"}
+{"level":"info","message":"Start module  987","timestamp":"2016-12-05T11:51:04.897Z"}
+{"code":1,"signal":null,"level":"info","message":"Process ./rt/dProccer closed","timestamp":"2016-12-05T11:51:04.936Z"}
+{"level":"info","message":"Process 987 online","timestamp":"2016-12-05T11:51:05.230Z"}
+{"level":"info","message":"Start module  76","timestamp":"2016-12-05T11:51:05.262Z"}
+{"code":1,"signal":null,"level":"info","message":"Process 987 closed","timestamp":"2016-12-05T11:51:05.321Z"}
+{"level":"info","message":"Process 76 online","timestamp":"2016-12-05T11:51:05.569Z"}
+{"level":"info","message":"Start module  987","timestamp":"2016-12-05T11:51:05.630Z"}
+{"code":1,"signal":null,"level":"info","message":"Process 76 closed","timestamp":"2016-12-05T11:51:05.663Z"}
+{"level":"info","message":"Process 987 online","timestamp":"2016-12-05T11:51:05.955Z"}
+{"level":"info","message":"Start module  dProccer","timestamp":"2016-12-05T11:51:06.031Z"}
+{"code":1,"signal":null,"level":"info","message":"Process 987 closed","timestamp":"2016-12-05T11:51:06.051Z"}
+{"level":"info","message":"Start module  987","timestamp":"2016-12-05T11:51:06.359Z"}
+{"level":"info","message":"Process ./rt/dProccer online","timestamp":"2016-12-05T11:51:06.422Z"}
+{"code":1,"signal":null,"level":"info","message":"Process ./rt/dProccer closed","timestamp":"2016-12-05T11:51:06.518Z"}
+{"level":"info","message":"Start module  76","timestamp":"2016-12-05T11:51:06.648Z"}
+{"level":"info","message":"Process 987 online","timestamp":"2016-12-05T11:51:06.730Z"}
+{"code":1,"signal":null,"level":"info","message":"Process 987 closed","timestamp":"2016-12-05T11:51:06.838Z"}
+{"level":"info","message":"Process 76 online","timestamp":"2016-12-05T11:51:07.028Z"}
+{"level":"info","message":"Start module  987","timestamp":"2016-12-05T11:51:07.040Z"}
+{"code":1,"signal":null,"level":"info","message":"Process 76 closed","timestamp":"2016-12-05T11:51:07.119Z"}
+{"level":"info","message":"Start module  dProccer","timestamp":"2016-12-05T11:51:07.313Z"}
+{"level":"info","message":"Process 987 online","timestamp":"2016-12-05T11:51:07.363Z"}
+{"code":1,"signal":null,"level":"info","message":"Process 987 closed","timestamp":"2016-12-05T11:51:07.464Z"}
+{"level":"info","message":"Process ./rt/dProccer online","timestamp":"2016-12-05T11:51:07.632Z"}
+{"code":1,"signal":null,"level":"info","message":"Process ./rt/dProccer closed","timestamp":"2016-12-05T11:51:07.718Z"}
+{"level":"info","message":"Start service","timestamp":"2016-12-05T11:55:37.391Z"}
+{"level":"info","message":"Web service loaded","timestamp":"2016-12-05T11:55:37.640Z"}
+{"level":"info","message":"Websocket loaded","timestamp":"2016-12-05T11:55:37.844Z"}
+{"level":"info","message":"Total records in data - 0","timestamp":"2016-12-05T11:55:38.256Z"}
+{"id":"584521ec24fd773b5c2b81c8","name":"test","path":"teset","state":"0","rule":{},"args":{"str":"test"},"level":"info","message":"","timestamp":"2016-12-05T11:55:38.259Z"}
+{"id":"584522f30afa4735fc7335c5","name":"dMaster","path":"./rt/dMaster","state":"0","rule":{},"args":{"str":"gg44"},"level":"info","message":"","timestamp":"2016-12-05T11:55:38.259Z"}
+{"id":"584523bc0afa4735fc7335c6","name":"dProccer","path":"./rt/dProccer","state":"0","rule":{},"args":{"str":"12"},"level":"info","message":"","timestamp":"2016-12-05T11:55:38.259Z"}
+{"id":"584523f90afa4735fc7335c7","name":"987","path":"987","state":"0","rule":{},"args":{"str":"987"},"level":"info","message":"","timestamp":"2016-12-05T11:55:38.260Z"}
+{"id":"58452a26e201741794699e81","name":"76","path":"76","state":"0","rule":{},"args":{"str":"76"},"level":"info","message":"","timestamp":"2016-12-05T11:55:38.260Z"}
+{"level":"info","message":"Start module  dMaster","timestamp":"2016-12-05T11:55:58.997Z"}
+{"level":"info","message":"Process ./rt/dMaster online","timestamp":"2016-12-05T11:55:59.223Z"}
+{"level":"info","message":"./rt/dMaster :  Start dMaster","timestamp":"2016-12-05T11:55:59.698Z"}
+{"level":"info","message":"./rt/dMaster :  Connecting to mongodb://127.0.0.1:27017/scdme","timestamp":"2016-12-05T11:55:59.698Z"}
+{"level":"info","message":"./rt/dMaster :  OK. Connected to mongodb...","timestamp":"2016-12-05T11:55:59.698Z"}
+{"meta":"","level":"info","message":"./rt/dMaster : ","timestamp":"2016-12-05T11:55:59.699Z"}
+{"level":"info","message":"./rt/dMaster :  Start dMaster","timestamp":"2016-12-05T11:55:59.700Z"}
+{"level":"info","message":"./rt/dMaster :  Connecting to mongodb://127.0.0.1:27017/scdme","timestamp":"2016-12-05T11:55:59.700Z"}
+{"level":"info","message":"./rt/dMaster :  OK. Connected to mongodb...","timestamp":"2016-12-05T11:55:59.700Z"}
+{"meta":"","level":"info","message":"./rt/dMaster : ","timestamp":"2016-12-05T11:55:59.701Z"}
+{"level":"info","message":"./rt/dMaster :  Start dMaster","timestamp":"2016-12-05T11:55:59.701Z"}
+{"level":"info","message":"./rt/dMaster :  Connecting to mongodb://127.0.0.1:27017/scdme","timestamp":"2016-12-05T11:55:59.701Z"}
+{"level":"info","message":"./rt/dMaster :  OK. Connected to mongodb...","timestamp":"2016-12-05T11:55:59.701Z"}
+{"meta":"","level":"info","message":"./rt/dMaster : ","timestamp":"2016-12-05T11:55:59.702Z"}
+{"level":"info","message":"./rt/dMaster :  Start dMaster","timestamp":"2016-12-05T11:55:59.702Z"}
+{"level":"info","message":"./rt/dMaster :  Connecting to mongodb://127.0.0.1:27017/scdme","timestamp":"2016-12-05T11:55:59.702Z"}
+{"level":"info","message":"./rt/dMaster :  OK. Connected to mongodb...","timestamp":"2016-12-05T11:55:59.703Z"}
+{"level":"info","message":"./rt/dMaster :  Start dMaster","timestamp":"2016-12-05T11:55:59.703Z"}
+{"level":"info","message":"./rt/dMaster :  Connecting to mongodb://127.0.0.1:27017/scdme","timestamp":"2016-12-05T11:55:59.703Z"}
+{"level":"info","message":"./rt/dMaster :  OK. Connected to mongodb...","timestamp":"2016-12-05T11:55:59.704Z"}
+{"meta":"","level":"info","message":"./rt/dMaster : ","timestamp":"2016-12-05T11:55:59.705Z"}
+{"level":"info","message":"./rt/dMaster :  Start dMaster","timestamp":"2016-12-05T11:55:59.705Z"}
+{"level":"info","message":"./rt/dMaster :  Connecting to mongodb://127.0.0.1:27017/scdme","timestamp":"2016-12-05T11:55:59.705Z"}
+{"level":"info","message":"./rt/dMaster :  OK. Connected to mongodb...","timestamp":"2016-12-05T11:55:59.705Z"}
+{"meta":"","level":"info","message":"./rt/dMaster : ","timestamp":"2016-12-05T11:55:59.706Z"}
+{"level":"info","message":"./rt/dMaster :  Start dMaster","timestamp":"2016-12-05T11:55:59.706Z"}
+{"level":"info","message":"./rt/dMaster :  Connecting to mongodb://127.0.0.1:27017/scdme","timestamp":"2016-12-05T11:55:59.707Z"}
+{"level":"info","message":"./rt/dMaster :  Start dMaster","timestamp":"2016-12-05T11:55:59.708Z"}
+{"level":"info","message":"./rt/dMaster :  Connecting to mongodb://127.0.0.1:27017/scdme","timestamp":"2016-12-05T11:55:59.708Z"}
+{"level":"info","message":"./rt/dMaster :  OK. Connected to mongodb...","timestamp":"2016-12-05T11:55:59.709Z"}
+{"meta":"","level":"info","message":"./rt/dMaster : ","timestamp":"2016-12-05T11:55:59.710Z"}
+{"level":"info","message":"./rt/dMaster :  Start dMaster","timestamp":"2016-12-05T11:55:59.711Z"}
+{"level":"info","message":"./rt/dMaster :  Connecting to mongodb://127.0.0.1:27017/scdme","timestamp":"2016-12-05T11:55:59.711Z"}
+{"level":"info","message":"./rt/dMaster :  OK. Connected to mongodb...","timestamp":"2016-12-05T11:55:59.711Z"}
+{"level":"info","message":"./rt/dMaster :  Start dMaster","timestamp":"2016-12-05T11:55:59.712Z"}
+{"level":"info","message":"./rt/dMaster :  Connecting to mongodb://127.0.0.1:27017/scdme","timestamp":"2016-12-05T11:55:59.712Z"}
+{"level":"info","message":"./rt/dMaster :  OK. Connected to mongodb...","timestamp":"2016-12-05T11:55:59.712Z"}
+{"level":"info","message":"./rt/dMaster :  dta_a_1","timestamp":"2016-12-05T11:55:59.713Z"}
+{"level":"info","message":"./rt/dMaster :  modules","timestamp":"2016-12-05T11:55:59.713Z"}
+{"level":"info","message":"./rt/dMaster :  Start dMaster","timestamp":"2016-12-05T11:55:59.714Z"}
+{"level":"info","message":"./rt/dMaster :  Connecting to mongodb://127.0.0.1:27017/scdme","timestamp":"2016-12-05T11:55:59.714Z"}
+{"level":"info","message":"./rt/dMaster :  OK. Connected to mongodb...","timestamp":"2016-12-05T11:55:59.714Z"}
+{"level":"info","message":"./rt/dMaster :  Reading data-collection for params..","timestamp":"2016-12-05T11:55:59.715Z"}
+{"level":"info","message":"./rt/dMaster :  dta_a_1","timestamp":"2016-12-05T11:55:59.715Z"}
+{"level":"info","message":"./rt/dMaster :  Start dMaster","timestamp":"2016-12-05T11:55:59.716Z"}
+{"level":"info","message":"./rt/dMaster :  Connecting to mongodb://127.0.0.1:27017/scdme","timestamp":"2016-12-05T11:55:59.716Z"}
+{"level":"info","message":"./rt/dMaster :  OK. Connected to mongodb...","timestamp":"2016-12-05T11:55:59.717Z"}
+{"level":"info","message":"./rt/dMaster :  Reading data-collection for params..","timestamp":"2016-12-05T11:55:59.717Z"}
+{"level":"info","message":"./rt/dMaster :  dta_a_1","timestamp":"2016-12-05T11:55:59.717Z"}
+{"level":"info","message":"Stop module  dMaster","timestamp":"2016-12-05T11:56:22.579Z"}
+{"code":null,"signal":"SIGTERM","level":"info","message":"Process ./rt/dMaster closed","timestamp":"2016-12-05T11:56:22.599Z"}

@@ -1,4 +1,5 @@
 const util = require('util');
+const cluster = require('cluster');
 var model={
   modules:[],
   users:[]
@@ -72,6 +73,18 @@ r_modules.events.on('new',(d)=>{
     })
   });
 })
+r_modules.events.on('edit',(d)=>{
+  logger.info('Edit module',JSON.stringify(d));
+  d.args={str:d.args};
+  d.state=0;
+  d.rule={};
+  mongodb.collection('modules').updateOne({_id:new mongo.ObjectID(d.id)},d);
+  loadModules(mongodb,(a)=>{
+    
+      transport.io.json.send({ 'event': 'modules_upd', 'data': a });
+    
+  });
+})
 r_modules.events.on('startstop',(d)=>{
   var m=getbyid(appl.model.modules,d.id);
   if(m.state==0)
@@ -106,7 +119,7 @@ setInterval(function () {
     appl.model.modules[0].state = appl.model.modules[0].state == 0 ? 1 : 0;
     for (var id in cluster.workers) {
       var wrk=cluster.workers[id];
-      logger.info('Modules Info: ',wrk.id);
+      //logger.info('Modules Info: ',wrk.id);
        
     }
     
@@ -237,17 +250,18 @@ var loadModules = function (db, callback) {
     logger.info('Total records in data - '+r);
   });
   // Find some documents
-  winston.profile('mongo read modules');
+
   collection.find({}).each(function (err, docs) {
     assert.equal(err, null);
-    if (docs) {
+    if ((docs)&&(docs.id!=0)) {
       var a = new lmodule({ id: docs._id.toString(), name: docs.name, path: docs.path, state: '0', rule: {}, args: docs.args });
+      getbyfld(cluster.workers,a.id,'mid');
       appl.model.modules.push(a);
       logger.info(a)
-      winston.profile('mongo read modules');
+
     }
     if (callback)
-      callback(docs);
+      callback(a);
   })//.then(function(){winston.profile('mongo read modules');});
 }
 var cnt_bench=0;
@@ -290,7 +304,7 @@ function bench()
 }
 /////supervisor
 
-const cluster = require('cluster');
+
 function supervisor(){
   this.workers=[];
 
@@ -300,6 +314,7 @@ function supervisor(){
     { cluster.setupMaster({
       exec:m.path});
       var wrk=cluster.fork();
+      wrk.mid=m.id;
       wrk.on('exit', (code, signal) => {
         logger.info('Process '+m.path +' closed',{code:code,signal:signal})
          m.wrk_id=-1;
@@ -315,14 +330,15 @@ function supervisor(){
         m.setState(1);
       });
       wrk.on('message', (ms) => {
-        logger.info('Process '+m.path +' message',JSON.stringify(ms))
+        if(ms.type=='log')
+          logger.info(m.path +' : ',ms.data.message)
       });
     
       return wrk;
     } 
   }
   this.remove=(m)=>{
-    if(m.wrk_id!=-1)
+    if((m.wrk_id!=-1)&&(cluster.workers[m.wrk_id]))
       cluster.workers[m.wrk_id].kill();
 
 
@@ -336,6 +352,13 @@ var sup=new supervisor();
 function getbyid(arr, id) {
     for (var i = 0, len = arr.length; i < len; i++) {
       if (arr[i].id == id)
+        return arr[i]; // Return as soon as the object is found
+    }
+    return null;
+  }
+function getbyfld(arr, id,fld='id') {
+    for (var i = 0, len = arr.length; i < len; i++) {
+      if (arr[i][fld] == id)
         return arr[i]; // Return as soon as the object is found
     }
     return null;

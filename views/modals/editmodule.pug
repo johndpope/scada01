@@ -1,0 +1,27 @@
+div(class="modal fade edit-module-mod" tabindex="-1" role="dialog" aria-labelledby="addModLabel")
+  div(class="modal-dialog modal-lg" role="document")
+    div(class="modal-content")
+        div(class="modal-header")
+            button(type="button" class="close" data-dismiss="modal" aria-label="Close")
+                span( aria-hidden="true") &times
+            h4(class="modal-title" id="myModalLabel") Редактирование модуля
+            div(class="modal-body")
+                form
+                    div(class="form-group")
+                        label(for="module-name" class="control-label") Наименование модуля:
+                        input(type="text" class="form-control" id="module-name")
+                    div(class="form-group")
+                        label(for="module-desc" class="control-label") Описание модуля:
+                        textarea(class="form-control" id="module-desc")
+                    div(class="form-group")
+                        label(for="module-path" class="control-label") Исполняемый модуль:
+                        input(type="text" class="form-control" id="module-path") 
+                    div(class="form-group")
+                        label(for="module-args" class="control-label") Параметры запуска:
+                        textarea(class="form-control" id="module-args")
+                div(class="modal-footer")
+                    button(type="button" class="btn btn-default" data-dismiss="modal") Отмена
+                    button(type="button" class="btn btn-primary" id="editmodbut") Изменить модуль
+                
+                
+

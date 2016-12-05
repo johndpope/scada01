@@ -15,8 +15,8 @@
         {
             "type": "node",
             "request": "launch",
-            "name": "Test",
-            "program": "${workspaceRoot}/rt/test.js",
+            "name": "dmaster",
+            "program": "${workspaceRoot}/rt/dmaster.js",
             "cwd": "${workspaceRoot}"
             
         },

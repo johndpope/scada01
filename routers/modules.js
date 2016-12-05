@@ -24,6 +24,12 @@ router.post('/new', function (req, res) {
   res.write('OK');
   res.end();
 });
+router.post('/edit', function (req, res) {
+  var sres = JSON.stringify(router.model.modules);
+  router.events.emit('edit',req.body);
+  res.write('OK');
+  res.end();
+});
 router.post('/delete', function (req, res) {
   router.events.emit('delete',req.body);
   res.write('OK');
