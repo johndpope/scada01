@@ -167,6 +167,14 @@ web.app.get('/download_all_logs',function(req,res){
 });
 
   })
+  web.app.get('/bench',function (req, res) {
+    bench();
+    res.end();
+  })
+    web.app.get('/bench2',function (req, res) {
+    bench_read();
+    res.end();
+  })
 web.app.post('/getlogs', function (req, res) {
   var file = req.body.file;
   if (fs.existsSync('./debug/' + file)) {
@@ -211,6 +219,7 @@ var MongoClient = mongo.MongoClient
   , assert = require('assert');
 // Connection URL
 var url = 'mongodb://cstate.marikun.ru:443/scdme';
+var url = 'mongodb://127.0.0.1:27017/scdme';
 // Use connect method to connect to the server
 winston.profile('mongo connect');
 MongoClient.connect(url, function (err, db) {
@@ -224,6 +233,9 @@ var loadModules = function (db, callback) {
   appl.model.modules=[];
   // Get the documents collection
   var collection = db.collection('modules');
+  db.collection('data').find({}).count((e,r)=>{
+    logger.info('Total records in data - '+r);
+  });
   // Find some documents
   winston.profile('mongo read modules');
   collection.find({}).each(function (err, docs) {
@@ -238,8 +250,44 @@ var loadModules = function (db, callback) {
       callback(docs);
   })//.then(function(){winston.profile('mongo read modules');});
 }
+var cnt_bench=0;
+function bench_read()
+{
+  winston.profile('mongo read data ');
+  mongodb.collection('data').find({"ind":2,"dt":{"$gt":1480684452.100}},(error, result)=>{
+    var aa=result.toArray((error, result)=>{
+    winston.profile('mongo read data ','count '+result.length);
+  });})
+}
+function bench()
+{
+ 
+  var cnt=100000;
+  var cur=0;
+  var d=mongodb.collection('data')
+    setInterval(()=>{
+    transport.io.json.send({ 'event': 'bench', data: {cnt:cnt_bench}});
+    cnt_bench=0;
+  },1000)
+  function add(error, result)
+  {
+    d.insertOne({cat:'I',ind:2,value:cur,dt:Date.now() / 1000},()=>{
+      cnt_bench++;
+        cur++;
+        if(cur<cnt)
+        {
+          add();
+        }
+    });
 
 
+  }
+  process.nextTick(()=>{    
+      d.insertOne({cat:'I',ind:1,value:cur,dt:Date.now() / 1000},add)   
+  });
+
+
+}
 /////supervisor
 
 const cluster = require('cluster');

@@ -26,11 +26,12 @@ window.onload = function () {
 		socket.on('message', function (msg) {
 			// Добавляем в лог сообщение, заменив время, имя и текст на полученные
 			console.log(msg);
-
+			
 			if (functs[msg.event]) {
 				functs[msg.event](msg);
 				return;
 			}
+			dashlog('<span class="$1">'+JSON.stringify(msg.data)+'</span><br>');
 
 
 		

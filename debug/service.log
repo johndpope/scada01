@@ -1891,3 +1891,144 @@
 {"level":"info","message":"Start module  еукеукеук","timestamp":"2016-12-01T11:54:21.646Z"}
 {"level":"info","message":"Process ./fdsdsf/fdsfsd online","timestamp":"2016-12-01T11:54:21.870Z"}
 {"code":1,"signal":null,"level":"info","message":"Process ./fdsdsf/fdsfsd closed","timestamp":"2016-12-01T11:54:21.900Z"}
+{"level":"info","message":"Start service","timestamp":"2016-12-02T10:40:13.665Z"}
+{"level":"info","message":"Web service loaded","timestamp":"2016-12-02T10:40:14.051Z"}
+{"level":"info","message":"Websocket loaded","timestamp":"2016-12-02T10:40:14.399Z"}
+{"date":"Fri Dec 02 2016 13:40:40 GMT+0300 (RTZ 2 (зима))","process":{"pid":17780,"uid":null,"gid":null,"cwd":"d:\\Development\\nodeJS\\scada\\scada01","execPath":"C:\\nodejs\\node.exe","version":"v6.9.1","argv":["C:\\nodejs\\node.exe","d:\\Development\\nodeJS\\scada\\scada01\\app.js"],"memoryUsage":{"rss":66637824,"heapTotal":43749376,"heapUsed":34406016}},"os":{"loadavg":[0,0,0],"uptime":956233.3056972},"trace":[{"column":null,"file":null,"function":"Pool.eventHandler","line":null,"method":"eventHandler","native":false},{"column":10,"file":"d:\\Development\\nodeJS\\scada\\scada01\\app.js","function":null,"line":217,"method":null,"native":false},{"column":5,"file":"d:\\Development\\nodeJS\\scada\\scada01\\node_modules\\mongodb\\lib\\mongo_client.js","function":"connectCallback","line":315,"method":null,"native":false},{"column":11,"file":"d:\\Development\\nodeJS\\scada\\scada01\\node_modules\\mongodb\\lib\\mongo_client.js","function":null,"line":222,"method":null,"native":false},{"column":7,"file":"internal/process/next_tick.js","function":"_combinedTickCallback","line":67,"method":null,"native":false},{"column":9,"file":"internal/process/next_tick.js","function":"process._tickCallback","line":98,"method":"_tickCallback","native":false}],"stack":["AssertionError: null == { MongoError: failed to connect to server [cstate.marikun.ru:443] on first connect","    at Pool.eventHandler (d:\\Development\\node","    at d:\\Development\\nodeJS\\scada\\scada01\\app.js:217:10","    at connectCallback (d:\\Development\\nodeJS\\scada\\scada01\\node_modules\\mongodb\\lib\\mongo_client.js:315:5)","    at d:\\Development\\nodeJS\\scada\\scada01\\node_modules\\mongodb\\lib\\mongo_client.js:222:11","    at _combinedTickCallback (internal/process/next_tick.js:67:7)","    at process._tickCallback (internal/process/next_tick.js:98:9)"],"level":"error","message":"uncaughtException: null == { MongoError: failed to connect to server [cstate.marikun.ru:443] on first connect\n    at Pool.eventHandler (d:\\Development\\node","timestamp":"2016-12-02T10:40:40.878Z"}
+{"level":"info","message":"Start service","timestamp":"2016-12-02T11:35:45.462Z"}
+{"level":"info","message":"Web service loaded","timestamp":"2016-12-02T11:35:45.775Z"}
+{"level":"info","message":"Websocket loaded","timestamp":"2016-12-02T11:35:46.052Z"}
+{"date":"Fri Dec 02 2016 14:36:18 GMT+0300 (RTZ 2 (зима))","process":{"pid":12276,"uid":null,"gid":null,"cwd":"d:\\Development\\nodeJS\\scada\\scada01","execPath":"C:\\nodejs\\node.exe","version":"v6.9.1","argv":["C:\\nodejs\\node.exe","d:\\Development\\nodeJS\\scada\\scada01\\app.js"],"memoryUsage":{"rss":55435264,"heapTotal":29396992,"heapUsed":23753680}},"os":{"loadavg":[0,0,0],"uptime":959571.277078},"trace":[{"column":null,"file":null,"function":"Function.MongoError.create","line":null,"method":"MongoError.create","native":false},{"column":10,"file":"d:\\Development\\nodeJS\\scada\\scada01\\app.js","function":null,"line":218,"method":null,"native":false},{"column":5,"file":"d:\\Development\\nodeJS\\scada\\scada01\\node_modules\\mongodb\\lib\\mongo_client.js","function":"connectCallback","line":315,"method":null,"native":false},{"column":11,"file":"d:\\Development\\nodeJS\\scada\\scada01\\node_modules\\mongodb\\lib\\mongo_client.js","function":null,"line":222,"method":null,"native":false},{"column":7,"file":"internal/process/next_tick.js","function":"_combinedTickCallback","line":67,"method":null,"native":false},{"column":9,"file":"internal/process/next_tick.js","function":"process._tickCallback","line":98,"method":"_tickCallback","native":false}],"stack":["AssertionError: null == { MongoError: connection 0 to localhost:27017 timed out","    at Function.MongoError.create (d:\\Development\\nodeJS\\scada\\scada01\\n","    at d:\\Development\\nodeJS\\scada\\scada01\\app.js:218:10","    at connectCallback (d:\\Development\\nodeJS\\scada\\scada01\\node_modules\\mongodb\\lib\\mongo_client.js:315:5)","    at d:\\Development\\nodeJS\\scada\\scada01\\node_modules\\mongodb\\lib\\mongo_client.js:222:11","    at _combinedTickCallback (internal/process/next_tick.js:67:7)","    at process._tickCallback (internal/process/next_tick.js:98:9)"],"level":"error","message":"uncaughtException: null == { MongoError: connection 0 to localhost:27017 timed out\n    at Function.MongoError.create (d:\\Development\\nodeJS\\scada\\scada01\\n","timestamp":"2016-12-02T11:36:18.849Z"}
+{"level":"info","message":"Start service","timestamp":"2016-12-02T11:36:39.449Z"}
+{"level":"info","message":"Web service loaded","timestamp":"2016-12-02T11:36:39.767Z"}
+{"level":"info","message":"Websocket loaded","timestamp":"2016-12-02T11:36:40.055Z"}
+{"level":"info","message":"Start service","timestamp":"2016-12-02T11:37:24.705Z"}
+{"level":"info","message":"Web service loaded","timestamp":"2016-12-02T11:37:25.023Z"}
+{"level":"info","message":"Websocket loaded","timestamp":"2016-12-02T11:37:25.327Z"}
+{"level":"info","message":"Start service","timestamp":"2016-12-02T11:37:40.392Z"}
+{"level":"info","message":"Web service loaded","timestamp":"2016-12-02T11:37:40.721Z"}
+{"level":"info","message":"Websocket loaded","timestamp":"2016-12-02T11:37:41.023Z"}
+{"level":"info","message":"Start service","timestamp":"2016-12-02T11:44:30.622Z"}
+{"level":"info","message":"Start service","timestamp":"2016-12-02T11:44:57.860Z"}
+{"level":"info","message":"Web service loaded","timestamp":"2016-12-02T11:44:58.285Z"}
+{"level":"info","message":"Websocket loaded","timestamp":"2016-12-02T11:44:58.668Z"}
+{"id":"58415e9863c323b7d0eacdbe","name":"test","path":"-","state":"0","rule":{},"args":"","level":"info","message":"","timestamp":"2016-12-02T11:45:02.848Z"}
+{"level":"info","message":"Start service","timestamp":"2016-12-02T12:08:10.672Z"}
+{"level":"info","message":"Web service loaded","timestamp":"2016-12-02T12:08:10.970Z"}
+{"level":"info","message":"Websocket loaded","timestamp":"2016-12-02T12:08:11.215Z"}
+{"id":"58415e9863c323b7d0eacdbe","name":"test","path":"-","state":"0","rule":{},"args":"","level":"info","message":"","timestamp":"2016-12-02T12:08:11.711Z"}
+{"level":"info","message":"Start service","timestamp":"2016-12-02T12:09:32.124Z"}
+{"level":"info","message":"Web service loaded","timestamp":"2016-12-02T12:09:32.499Z"}
+{"level":"info","message":"Websocket loaded","timestamp":"2016-12-02T12:09:32.799Z"}
+{"id":"58415e9863c323b7d0eacdbe","name":"test","path":"-","state":"0","rule":{},"args":"","level":"info","message":"","timestamp":"2016-12-02T12:09:33.312Z"}
+{"level":"info","message":"Start service","timestamp":"2016-12-02T12:10:16.381Z"}
+{"level":"info","message":"Web service loaded","timestamp":"2016-12-02T12:10:16.792Z"}
+{"level":"info","message":"Websocket loaded","timestamp":"2016-12-02T12:10:17.099Z"}
+{"id":"58415e9863c323b7d0eacdbe","name":"test","path":"-","state":"0","rule":{},"args":"","level":"info","message":"","timestamp":"2016-12-02T12:10:17.642Z"}
+{"level":"info","message":"Start service","timestamp":"2016-12-02T12:10:54.398Z"}
+{"level":"info","message":"Web service loaded","timestamp":"2016-12-02T12:10:54.696Z"}
+{"level":"info","message":"Websocket loaded","timestamp":"2016-12-02T12:10:54.978Z"}
+{"id":"58415e9863c323b7d0eacdbe","name":"test","path":"-","state":"0","rule":{},"args":"","level":"info","message":"","timestamp":"2016-12-02T12:10:55.540Z"}
+{"level":"info","message":"Start service","timestamp":"2016-12-02T12:11:18.918Z"}
+{"level":"info","message":"Web service loaded","timestamp":"2016-12-02T12:11:19.176Z"}
+{"level":"info","message":"Websocket loaded","timestamp":"2016-12-02T12:11:19.435Z"}
+{"id":"58415e9863c323b7d0eacdbe","name":"test","path":"-","state":"0","rule":{},"args":"","level":"info","message":"","timestamp":"2016-12-02T12:11:19.885Z"}
+{"level":"info","message":"Start service","timestamp":"2016-12-02T12:12:46.810Z"}
+{"level":"info","message":"Web service loaded","timestamp":"2016-12-02T12:12:47.064Z"}
+{"level":"info","message":"Websocket loaded","timestamp":"2016-12-02T12:12:47.290Z"}
+{"id":"58415e9863c323b7d0eacdbe","name":"test","path":"-","state":"0","rule":{},"args":"","level":"info","message":"","timestamp":"2016-12-02T12:12:47.782Z"}
+{"level":"info","message":"Start service","timestamp":"2016-12-02T12:14:12.437Z"}
+{"level":"info","message":"Web service loaded","timestamp":"2016-12-02T12:14:12.766Z"}
+{"level":"info","message":"Websocket loaded","timestamp":"2016-12-02T12:14:13.088Z"}
+{"id":"58415e9863c323b7d0eacdbe","name":"test","path":"-","state":"0","rule":{},"args":"","level":"info","message":"","timestamp":"2016-12-02T12:14:13.654Z"}
+{"level":"info","message":"Start service","timestamp":"2016-12-02T12:44:00.069Z"}
+{"level":"info","message":"Web service loaded","timestamp":"2016-12-02T12:44:00.466Z"}
+{"level":"info","message":"Websocket loaded","timestamp":"2016-12-02T12:44:00.844Z"}
+{"id":"58415e9863c323b7d0eacdbe","name":"test","path":"-","state":"0","rule":{},"args":"","level":"info","message":"","timestamp":"2016-12-02T12:44:01.428Z"}
+{"date":"Fri Dec 02 2016 15:44:23 GMT+0300 (RTZ 2 (зима))","process":{"pid":7796,"uid":null,"gid":null,"cwd":"d:\\Development\\nodeJS\\scada\\scada01","execPath":"C:\\nodejs\\node.exe","version":"v6.9.1","argv":["C:\\nodejs\\node.exe","d:\\Development\\nodeJS\\scada\\scada01\\app.js"],"memoryUsage":{"rss":56303616,"heapTotal":30445568,"heapUsed":24013984}},"os":{"loadavg":[0,0,0],"uptime":963655.8842909},"trace":[{"column":40,"file":"d:\\Development\\nodeJS\\scada\\scada01\\app.js","function":"process.nextTick","line":271,"method":"nextTick","native":false},{"column":7,"file":"internal/process/next_tick.js","function":"_combinedTickCallback","line":67,"method":null,"native":false},{"column":9,"file":"internal/process/next_tick.js","function":"process._tickCallback","line":98,"method":"_tickCallback","native":false}],"stack":["ReferenceError: i is not defined","    at process.nextTick (d:\\Development\\nodeJS\\scada\\scada01\\app.js:271:40)","    at _combinedTickCallback (internal/process/next_tick.js:67:7)","    at process._tickCallback (internal/process/next_tick.js:98:9)"],"level":"error","message":"uncaughtException: i is not defined","timestamp":"2016-12-02T12:44:23.455Z"}
+{"level":"info","message":"Start service","timestamp":"2016-12-02T12:44:36.776Z"}
+{"level":"info","message":"Web service loaded","timestamp":"2016-12-02T12:44:37.079Z"}
+{"level":"info","message":"Websocket loaded","timestamp":"2016-12-02T12:44:37.348Z"}
+{"id":"58415e9863c323b7d0eacdbe","name":"test","path":"-","state":"0","rule":{},"args":"","level":"info","message":"","timestamp":"2016-12-02T12:44:37.811Z"}
+{"date":"Fri Dec 02 2016 15:44:53 GMT+0300 (RTZ 2 (зима))","process":{"pid":14276,"uid":null,"gid":null,"cwd":"d:\\Development\\nodeJS\\scada\\scada01","execPath":"C:\\nodejs\\node.exe","version":"v6.9.1","argv":["C:\\nodejs\\node.exe","d:\\Development\\nodeJS\\scada\\scada01\\app.js"],"memoryUsage":{"rss":55623680,"heapTotal":30445568,"heapUsed":24386824}},"os":{"loadavg":[0,0,0],"uptime":963686.1893211},"trace":[{"column":38,"file":"d:\\Development\\nodeJS\\scada\\scada01\\app.js","function":"add","line":259,"method":null,"native":false},{"column":18,"file":"d:\\Development\\nodeJS\\scada\\scada01\\node_modules\\mongodb\\lib\\collection.js","function":null,"line":435,"method":null,"native":false},{"column":56,"file":"d:\\Development\\nodeJS\\scada\\scada01\\node_modules\\mongodb\\lib\\utils.js","function":"handleCallback","line":96,"method":null,"native":false},{"column":5,"file":"d:\\Development\\nodeJS\\scada\\scada01\\node_modules\\mongodb\\lib\\collection.js","function":null,"line":740,"method":null,"native":false},{"column":18,"file":"d:\\Development\\nodeJS\\scada\\scada01\\node_modules\\mongodb-core\\lib\\connection\\pool.js","function":null,"line":455,"method":null,"native":false},{"column":7,"file":"internal/process/next_tick.js","function":"_combinedTickCallback","line":67,"method":null,"native":false},{"column":9,"file":"internal/process/next_tick.js","function":"process._tickCallback","line":98,"method":"_tickCallback","native":false}],"stack":["ReferenceError: i is not defined","    at add (d:\\Development\\nodeJS\\scada\\scada01\\app.js:259:38)","    at d:\\Development\\nodeJS\\scada\\scada01\\node_modules\\mongodb\\lib\\collection.js:435:18","    at handleCallback (d:\\Development\\nodeJS\\scada\\scada01\\node_modules\\mongodb\\lib\\utils.js:96:56)","    at d:\\Development\\nodeJS\\scada\\scada01\\node_modules\\mongodb\\lib\\collection.js:740:5","    at d:\\Development\\nodeJS\\scada\\scada01\\node_modules\\mongodb-core\\lib\\connection\\pool.js:455:18","    at _combinedTickCallback (internal/process/next_tick.js:67:7)","    at process._tickCallback (internal/process/next_tick.js:98:9)"],"level":"error","message":"uncaughtException: i is not defined","timestamp":"2016-12-02T12:44:53.764Z"}
+{"level":"info","message":"Start service","timestamp":"2016-12-02T12:45:13.959Z"}
+{"level":"info","message":"Web service loaded","timestamp":"2016-12-02T12:45:14.318Z"}
+{"level":"info","message":"Websocket loaded","timestamp":"2016-12-02T12:45:14.637Z"}
+{"id":"58415e9863c323b7d0eacdbe","name":"test","path":"-","state":"0","rule":{},"args":"","level":"info","message":"","timestamp":"2016-12-02T12:45:15.136Z"}
+{"level":"info","message":"Start service","timestamp":"2016-12-02T12:47:50.698Z"}
+{"level":"info","message":"Web service loaded","timestamp":"2016-12-02T12:47:51.033Z"}
+{"level":"info","message":"Websocket loaded","timestamp":"2016-12-02T12:47:51.267Z"}
+{"id":"58415e9863c323b7d0eacdbe","name":"test","path":"-","state":"0","rule":{},"args":"","level":"info","message":"","timestamp":"2016-12-02T12:47:51.706Z"}
+{"level":"info","message":"Start service","timestamp":"2016-12-02T12:50:44.052Z"}
+{"level":"info","message":"Web service loaded","timestamp":"2016-12-02T12:50:44.568Z"}
+{"level":"info","message":"Websocket loaded","timestamp":"2016-12-02T12:50:44.907Z"}
+{"id":"58415e9863c323b7d0eacdbe","name":"test","path":"-","state":"0","rule":{},"args":"","level":"info","message":"","timestamp":"2016-12-02T12:50:45.520Z"}
+{"level":"info","message":"Start service","timestamp":"2016-12-02T12:56:02.653Z"}
+{"level":"info","message":"Web service loaded","timestamp":"2016-12-02T12:56:03.135Z"}
+{"level":"info","message":"Websocket loaded","timestamp":"2016-12-02T12:56:03.436Z"}
+{"id":"58415e9863c323b7d0eacdbe","name":"test","path":"-","state":"0","rule":{},"args":"","level":"info","message":"","timestamp":"2016-12-02T12:56:03.951Z"}
+{"level":"info","message":"Start service","timestamp":"2016-12-02T12:56:59.937Z"}
+{"level":"info","message":"Web service loaded","timestamp":"2016-12-02T12:57:00.358Z"}
+{"level":"info","message":"Websocket loaded","timestamp":"2016-12-02T12:57:00.622Z"}
+{"id":"58415e9863c323b7d0eacdbe","name":"test","path":"-","state":"0","rule":{},"args":"","level":"info","message":"","timestamp":"2016-12-02T12:57:01.066Z"}
+{"level":"info","message":"Start service","timestamp":"2016-12-02T13:13:57.177Z"}
+{"level":"info","message":"Web service loaded","timestamp":"2016-12-02T13:13:57.516Z"}
+{"level":"info","message":"Websocket loaded","timestamp":"2016-12-02T13:13:57.800Z"}
+{"id":"58415e9863c323b7d0eacdbe","name":"test","path":"-","state":"0","rule":{},"args":"","level":"info","message":"","timestamp":"2016-12-02T13:13:58.344Z"}
+{"level":"info","message":"Start service","timestamp":"2016-12-02T13:14:02.121Z"}
+{"level":"info","message":"Web service loaded","timestamp":"2016-12-02T13:14:02.390Z"}
+{"level":"info","message":"Websocket loaded","timestamp":"2016-12-02T13:14:02.742Z"}
+{"id":"58415e9863c323b7d0eacdbe","name":"test","path":"-","state":"0","rule":{},"args":"","level":"info","message":"","timestamp":"2016-12-02T13:14:03.398Z"}
+{"level":"info","message":"Start service","timestamp":"2016-12-02T13:19:43.054Z"}
+{"level":"info","message":"Web service loaded","timestamp":"2016-12-02T13:19:43.414Z"}
+{"level":"info","message":"Websocket loaded","timestamp":"2016-12-02T13:19:43.786Z"}
+{"id":"58415e9863c323b7d0eacdbe","name":"test","path":"-","state":"0","rule":{},"args":"","level":"info","message":"","timestamp":"2016-12-02T13:19:44.379Z"}
+{"level":"info","message":"Start service","timestamp":"2016-12-02T13:20:27.719Z"}
+{"level":"info","message":"Web service loaded","timestamp":"2016-12-02T13:20:28.028Z"}
+{"level":"info","message":"Websocket loaded","timestamp":"2016-12-02T13:20:28.307Z"}
+{"id":"58415e9863c323b7d0eacdbe","name":"test","path":"-","state":"0","rule":{},"args":"","level":"info","message":"","timestamp":"2016-12-02T13:20:28.880Z"}
+{"level":"info","message":"Start service","timestamp":"2016-12-02T13:21:36.720Z"}
+{"level":"info","message":"Web service loaded","timestamp":"2016-12-02T13:21:37.040Z"}
+{"level":"info","message":"Websocket loaded","timestamp":"2016-12-02T13:21:37.308Z"}
+{"id":"58415e9863c323b7d0eacdbe","name":"test","path":"-","state":"0","rule":{},"args":"","level":"info","message":"","timestamp":"2016-12-02T13:21:37.748Z"}
+{"level":"info","message":"Start service","timestamp":"2016-12-02T13:22:24.096Z"}
+{"level":"info","message":"Web service loaded","timestamp":"2016-12-02T13:22:24.411Z"}
+{"level":"info","message":"Websocket loaded","timestamp":"2016-12-02T13:22:24.697Z"}
+{"id":"58415e9863c323b7d0eacdbe","name":"test","path":"-","state":"0","rule":{},"args":"","level":"info","message":"","timestamp":"2016-12-02T13:22:25.313Z"}
+{"level":"info","message":"Start service","timestamp":"2016-12-02T13:24:21.605Z"}
+{"level":"info","message":"Web service loaded","timestamp":"2016-12-02T13:24:21.934Z"}
+{"level":"info","message":"Websocket loaded","timestamp":"2016-12-02T13:24:22.259Z"}
+{"id":"58415e9863c323b7d0eacdbe","name":"test","path":"-","state":"0","rule":{},"args":"","level":"info","message":"","timestamp":"2016-12-02T13:24:22.841Z"}
+{"level":"info","message":"Start service","timestamp":"2016-12-02T13:29:04.764Z"}
+{"level":"info","message":"Web service loaded","timestamp":"2016-12-02T13:29:05.132Z"}
+{"level":"info","message":"Websocket loaded","timestamp":"2016-12-02T13:29:05.479Z"}
+{"id":"58415e9863c323b7d0eacdbe","name":"test","path":"-","state":"0","rule":{},"args":"","level":"info","message":"","timestamp":"2016-12-02T13:29:06.067Z"}
+{"level":"info","message":"Start service","timestamp":"2016-12-02T13:29:52.597Z"}
+{"level":"info","message":"Web service loaded","timestamp":"2016-12-02T13:29:52.985Z"}
+{"level":"info","message":"Websocket loaded","timestamp":"2016-12-02T13:29:53.328Z"}
+{"id":"58415e9863c323b7d0eacdbe","name":"test","path":"-","state":"0","rule":{},"args":"","level":"info","message":"","timestamp":"2016-12-02T13:29:53.979Z"}
+{"level":"info","message":"Start service","timestamp":"2016-12-02T13:32:16.569Z"}
+{"level":"info","message":"Web service loaded","timestamp":"2016-12-02T13:32:16.913Z"}
+{"level":"info","message":"Websocket loaded","timestamp":"2016-12-02T13:32:17.242Z"}
+{"level":"info","message":"Total records in data - 1016431","timestamp":"2016-12-02T13:32:17.817Z"}
+{"id":"58415e9863c323b7d0eacdbe","name":"test","path":"-","state":"0","rule":{},"args":"","level":"info","message":"","timestamp":"2016-12-02T13:32:17.818Z"}
+{"level":"info","message":"Start service","timestamp":"2016-12-02T13:36:55.714Z"}
+{"level":"info","message":"Web service loaded","timestamp":"2016-12-02T13:36:56.069Z"}
+{"level":"info","message":"Websocket loaded","timestamp":"2016-12-02T13:36:56.361Z"}
+{"level":"info","message":"Total records in data - 1016431","timestamp":"2016-12-02T13:36:56.906Z"}
+{"id":"58415e9863c323b7d0eacdbe","name":"test","path":"-","state":"0","rule":{},"args":"","level":"info","message":"","timestamp":"2016-12-02T13:36:56.907Z"}
+{"level":"info","message":"Start service","timestamp":"2016-12-02T13:37:40.222Z"}
+{"level":"info","message":"Web service loaded","timestamp":"2016-12-02T13:37:40.557Z"}
+{"level":"info","message":"Websocket loaded","timestamp":"2016-12-02T13:37:40.885Z"}
+{"level":"info","message":"Total records in data - 1016431","timestamp":"2016-12-02T13:37:41.409Z"}
+{"id":"58415e9863c323b7d0eacdbe","name":"test","path":"-","state":"0","rule":{},"args":"","level":"info","message":"","timestamp":"2016-12-02T13:37:41.410Z"}
+{"level":"info","message":"Start service","timestamp":"2016-12-02T13:38:12.870Z"}
+{"level":"info","message":"Web service loaded","timestamp":"2016-12-02T13:38:13.242Z"}
+{"level":"info","message":"Websocket loaded","timestamp":"2016-12-02T13:38:13.544Z"}
+{"level":"info","message":"Total records in data - 1016431","timestamp":"2016-12-02T13:38:14.091Z"}
+{"id":"58415e9863c323b7d0eacdbe","name":"test","path":"-","state":"0","rule":{},"args":"","level":"info","message":"","timestamp":"2016-12-02T13:38:14.092Z"}
+{"level":"info","message":"Start service","timestamp":"2016-12-02T13:39:24.265Z"}
+{"level":"info","message":"Web service loaded","timestamp":"2016-12-02T13:39:24.597Z"}
+{"level":"info","message":"Websocket loaded","timestamp":"2016-12-02T13:39:24.851Z"}
+{"level":"info","message":"Total records in data - 1036433","timestamp":"2016-12-02T13:39:25.375Z"}
+{"id":"58415e9863c323b7d0eacdbe","name":"test","path":"-","state":"0","rule":{},"args":"","level":"info","message":"","timestamp":"2016-12-02T13:39:25.375Z"}
