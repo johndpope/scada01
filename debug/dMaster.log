@@ -50,3 +50,8 @@
 {"level":"info","message":"OK. Connected to mongodb...","timestamp":"2016-12-05T11:56:33.202Z"}
 {"level":"info","message":"Reading data-collection for params..","timestamp":"2016-12-05T11:56:33.202Z"}
 {"level":"info","message":"dta_a_1","timestamp":"2016-12-05T11:56:33.209Z"}
+{"level":"info","message":"Start dMaster","timestamp":"2016-12-05T13:16:36.086Z"}
+{"level":"info","message":"Connecting to mongodb://127.0.0.1:27017/scdme","timestamp":"2016-12-05T13:16:36.088Z"}
+{"level":"info","message":"OK. Connected to mongodb...","timestamp":"2016-12-05T13:16:36.108Z"}
+{"level":"info","message":"Reading data-collection for params..","timestamp":"2016-12-05T13:16:36.108Z"}
+{"level":"info","message":"dta_a_1","timestamp":"2016-12-05T13:16:36.114Z"}

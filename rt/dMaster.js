@@ -8,6 +8,7 @@ var winston = require('winston');
 			new (winston.transports.File)({ filename: './debug/dMaster.log' })
 		]
 	});
+    logger.info(' ');
 logger.stream({ start: -1 }).on('log', sendLog);
 function sendLog(log) {
     if(process.send)

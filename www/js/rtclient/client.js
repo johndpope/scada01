@@ -188,6 +188,14 @@ var _divfuncs = {};
 _divfuncs.dash = function () {
 	initIndicators();
 	$('#log').html(viewmodel.dash.logdata);
+	$('#commander').on('keyup', function (e) {
+    if (e.keyCode == 13) {
+        var cmd=$('#commander').val();
+		$('#commander').val('');
+		socket.json.send({ event: 'terminal',text:cmd});
+
+    }
+});
 }
 _divfuncs.modules = function () {
 

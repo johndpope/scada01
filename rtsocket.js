@@ -32,7 +32,7 @@ module.exports = function (http,name="noname") {
 		socket.broadcast.json.send({ 'event': 'userJoined', 'name': ID, 'time': time });
 		// Навешиваем обработчик на входящее сообщение
 		socket.on('message', function (msg) {
-			logger.info('%s : %j',socket.id,msg)
+			//logger.info('%s : %j',socket.id,msg)
 			var time = (new Date).toLocaleTimeString();
 			if(th.handles[msg.event])
 			{

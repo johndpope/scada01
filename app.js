@@ -226,6 +226,56 @@ web.app.post('/getlogs', function (req, res) {
 transport.handles['get_modules'] = function (msg, socket) {
   socket.json.send({ 'event': 'send_modules', data: appl.model.modules });
 }
+var terminal_cmds=[];
+terminal_cmds['mstart']=function(prm){
+  var par=JSON.parse(prm);
+  var m=getbyfld(appl.model.modules,par.name,'name');
+  if(m.state==0)
+  {  
+    logger.info('Start module ',m.name);
+    sup.add(m);
+    //m.server
+  }
+  else
+  {
+    
+    logger.info('Stop module ',m.name);
+    sup.remove(m);
+    }  
+  transport.io.json.send({ 'event': 'modules_upd', 'data':{id:m.id,name:m.name,path:m.path,desc:m.desc,args:m.args,state:m.state}});
+
+
+}
+terminal_cmds['mstop']=function(prm){
+  var par=JSON.parse(prm);
+  var m=getbyfld(appl.model.modules,par.name,'name');
+  if(m.state==0)
+  {  
+    logger.info('Start module ',m.name);
+    sup.add(m);
+    //m.server
+  }
+  else
+  {
+    
+    logger.info('Stop module ',m.name);
+    sup.remove(m);
+    }  
+  transport.io.json.send({ 'event': 'modules_upd', 'data':{id:m.id,name:m.name,path:m.path,desc:m.desc,args:m.args,state:m.state}});
+
+
+}
+transport.handles['terminal'] = function (msg, socket) {
+  logger.info('terminal command '+msg.text);
+  var spos=msg.text.indexOf(' ')
+  var cmd=msg.text.substring(0,spos);
+  var ag=msg.text.substring(spos+1);
+  if(terminal_cmds[cmd])
+  terminal_cmds[cmd](ag);
+  else
+  logger.info('Unknown command!');
+  
+}
 //mongo
 var mongo=require('mongodb');
 var MongoClient = mongo.MongoClient

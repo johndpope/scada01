@@ -984,3 +984,100 @@
 {"level":"info","message":"Client 1bH2u1F1lLdUBNMdAAAB disconnected","timestamp":"2016-12-05T11:55:55.372Z"}
 {"level":"info","message":"Client tHLxez1eqHhmxK7eAAAD (127.0.0.1) connected","timestamp":"2016-12-05T11:55:55.880Z"}
 {"level":"info","message":"tHLxez1eqHhmxK7eAAAD : {\"event\":\"get_modules\"}","timestamp":"2016-12-05T11:55:55.904Z"}
+{"level":"info","message":"Client uQc7CrXprG6IIzs8AAAC disconnected","timestamp":"2016-12-05T13:16:48.287Z"}
+{"level":"info","message":"Client 5o41RT-tXHSeM8uqAAAE (127.0.0.1) connected","timestamp":"2016-12-05T13:16:49.786Z"}
+{"level":"info","message":"5o41RT-tXHSeM8uqAAAE : {\"event\":\"get_modules\"}","timestamp":"2016-12-05T13:16:49.803Z"}
+{"level":"info","message":"Client AX-JQtrHvfupcUmwAAAA (127.0.0.1) connected","timestamp":"2016-12-05T13:17:12.815Z"}
+{"level":"info","message":"AX-JQtrHvfupcUmwAAAA : {\"event\":\"get_modules\"}","timestamp":"2016-12-05T13:17:12.844Z"}
+{"level":"info","message":"Client wggezLr43fhB2dLNAAAB (127.0.0.1) connected","timestamp":"2016-12-05T13:17:13.429Z"}
+{"level":"info","message":"wggezLr43fhB2dLNAAAB : {\"event\":\"get_modules\"}","timestamp":"2016-12-05T13:17:13.436Z"}
+{"level":"info","message":"Client AX-JQtrHvfupcUmwAAAA disconnected","timestamp":"2016-12-05T13:17:59.184Z"}
+{"level":"info","message":"Client ET_pMO_T7ZMEEdJBAAAC (127.0.0.1) connected","timestamp":"2016-12-05T13:17:59.907Z"}
+{"level":"info","message":"ET_pMO_T7ZMEEdJBAAAC : {\"event\":\"get_modules\"}","timestamp":"2016-12-05T13:18:11.375Z"}
+{"level":"info","message":"Client FHPZTobyXwYRkFefAAAA (127.0.0.1) connected","timestamp":"2016-12-05T13:18:38.921Z"}
+{"level":"info","message":"FHPZTobyXwYRkFefAAAA : {\"event\":\"get_modules\"}","timestamp":"2016-12-05T13:18:39.148Z"}
+{"level":"info","message":"Client D19DoWZ8XhSB1kwKAAAB (127.0.0.1) connected","timestamp":"2016-12-05T13:18:40.635Z"}
+{"level":"info","message":"D19DoWZ8XhSB1kwKAAAB : {\"event\":\"get_modules\"}","timestamp":"2016-12-05T13:18:40.639Z"}
+{"level":"info","message":"Client D19DoWZ8XhSB1kwKAAAB disconnected","timestamp":"2016-12-05T13:18:42.649Z"}
+{"level":"info","message":"Client FHPZTobyXwYRkFefAAAA disconnected","timestamp":"2016-12-05T13:18:55.430Z"}
+{"level":"info","message":"Client ymuEq8LURHO_fh53AAAC (127.0.0.1) connected","timestamp":"2016-12-05T13:18:56.186Z"}
+{"level":"info","message":"ymuEq8LURHO_fh53AAAC : {\"event\":\"get_modules\"}","timestamp":"2016-12-05T13:18:57.633Z"}
+{"level":"info","message":"ymuEq8LURHO_fh53AAAC : {\"event\":\"terminal\",\"text\":\"456\"}","timestamp":"2016-12-05T13:19:01.907Z"}
+{"level":"info","message":"Client gpORYZphQ8KZHorUAAAA (127.0.0.1) connected","timestamp":"2016-12-05T13:20:15.509Z"}
+{"level":"info","message":"gpORYZphQ8KZHorUAAAA : {\"event\":\"get_modules\"}","timestamp":"2016-12-05T13:20:15.525Z"}
+{"level":"info","message":"gpORYZphQ8KZHorUAAAA : {\"event\":\"terminal\",\"text\":\"dgfgf gfd\"}","timestamp":"2016-12-05T13:20:20.177Z"}
+{"level":"info","message":"gpORYZphQ8KZHorUAAAA : {\"event\":\"terminal\",\"text\":\"mstart {name:'dMaster'}\"}","timestamp":"2016-12-05T13:21:07.558Z"}
+{"level":"info","message":"gpORYZphQ8KZHorUAAAA : {\"event\":\"terminal\",\"text\":\"mstart {name:'dMaster'}\"}","timestamp":"2016-12-05T13:21:18.263Z"}
+{"level":"info","message":"gpORYZphQ8KZHorUAAAA : {\"event\":\"terminal\",\"text\":\"mstar {name:'dMaster'}\"}","timestamp":"2016-12-05T13:21:36.910Z"}
+{"level":"info","message":"gpORYZphQ8KZHorUAAAA : {\"event\":\"terminal\",\"text\":\"mstar {\\\"name\\\":'dMaster'}\"}","timestamp":"2016-12-05T13:22:59.506Z"}
+{"level":"info","message":"gpORYZphQ8KZHorUAAAA : {\"event\":\"terminal\",\"text\":\"mstart {'name':'dMaster'}\"}","timestamp":"2016-12-05T13:23:45.795Z"}
+{"level":"info","message":"gpORYZphQ8KZHorUAAAA : {\"event\":\"terminal\",\"text\":\"mstar {'name':'dMaster'}\"}","timestamp":"2016-12-05T13:23:54.709Z"}
+{"level":"info","message":"gpORYZphQ8KZHorUAAAA : {\"event\":\"terminal\",\"text\":\"mstar {\\\"name\\\":\\\"dMaster\\\"}\"}","timestamp":"2016-12-05T13:24:36.471Z"}
+{"level":"info","message":"Client D03e2gSCP9n5f7HAAAAA (127.0.0.1) connected","timestamp":"2016-12-05T13:25:03.592Z"}
+{"level":"info","message":"D03e2gSCP9n5f7HAAAAA : {\"event\":\"get_modules\"}","timestamp":"2016-12-05T13:25:03.608Z"}
+{"level":"info","message":"D03e2gSCP9n5f7HAAAAA : {\"event\":\"terminal\",\"text\":\"mstar {\\\"name\\\":\\\"dMaster\\\"}\"}","timestamp":"2016-12-05T13:25:09.318Z"}
+{"level":"info","message":"D03e2gSCP9n5f7HAAAAA : {\"event\":\"terminal\",\"text\":\"mstop {\\\"name\\\":\\\"dMaster\\\"}\"}","timestamp":"2016-12-05T13:25:20.196Z"}
+{"level":"info","message":"Client lMxTOiYHKlEIPcMpAAAA (127.0.0.1) connected","timestamp":"2016-12-05T13:26:47.757Z"}
+{"level":"info","message":"lMxTOiYHKlEIPcMpAAAA : {\"event\":\"get_modules\"}","timestamp":"2016-12-05T13:26:47.774Z"}
+{"level":"info","message":"lMxTOiYHKlEIPcMpAAAA : {\"event\":\"terminal\",\"text\":\"mstar {\\\"name\\\":\\\"dMaster\\\"}\"}","timestamp":"2016-12-05T13:26:53.368Z"}
+{"level":"info","message":"Client lMxTOiYHKlEIPcMpAAAA disconnected","timestamp":"2016-12-05T13:28:05.806Z"}
+{"level":"info","message":"Client zs2VBxnGTtobfHqSAAAB (127.0.0.1) connected","timestamp":"2016-12-05T13:28:07.275Z"}
+{"level":"info","message":"zs2VBxnGTtobfHqSAAAB : {\"event\":\"get_modules\"}","timestamp":"2016-12-05T13:28:09.191Z"}
+{"level":"info","message":"Client zs2VBxnGTtobfHqSAAAB disconnected","timestamp":"2016-12-05T13:28:31.773Z"}
+{"level":"info","message":"Client zFJ8Ivuhz-HnokvTAAAC (127.0.0.1) connected","timestamp":"2016-12-05T13:28:32.727Z"}
+{"level":"info","message":"zFJ8Ivuhz-HnokvTAAAC : {\"event\":\"get_modules\"}","timestamp":"2016-12-05T13:28:38.811Z"}
+{"level":"info","message":"Client zFJ8Ivuhz-HnokvTAAAC disconnected","timestamp":"2016-12-05T13:29:58.423Z"}
+{"level":"info","message":"Client mocCbYJ2EU7qEVIDAAAD (127.0.0.1) connected","timestamp":"2016-12-05T13:29:59.598Z"}
+{"level":"info","message":"mocCbYJ2EU7qEVIDAAAD : {\"event\":\"get_modules\"}","timestamp":"2016-12-05T13:29:59.618Z"}
+{"level":"info","message":"Client mocCbYJ2EU7qEVIDAAAD disconnected","timestamp":"2016-12-05T13:30:17.491Z"}
+{"level":"info","message":"Client 43JmxYOAcejCJ6EaAAAE (127.0.0.1) connected","timestamp":"2016-12-05T13:30:18.390Z"}
+{"level":"info","message":"43JmxYOAcejCJ6EaAAAE : {\"event\":\"get_modules\"}","timestamp":"2016-12-05T13:30:18.404Z"}
+{"level":"info","message":"Client 43JmxYOAcejCJ6EaAAAE disconnected","timestamp":"2016-12-05T13:30:25.376Z"}
+{"level":"info","message":"Client KUlxGKBzuPNtMxaNAAAF (127.0.0.1) connected","timestamp":"2016-12-05T13:30:26.290Z"}
+{"level":"info","message":"KUlxGKBzuPNtMxaNAAAF : {\"event\":\"get_modules\"}","timestamp":"2016-12-05T13:30:26.307Z"}
+{"level":"info","message":"Client KUlxGKBzuPNtMxaNAAAF disconnected","timestamp":"2016-12-05T13:30:32.339Z"}
+{"level":"info","message":"Client B7a5XqpRg1cx1qAWAAAG (127.0.0.1) connected","timestamp":"2016-12-05T13:30:33.164Z"}
+{"level":"info","message":"B7a5XqpRg1cx1qAWAAAG : {\"event\":\"get_modules\"}","timestamp":"2016-12-05T13:30:33.194Z"}
+{"level":"info","message":"Client B7a5XqpRg1cx1qAWAAAG disconnected","timestamp":"2016-12-05T13:31:31.902Z"}
+{"level":"info","message":"Client m6I4zk7DIBLAYCefAAAH (127.0.0.1) connected","timestamp":"2016-12-05T13:31:32.711Z"}
+{"level":"info","message":"m6I4zk7DIBLAYCefAAAH : {\"event\":\"get_modules\"}","timestamp":"2016-12-05T13:31:32.726Z"}
+{"level":"info","message":"Client m6I4zk7DIBLAYCefAAAH disconnected","timestamp":"2016-12-05T13:31:59.957Z"}
+{"level":"info","message":"Client FOkZWUN7O9rKsOp8AAAI (127.0.0.1) connected","timestamp":"2016-12-05T13:32:00.810Z"}
+{"level":"info","message":"FOkZWUN7O9rKsOp8AAAI : {\"event\":\"get_modules\"}","timestamp":"2016-12-05T13:32:00.852Z"}
+{"level":"info","message":"Client FOkZWUN7O9rKsOp8AAAI disconnected","timestamp":"2016-12-05T13:33:00.968Z"}
+{"level":"info","message":"Client FQT-kPEg4TloutDYAAAJ (127.0.0.1) connected","timestamp":"2016-12-05T13:33:01.822Z"}
+{"level":"info","message":"FQT-kPEg4TloutDYAAAJ : {\"event\":\"get_modules\"}","timestamp":"2016-12-05T13:33:01.843Z"}
+{"level":"info","message":"Client FQT-kPEg4TloutDYAAAJ disconnected","timestamp":"2016-12-05T13:33:28.357Z"}
+{"level":"info","message":"Client t_yHPttchnHzGQWlAAAK (127.0.0.1) connected","timestamp":"2016-12-05T13:33:29.380Z"}
+{"level":"info","message":"t_yHPttchnHzGQWlAAAK : {\"event\":\"get_modules\"}","timestamp":"2016-12-05T13:33:29.441Z"}
+{"level":"info","message":"Client t_yHPttchnHzGQWlAAAK disconnected","timestamp":"2016-12-05T13:33:50.951Z"}
+{"level":"info","message":"Client 52VL2uOFaa3dPIYjAAAL (127.0.0.1) connected","timestamp":"2016-12-05T13:33:51.719Z"}
+{"level":"info","message":"52VL2uOFaa3dPIYjAAAL : {\"event\":\"get_modules\"}","timestamp":"2016-12-05T13:33:51.751Z"}
+{"level":"info","message":"Client 52VL2uOFaa3dPIYjAAAL disconnected","timestamp":"2016-12-05T13:34:19.547Z"}
+{"level":"info","message":"Client EV1jhGasAZ1cm_SuAAAM (127.0.0.1) connected","timestamp":"2016-12-05T13:34:20.386Z"}
+{"level":"info","message":"EV1jhGasAZ1cm_SuAAAM : {\"event\":\"get_modules\"}","timestamp":"2016-12-05T13:34:20.425Z"}
+{"level":"info","message":"Client EV1jhGasAZ1cm_SuAAAM disconnected","timestamp":"2016-12-05T13:36:13.108Z"}
+{"level":"info","message":"Client gGoRgynaSeopIT01AAAN (127.0.0.1) connected","timestamp":"2016-12-05T13:36:13.934Z"}
+{"level":"info","message":"gGoRgynaSeopIT01AAAN : {\"event\":\"get_modules\"}","timestamp":"2016-12-05T13:36:13.968Z"}
+{"level":"info","message":"Client gGoRgynaSeopIT01AAAN disconnected","timestamp":"2016-12-05T13:36:44.797Z"}
+{"level":"info","message":"Client Or769O34WMmpl4A4AAAO (127.0.0.1) connected","timestamp":"2016-12-05T13:36:45.600Z"}
+{"level":"info","message":"Or769O34WMmpl4A4AAAO : {\"event\":\"get_modules\"}","timestamp":"2016-12-05T13:36:45.627Z"}
+{"level":"info","message":"Client Or769O34WMmpl4A4AAAO disconnected","timestamp":"2016-12-05T13:37:51.981Z"}
+{"level":"info","message":"Client 15clPNc6H_FR06jxAAAP (127.0.0.1) connected","timestamp":"2016-12-05T13:37:52.743Z"}
+{"level":"info","message":"15clPNc6H_FR06jxAAAP : {\"event\":\"get_modules\"}","timestamp":"2016-12-05T13:37:52.763Z"}
+{"level":"info","message":"Client 15clPNc6H_FR06jxAAAP disconnected","timestamp":"2016-12-05T13:38:18.649Z"}
+{"level":"info","message":"Client A0R6icr5DQZFiJTsAAAQ (127.0.0.1) connected","timestamp":"2016-12-05T13:38:19.612Z"}
+{"level":"info","message":"A0R6icr5DQZFiJTsAAAQ : {\"event\":\"get_modules\"}","timestamp":"2016-12-05T13:38:19.670Z"}
+{"level":"info","message":"Client A0R6icr5DQZFiJTsAAAQ disconnected","timestamp":"2016-12-05T13:38:32.067Z"}
+{"level":"info","message":"Client bZXIwcztOmMLlpqOAAAR (127.0.0.1) connected","timestamp":"2016-12-05T13:38:33.067Z"}
+{"level":"info","message":"bZXIwcztOmMLlpqOAAAR : {\"event\":\"get_modules\"}","timestamp":"2016-12-05T13:38:33.100Z"}
+{"level":"info","message":"Client bZXIwcztOmMLlpqOAAAR disconnected","timestamp":"2016-12-05T13:38:33.144Z"}
+{"level":"info","message":"Client wxyeRlRQeAiWQsJAAAAS (127.0.0.1) connected","timestamp":"2016-12-05T13:38:33.843Z"}
+{"level":"info","message":"wxyeRlRQeAiWQsJAAAAS : {\"event\":\"get_modules\"}","timestamp":"2016-12-05T13:38:33.869Z"}
+{"level":"info","message":"Client wxyeRlRQeAiWQsJAAAAS disconnected","timestamp":"2016-12-05T13:39:15.683Z"}
+{"level":"info","message":"Client TxohVE2br90IsEqjAAAT (127.0.0.1) connected","timestamp":"2016-12-05T13:39:16.476Z"}
+{"level":"info","message":"TxohVE2br90IsEqjAAAT : {\"event\":\"get_modules\"}","timestamp":"2016-12-05T13:39:16.567Z"}
+{"level":"info","message":"Client TxohVE2br90IsEqjAAAT disconnected","timestamp":"2016-12-05T13:39:29.782Z"}
+{"level":"info","message":"Client y7nQO50G-kbn_AI2AAAU (127.0.0.1) connected","timestamp":"2016-12-05T13:39:30.622Z"}
+{"level":"info","message":"y7nQO50G-kbn_AI2AAAU : {\"event\":\"get_modules\"}","timestamp":"2016-12-05T13:39:30.655Z"}
+{"level":"info","message":"y7nQO50G-kbn_AI2AAAU : {\"event\":\"terminal\",\"text\":\"mstar\"}","timestamp":"2016-12-05T13:39:35.622Z"}
