@@ -7,20 +7,7 @@ var winston = require('winston');
 var queue = require('queue');
 
 
-class dData {
-    constructor(params) {
-        this.data = [];
-        this.queue = queue();
-    }
-    writeData() {
 
-        this.queue.push()
-    }
-    readData() {
-
-    }
-
-}
 var logger = new (winston.Logger)({
     level: 'info',
     transports: [
@@ -98,6 +85,20 @@ wsserver.sockets.on('connection', function (socket) {
     });
 });
 function queueWrite(data) { }
+class dData {
+    constructor(params) {
+        this.data = [];
+        this.queue = queue();
+    }
+    writeData() {
+
+        this.queue.push()
+    }
+    readData() {
+
+    }
+
+}
 
 
 
