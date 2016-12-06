@@ -152,6 +152,7 @@ function initIndicators() {
 	$('#cpuLoad').radialIndicator({
 		radius: 80,
 		barWidth: 20,
+		barBgColor:'#333',
 		barColor: {
 
 			0: '#33CC33',
@@ -162,6 +163,7 @@ function initIndicators() {
 	$('#ramLoad').radialIndicator({
 		radius: 80,
 		barWidth: 20,
+		barBgColor:'#333',
 		barColor: {
 
 			0: '#33CC33',

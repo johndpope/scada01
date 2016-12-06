@@ -2921,3 +2921,88 @@
 {"level":"info","message":"Process ./rt/dMaster online","timestamp":"2016-12-05T13:43:50.824Z"}
 {"level":"info","message":"terminal command mstop dMaster","timestamp":"2016-12-05T13:43:56.875Z"}
 {"level":"info","message":"Stop module  dMaster","timestamp":"2016-12-05T13:43:56.875Z"}
+{"level":"info","message":"Start service","timestamp":"2016-12-06T08:33:04.972Z"}
+{"level":"info","message":"Web service loaded","timestamp":"2016-12-06T08:33:05.860Z"}
+{"level":"info","message":"Websocket loaded","timestamp":"2016-12-06T08:33:06.868Z"}
+{"level":"info","message":"Total records in data - 0","timestamp":"2016-12-06T08:33:08.135Z"}
+{"id":"584521ec24fd773b5c2b81c8","name":"test","path":"teset","state":"0","rule":{},"args":{"str":"test"},"level":"info","message":"","timestamp":"2016-12-06T08:33:08.137Z"}
+{"id":"584522f30afa4735fc7335c5","name":"dMaster","path":"./rt/dMaster","state":"0","rule":{},"args":{"str":"gg44"},"level":"info","message":"","timestamp":"2016-12-06T08:33:08.138Z"}
+{"id":"584523bc0afa4735fc7335c6","name":"dProccer","path":"./rt/dProccer","state":"0","rule":{},"args":{"str":"12"},"level":"info","message":"","timestamp":"2016-12-06T08:33:08.138Z"}
+{"id":"584523f90afa4735fc7335c7","name":"987","path":"987","state":"0","rule":{},"args":{"str":"987"},"level":"info","message":"","timestamp":"2016-12-06T08:33:08.138Z"}
+{"id":"58452a26e201741794699e81","name":"76","path":"76","state":"0","rule":{},"args":{"str":"76"},"level":"info","message":"","timestamp":"2016-12-06T08:33:08.139Z"}
+{"level":"info","message":"Start module  dMaster","timestamp":"2016-12-06T08:33:18.144Z"}
+{"level":"info","message":"Process ./rt/dMaster online","timestamp":"2016-12-06T08:33:18.388Z"}
+{"code":1,"signal":null,"level":"info","message":"Process ./rt/dMaster closed","timestamp":"2016-12-06T08:33:18.830Z"}
+{"level":"info","message":"Start service","timestamp":"2016-12-06T08:36:09.665Z"}
+{"level":"info","message":"Web service loaded","timestamp":"2016-12-06T08:36:09.981Z"}
+{"level":"info","message":"Websocket loaded","timestamp":"2016-12-06T08:36:10.221Z"}
+{"level":"info","message":"Total records in data - 0","timestamp":"2016-12-06T08:36:10.729Z"}
+{"id":"584521ec24fd773b5c2b81c8","name":"test","path":"teset","state":"0","rule":{},"args":{"str":"test"},"level":"info","message":"","timestamp":"2016-12-06T08:36:10.734Z"}
+{"id":"584522f30afa4735fc7335c5","name":"dMaster","path":"./rt/dMaster","state":"0","rule":{},"args":{"str":"gg44"},"level":"info","message":"","timestamp":"2016-12-06T08:36:10.737Z"}
+{"id":"584523bc0afa4735fc7335c6","name":"dProccer","path":"./rt/dProccer","state":"0","rule":{},"args":{"str":"12"},"level":"info","message":"","timestamp":"2016-12-06T08:36:10.738Z"}
+{"id":"584523f90afa4735fc7335c7","name":"987","path":"987","state":"0","rule":{},"args":{"str":"987"},"level":"info","message":"","timestamp":"2016-12-06T08:36:10.738Z"}
+{"id":"58452a26e201741794699e81","name":"76","path":"76","state":"0","rule":{},"args":{"str":"76"},"level":"info","message":"","timestamp":"2016-12-06T08:36:10.738Z"}
+{"level":"info","message":"Start module  dMaster","timestamp":"2016-12-06T08:36:12.949Z"}
+{"level":"info","message":"Process ./rt/dMaster online","timestamp":"2016-12-06T08:36:13.195Z"}
+{"code":1,"signal":null,"level":"info","message":"Process ./rt/dMaster closed","timestamp":"2016-12-06T08:36:13.589Z"}
+{"level":"info","message":"Start module  dMaster","timestamp":"2016-12-06T08:36:32.753Z"}
+{"level":"info","message":"Process ./rt/dMaster online","timestamp":"2016-12-06T08:36:33.004Z"}
+{"level":"info","message":"./rt/dMaster : ","timestamp":"2016-12-06T08:36:33.379Z"}
+{"code":0,"signal":null,"level":"info","message":"Process ./rt/dMaster closed","timestamp":"2016-12-06T08:36:33.391Z"}
+{"level":"info","message":"Start service","timestamp":"2016-12-06T08:38:13.678Z"}
+{"level":"info","message":"Web service loaded","timestamp":"2016-12-06T08:38:13.920Z"}
+{"level":"info","message":"Websocket loaded","timestamp":"2016-12-06T08:38:14.120Z"}
+{"level":"info","message":"Total records in data - 0","timestamp":"2016-12-06T08:38:14.628Z"}
+{"id":"584521ec24fd773b5c2b81c8","name":"test","path":"teset","state":"0","rule":{},"args":{"str":"test"},"level":"info","message":"","timestamp":"2016-12-06T08:38:14.630Z"}
+{"id":"584522f30afa4735fc7335c5","name":"dMaster","path":"./rt/dMaster","state":"0","rule":{},"args":{"str":"gg44"},"level":"info","message":"","timestamp":"2016-12-06T08:38:14.631Z"}
+{"id":"584523bc0afa4735fc7335c6","name":"dProccer","path":"./rt/dProccer","state":"0","rule":{},"args":{"str":"12"},"level":"info","message":"","timestamp":"2016-12-06T08:38:14.632Z"}
+{"id":"584523f90afa4735fc7335c7","name":"987","path":"987","state":"0","rule":{},"args":{"str":"987"},"level":"info","message":"","timestamp":"2016-12-06T08:38:14.632Z"}
+{"id":"58452a26e201741794699e81","name":"76","path":"76","state":"0","rule":{},"args":{"str":"76"},"level":"info","message":"","timestamp":"2016-12-06T08:38:14.632Z"}
+{"level":"info","message":"Start module  dMaster","timestamp":"2016-12-06T08:38:18.043Z"}
+{"level":"info","message":"Process ./rt/dMaster online","timestamp":"2016-12-06T08:38:18.285Z"}
+{"level":"info","message":"./rt/dMaster : ","timestamp":"2016-12-06T08:38:18.652Z"}
+{"code":0,"signal":null,"level":"info","message":"Process ./rt/dMaster closed","timestamp":"2016-12-06T08:38:18.666Z"}
+{"level":"info","message":"Start module  dMaster","timestamp":"2016-12-06T08:38:57.138Z"}
+{"level":"info","message":"Process ./rt/dMaster online","timestamp":"2016-12-06T08:38:57.479Z"}
+{"level":"info","message":"./rt/dMaster :  Cannot find module 'queue'","timestamp":"2016-12-06T08:38:57.993Z"}
+{"code":0,"signal":null,"level":"info","message":"Process ./rt/dMaster closed","timestamp":"2016-12-06T08:38:58.004Z"}
+{"level":"info","message":"Start module  dMaster","timestamp":"2016-12-06T08:39:20.199Z"}
+{"level":"info","message":"Process ./rt/dMaster online","timestamp":"2016-12-06T08:39:20.420Z"}
+{"level":"info","message":"./rt/dMaster :  Cannot find module 'queue'","timestamp":"2016-12-06T08:39:20.778Z"}
+{"code":0,"signal":null,"level":"info","message":"Process ./rt/dMaster closed","timestamp":"2016-12-06T08:39:20.795Z"}
+{"level":"info","message":"terminal command mstart dMaster","timestamp":"2016-12-06T08:39:30.376Z"}
+{"level":"info","message":"Start module  dMaster","timestamp":"2016-12-06T08:39:30.376Z"}
+{"level":"info","message":"Process ./rt/dMaster online","timestamp":"2016-12-06T08:39:30.583Z"}
+{"level":"info","message":"./rt/dMaster :  Cannot find module 'queue'","timestamp":"2016-12-06T08:39:30.933Z"}
+{"code":0,"signal":null,"level":"info","message":"Process ./rt/dMaster closed","timestamp":"2016-12-06T08:39:30.946Z"}
+{"level":"info","message":"Start module  dMaster","timestamp":"2016-12-06T08:44:59.406Z"}
+{"level":"info","message":"Process ./rt/dMaster online","timestamp":"2016-12-06T08:44:59.646Z"}
+{"level":"info","message":"./rt/dMaster :  Cannot find module 'queue'","timestamp":"2016-12-06T08:45:00.043Z"}
+{"code":0,"signal":null,"level":"info","message":"Process ./rt/dMaster closed","timestamp":"2016-12-06T08:45:00.055Z"}
+{"level":"info","message":"terminal command mstart dMaster","timestamp":"2016-12-06T08:48:49.486Z"}
+{"level":"info","message":"Start module  dMaster","timestamp":"2016-12-06T08:48:49.486Z"}
+{"level":"info","message":"Process ./rt/dMaster online","timestamp":"2016-12-06T08:48:49.720Z"}
+{"level":"info","message":"./rt/dMaster :  Cannot find module 'queue'","timestamp":"2016-12-06T08:48:50.080Z"}
+{"code":0,"signal":null,"level":"info","message":"Process ./rt/dMaster closed","timestamp":"2016-12-06T08:48:50.091Z"}
+{"level":"info","message":"terminal command mstart dMaster","timestamp":"2016-12-06T08:49:04.403Z"}
+{"level":"info","message":"Start module  dMaster","timestamp":"2016-12-06T08:49:04.404Z"}
+{"level":"info","message":"Process ./rt/dMaster online","timestamp":"2016-12-06T08:49:04.627Z"}
+{"level":"info","message":"./rt/dMaster :  Cannot find module 'queue'","timestamp":"2016-12-06T08:49:04.999Z"}
+{"code":0,"signal":null,"level":"info","message":"Process ./rt/dMaster closed","timestamp":"2016-12-06T08:49:05.011Z"}
+{"level":"info","message":"Start service","timestamp":"2016-12-06T09:38:00.919Z"}
+{"level":"info","message":"Web service loaded","timestamp":"2016-12-06T09:38:01.620Z"}
+{"level":"info","message":"Websocket loaded","timestamp":"2016-12-06T09:38:02.286Z"}
+{"level":"info","message":"Total records in data - 0","timestamp":"2016-12-06T09:38:02.861Z"}
+{"id":"584521ec24fd773b5c2b81c8","name":"test","path":"teset","state":"0","rule":{},"args":{"str":"test"},"level":"info","message":"","timestamp":"2016-12-06T09:38:02.864Z"}
+{"id":"584522f30afa4735fc7335c5","name":"dMaster","path":"./rt/dMaster","state":"0","rule":{},"args":{"str":"gg44"},"level":"info","message":"","timestamp":"2016-12-06T09:38:02.865Z"}
+{"id":"584523bc0afa4735fc7335c6","name":"dProccer","path":"./rt/dProccer","state":"0","rule":{},"args":{"str":"12"},"level":"info","message":"","timestamp":"2016-12-06T09:38:02.865Z"}
+{"id":"584523f90afa4735fc7335c7","name":"987","path":"987","state":"0","rule":{},"args":{"str":"987"},"level":"info","message":"","timestamp":"2016-12-06T09:38:02.866Z"}
+{"id":"58452a26e201741794699e81","name":"76","path":"76","state":"0","rule":{},"args":{"str":"76"},"level":"info","message":"","timestamp":"2016-12-06T09:38:02.866Z"}
+{"level":"info","message":"Start module  dMaster","timestamp":"2016-12-06T10:31:26.579Z"}
+{"level":"info","message":"Process ./rt/dMaster online","timestamp":"2016-12-06T10:31:26.999Z"}
+{"level":"info","message":"./rt/dMaster :  Cannot find module 'queue'","timestamp":"2016-12-06T10:31:27.431Z"}
+{"code":0,"signal":null,"level":"info","message":"Process ./rt/dMaster closed","timestamp":"2016-12-06T10:31:27.445Z"}
+{"level":"info","message":"Start module  dMaster","timestamp":"2016-12-06T11:54:56.576Z"}
+{"level":"info","message":"Process ./rt/dMaster online","timestamp":"2016-12-06T11:54:56.834Z"}
+{"level":"info","message":"./rt/dMaster :  Cannot find module 'queue'","timestamp":"2016-12-06T11:54:57.227Z"}
+{"code":0,"signal":null,"level":"info","message":"Process ./rt/dMaster closed","timestamp":"2016-12-06T11:54:57.238Z"}

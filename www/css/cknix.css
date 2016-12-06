@@ -28,7 +28,7 @@ body{
     font-family: 'Arsenal'
 }
 #log{
-    font-family: 'Courier'
+    font-family: 'Consolas'
 }
 .table>tbody>tr>td, .table>tbody>tr>th, .table>tfoot>tr>td, .table>tfoot>tr>th, .table>thead>tr>td, .table>thead>tr>th {
     padding: 8px;
@@ -38,13 +38,14 @@ body{
 }
 .mlog>span
 {
-    font-family: 'Courier';
+    font-family: 'Consolas';
     font-size: 16px;
 }
 .input-group-addon
 {
-    background: black;
+    background: #222;
     color: white;
     border-color: #333;
-    font-family:'Courier';
+    font-family: 'Consolas';
+
 }

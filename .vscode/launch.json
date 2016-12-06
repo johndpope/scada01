@@ -16,7 +16,7 @@
             "type": "node",
             "request": "launch",
             "name": "dmaster",
-            "program": "${workspaceRoot}/rt/dmaster.js",
+            "program": "${workspaceRoot}/rt/dMaster.js",
             "cwd": "${workspaceRoot}"
             
         },

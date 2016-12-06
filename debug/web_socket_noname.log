@@ -1087,3 +1087,37 @@
 {"level":"info","message":"Client r_-7MscBlT4jXNB8AAAA (127.0.0.1) connected","timestamp":"2016-12-05T13:43:42.477Z"}
 {"level":"info","message":"Client r_-7MscBlT4jXNB8AAAA disconnected","timestamp":"2016-12-05T13:45:42.548Z"}
 {"level":"info","message":"Client 5PI-9pSgXg_e656LAAAB (127.0.0.1) connected","timestamp":"2016-12-05T13:45:43.058Z"}
+{"level":"info","message":"Client n63FwyLPVyjtr2n1AAAA (127.0.0.1) connected","timestamp":"2016-12-06T08:33:10.651Z"}
+{"level":"info","message":"Client XF-tCryJsjJlOgw4AAAA (127.0.0.1) connected","timestamp":"2016-12-06T08:36:10.800Z"}
+{"level":"info","message":"Client 6-N5EtpYS1HCLfcGAAAA (127.0.0.1) connected","timestamp":"2016-12-06T08:38:14.692Z"}
+{"level":"info","message":"Client 6-N5EtpYS1HCLfcGAAAA disconnected","timestamp":"2016-12-06T08:39:13.647Z"}
+{"level":"info","message":"Client UbVQtD6HbhiJuCrXAAAB (127.0.0.1) connected","timestamp":"2016-12-06T08:39:14.212Z"}
+{"level":"info","message":"Client UbVQtD6HbhiJuCrXAAAB disconnected","timestamp":"2016-12-06T08:41:59.987Z"}
+{"level":"info","message":"Client MxeuLIWQzH9K3B5XAAAC (127.0.0.1) connected","timestamp":"2016-12-06T08:42:00.652Z"}
+{"level":"info","message":"Client MxeuLIWQzH9K3B5XAAAC disconnected","timestamp":"2016-12-06T08:42:10.992Z"}
+{"level":"info","message":"Client Vsh_YLUiS_8zVr8tAAAD (127.0.0.1) connected","timestamp":"2016-12-06T08:42:11.280Z"}
+{"level":"info","message":"Client Vsh_YLUiS_8zVr8tAAAD disconnected","timestamp":"2016-12-06T08:42:51.721Z"}
+{"level":"info","message":"Client Pw-h7L9QlYKzvvpOAAAE (127.0.0.1) connected","timestamp":"2016-12-06T08:42:52.193Z"}
+{"level":"info","message":"Client Pw-h7L9QlYKzvvpOAAAE disconnected","timestamp":"2016-12-06T08:44:45.054Z"}
+{"level":"info","message":"Client h-Tj2FJMuflMTa7bAAAF (127.0.0.1) connected","timestamp":"2016-12-06T08:44:45.595Z"}
+{"level":"info","message":"Client h-Tj2FJMuflMTa7bAAAF disconnected","timestamp":"2016-12-06T08:45:27.148Z"}
+{"level":"info","message":"Client Rt0pfXvzPf54n6q6AAAG (127.0.0.1) connected","timestamp":"2016-12-06T08:45:27.698Z"}
+{"level":"info","message":"Client Rt0pfXvzPf54n6q6AAAG disconnected","timestamp":"2016-12-06T08:45:38.542Z"}
+{"level":"info","message":"Client ctkLXl_kZ8Ug_hQkAAAH (127.0.0.1) connected","timestamp":"2016-12-06T08:45:38.898Z"}
+{"level":"info","message":"Client ctkLXl_kZ8Ug_hQkAAAH disconnected","timestamp":"2016-12-06T08:46:00.132Z"}
+{"level":"info","message":"Client Ec078n_XoEFscGIpAAAI (127.0.0.1) connected","timestamp":"2016-12-06T08:46:00.605Z"}
+{"level":"info","message":"Client Ec078n_XoEFscGIpAAAI disconnected","timestamp":"2016-12-06T08:47:25.272Z"}
+{"level":"info","message":"Client GSmEP6tRxYxPzpWFAAAJ (127.0.0.1) connected","timestamp":"2016-12-06T08:47:25.870Z"}
+{"level":"info","message":"Client GSmEP6tRxYxPzpWFAAAJ disconnected","timestamp":"2016-12-06T08:48:21.612Z"}
+{"level":"info","message":"Client UniL_8XPqF9GRghUAAAK (127.0.0.1) connected","timestamp":"2016-12-06T08:48:22.080Z"}
+{"level":"info","message":"Client UniL_8XPqF9GRghUAAAK disconnected","timestamp":"2016-12-06T08:48:56.949Z"}
+{"level":"info","message":"Client 8dYfzJwYdPxqSxRPAAAL (127.0.0.1) connected","timestamp":"2016-12-06T08:48:57.384Z"}
+{"level":"info","message":"Client 8dYfzJwYdPxqSxRPAAAL disconnected","timestamp":"2016-12-06T08:55:25.784Z"}
+{"level":"info","message":"Client mWP_lLMC8G6NhmzyAAAM (127.0.0.1) connected","timestamp":"2016-12-06T08:55:26.313Z"}
+{"level":"info","message":"Client mWP_lLMC8G6NhmzyAAAM disconnected","timestamp":"2016-12-06T08:55:31.032Z"}
+{"level":"info","message":"Client nGOCbWo-AnSHANnHAAAN (127.0.0.1) connected","timestamp":"2016-12-06T08:57:09.163Z"}
+{"level":"info","message":"Client pmBW6XyX4f7LkJ8rAAAA (127.0.0.1) connected","timestamp":"2016-12-06T09:38:04.544Z"}
+{"level":"info","message":"Client pmBW6XyX4f7LkJ8rAAAA disconnected","timestamp":"2016-12-06T10:24:40.293Z"}
+{"level":"info","message":"Client p9DIq6WV7CeB_eUrAAAB (127.0.0.1) connected","timestamp":"2016-12-06T10:24:41.892Z"}
+{"level":"info","message":"Client p9DIq6WV7CeB_eUrAAAB disconnected","timestamp":"2016-12-06T10:24:54.042Z"}
+{"level":"info","message":"Client JEHIZoomI8sYBHt6AAAC (127.0.0.1) connected","timestamp":"2016-12-06T10:24:55.619Z"}
