@@ -28,6 +28,14 @@
             "cwd": "${workspaceRoot}"
             
         },
+                {
+            "type": "node",
+            "request": "launch",
+            "name": "ckp",
+            "program": "${workspaceRoot}/ckpAdapter.js",
+            "cwd": "${workspaceRoot}"
+            
+        },
         {
             "type": "node",
             "request": "attach",

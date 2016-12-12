@@ -3006,3 +3006,185 @@
 {"level":"info","message":"Process ./rt/dMaster online","timestamp":"2016-12-06T11:54:56.834Z"}
 {"level":"info","message":"./rt/dMaster :  Cannot find module 'queue'","timestamp":"2016-12-06T11:54:57.227Z"}
 {"code":0,"signal":null,"level":"info","message":"Process ./rt/dMaster closed","timestamp":"2016-12-06T11:54:57.238Z"}
+{"level":"info","message":"Start service","timestamp":"2016-12-06T13:40:41.214Z"}
+{"level":"info","message":"Web service loaded","timestamp":"2016-12-06T13:40:41.508Z"}
+{"level":"info","message":"Websocket loaded","timestamp":"2016-12-06T13:40:41.764Z"}
+{"level":"info","message":"Total records in data - 0","timestamp":"2016-12-06T13:40:42.248Z"}
+{"id":"584521ec24fd773b5c2b81c8","name":"test","path":"teset","state":"0","rule":{},"args":{"str":"test"},"level":"info","message":"","timestamp":"2016-12-06T13:40:42.253Z"}
+{"id":"584522f30afa4735fc7335c5","name":"dMaster","path":"./rt/dMaster","state":"0","rule":{},"args":{"str":"gg44"},"level":"info","message":"","timestamp":"2016-12-06T13:40:42.257Z"}
+{"id":"584523bc0afa4735fc7335c6","name":"dProccer","path":"./rt/dProccer","state":"0","rule":{},"args":{"str":"12"},"level":"info","message":"","timestamp":"2016-12-06T13:40:42.259Z"}
+{"id":"584523f90afa4735fc7335c7","name":"987","path":"987","state":"0","rule":{},"args":{"str":"987"},"level":"info","message":"","timestamp":"2016-12-06T13:40:42.259Z"}
+{"id":"58452a26e201741794699e81","name":"76","path":"76","state":"0","rule":{},"args":{"str":"76"},"level":"info","message":"","timestamp":"2016-12-06T13:40:42.267Z"}
+{"level":"info","message":"terminal command mstart dMaster","timestamp":"2016-12-06T13:40:58.167Z"}
+{"level":"info","message":"Start module  dMaster","timestamp":"2016-12-06T13:40:58.168Z"}
+{"level":"info","message":"Process ./rt/dMaster online","timestamp":"2016-12-06T13:40:58.392Z"}
+{"level":"info","message":"./rt/dMaster :  Start dMaster","timestamp":"2016-12-06T13:40:59.092Z"}
+{"level":"info","message":"./rt/dMaster :  Connecting to mongodb://127.0.0.1:27017/scdme","timestamp":"2016-12-06T13:40:59.092Z"}
+{"level":"info","message":"./rt/dMaster :  OK. Connected to mongodb...","timestamp":"2016-12-06T13:40:59.093Z"}
+{"meta":"","level":"info","message":"./rt/dMaster : ","timestamp":"2016-12-06T13:40:59.094Z"}
+{"level":"info","message":"./rt/dMaster :  Start dMaster","timestamp":"2016-12-06T13:40:59.095Z"}
+{"level":"info","message":"./rt/dMaster :  Connecting to mongodb://127.0.0.1:27017/scdme","timestamp":"2016-12-06T13:40:59.095Z"}
+{"level":"info","message":"./rt/dMaster :  OK. Connected to mongodb...","timestamp":"2016-12-06T13:40:59.095Z"}
+{"meta":"","level":"info","message":"./rt/dMaster : ","timestamp":"2016-12-06T13:40:59.096Z"}
+{"level":"info","message":"./rt/dMaster :  Start dMaster","timestamp":"2016-12-06T13:40:59.096Z"}
+{"level":"info","message":"./rt/dMaster :  Connecting to mongodb://127.0.0.1:27017/scdme","timestamp":"2016-12-06T13:40:59.097Z"}
+{"level":"info","message":"./rt/dMaster :  OK. Connected to mongodb...","timestamp":"2016-12-06T13:40:59.098Z"}
+{"meta":"","level":"info","message":"./rt/dMaster : ","timestamp":"2016-12-06T13:40:59.099Z"}
+{"level":"info","message":"./rt/dMaster :  Start dMaster","timestamp":"2016-12-06T13:40:59.100Z"}
+{"level":"info","message":"./rt/dMaster :  Connecting to mongodb://127.0.0.1:27017/scdme","timestamp":"2016-12-06T13:40:59.100Z"}
+{"level":"info","message":"./rt/dMaster :  OK. Connected to mongodb...","timestamp":"2016-12-06T13:40:59.100Z"}
+{"level":"info","message":"./rt/dMaster :  Start dMaster","timestamp":"2016-12-06T13:40:59.101Z"}
+{"level":"info","message":"./rt/dMaster :  Connecting to mongodb://127.0.0.1:27017/scdme","timestamp":"2016-12-06T13:40:59.101Z"}
+{"level":"info","message":"./rt/dMaster :  OK. Connected to mongodb...","timestamp":"2016-12-06T13:40:59.102Z"}
+{"meta":"","level":"info","message":"./rt/dMaster : ","timestamp":"2016-12-06T13:40:59.102Z"}
+{"level":"info","message":"./rt/dMaster :  Start dMaster","timestamp":"2016-12-06T13:40:59.103Z"}
+{"level":"info","message":"./rt/dMaster :  Connecting to mongodb://127.0.0.1:27017/scdme","timestamp":"2016-12-06T13:40:59.103Z"}
+{"level":"info","message":"./rt/dMaster :  OK. Connected to mongodb...","timestamp":"2016-12-06T13:40:59.104Z"}
+{"meta":"","level":"info","message":"./rt/dMaster : ","timestamp":"2016-12-06T13:40:59.104Z"}
+{"level":"info","message":"./rt/dMaster :  Start dMaster","timestamp":"2016-12-06T13:40:59.106Z"}
+{"level":"info","message":"./rt/dMaster :  Connecting to mongodb://127.0.0.1:27017/scdme","timestamp":"2016-12-06T13:40:59.107Z"}
+{"level":"info","message":"./rt/dMaster :  Start dMaster","timestamp":"2016-12-06T13:40:59.108Z"}
+{"level":"info","message":"./rt/dMaster :  Connecting to mongodb://127.0.0.1:27017/scdme","timestamp":"2016-12-06T13:40:59.108Z"}
+{"level":"info","message":"./rt/dMaster :  OK. Connected to mongodb...","timestamp":"2016-12-06T13:40:59.112Z"}
+{"meta":"","level":"info","message":"./rt/dMaster : ","timestamp":"2016-12-06T13:40:59.119Z"}
+{"level":"info","message":"./rt/dMaster :  Start dMaster","timestamp":"2016-12-06T13:40:59.121Z"}
+{"level":"info","message":"./rt/dMaster :  Connecting to mongodb://127.0.0.1:27017/scdme","timestamp":"2016-12-06T13:40:59.123Z"}
+{"level":"info","message":"./rt/dMaster :  OK. Connected to mongodb...","timestamp":"2016-12-06T13:40:59.125Z"}
+{"level":"info","message":"./rt/dMaster :  Start dMaster","timestamp":"2016-12-06T13:40:59.125Z"}
+{"level":"info","message":"./rt/dMaster :  Connecting to mongodb://127.0.0.1:27017/scdme","timestamp":"2016-12-06T13:40:59.127Z"}
+{"level":"info","message":"./rt/dMaster :  OK. Connected to mongodb...","timestamp":"2016-12-06T13:40:59.130Z"}
+{"level":"info","message":"./rt/dMaster :  dta_a_1","timestamp":"2016-12-06T13:40:59.130Z"}
+{"level":"info","message":"./rt/dMaster :  modules","timestamp":"2016-12-06T13:40:59.132Z"}
+{"level":"info","message":"./rt/dMaster :  Start dMaster","timestamp":"2016-12-06T13:40:59.133Z"}
+{"level":"info","message":"./rt/dMaster :  Connecting to mongodb://127.0.0.1:27017/scdme","timestamp":"2016-12-06T13:40:59.134Z"}
+{"level":"info","message":"./rt/dMaster :  OK. Connected to mongodb...","timestamp":"2016-12-06T13:40:59.134Z"}
+{"level":"info","message":"./rt/dMaster :  Reading data-collection for params..","timestamp":"2016-12-06T13:40:59.134Z"}
+{"level":"info","message":"./rt/dMaster :  dta_a_1","timestamp":"2016-12-06T13:40:59.135Z"}
+{"level":"info","message":"./rt/dMaster :  Start dMaster","timestamp":"2016-12-06T13:40:59.135Z"}
+{"level":"info","message":"./rt/dMaster :  Connecting to mongodb://127.0.0.1:27017/scdme","timestamp":"2016-12-06T13:40:59.136Z"}
+{"level":"info","message":"./rt/dMaster :  OK. Connected to mongodb...","timestamp":"2016-12-06T13:40:59.136Z"}
+{"level":"info","message":"./rt/dMaster :  Reading data-collection for params..","timestamp":"2016-12-06T13:40:59.137Z"}
+{"level":"info","message":"./rt/dMaster :  dta_a_1","timestamp":"2016-12-06T13:40:59.138Z"}
+{"level":"info","message":"./rt/dMaster :  Start dMaster","timestamp":"2016-12-06T13:40:59.139Z"}
+{"level":"info","message":"./rt/dMaster :  Connecting to mongodb://127.0.0.1:27017/scdme","timestamp":"2016-12-06T13:40:59.139Z"}
+{"level":"info","message":"./rt/dMaster :  OK. Connected to mongodb...","timestamp":"2016-12-06T13:40:59.140Z"}
+{"level":"info","message":"./rt/dMaster :  Reading data-collection for params..","timestamp":"2016-12-06T13:40:59.141Z"}
+{"level":"info","message":"./rt/dMaster :  dta_a_1","timestamp":"2016-12-06T13:40:59.146Z"}
+{"level":"info","message":"./rt/dMaster :  Start dMaster","timestamp":"2016-12-06T13:40:59.149Z"}
+{"level":"info","message":"./rt/dMaster :  Connecting to mongodb://127.0.0.1:27017/scdme","timestamp":"2016-12-06T13:40:59.150Z"}
+{"level":"info","message":"./rt/dMaster :  OK. Connected to mongodb...","timestamp":"2016-12-06T13:40:59.151Z"}
+{"level":"info","message":"./rt/dMaster :  Reading data-collection for params..","timestamp":"2016-12-06T13:40:59.151Z"}
+{"level":"info","message":"./rt/dMaster :  dta_a_1","timestamp":"2016-12-06T13:40:59.151Z"}
+{"level":"info","message":"./rt/dMaster :   ","timestamp":"2016-12-06T13:40:59.152Z"}
+{"level":"info","message":"./rt/dMaster :  Start dMaster","timestamp":"2016-12-06T13:41:00.128Z"}
+{"level":"info","message":"./rt/dMaster :  Connecting to mongodb://127.0.0.1:27017/scdme","timestamp":"2016-12-06T13:41:00.128Z"}
+{"level":"info","message":"./rt/dMaster :  OK. Connected to mongodb...","timestamp":"2016-12-06T13:41:00.128Z"}
+{"level":"info","message":"./rt/dMaster :  Reading data-collection for params..","timestamp":"2016-12-06T13:41:00.129Z"}
+{"level":"info","message":"./rt/dMaster :  dta_a_1","timestamp":"2016-12-06T13:41:00.130Z"}
+{"level":"info","message":"Stop module  dMaster","timestamp":"2016-12-06T13:43:27.071Z"}
+{"code":null,"signal":"SIGTERM","level":"info","message":"Process ./rt/dMaster closed","timestamp":"2016-12-06T13:43:27.099Z"}
+{"level":"info","message":"Start module  dMaster","timestamp":"2016-12-06T13:43:28.071Z"}
+{"level":"info","message":"Process ./rt/dMaster online","timestamp":"2016-12-06T13:43:28.322Z"}
+{"level":"info","message":"./rt/dMaster :  Start dMaster","timestamp":"2016-12-06T13:43:28.996Z"}
+{"level":"info","message":"./rt/dMaster :  Connecting to mongodb://127.0.0.1:27017/scdme","timestamp":"2016-12-06T13:43:28.996Z"}
+{"level":"info","message":"./rt/dMaster :  OK. Connected to mongodb...","timestamp":"2016-12-06T13:43:28.997Z"}
+{"meta":"","level":"info","message":"./rt/dMaster : ","timestamp":"2016-12-06T13:43:28.998Z"}
+{"level":"info","message":"./rt/dMaster :  Start dMaster","timestamp":"2016-12-06T13:43:29.000Z"}
+{"level":"info","message":"./rt/dMaster :  Connecting to mongodb://127.0.0.1:27017/scdme","timestamp":"2016-12-06T13:43:29.000Z"}
+{"level":"info","message":"./rt/dMaster :  OK. Connected to mongodb...","timestamp":"2016-12-06T13:43:29.001Z"}
+{"meta":"","level":"info","message":"./rt/dMaster : ","timestamp":"2016-12-06T13:43:29.002Z"}
+{"level":"info","message":"./rt/dMaster :  Start dMaster","timestamp":"2016-12-06T13:43:29.002Z"}
+{"level":"info","message":"./rt/dMaster :  Connecting to mongodb://127.0.0.1:27017/scdme","timestamp":"2016-12-06T13:43:29.003Z"}
+{"level":"info","message":"./rt/dMaster :  OK. Connected to mongodb...","timestamp":"2016-12-06T13:43:29.003Z"}
+{"meta":"","level":"info","message":"./rt/dMaster : ","timestamp":"2016-12-06T13:43:29.004Z"}
+{"level":"info","message":"./rt/dMaster :  Start dMaster","timestamp":"2016-12-06T13:43:29.004Z"}
+{"level":"info","message":"./rt/dMaster :  Connecting to mongodb://127.0.0.1:27017/scdme","timestamp":"2016-12-06T13:43:29.005Z"}
+{"level":"info","message":"./rt/dMaster :  OK. Connected to mongodb...","timestamp":"2016-12-06T13:43:29.005Z"}
+{"level":"info","message":"./rt/dMaster :  Start dMaster","timestamp":"2016-12-06T13:43:29.005Z"}
+{"level":"info","message":"./rt/dMaster :  Connecting to mongodb://127.0.0.1:27017/scdme","timestamp":"2016-12-06T13:43:29.005Z"}
+{"level":"info","message":"./rt/dMaster :  OK. Connected to mongodb...","timestamp":"2016-12-06T13:43:29.006Z"}
+{"meta":"","level":"info","message":"./rt/dMaster : ","timestamp":"2016-12-06T13:43:29.006Z"}
+{"level":"info","message":"./rt/dMaster :  Start dMaster","timestamp":"2016-12-06T13:43:29.007Z"}
+{"level":"info","message":"./rt/dMaster :  Connecting to mongodb://127.0.0.1:27017/scdme","timestamp":"2016-12-06T13:43:29.007Z"}
+{"level":"info","message":"./rt/dMaster :  OK. Connected to mongodb...","timestamp":"2016-12-06T13:43:29.007Z"}
+{"meta":"","level":"info","message":"./rt/dMaster : ","timestamp":"2016-12-06T13:43:29.008Z"}
+{"level":"info","message":"./rt/dMaster :  Start dMaster","timestamp":"2016-12-06T13:43:29.009Z"}
+{"level":"info","message":"./rt/dMaster :  Connecting to mongodb://127.0.0.1:27017/scdme","timestamp":"2016-12-06T13:43:29.009Z"}
+{"level":"info","message":"./rt/dMaster :  Start dMaster","timestamp":"2016-12-06T13:43:29.009Z"}
+{"level":"info","message":"./rt/dMaster :  Connecting to mongodb://127.0.0.1:27017/scdme","timestamp":"2016-12-06T13:43:29.009Z"}
+{"level":"info","message":"./rt/dMaster :  OK. Connected to mongodb...","timestamp":"2016-12-06T13:43:29.010Z"}
+{"meta":"","level":"info","message":"./rt/dMaster : ","timestamp":"2016-12-06T13:43:29.011Z"}
+{"level":"info","message":"./rt/dMaster :  Start dMaster","timestamp":"2016-12-06T13:43:29.011Z"}
+{"level":"info","message":"./rt/dMaster :  Connecting to mongodb://127.0.0.1:27017/scdme","timestamp":"2016-12-06T13:43:29.011Z"}
+{"level":"info","message":"./rt/dMaster :  OK. Connected to mongodb...","timestamp":"2016-12-06T13:43:29.011Z"}
+{"level":"info","message":"./rt/dMaster :  Start dMaster","timestamp":"2016-12-06T13:43:29.012Z"}
+{"level":"info","message":"./rt/dMaster :  Connecting to mongodb://127.0.0.1:27017/scdme","timestamp":"2016-12-06T13:43:29.012Z"}
+{"level":"info","message":"./rt/dMaster :  OK. Connected to mongodb...","timestamp":"2016-12-06T13:43:29.012Z"}
+{"level":"info","message":"./rt/dMaster :  dta_a_1","timestamp":"2016-12-06T13:43:29.012Z"}
+{"level":"info","message":"./rt/dMaster :  modules","timestamp":"2016-12-06T13:43:29.013Z"}
+{"level":"info","message":"./rt/dMaster :  Start dMaster","timestamp":"2016-12-06T13:43:29.018Z"}
+{"level":"info","message":"./rt/dMaster :  Connecting to mongodb://127.0.0.1:27017/scdme","timestamp":"2016-12-06T13:43:29.018Z"}
+{"level":"info","message":"./rt/dMaster :  OK. Connected to mongodb...","timestamp":"2016-12-06T13:43:29.019Z"}
+{"level":"info","message":"./rt/dMaster :  Reading data-collection for params..","timestamp":"2016-12-06T13:43:29.020Z"}
+{"level":"info","message":"./rt/dMaster :  dta_a_1","timestamp":"2016-12-06T13:43:29.020Z"}
+{"level":"info","message":"./rt/dMaster :  Start dMaster","timestamp":"2016-12-06T13:43:29.020Z"}
+{"level":"info","message":"./rt/dMaster :  Connecting to mongodb://127.0.0.1:27017/scdme","timestamp":"2016-12-06T13:43:29.020Z"}
+{"level":"info","message":"./rt/dMaster :  OK. Connected to mongodb...","timestamp":"2016-12-06T13:43:29.021Z"}
+{"level":"info","message":"./rt/dMaster :  Reading data-collection for params..","timestamp":"2016-12-06T13:43:29.022Z"}
+{"level":"info","message":"./rt/dMaster :  dta_a_1","timestamp":"2016-12-06T13:43:29.022Z"}
+{"level":"info","message":"./rt/dMaster :  Start dMaster","timestamp":"2016-12-06T13:43:29.022Z"}
+{"level":"info","message":"./rt/dMaster :  Connecting to mongodb://127.0.0.1:27017/scdme","timestamp":"2016-12-06T13:43:29.024Z"}
+{"level":"info","message":"./rt/dMaster :  OK. Connected to mongodb...","timestamp":"2016-12-06T13:43:29.025Z"}
+{"level":"info","message":"./rt/dMaster :  Reading data-collection for params..","timestamp":"2016-12-06T13:43:29.026Z"}
+{"level":"info","message":"./rt/dMaster :  dta_a_1","timestamp":"2016-12-06T13:43:29.027Z"}
+{"level":"info","message":"./rt/dMaster :  Start dMaster","timestamp":"2016-12-06T13:43:29.027Z"}
+{"level":"info","message":"./rt/dMaster :  Connecting to mongodb://127.0.0.1:27017/scdme","timestamp":"2016-12-06T13:43:29.028Z"}
+{"level":"info","message":"./rt/dMaster :  OK. Connected to mongodb...","timestamp":"2016-12-06T13:43:29.028Z"}
+{"level":"info","message":"./rt/dMaster :  Reading data-collection for params..","timestamp":"2016-12-06T13:43:29.028Z"}
+{"level":"info","message":"./rt/dMaster :  dta_a_1","timestamp":"2016-12-06T13:43:29.028Z"}
+{"level":"info","message":"./rt/dMaster :   ","timestamp":"2016-12-06T13:43:29.029Z"}
+{"level":"info","message":"./rt/dMaster :  Start dMaster","timestamp":"2016-12-06T13:43:29.029Z"}
+{"level":"info","message":"./rt/dMaster :  Connecting to mongodb://127.0.0.1:27017/scdme","timestamp":"2016-12-06T13:43:29.029Z"}
+{"level":"info","message":"./rt/dMaster :  OK. Connected to mongodb...","timestamp":"2016-12-06T13:43:29.029Z"}
+{"level":"info","message":"./rt/dMaster :  Reading data-collection for params..","timestamp":"2016-12-06T13:43:29.030Z"}
+{"level":"info","message":"./rt/dMaster :  dta_a_1","timestamp":"2016-12-06T13:43:29.030Z"}
+{"level":"info","message":"./rt/dMaster :   ","timestamp":"2016-12-06T13:43:29.031Z"}
+{"level":"info","message":"./rt/dMaster :   ","timestamp":"2016-12-06T13:43:29.031Z"}
+{"level":"info","message":"./rt/dMaster :   ","timestamp":"2016-12-06T13:43:29.031Z"}
+{"level":"info","message":"./rt/dMaster :   ","timestamp":"2016-12-06T13:43:29.031Z"}
+{"level":"info","message":"./rt/dMaster :  Start dMaster","timestamp":"2016-12-06T13:43:29.032Z"}
+{"level":"info","message":"./rt/dMaster :  Connecting to mongodb://127.0.0.1:27017/scdme","timestamp":"2016-12-06T13:43:29.033Z"}
+{"level":"info","message":"./rt/dMaster :  OK. Connected to mongodb...","timestamp":"2016-12-06T13:43:29.033Z"}
+{"level":"info","message":"./rt/dMaster :  Reading data-collection for params..","timestamp":"2016-12-06T13:43:29.033Z"}
+{"level":"info","message":"./rt/dMaster :  dta_a_1","timestamp":"2016-12-06T13:43:29.034Z"}
+{"level":"info","message":"Start service","timestamp":"2016-12-06T13:47:28.361Z"}
+{"level":"info","message":"Web service loaded","timestamp":"2016-12-06T13:47:28.610Z"}
+{"level":"info","message":"Websocket loaded","timestamp":"2016-12-06T13:47:28.823Z"}
+{"level":"info","message":"Total records in data - 0","timestamp":"2016-12-06T13:47:29.275Z"}
+{"id":"584521ec24fd773b5c2b81c8","name":"test","path":"teset","state":"0","rule":{},"args":{"str":"test"},"level":"info","message":"","timestamp":"2016-12-06T13:47:29.277Z"}
+{"id":"584522f30afa4735fc7335c5","name":"dMaster","path":"./rt/dMaster","state":"0","rule":{},"args":{"str":"gg44"},"level":"info","message":"","timestamp":"2016-12-06T13:47:29.278Z"}
+{"id":"584523bc0afa4735fc7335c6","name":"dProccer","path":"./rt/dProccer","state":"0","rule":{},"args":{"str":"12"},"level":"info","message":"","timestamp":"2016-12-06T13:47:29.278Z"}
+{"id":"584523f90afa4735fc7335c7","name":"987","path":"987","state":"0","rule":{},"args":{"str":"987"},"level":"info","message":"","timestamp":"2016-12-06T13:47:29.278Z"}
+{"id":"58452a26e201741794699e81","name":"76","path":"76","state":"0","rule":{},"args":{"str":"76"},"level":"info","message":"","timestamp":"2016-12-06T13:47:29.278Z"}
+{"level":"info","message":"terminal command mstart dMaster","timestamp":"2016-12-06T13:47:50.544Z"}
+{"level":"info","message":"Start module  dMaster","timestamp":"2016-12-06T13:47:50.545Z"}
+{"level":"info","message":"Process ./rt/dMaster online","timestamp":"2016-12-06T13:47:50.778Z"}
+{"level":"info","message":"./rt/dMaster :  94820940-bbba-11e6-b1f3-d9a35762c041","timestamp":"2016-12-06T13:47:51.394Z"}
+{"level":"info","message":"./rt/dMaster :  Start dMaster","timestamp":"2016-12-06T13:47:51.399Z"}
+{"level":"info","message":"./rt/dMaster :  Connecting to mongodb://127.0.0.1:27017/scdme","timestamp":"2016-12-06T13:47:51.400Z"}
+{"level":"info","message":"./rt/dMaster :  OK. Connected to mongodb...","timestamp":"2016-12-06T13:47:51.400Z"}
+{"level":"info","message":"./rt/dMaster :  Reading data-collection for params..","timestamp":"2016-12-06T13:47:51.400Z"}
+{"level":"info","message":"./rt/dMaster :  dta_a_1","timestamp":"2016-12-06T13:47:51.401Z"}
+{"level":"info","message":"terminal command mstop dMaster","timestamp":"2016-12-06T13:48:00.897Z"}
+{"level":"info","message":"Stop module  dMaster","timestamp":"2016-12-06T13:48:00.897Z"}
+{"code":null,"signal":"SIGTERM","level":"info","message":"Process ./rt/dMaster closed","timestamp":"2016-12-06T13:48:00.924Z"}
+{"level":"info","message":"Start module  dMaster","timestamp":"2016-12-07T06:55:28.438Z"}
+{"level":"info","message":"Process ./rt/dMaster online","timestamp":"2016-12-07T06:55:29.083Z"}
+{"level":"info","message":"./rt/dMaster :  23d98ac0-bc4a-11e6-b773-61942394a753","timestamp":"2016-12-07T06:55:30.325Z"}
+{"level":"info","message":"./rt/dMaster :  Start dMaster","timestamp":"2016-12-07T06:55:30.331Z"}
+{"level":"info","message":"./rt/dMaster :  Connecting to mongodb://127.0.0.1:27017/scdme","timestamp":"2016-12-07T06:55:30.331Z"}
+{"level":"info","message":"./rt/dMaster :  OK. Connected to mongodb...","timestamp":"2016-12-07T06:55:30.332Z"}
+{"level":"info","message":"./rt/dMaster :  Reading data-collection for params..","timestamp":"2016-12-07T06:55:30.332Z"}
+{"level":"info","message":"./rt/dMaster :  dta_a_1","timestamp":"2016-12-07T06:55:30.332Z"}
+{"level":"info","message":"Stop module  dMaster","timestamp":"2016-12-07T06:55:34.192Z"}
+{"code":null,"signal":"SIGTERM","level":"info","message":"Process ./rt/dMaster closed","timestamp":"2016-12-07T06:55:34.215Z"}

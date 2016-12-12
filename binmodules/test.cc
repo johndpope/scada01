@@ -5,96 +5,140 @@
 *   Tested in node.js v4.4.2 LTS in Ubuntu Linux
 */
 #include <node.h>
+#include <node_buffer.h>
 #include <uv.h>
 #include <iostream>
 #include <Windows.h>
+#include "blowfish.h"
+#include "md5.h"
 
 using namespace std;
-
+using namespace v8;
 namespace asyncAddon {
-	using v8::Function;
-	using v8::FunctionCallbackInfo;
-	using v8::Isolate;
-	using v8::Local;
-	using v8::Object;
-	using v8::String;
-	using v8::Value;
-	using v8::Persistent;
-
-	/**
-	* Work structure is be used to pass the callback function and data
-	* from the initiating function to the function which triggers the callback.
-	*/
-	struct Work {
-		uv_work_t  request;
-		Persistent<Function> callback;
-		string result;
-	};
-
-	/**
-	* WorkAsync function is the "middle" function which does the work.
-	* After the WorkAsync function is called, the WorkAsyncComplete function
-	* is called.
-	*/
-	static void WorkAsync(uv_work_t *req) {
-		Work *work = static_cast<Work *>(req->data);
-
-		Sleep(3000);
-		work->result = "Async task processed.";
-	}
-
-	/**
-	* WorkAsyncComplete function is called once we are ready to trigger the callback
-	* function in JS.
-	*/
-	static void WorkAsyncComplete(uv_work_t *req, int status)
+	Local<Object> create_buffer(Isolate* isolate, char* data, size_t length)
 	{
-		
-		Isolate * isolate = Isolate::GetCurrent();
-
-		v8::HandleScope handleScope(isolate);
-
-		Work *work = static_cast<Work *>(req->data);
-
-		const char *result = work->result.c_str();
-		Local<Value> argv[1] = { String::NewFromUtf8(isolate, result) };
-
-		// https://stackoverflow.com/questions/13826803/calling-javascript-function-from-a-c-callback-in-v8/28554065#28554065
-		Local<Function>::New(isolate, work->callback)->Call(isolate->GetCurrentContext()->Global(), 1, argv);
-
-		work->callback.Reset();
-		delete work;
+		return node::Buffer::New(isolate, data, length).ToLocalChecked();
 	}
-
-	/**
-	* DoTaskAsync is the initial function called from JS. This function returns
-	* immediately, however starts a uv task which later calls the callback function
-	*/
-	void DoTaskAsync(const FunctionCallbackInfo<Value>& args) {
+	void Method(const FunctionCallbackInfo<Value>& args) {
 		Isolate* isolate = args.GetIsolate();
+		LPSTR keystr = NULL;
+		LPSTR sbuf = NULL;
+		BLOWFISH_KEY* bfKey = NULL;
+		v8::String::Utf8Value param2(args[1]->ToString());
+		std::string user = std::string(*param2);
+		DWORD dwUser = (DWORD)user.size();
 
+		uint32 tstamp;
+		double value = args[0]->NumberValue() + args[1]->NumberValue();
+		Local<Number> num = Number::New(isolate, value);
+		keystr = new char[BL_KEY_LEN + 1];
+		tstamp = static_cast<uint32>(args[2]->NumberValue());
+		//tstamp = 1481186076;
+		//						
+		//tstamp += GetCurrentProcessId() ;
+		
+		
+		v8::String::Utf8Value param1(args[0]->ToString());
+		std::string kitname = std::string(*param1);
+			
 
-		Work * work = new Work();
-		work->request.data = work;
+		CreateKeyString(keystr, BL_KEY_LEN, kitname.c_str(), tstamp);
+		bfKey = new BLOWFISH_KEY;
+		blowfishKeyInit(bfKey, (BYTE*)keystr, BL_KEY_LEN);
+		sbuf = new char[1025];
+		memset(sbuf, 0, 1025);
+		uint32 nout = ret8len(1024, (uint16)dwUser);
+		lstrcpy(sbuf, user.c_str());
+		blowfishEncryptECB(bfKey, (BYTE*)sbuf, nout);
+		uint32 tmp_buf[2];
+		tmp_buf[0] = tstamp;
+		tmp_buf[1] = nout;
+		// Set the return value (using the passed in
+		// FunctionCallbackInfo<Value>&)
+		Handle<Object> ret = Object::New(isolate);
+		LPSTR ssbuf = (LPSTR)&tmp_buf;
+		ret->Set(String::NewFromUtf8(isolate, "sbuf"), String::NewFromUtf8(isolate, sbuf));
+		ret->Set(String::NewFromUtf8(isolate, "tmp_buf"), String::NewFromUtf8(isolate, ssbuf));
 
-		// args[0] is where we pick the callback function out of the JS function params.
-		// Because we chose args[0], we must supply the callback fn as the first parameter
-		Local<Function> callback = Local<Function>::Cast(args[0]);
-		work->callback.Reset(isolate, callback);
+		ret->Set(String::NewFromUtf8(isolate, "sizeof"), Number::New(isolate, sizeof(tmp_buf)));
+	
+		ret->Set(String::NewFromUtf8(isolate, "nout"), Number::New(isolate,nout));
+		args.GetReturnValue().Set(ret);
 
-		uv_queue_work(uv_default_loop(), &work->request, WorkAsync, WorkAsyncComplete);
+	}
+	void step2(const FunctionCallbackInfo<Value>& args)
+	{
+		Isolate* isolate = args.GetIsolate();
+		LPSTR recv_bufptr = new char[1025];
 
-		args.GetReturnValue().Set(Undefined(isolate));
+		
+		char * resv = node::Buffer::Data(args[1]);
+		char * kit = node::Buffer::Data(args[0]);
+
+		
+		char buf[40];
+
+		//debug info
+		Local<Function> cb = Local<Function>::Cast(args[2]);
+		const unsigned argc = 1;
+		resv[24] = 0; resv[24] = 0;
+		Local<Value> argv[argc] = { String::NewFromUtf8(isolate, resv) };
+		cb->Call(Null(isolate), argc, argv);
+		Local<Value> argv1[argc]= { String::NewFromUtf8(isolate, kit) };
+		cb->Call(Null(isolate), argc, argv1);
+		//////////
+		//resv = "rEI85lhfEF6BnvaUD6pgcYS8";
+		kit = "CKP-TEST01_02";
+		memset(buf, 0, 40);
+		resv[24] = 0; resv[24] = 0;
+		get_digest(resv, buf, kit);
+		//send(sock, buf, 36, 0);
+		//Handle<Object> ret = Object::New(isolate);
+		//ret->Set(String::NewFromUtf8(isolate, "result"), String::NewFromUtf8(isolate, buf));
+		args.GetReturnValue().Set(String::NewFromUtf8(isolate, buf));
+		//  abacb54d9e430c6bab75c0fdacbfe94a
+
 	}
 
 
-	/**
-	* init function declares what we will make visible to node
-	*/
+	void CreateKeyString(LPSTR str, uint16 lstr, LPCSTR userpas, uint32 tstamp)
+	{
+		LPSTR chr = "`1234567890-=qwertyuiop[]\\asdfghjkl;\'zxcvbnm,./?><MNBVCXZ\":LKJHGFDSA|}{POIUYTREWQ+_)(*&^%$#@!~¸¨úÚõÕçÇùÙøØãÃíÍåÅêÊóÓöÖéÉÔôÛûÂâÀàÏïÐðÎîËëÄäÆæÝýÿ÷ñìèòüáþÞÁÜÒÈÌÑ×ß";
+		uint32 lnchr = lstrlen(chr) + 3 * lstrlen(userpas);
+		LPSTR nchr = new char[lnchr + 1];
+		LPSTR ptr = nchr;
+		memset(nchr, 0, lnchr + 1);
+		lstrcpyn(ptr, chr, 41);
+		ptr += 40;
+		lstrcpy(ptr, userpas);
+		ptr += lstrlen(userpas);
+		lstrcpyn(ptr, chr + 40, 41);
+		ptr += 40;
+		lstrcpy(ptr, userpas);
+		ptr += lstrlen(userpas);
+		lstrcpyn(ptr, chr + 80, 41);
+		ptr += 40;
+		lstrcpy(ptr, userpas);
+		ptr += lstrlen(userpas);
+		lstrcpy(ptr, chr + 120);
+		char snumber[20];
+		wsprintf(snumber, "%d", tstamp);
+		uint32 bas = lstrlen(snumber);
+		uint16 poz = snumber[bas - 1];
+		uint8 ind = 0;
+		for(int i = 0; i < lstr; i++)
+		{
+			ind = (uint8)((++ind) % bas);
+			poz = (uint16)((poz + snumber[ind]) % lnchr);
+			str[i] = nchr[poz];
+		}
+		delete[] nchr;
+	}
+
 	void init(Local<Object> exports) {
-		NODE_SET_METHOD(exports, "doTask", DoTaskAsync);
+		NODE_SET_METHOD(exports, "createkey", Method);
+		NODE_SET_METHOD(exports, "step2", step2);
 	}
 
-	NODE_MODULE(asyncAddon, init)
-
+	NODE_MODULE(addon, init)
 }

@@ -55,3 +55,36 @@
 {"level":"info","message":"OK. Connected to mongodb...","timestamp":"2016-12-05T13:16:36.108Z"}
 {"level":"info","message":"Reading data-collection for params..","timestamp":"2016-12-05T13:16:36.108Z"}
 {"level":"info","message":"dta_a_1","timestamp":"2016-12-05T13:16:36.114Z"}
+{"level":"info","message":" ","timestamp":"2016-12-06T13:40:58.805Z"}
+{"level":"info","message":"Start dMaster","timestamp":"2016-12-06T13:40:58.810Z"}
+{"level":"info","message":"Connecting to mongodb://127.0.0.1:27017/scdme","timestamp":"2016-12-06T13:40:58.811Z"}
+{"level":"info","message":"OK. Connected to mongodb...","timestamp":"2016-12-06T13:40:59.113Z"}
+{"level":"info","message":"Reading data-collection for params..","timestamp":"2016-12-06T13:40:59.114Z"}
+{"level":"info","message":"dta_a_1","timestamp":"2016-12-06T13:40:59.147Z"}
+{"level":"info","message":" ","timestamp":"2016-12-06T13:43:28.714Z"}
+{"level":"info","message":" ","timestamp":"2016-12-06T13:43:28.717Z"}
+{"level":"info","message":" ","timestamp":"2016-12-06T13:43:28.718Z"}
+{"level":"info","message":" ","timestamp":"2016-12-06T13:43:28.718Z"}
+{"level":"info","message":"Start dMaster","timestamp":"2016-12-06T13:43:28.719Z"}
+{"level":"info","message":"Connecting to mongodb://127.0.0.1:27017/scdme","timestamp":"2016-12-06T13:43:28.720Z"}
+{"level":"info","message":"OK. Connected to mongodb...","timestamp":"2016-12-06T13:43:29.014Z"}
+{"level":"info","message":"Reading data-collection for params..","timestamp":"2016-12-06T13:43:29.014Z"}
+{"level":"info","message":"dta_a_1","timestamp":"2016-12-06T13:43:29.027Z"}
+{"level":"info","message":"73bc72e0-bbba-11e6-9eb5-43a7028c03e8","timestamp":"2016-12-06T13:46:56.145Z"}
+{"level":"info","message":"Start dMaster","timestamp":"2016-12-06T13:46:56.148Z"}
+{"level":"info","message":"Connecting to mongodb://127.0.0.1:27017/scdme","timestamp":"2016-12-06T13:46:56.148Z"}
+{"level":"info","message":"OK. Connected to mongodb...","timestamp":"2016-12-06T13:47:05.884Z"}
+{"level":"info","message":"Reading data-collection for params..","timestamp":"2016-12-06T13:47:05.885Z"}
+{"level":"info","message":"dta_a_1","timestamp":"2016-12-06T13:47:17.918Z"}
+{"level":"info","message":"94820940-bbba-11e6-b1f3-d9a35762c041","timestamp":"2016-12-06T13:47:51.130Z"}
+{"level":"info","message":"Start dMaster","timestamp":"2016-12-06T13:47:51.134Z"}
+{"level":"info","message":"Connecting to mongodb://127.0.0.1:27017/scdme","timestamp":"2016-12-06T13:47:51.135Z"}
+{"level":"info","message":"OK. Connected to mongodb...","timestamp":"2016-12-06T13:47:51.387Z"}
+{"level":"info","message":"Reading data-collection for params..","timestamp":"2016-12-06T13:47:51.387Z"}
+{"level":"info","message":"dta_a_1","timestamp":"2016-12-06T13:47:51.398Z"}
+{"level":"info","message":"23d98ac0-bc4a-11e6-b773-61942394a753","timestamp":"2016-12-07T06:55:29.651Z"}
+{"level":"info","message":"Start dMaster","timestamp":"2016-12-07T06:55:29.656Z"}
+{"level":"info","message":"Connecting to mongodb://127.0.0.1:27017/scdme","timestamp":"2016-12-07T06:55:29.657Z"}
+{"level":"info","message":"OK. Connected to mongodb...","timestamp":"2016-12-07T06:55:30.302Z"}
+{"level":"info","message":"Reading data-collection for params..","timestamp":"2016-12-07T06:55:30.302Z"}
+{"level":"info","message":"dta_a_1","timestamp":"2016-12-07T06:55:30.326Z"}

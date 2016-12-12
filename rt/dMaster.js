@@ -15,10 +15,14 @@ var logger = new (winston.Logger)({
         new (winston.transports.File)({ filename: './debug/dMaster.log' })
     ]
 });
-logger.info(' ');
+var u=uuid.v1();
+var started=false;
+logger.info(u);
 logger.stream({ start: -1 }).on('log', sendLog);
 function sendLog(log) {
-    if (process.send)
+    if(log.message==u)
+        started=true;
+    if ((process.send)&&started)
         process.send({ type: 'log', src: 'dMaster', data: log });
 }
 logger.info('Start dMaster');
